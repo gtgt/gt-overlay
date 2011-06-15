@@ -1,0 +1,23 @@
+# Copyright 1999-2009 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+# Executable
+MJPGSTREAMER_EXEC="/usr/bin/mjpg_streamer"
+
+# The input plugins and options:
+# input_gspcav1.so
+# input_uvc.so
+# input_testpicture.so
+
+INPUT_PLUGIN=""
+INPUT_PLUGIN_OPTS=""
+
+# The output plugins and options:
+# output_autofocus.so
+# output_file.so
+# output_http.so
+
+OUTPUT_PLUGIN=""
+OUTPUT_PLUGIN_OPTS=""
+
