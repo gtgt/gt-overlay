@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/virtual/mysql/mysql-5.4.ebuild,v 1.23 2011/04/20 12:26:25 jmbsvicetto Exp $
 
-EAPI="2"
+EAPI="4"
 
 DESCRIPTION="Virtual for MySQL client or database"
 HOMEPAGE=""
