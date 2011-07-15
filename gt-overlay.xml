@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+  <repo priority="50" quality="experimental" status="official">
+    <name>gt-overlay</name>
+    <description>GT overlay</description>
+    <homepage>https://github.com/gtgt/gt-overlay</homepage>
+    <owner>
+      <email></email>
+      <name>gt-overlay</name>
+    </owner>
+    <source type="git">git://github.com/gtgt/gt-overlay.git</source>
+  </repo>
+</repositories>
