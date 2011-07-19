@@ -5,14 +5,13 @@
 EAPI=4
 
 KDE_HANDBOOK="optional"
-KMNAME="quanta"
-KDE_SCM="git"
-inherit kde4-meta
+inherit kde4-base git
 
 DESCRIPTION="KDE Web editor/IDE"
 KEYWORDS=""
 IUSE="debug"
 SLOT="4"
 
-RDEPEND="
-"
+EGIT_REPO_URI="git://anongit.kde.org/quanta"
+
+S="${WORKDIR}/${P}"
