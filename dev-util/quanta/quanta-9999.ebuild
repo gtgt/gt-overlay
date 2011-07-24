@@ -4,14 +4,26 @@
 
 EAPI=4
 
+KDE_LINGUAS=""
+VIRTUALX_REQUIRED=test
 KDE_HANDBOOK="optional"
-inherit kde4-base git
+KDE_SCM=git
+inherit kde4-base
 
-DESCRIPTION="KDE Web editor/IDE"
+DESCRIPTION="Powerful markup and script language editor for KDE4"
 KEYWORDS=""
+LICENSE="GPL-2 LGPL-2"
 IUSE="debug"
 SLOT="4"
 
-EGIT_REPO_URI="git://anongit.kde.org/quanta"
+DEPEND="
+	sys-devel/flex
+	dev-libs/qjson
+  dev-util/kdevplatform[subversion]
+	dev-util/kdevelop-pg-qt
+  $(add_kdebase_dep ksysguard)
+  $(add_kdebase_dep libkworkspace)
+"
+RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/${P}"
+RESTRICT="test"
