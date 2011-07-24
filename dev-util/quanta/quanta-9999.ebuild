@@ -13,7 +13,7 @@ inherit kde4-base
 DESCRIPTION="Powerful markup and script language editor for KDE4"
 KEYWORDS=""
 LICENSE="GPL-2 LGPL-2"
-IUSE="debug"
+IUSE="debug +php"
 SLOT="4"
 
 DEPEND="
@@ -21,6 +21,7 @@ DEPEND="
 	dev-libs/qjson
   dev-util/kdevplatform[subversion]
 	dev-util/kdevelop-pg-qt
+	php? ( dev-util/kdevelop-php[quanta] )
   $(add_kdebase_dep ksysguard)
   $(add_kdebase_dep libkworkspace)
 "
