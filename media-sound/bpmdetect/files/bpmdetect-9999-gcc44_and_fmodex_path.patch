@@ -1,0 +1,71 @@
+diff -ur bpmdetect.orig/src/main.cpp bpmdetect/src/main.cpp
+--- bpmdetect.orig/src/main.cpp	2008-05-01 12:50:18.000000000 +0300
++++ bpmdetect/src/main.cpp	2009-06-03 22:24:56.000000000 +0300
+@@ -20,6 +20,8 @@
+  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+  ***************************************************************************/
+ 
++#include <cstdio>
++
+ #ifndef NO_GUI
+  #ifdef USE_QT3
+   #include "dlgbpmdetect3.h"
+diff -ur bpmdetect.orig/src/SConscript bpmdetect/src/SConscript
+--- bpmdetect.orig/src/SConscript	2008-04-24 19:49:52.000000000 +0300
++++ bpmdetect/src/SConscript	2009-06-03 22:33:57.000000000 +0300
+@@ -300,6 +300,6 @@
+ 
+   env.Append(CPPPATH = ['.', '..', '../includes'])
+-  env.Append(LIBPATH = ['.', '../libs'])
++  env.Append(LIBPATH = ['.', '../libs', '/opt/fmodex/api/lib'])
+   conf = Configure(env)
+
+   if not ARGUMENTS.get('mad', 0) and check_library(conf, 'mad', 'mad.h'):
+diff -ur bpmdetect.orig/src/track.cpp bpmdetect/src/track.cpp
+--- bpmdetect.orig/src/track.cpp	2008-04-25 22:33:18.000000000 +0300
++++ bpmdetect/src/track.cpp	2009-06-03 22:26:24.000000000 +0300
+@@ -20,6 +20,8 @@
+  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+  ***************************************************************************/
+ 
++#include <cstdio>
++
+ #include "track.h"
+ #include "trackfmod.h"
+ #include "BPMDetect.h"
+diff -ur bpmdetect.orig/src/trackwav.cpp bpmdetect/src/trackwav.cpp
+--- bpmdetect.orig/src/trackwav.cpp	2008-04-25 22:33:18.000000000 +0300
++++ bpmdetect/src/trackwav.cpp	2009-06-03 22:26:24.000000000 +0300
+@@ -20,6 +20,8 @@
+  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+  ***************************************************************************/
+ 
++#include <cstdio>
++
+ #include "trackwav.h"
+
+ #include <assert.h>
+diff -ur bpmdetect.orig/src/trackmp3.cpp bpmdetect/src/trackmp3.cpp
+--- bpmdetect.orig/src/trackmp3.cpp	2008-04-25 22:33:18.000000000 +0300
++++ bpmdetect/src/trackmp3.cpp	2009-06-03 22:26:24.000000000 +0300
+@@ -20,6 +20,8 @@
+  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+  ***************************************************************************/
+ 
++#include <cstdio>
++
+ #include "trackmp3.h"
+ 
+ #ifdef HAVE_TAGLIB
+diff -ur bpmdetect.orig/src/trackfmod.cpp bpmdetect/src/trackmp3.cpp
+--- bpmdetect.orig/src/trackfmod.cpp	2008-04-25 22:33:18.000000000 +0300
++++ bpmdetect/src/trackfmod.cpp	2009-06-03 22:26:24.000000000 +0300
+@@ -20,6 +20,8 @@
+  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+  ***************************************************************************/
+ 
++#include <cstdio>
++
+ #include "trackfmod.h"
+
+ #ifdef HAVE_TAGLIB
