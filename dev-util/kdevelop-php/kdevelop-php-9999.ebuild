@@ -18,8 +18,9 @@ IUSE="debug +doc quanta kdevelop"
 DEPEND="
 	>=dev-util/kdevelop-pg-qt-0.9.0
 "
+#	quanta? ( dev-util/quanta )
+
 RDEPEND="
 	kdevelop? ( dev-util/kdevelop )
-	quanta? ( dev-util/quanta )
 	doc? ( >=dev-util/kdevelop-php-docs-${PV}:${SLOT} )
 "

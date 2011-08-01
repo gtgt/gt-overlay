@@ -29,9 +29,6 @@ system? (
 	dev-vcs/kdesvn
 	dev-vcs/subversion
 	dev-vcs/mercurial
-	media-fonts/corefonts
-	media-fonts/droid
-	media-fonts/dejavu
 	media-gfx/splashutils
 	!sys-apps/hotplug
 	sys-apps/ifplugd
@@ -58,6 +55,7 @@ desktop? (
 	kde-base/kde-l10n
 	kde-base/kdeartwork-meta
 	kde-base/kdebase-meta
+	kde-base/kdegraphics-meta
 	kde-base/kdemultimedia-kioslaves
 	kde-base/kdenetwork-filesharing
 	kde-base/kdepasswd
@@ -68,6 +66,7 @@ desktop? (
 	kde-misc/kgtk
 	kde-base/kmix
 	kde-base/kdnssd
+	kde-misc/kio-ftps
 	kde-base/kopete
 	kde-base/krdc
 	kde-base/krfb
@@ -77,6 +76,10 @@ desktop? (
 	kde-base/libkcompactdisc
 	kde-base/system-config-printer-kde
 	kde-base/thumbnailers
+	media-fonts/corefonts
+	media-fonts/droid
+	media-fonts/dejavu
+	media-fonts/font-misc-misc
 	media-gfx/digikam
 	media-gfx/gimp
 	media-libs/phonon[gstreamer,xine]
@@ -88,6 +91,7 @@ desktop? (
 	media-video/qt-recordmydesktop
 	media-sound/alsa-utils
 	media-sound/clementine
+	media-sound/qjackctl
 	net-dialup/qtwvdialer
 	net-im/choqok
 	net-im/skype
