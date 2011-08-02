@@ -1,0 +1,22 @@
+virtual/linux-sources kernel_linux? ( sys-apps/module-init-tools ) sys-apps/sed kernel_linux? ( virtual/linux-sources )
+!media-tv/v4l-dvb-hg kernel_linux? ( sys-apps/module-init-tools )
+0
+http://gt.kani.hu/distfiles/dvb-usb-rtl2832u/dvb-usb-rtl2832u-2.0.1.9.tar.bz2
+
+http://linuxtv.org
+GPL-2
+Builds V4L and DVB kernel module for Realtek rtl2832u and compatible devices.
+~amd64 ~x86
+eutils linux-info linux-mod multilib portability toolchain-funcs versionator
+kernel_linux
+
+
+
+3
+
+compile install postinst postrm preinst prepare setup
+
+
+
+
+

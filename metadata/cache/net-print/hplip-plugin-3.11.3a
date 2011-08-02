@@ -1,0 +1,22 @@
+
+~net-print/hplip-3.11.3a sys-fs/udev
+0
+http://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/hplip-3.11.3a-plugin.run
+mirror
+http://hplipopensource.com/hplip-web/index.html
+hplip-plugin
+Proprietary plugins and firmware for HPLIP
+-* ~amd64 ~x86
+eutils multilib portability toolchain-funcs
+
+
+
+
+3
+
+install prepare unpack
+
+
+
+
+

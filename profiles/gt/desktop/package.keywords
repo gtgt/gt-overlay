@@ -1,0 +1,99 @@
+<dev-libs/grantlee-9999 ~amd64 ~x86
+<dev-libs/soprano-9999 ~amd64 ~x86
+<app-office/akonadi-server-9999 ~amd64 ~x86
+<dev-libs/shared-desktop-ontologies-9999 ~amd64 ~x86
+<sys-fs/udev-9999 ~amd64 ~x86
+
+<x11-drivers/ati-drivers-9999 ~amd64 ~x86
+
+<sys-apps/keyexec-9999 ~amd64 ~x86
+<sys-auth/pam_keystore-9999 ~amd64 ~x86
+<sys-auth/thinkfinger-9999 ~amd64 ~x86
+
+<app-text/fbreader-9999 ~amd64 ~x86
+
+<media-video/mplayer-9999 ~amd64 ~x86
+
+<app-admin/testdisk-9999 amd64
+<net-print/foo2zjs-9999 ~amd64 ~x86
+<net-print/foomatic-db-9999 ~amd64 ~x86
+<net-print/foomatic-db-ppds-9999 ~amd64 ~x86
+<net-print/foomatic-db-engine-9999 ~amd64 ~x86
+<net-print/foomatic-filters-9999 ~amd64 ~x86
+<net-print/cups-9999 ~amd64 ~x86
+
+<x11-plugins/pidgin-facebookchat-9999 ~amd64 ~x86
+
+<net-news/liferea-9999 ~amd64 ~x86
+
+<net-misc/networkmanager-9999 ~amd64 ~x86
+<net-misc/networkmanager-openvpn-9999 ~amd64 ~x86
+<net-misc/networkmanager-pptp-9999 ~amd64 ~x86
+<net-misc/networkmanager-vpnc-9999 ~amd64 ~x86
+<gnome-extra/nm-applet-9999 ~amd64 ~x86
+<net-dialup/ppp-9999 ~amd64 ~x86
+<dev-libs/liblinebreak-9999 ~amd64 ~x86
+<net-wireless/blueman-9999 ~amd64 ~x86
+
+<net-im/skype-9999 ~amd64 ~x86
+
+<x11-libs/qtermwidget-9999 ~amd64 ~x86
+
+<app-emulation/virtualbox-9999 ~amd64 ~x86
+<app-emulation/virtualbox-additions-9999 ~amd64 ~x86
+<app-emulation/virtualbox-bin-9999 ~amd64 ~x86
+<app-emulation/virtualbox-extpack-oracle-9999 ~amd64 ~x86
+<app-emulation/virtualbox-guest-additions-9999 ~amd64 ~x86
+<app-emulation/virtualbox-modules-9999 ~amd64 ~x86
+<app-emulation/virtualbox-ose-9999 ~amd64 ~x86
+<app-emulation/virtualbox-ose-additions-9999 ~amd64 ~x86
+<x11-drivers/xf86-input-virtualbox-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-virtualbox-9999 ~amd64 ~x86
+
+<net-misc/cnetworkmanager-9999 ~amd64 ~x86
+
+<media-libs/libvpx-9999 ~amd64 ~x86
+
+<app-dicts/ispell-pt-br-9999 ~amd64 ~x86
+
+<x11-drivers/xf86-video-intel-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-ati-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-openchrome-9999 ~amd64 ~x86
+
+<app-office/libreoffice-9999 ~amd64 ~x86
+<app-office/libreoffice-9999 ~amd64 ~x86
+
+<dev-libs/liblinebreak-9999 ~amd64 ~x86
+
+<x11-drivers/nvidia-drivers-9999 ~amd64 ~x86
+<media-video/nvidia-settings-9999 ~amd64 ~x86
+
+<app-emulation/wine-9999 ~amd64 ~x86
+
+<www-plugins/adobe-flash-9999 ~amd64 ~x86
+
+# unmask xorg-server for x86
+<x11-libs/pixman-9999 x86
+<x11-base/xorg-server-9999 x86
+<x11-base/xorg-drivers-9999 x86
+<x11-drivers/xf86-video-mach64-9999 x86
+<x11-drivers/xf86-input-synaptics-9999 x86
+
+
+## QT
+~x11-libs/qt-assistant-4.7.3 amd64 x86
+~x11-libs/qt-core-4.7.3 amd64 x86
+~x11-libs/qt-dbus-4.7.3 amd64 x86
+~x11-libs/qt-declarative-4.7.3 amd64 x86
+~x11-libs/qt-demo-4.7.3 amd64 x86
+~x11-libs/qt-gui-4.7.3 amd64 x86
+~x11-libs/qt-multimedia-4.7.3 amd64 x86
+~x11-libs/qt-opengl-4.7.3 amd64 x86
+~x11-libs/qt-phonon-4.7.3 amd64 x86
+~x11-libs/qt-qt3support-4.7.3 amd64 x86
+~x11-libs/qt-script-4.7.3 amd64 x86
+~x11-libs/qt-sql-4.7.3 amd64 x86
+~x11-libs/qt-svg-4.7.3 amd64 x86
+~x11-libs/qt-test-4.7.3 amd64 x86
+~x11-libs/qt-webkit-4.7.3 amd64 x86
+~x11-libs/qt-xmlpatterns-4.7.3 amd64 x86

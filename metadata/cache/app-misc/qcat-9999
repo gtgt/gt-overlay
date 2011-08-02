@@ -1,0 +1,22 @@
+dev-db/sqlite:3 dev-vcs/subversion net-misc/rsync
+
+0
+
+
+http://kde-apps.org/content/show.php/QCat?content=62522
+GPL
+This is another CD/DVD/Media cataloging software. This one can import WhereIsIt xml files, and has also other extras.
+~x86 ~amd64
+base eutils multilib portability qt4-r2 subversion toolchain-funcs
+debug
+
+
+
+4
+
+compile configure install preinst prepare unpack
+
+
+
+
+
