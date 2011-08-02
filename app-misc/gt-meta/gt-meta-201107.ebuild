@@ -84,6 +84,26 @@ desktop? (
 	media-gfx/gimp
 	media-libs/phonon[gstreamer,xine]
 	media-plugins/alsa-plugins
+	media-libs/gst-plugins-good
+	media-libs/gst-plugins-bad
+	media-libs/gst-plugins-ugly
+	media-plugins/gst-plugins-esd
+	media-plugins/gst-plugins-dvb
+	media-plugins/gst-plugins-gl
+	media-plugins/gst-plugins-jack
+	media-plugins/gst-plugins-jpeg
+	media-plugins/gst-plugins-libpng
+	media-plugins/gst-plugins-libvisual
+	media-plugins/gst-plugins-libmms
+	media-plugins/gst-plugins-mpeg2enc
+	media-plugins/gst-plugins-mplex
+	media-plugins/gst-plugins-neon
+	media-plugins/gst-plugins-speex
+	media-plugins/gst-plugins-vp8
+	media-plugins/gst-plugins-ximagesrc
+	media-plugins/gst-plugins-xvid
+	media-plugins/gst-plugins-x264
+	media-plugins/gst-plugins-wavpack
 	media-plugins/kipi-plugins
 	media-video/kaffeine
 	media-video/kdenlive
