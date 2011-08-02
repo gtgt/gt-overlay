@@ -1,5 +1,0 @@
-virtual/aspell-dict	app-dicts/aspell
-virtual/dhcpc		net-misc/dhcpcd
-virtual/ooo             app-office/libreoffice
-virtual/bittorrent	net-p2p/ktorrent
-virtual/editor		app-editors/nano
