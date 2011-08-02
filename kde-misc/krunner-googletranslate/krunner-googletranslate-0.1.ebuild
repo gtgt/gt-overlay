@@ -6,8 +6,8 @@ EAPI=4
 inherit kde4-base
 
 DESCRIPTION="A krunner plug-in that translates words using google."
-HOMEPAGE="http://gt.kani.hu/kde/krunner"
-SRC_URI="http://gt.kani.hu/kde/krunner/${P}.tbz2"
+HOMEPAGE="http://gt.kani.hu/distfiles/krunner"
+SRC_URI="http://gt.kani.hu/distfiles/krunner/${P}.tbz2"
 
 LICENSE="GPL-2"
 SLOT="4"
