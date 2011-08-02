@@ -9,12 +9,17 @@
 <sys-apps/keyexec-9999 ~amd64 ~x86
 <sys-auth/pam_keystore-9999 ~amd64 ~x86
 <sys-auth/thinkfinger-9999 ~amd64 ~x86
+<sys-fs/udev-9999 ~amd64
 
 <app-text/fbreader-9999 ~amd64 ~x86
-
+<media-gfx/sane-backends-9999 ~amd64
 <media-video/mplayer-9999 ~amd64 ~x86
 
-<app-admin/testdisk-9999 amd64
+<media-plugins/gstreamer-999 ~amd64 ~x86
+
+>=app-admin/logrotate-3.8.0 ~amd64 ~x86
+
+<app-admin/testdisk-9999 ~amd64 ~x86
 <net-print/foo2zjs-9999 ~amd64 ~x86
 <net-print/foomatic-db-9999 ~amd64 ~x86
 <net-print/foomatic-db-ppds-9999 ~amd64 ~x86
@@ -73,11 +78,14 @@
 <www-plugins/adobe-flash-9999 ~amd64 ~x86
 
 # unmask xorg-server for x86
-<x11-libs/pixman-9999 x86
-<x11-base/xorg-server-9999 x86
-<x11-base/xorg-drivers-9999 x86
-<x11-drivers/xf86-video-mach64-9999 x86
-<x11-drivers/xf86-input-synaptics-9999 x86
+<x11-libs/pixman-9999 ~amd64 ~x86
+<x11-base/xorg-server-9999 ~amd64 ~x86
+<x11-base/xorg-drivers-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-fbdev-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-radeon-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-nouveau-9999 ~amd64 ~x86
+<x11-drivers/xf86-input-synaptics-9999 ~amd64 ~x86
+<x11-drivers/xf86-input-evdev-9999 ~amd64 ~x86
 
 
 ## QT
