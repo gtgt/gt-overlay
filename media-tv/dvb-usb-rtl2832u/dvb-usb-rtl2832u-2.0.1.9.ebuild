@@ -1,8 +1,13 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+<<<<<<< HEAD
 # $Header: /var/cvsroot/gentoo-x86/sys-fs/vhba/vhba-20101015-r1.ebuild,v 1.2 2011/04/28 19:01:45 ulm Exp $
 
 EAPI="4"
+=======
+
+EAPI="3"
+>>>>>>> 6c9d6d95f2293a4b80a00c82732620b958b300b1
 
 inherit linux-mod eutils
 

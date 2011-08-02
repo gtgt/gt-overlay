@@ -1,0 +1,22 @@
+net-print/cups net-print/foomatic-db-engine net-print/foomatic-filters sys-fs/udev app-arch/unzip net-misc/wget sys-devel/bc
+net-print/cups net-print/foomatic-db-engine net-print/foomatic-filters sys-fs/udev
+0
+ftp://ftp.calculate.ru/pub/calculate/foo2zjs/foo2zjs-20110512.tar.bz2
+
+http://foo2zjs.rkkda.com/
+GPL-2
+Support for printing to ZjStream-based printers
+~x86 ~amd64
+eutils multilib portability toolchain-funcs
+
+
+
+
+3
+
+install prepare
+
+
+
+
+

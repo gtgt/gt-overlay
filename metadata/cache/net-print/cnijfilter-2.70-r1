@@ -1,0 +1,22 @@
+app-text/ghostscript-gpl >=net-print/cups-1.1.14 !amd64? ( sys-libs/glibc >=dev-libs/popt-1.6 >=media-libs/tiff-3.4 >=media-libs/libpng-1.0.9 ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-baselibs ) servicetools? ( !amd64? ( >=gnome-base/libglade-0.6 >=dev-libs/libxml-1.8 =x11-libs/gtk+-1.2* ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-gtklibs ) ) >=app-arch/rpm2targz-9.0.0.3g
+app-text/ghostscript-gpl >=net-print/cups-1.1.14 !amd64? ( sys-libs/glibc >=dev-libs/popt-1.6 >=media-libs/tiff-3.4 >=media-libs/libpng-1.0.9 ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-baselibs ) servicetools? ( !amd64? ( >=gnome-base/libglade-0.6 >=dev-libs/libxml-1.8 =x11-libs/gtk+-1.2* ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-gtklibs ) )
+2
+cnijfilter-common-2.70-2.src.rpm
+fetch nomirror confcache
+
+UNKNOWN
+Canon InkJet Printer Driver for Linux (Pixus/Pixma-Series).
+~x86 ~amd64
+eutils flag-o-matic multilib portability rpm toolchain-funcs
+amd64 servicetools nocupsdetection mp160 mp510 mp600 ip90 ip1800 ip2500 ip3300 ip4300
+
+
+
+
+
+compile install nofetch postinst setup unpack
+
+
+
+
+

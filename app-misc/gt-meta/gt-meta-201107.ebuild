@@ -267,6 +267,7 @@ packers? (
 #print
 RDEPEND="${RDEPEND}
 print? (
+	net-print/cups-pdf
 	net-print/cndrvcups-capt
 	net-print/cnijfilter
 	net-print/cups

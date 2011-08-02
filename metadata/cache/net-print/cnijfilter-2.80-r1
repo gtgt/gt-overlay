@@ -1,0 +1,22 @@
+app-text/ghostscript-gpl >=net-print/cups-1.1.14 !amd64? ( sys-libs/glibc >=dev-libs/popt-1.6 >=media-libs/tiff-3.4 >=media-libs/libpng-1.0.9 ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-baselibs ) servicetools? ( !amd64? ( >=gnome-base/libglade-0.6 dev-libs/libxml2 =x11-libs/gtk+-1.2* ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-gtklibs ) ) >=app-arch/rpm2targz-9.0.0.3g
+app-text/ghostscript-gpl >=net-print/cups-1.1.14 !amd64? ( sys-libs/glibc >=dev-libs/popt-1.6 >=media-libs/tiff-3.4 >=media-libs/libpng-1.0.9 ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-baselibs ) servicetools? ( !amd64? ( >=gnome-base/libglade-0.6 dev-libs/libxml2 =x11-libs/gtk+-1.2* ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-gtklibs ) )
+2
+http://gdlp01.c-wss.com/gds/1/0100000841/01/cnijfilter-common-2.80-1.tar.gz
+nomirror confcache
+http://support-asia.canon-asia.com/content/EN/0100084101.html
+UNKNOWN
+Canon InkJet Printer Driver for Linux (Pixus/Pixma-Series).
+~x86 ~amd64
+eutils flag-o-matic multilib portability rpm toolchain-funcs
+amd64 servicetools nocupsdetection mp140 mp210 ip3500 mp520 ip4500 mp610
+
+
+
+
+
+compile install postinst setup unpack
+
+
+
+
+

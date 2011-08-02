@@ -1,0 +1,22 @@
+x11-libs/gtk+ x11-libs/pango dev-libs/atk sys-devel/automake sys-devel/autoconf || ( =sys-devel/automake-1.11* ) >=sys-devel/autoconf-2.61 >=sys-devel/libtool-2.2.6b
+x11-libs/gtk+ x11-libs/pango dev-libs/atk sys-devel/automake sys-devel/autoconf
+0
+http://downloads.sourceforge.net/project/zbar/zbar/0.10/zbar-0.10.tar.bz2
+
+http://gstreamer.freedesktop.org/wiki/QtGStreamer
+LGPL-2.1
+ZBar is an open source software suite for reading bar codes from various sources, such as video streams, image files and raw intensity sensors. It supports many popular symbologies (types of bar codes) including EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 39, Interleaved 2 of 5 and QR Code.
+~amd64 ~x86
+autotools eutils flag-o-matic libtool multilib portability toolchain-funcs
+X +jpeg imagemagick python threads gtk qt4 v4l
+
+
+
+3
+
+configure install prepare
+
+
+
+
+

@@ -1,0 +1,22 @@
+media-libs/jpeg
+media-libs/jpeg
+0
+mirror://sourceforge/mjpg-streamer/mjpg-streamer-r63.tar.bz2
+
+http://sourceforge.net/projects/mjpg-streamer
+GPL-2
+MJPG-Streamer - Grabs images from a v4l and v4l2 webcam devices.
+~amd64 ~x86
+
+
+
+
+
+
+
+compile install postinst unpack
+
+
+
+
+

@@ -66,7 +66,11 @@ USE="${USE} mbox"
 USE="${USE} consolekit nsplugin policykit bash-completion"
 
 # Video
+<<<<<<< HEAD
 USE="${USE} a52 aac aalib avi cddb dv encode fbcon ffmpeg flash ggi gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora vaapi v4l v4l2 vidix win32codecs xanim x264 xine xinerama xv xvid xvmc"
+=======
+USE="${USE} a52 aac aalib avi cddb dv encode fbcon ffmpeg flash ggi libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora vaapi v4l v4l2 vidix win32codecs xanim x264 xine xinerama xv xvid xvmc"
+>>>>>>> 6c9d6d95f2293a4b80a00c82732620b958b300b1
 
 # Web
 #USE="${USE} -apache apache2 javascript"
