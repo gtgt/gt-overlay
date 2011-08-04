@@ -77,7 +77,7 @@
 
 <www-plugins/adobe-flash-9999 ~amd64 ~x86
 
-# unmask xorg-server for x86
+# unmask xorg-server for ~x86
 <x11-libs/pixman-9999 ~amd64 ~x86
 <x11-base/xorg-server-9999 ~amd64 ~x86
 <x11-base/xorg-drivers-9999 ~amd64 ~x86
@@ -87,7 +87,6 @@
 <x11-drivers/xf86-input-synaptics-9999 ~amd64 ~x86
 <x11-drivers/xf86-input-evdev-9999 ~amd64 ~x86
 
-<<<<<<< HEAD
 ## GStreamer
 
 media-plugins/gst-plugins-esd ~amd64 ~x86
@@ -108,23 +107,20 @@ media-plugins/gst-plugins-xvid ~amd64 ~x86
 media-plugins/gst-plugins-x264 ~amd64 ~x86
 media-plugins/gst-plugins-wavpack ~amd64 ~x86
 
-=======
->>>>>>> 6c9d6d95f2293a4b80a00c82732620b958b300b1
-
 ## QT
-~x11-libs/qt-assistant-4.7.3 amd64 x86
-~x11-libs/qt-core-4.7.3 amd64 x86
-~x11-libs/qt-dbus-4.7.3 amd64 x86
-~x11-libs/qt-declarative-4.7.3 amd64 x86
-~x11-libs/qt-demo-4.7.3 amd64 x86
-~x11-libs/qt-gui-4.7.3 amd64 x86
-~x11-libs/qt-multimedia-4.7.3 amd64 x86
-~x11-libs/qt-opengl-4.7.3 amd64 x86
-~x11-libs/qt-phonon-4.7.3 amd64 x86
-~x11-libs/qt-qt3support-4.7.3 amd64 x86
-~x11-libs/qt-script-4.7.3 amd64 x86
-~x11-libs/qt-sql-4.7.3 amd64 x86
-~x11-libs/qt-svg-4.7.3 amd64 x86
-~x11-libs/qt-test-4.7.3 amd64 x86
-~x11-libs/qt-webkit-4.7.3 amd64 x86
-~x11-libs/qt-xmlpatterns-4.7.3 amd64 x86
+~x11-libs/qt-assistant-4.7.3 ~amd64 ~x86
+~x11-libs/qt-core-4.7.3 ~amd64 ~x86
+~x11-libs/qt-dbus-4.7.3 ~amd64 ~x86
+~x11-libs/qt-declarative-4.7.3 ~amd64 ~x86
+~x11-libs/qt-demo-4.7.3 ~amd64 ~x86
+~x11-libs/qt-gui-4.7.3 ~amd64 ~x86
+~x11-libs/qt-multimedia-4.7.3 ~amd64 ~x86
+~x11-libs/qt-opengl-4.7.3 ~amd64 ~x86
+~x11-libs/qt-phonon-4.7.3 ~amd64 ~x86
+~x11-libs/qt-qt3support-4.7.3 ~amd64 ~x86
+~x11-libs/qt-script-4.7.3 ~amd64 ~x86
+~x11-libs/qt-sql-4.7.3 ~amd64 ~x86
+~x11-libs/qt-svg-4.7.3 ~amd64 ~x86
+~x11-libs/qt-test-4.7.3 ~amd64 ~x86
+~x11-libs/qt-webkit-4.7.3 ~amd64 ~x86
+~x11-libs/qt-xmlpatterns-4.7.3 ~amd64 ~x86
