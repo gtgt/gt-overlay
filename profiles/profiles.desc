@@ -6,11 +6,10 @@
 #layout:
 #arch		profile_directory				status
 
-
 # AMD64 Profiles
-amd64		gt/desktop/amd64			stable
+amd64		gt/desktop/amd64			dev
 
 # x86 Profiles
-x86		gt/desktop/x86				stable
+x86		gt/desktop/x86				dev
 
 # vim: set ts=8

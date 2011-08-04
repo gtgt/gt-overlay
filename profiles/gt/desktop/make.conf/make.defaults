@@ -40,7 +40,7 @@ USE="${USE} chm djvu ebook"
 USE="${USE} clamav crypt ssl"
 
 # Hardware
-USE="${USE} 3dnow acpi cairo cpudetection dbus dri ieee1394 lirc mmx mmxext opengl scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau xcomposite"
+USE="${USE} ${USE} 3dnow acpi cairo cpudetection dbus dri ieee1394 lirc mmx mmxext opengl scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau xcomposite"
 
 #USE="${USE} apm bluetooth"
 
@@ -66,11 +66,7 @@ USE="${USE} mbox"
 USE="${USE} consolekit nsplugin policykit bash-completion"
 
 # Video
-<<<<<<< HEAD
 USE="${USE} a52 aac aalib avi cddb dv encode fbcon ffmpeg flash ggi gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora vaapi v4l v4l2 vidix win32codecs xanim x264 xine xinerama xv xvid xvmc"
-=======
-USE="${USE} a52 aac aalib avi cddb dv encode fbcon ffmpeg flash ggi libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora vaapi v4l v4l2 vidix win32codecs xanim x264 xine xinerama xv xvid xvmc"
->>>>>>> 6c9d6d95f2293a4b80a00c82732620b958b300b1
 
 # Web
 #USE="${USE} -apache apache2 javascript"
