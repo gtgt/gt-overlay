@@ -108,19 +108,19 @@ media-plugins/gst-plugins-x264 ~amd64 ~x86
 media-plugins/gst-plugins-wavpack ~amd64 ~x86
 
 ## QT
->=x11-libs/qt-assistant-4.7.3 ~amd64 ~x86
->=x11-libs/qt-core-4.7.3 ~amd64 ~x86
->=x11-libs/qt-dbus-4.7.3 ~amd64 ~x86
->=x11-libs/qt-declarative-4.7.3 ~amd64 ~x86
->=x11-libs/qt-demo-4.7.3 ~amd64 ~x86
->=x11-libs/qt-gui-4.7.3 ~amd64 ~x86
->=x11-libs/qt-multimedia-4.7.3 ~amd64 ~x86
->=x11-libs/qt-opengl-4.7.3 ~amd64 ~x86
->=x11-libs/qt-phonon-4.7.3 ~amd64 ~x86
->=x11-libs/qt-qt3support-4.7.3 ~amd64 ~x86
->=x11-libs/qt-script-4.7.3 ~amd64 ~x86
->=x11-libs/qt-sql-4.7.3 ~amd64 ~x86
->=x11-libs/qt-svg-4.7.3 ~amd64 ~x86
->=x11-libs/qt-test-4.7.3 ~amd64 ~x86
->=x11-libs/qt-webkit-4.7.3 ~amd64 ~x86
->=x11-libs/qt-xmlpatterns-4.7.3 ~amd64 ~x86
+x11-libs/qt-assistant ~amd64 ~x86
+x11-libs/qt-core ~amd64 ~x86
+x11-libs/qt-dbus ~amd64 ~x86
+x11-libs/qt-declarative ~amd64 ~x86
+x11-libs/qt-demo ~amd64 ~x86
+x11-libs/qt-gui ~amd64 ~x86
+x11-libs/qt-multimedia ~amd64 ~x86
+x11-libs/qt-opengl ~amd64 ~x86
+x11-libs/qt-phonon ~amd64 ~x86
+x11-libs/qt-qt3support ~amd64 ~x86
+x11-libs/qt-script ~amd64 ~x86
+x11-libs/qt-sql ~amd64 ~x86
+x11-libs/qt-svg ~amd64 ~x86
+x11-libs/qt-test ~amd64 ~x86
+x11-libs/qt-webkit ~amd64 ~x86
+x11-libs/qt-xmlpatterns ~amd64 ~x86
