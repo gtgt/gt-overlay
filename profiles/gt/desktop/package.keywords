@@ -14,7 +14,7 @@
 <sys-fs/udev-9999 ~amd64
 
 <app-text/fbreader-9999 ~amd64 ~x86
-<media-gfx/sane-backends-9999 ~amd64
+media-gfx/exiv2
 <media-video/mplayer-9999 ~amd64 ~x86
 
 <media-plugins/gstreamer-999 ~amd64 ~x86
@@ -29,7 +29,6 @@
 <net-print/foomatic-filters-9999 ~amd64 ~x86
 <net-print/cups-9999 ~amd64 ~x86
 
-<net-misc/networkmanager-8.9 ~amd64 ~x86
 
 <x11-plugins/pidgin-facebookchat-9999 ~amd64 ~x86
 
@@ -92,6 +91,7 @@
 <x11-drivers/xf86-input-evdev-9999 ~amd64 ~x86
 
 ## GStreamer
+media-plugins/gst-plugins-base ~amd64 ~x86
 media-plugins/gst-plugins-good ~amd64 ~x86
 media-plugins/gst-plugins-bad ~amd64 ~x86
 media-plugins/gst-plugins-ugly ~amd64 ~x86
