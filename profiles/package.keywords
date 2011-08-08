@@ -80,6 +80,12 @@ media-gfx/exiv2
 
 <www-plugins/adobe-flash-9999 ~amd64 ~x86
 
+dev-libs/rasqal ~amd64 ~x86
+media-libs/raptor ~amd64 ~x86
+media-libs/gst-plugins-bad ~amd64 ~x86
+dev-libs/redland ~amd64 ~x86
+
+
 # unmask xorg-server for ~x86
 <x11-libs/pixman-9999 ~amd64 ~x86
 <x11-base/xorg-server-9999 ~amd64 ~x86

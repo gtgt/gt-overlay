@@ -1,650 +1,389 @@
-app-admin/eselect bash-completion -doc
+app-admin/eselect bash-completion
 app-admin/hddtemp nls
-app-admin/logrotate -selinux
-app-admin/sudoldap pam -offensive -selinux -skey
-app-admin/syslog-ngipv6 pcre ssl tcpd -caps -hardened -selinux -spoof-source -sql -static
-app-admin/system-config-printer-commonpolicykit -doc
-app-admin/testdisk jpeg ntfs reiserfs -static
-app-arch/bzip2 -static
-app-arch/cabextract -extra-tools
+app-admin/sudoldap pam
+app-admin/syslog-ng ipv6 pcre ssl tcpd-source
+app-admin/system-config-printer-common policykit
+app-admin/testdisk jpeg ntfs reiserfs
 app-arch/cpio nls
-app-arch/dump readline -ermt -static
-app-arch/gzip nls -pic -static
-app-arch/libarchiv eacl bzip2 kernel_linux lzma zlib -expat -static -static-libs -xattr
-app-arch/p7zip pch -doc -kde -rar -static -wxwidgets
-app-arch/tar nls userland_GNU -static
+app-arch/dump readline
+app-arch/gzip nls
+app-arch/libarchiv eacl bzip2 kernel_linux lzma zlib-libs
+app-arch/p7zip pch
+app-arch/tar nls userland_GNU
 app-arch/unzipbzip2 natspec unicode
-app-arch/xz-utils nls threads -static-libs
+app-arch/xz-utils nls threads-libs
 app-arch/zipb zip2 crypt unicode
-app-cdr/cdrdao encode mad vorbis -gcdmaster -pccts
-app-cdr/cdrkit unicode -hfs
-app-cdr/k3b dvd encode ffmpeg flac mad musepack vcd vorbis wav -emovix -hal -lame -musicbrainz -sndfile -sox -taglib
-app-crypt/gnupgbzip2 ldap nls -adns -caps -doc -openct -pcsc-lite -selinux -smartcard -static
-app-crypt/gpgme-common-lisp -pth
-app-crypt/pinentrygtk ncurses qt4 -caps -static
-app-crypt/qca -doc -examples
-app-crypt/qca-ossl
-app-editors/nano ncurses nls spell unicode -justify -minimal -slang
-app-editors/vimX acl bash-completion gpm nls perl python -cscope -minimal -ruby -vim-pager
-app-editors/vim-cor eacl bash-completion nls -livecd
-app-emulation/emul-linux-x86-baselibs -development
+app-cdr/cdrdao encode mad vorbis
+app-cdr/cdrkit unicode
+app-cdr/k3b dvd encode ffmpeg flac mad musepack vcd vorbis wav
+app-crypt/gnupgbzip2 ldap nls-lite
+app-crypt/gpgme-common-lisp
+app-crypt/pinentrygtk ncurses qt4
+app-editors/nano ncurses nls spell unicode
+app-editors/vimX acl bash-completion gpm nls perl python-pager
+app-editors/vim-cor eacl bash-completion nls
 app-emulation/emul-linux-x86-compat multilib
-app-emulation/emul-linux-x86-gtklibs -development
-app-emulation/emul-linux-x86-medialibs -development
-app-emulation/emul-linux-x86-opengl -development
-app-emulation/emul-linux-x86-qtlibs -development
-app-emulation/emul-linux-x86-soundlibs alsa -development
-app-emulation/emul-linux-x86-xlibs opengl -development
-app-i18n/encarecode -doc
-app-misc/lirc X kernel_linux lirc_devices_devinput -doc -hardware-carrier -lirc_devices_accent -lirc_devices_act200l -lirc_devices_act220l -lirc_devices_adaptec -lirc_devices_all -lirc_devices_alsa_usb -lirc_devices_animax -lirc_devices_asusdh -lirc_devices_atilibusb -lirc_devices_atiusb -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_avermedia -lirc_devices_avermedia98 -lirc_devices_avermedia_vdomate -lirc_devices_awlibusb -lirc_devices_bestbuy -lirc_devices_bestbuy2 -lirc_devices_breakoutbox -lirc_devices_bte -lirc_devices_bw6130 -lirc_devices_caraca -lirc_devices_chronos -lirc_devices_commandir -lirc_devices_cph06x -lirc_devices_creative -lirc_devices_creative_infracd -lirc_devices_digimatrix -lirc_devices_dsp -lirc_devices_dvico -lirc_devices_ea65 -lirc_devices_ene0100 -lirc_devices_exaudio -lirc_devices_flyvideo -lirc_devices_ftdi -lirc_devices_gvbctv5pci -lirc_devices_hauppauge -lirc_devices_hauppauge_dvb -lirc_devices_hercules_smarttv_stereo -lirc_devices_i2cuser -lirc_devices_igorplugusb -lirc_devices_iguanaIR -lirc_devices_imon -lirc_devices_imon_24g -lirc_devices_imon_knob -lirc_devices_imon_lcd -lirc_devices_imon_pad -lirc_devices_imon_rsc -lirc_devices_inputlirc -lirc_devices_irdeo -lirc_devices_irdeo_remote -lirc_devices_irlink -lirc_devices_irman -lirc_devices_irreal -lirc_devices_it87 -lirc_devices_ite8709 -lirc_devices_knc_one -lirc_devices_kworld -lirc_devices_leadtek_0007 -lirc_devices_leadtek_0010 -lirc_devices_leadtek_pvr2000 -lirc_devices_livedrive_midi -lirc_devices_livedrive_seq -lirc_devices_logitech -lirc_devices_macmini -lirc_devices_mceusb -lirc_devices_mediafocusI -lirc_devices_mouseremote -lirc_devices_mouseremote_ps2 -lirc_devices_mp3anywhere -lirc_devices_mplay -lirc_devices_nslu2 -lirc_devices_packard_bell -lirc_devices_parallel -lirc_devices_pcmak -lirc_devices_pcmak_usb -lirc_devices_pctv -lirc_devices_pixelview_bt878 -lirc_devices_pixelview_pak -lirc_devices_pixelview_pro -lirc_devices_provideo -lirc_devices_realmagic -lirc_devices_remote_wonder_plus -lirc_devices_remotemaster -lirc_devices_sa1100 -lirc_devices_samsung -lirc_devices_sasem -lirc_devices_sb0540 -lirc_devices_serial -lirc_devices_serial_igor_cesko -lirc_devices_silitek -lirc_devices_sir -lirc_devices_slinke -lirc_devices_streamzap -lirc_devices_tekram -lirc_devices_tekram_bt829 -lirc_devices_tira -lirc_devices_ttusbir -lirc_devices_tuxbox -lirc_devices_tvbox -lirc_devices_udp -lirc_devices_uirt2 -lirc_devices_uirt2_raw -lirc_devices_usb_uirt_raw -lirc_devices_usbirboy -lirc_devices_usbx -lirc_devices_userspace -lirc_devices_wpc8769l -lirc_devices_xboxusb -transmitter
+app-emulation/emul-linux-x86-soundlibs alsa
+app-emulation/emul-linux-x86-xlibs opengl
+app-misc/lirc X kernel_linux lirc_devices_devinput-carrier_devices_accent_devices_act200l_devices_act220l_devices_adaptec_devices_all_devices_alsa_usb_devices_animax_devices_asusdh_devices_atilibusb_devices_atiusb_devices_audio_devices_audio_alsa_devices_avermedia_devices_avermedia98_devices_avermedia_vdomate_devices_awlibusb_devices_bestbuy_devices_bestbuy2_devices_breakoutbox_devices_bte_devices_bw6130_devices_caraca_devices_chronos_devices_commandir_devices_cph06x_devices_creative_devices_creative_infracd_devices_digimatrix_devices_dsp_devices_dvico_devices_ea65_devices_ene0100_devices_exaudio_devices_flyvideo_devices_ftdi_devices_gvbctv5pci_devices_hauppauge_devices_hauppauge_dvb_devices_hercules_smarttv_stereo_devices_i2cuser_devices_igorplugusb_devices_iguanaIR_devices_imon_devices_imon_24g_devices_imon_knob_devices_imon_lcd_devices_imon_pad_devices_imon_rsc_devices_inputlirc_devices_irdeo_devices_irdeo_remote_devices_irlink_devices_irman_devices_irreal_devices_it87_devices_ite8709_devices_knc_one_devices_kworld_devices_leadtek_0007_devices_leadtek_0010_devices_leadtek_pvr2000_devices_livedrive_midi_devices_livedrive_seq_devices_logitech_devices_macmini_devices_mceusb_devices_mediafocusI_devices_mouseremote_devices_mouseremote_ps2_devices_mp3anywhere_devices_mplay_devices_nslu2_devices_packard_bell_devices_parallel_devices_pcmak_devices_pcmak_usb_devices_pctv_devices_pixelview_bt878_devices_pixelview_pak_devices_pixelview_pro_devices_provideo_devices_realmagic_devices_remote_wonder_plus_devices_remotemaster_devices_sa1100_devices_samsung_devices_sasem_devices_sb0540_devices_serial_devices_serial_igor_cesko_devices_silitek_devices_sir_devices_slinke_devices_streamzap_devices_tekram_devices_tekram_bt829_devices_tira_devices_ttusbir_devices_tuxbox_devices_tvbox_devices_udp_devices_uirt2_devices_uirt2_raw_devices_usb_uirt_raw_devices_usbirboy_devices_usbx_devices_userspace_devices_wpc8769l_devices_xboxusb
 app-misc/livecd-tools X opengl
-app-misc/mcX edit gpm nls samba -slang
-app-misc/pax-utils -caps
+app-misc/mcX edit gpm nls samba
 app-misc/realpath nls
-app-misc/strigi clucene dbus exif qt4 fam -hyperestraier -inotify -log -test
+app-misc/strigi clucene dbus exif qt4 fam
 app-mobilephone/obex-data-server gtk imagemagick usb
-app-mobilephone/obexd usb -eds -nokia -server
-app-office/akonadi-servermysql sqlite -postgres -test
-app-office/libreoffice bash-completion cups dbus gtk kde ldap nsplugin opengl -binfilter -custom-cflags -eds -elibc_FreeBSD -gnome -java-odk -templates
+app-mobilephone/obexd usb
+app-office/akonadi-server mysql sqlite
+app-office/libreoffice bash-completion cups dbus gtk kde ldap nsplugin opengl-cflags_FreeBSD-odk
 app-pda/libplist python
-app-portage/eix bzip2 nls -doc -hardened -optimization -strong-optimization -tools
+app-portage/eix bzip2 nls-optimization
 app-portage/genlop bash-completion
-app-portage/layman-bazaar -cvs -darcs -git -mercurial -subversion -test
-app-portage/portage-utils-static
-app-shells/bashnet nls -afs -bashlogger -examples -mem-scramble -plugins -vanilla
-app-text/aspell nls -examples
-app-text/djvu jpeg nls tiff -doc-xml
-app-text/enchant hunspell -aspell -zemberek
+app-shells/bash net nls-scramble
+app-text/aspell nls
+app-text/djvu jpeg nls tiff-xml
+app-text/enchant hunspell
 app-text/fbreader qt4 -gtk
-app-text/ghostscript -gplX cairo cups djvu gtk jpeg2k -bindist
-app-text/goldendictkde
+app-text/ghostscript cairo cups djvu gtk jpeg2k
+app-text/goldendict kde
 app-text/hunspell ncurses nls readline
-app-text/libspectre -doc -static-libs
-app-text/poppler cairo cxx jpeg jpeg2k lcms png qt4 utils xpdf-headers -cjk -curl -doc -exceptions
-app-text/recode nls -static-libs
-app-text/wgetpaste -zsh-completion
-app-vim/gentoo-syntax-ignore -glep31
-dev-cpp/clucene -doc -static-libs threads
-dev-cpp/eigen -doc -examples
+app-text/poppler cairo cxx jpeg jpeg2k lcms png qt4 utils xpdf-headers
+app-text/recode nls-libs
+dev-cpp/clucene static-libs threads
 dev-db/libiodbc gtk
-dev-db/mysql community embedded perl ssl -big-tables -cluster -extraengine -latin1 -max-idx-128 -minimal -pbxt -profiling -selinux -static -test -xtradb
-dev-db/sqlite extensions fts3 readline secure-delete threadsafe -doc -icu -soundex -tcl -test -unlock-notify
-dev-db/virtuoso-odbc -static-libs
-dev-db/virtuoso-server ldap readline -kerberos
-dev-lang/nasm -doc
-dev-lang/orc -examples -static-libs
-dev-lang/perl berkdb gdbm -build -doc -ithreads
-dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml -berkdb -build -doc -elibc_uclibc -examples -tk -wininst
-dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml -build -doc -elibc_uclibc -examples -tk -wininst
-dev-lang/swig pcre -ccache -doc
+dev-db/mysql community embedded perl ssl
+dev-db/sqlite extensions fts3 readline secure-delete threadsafe-notify
+dev-db/virtuoso-server ldap readline
+dev-lang/perl berkdb gdbm
+dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml_uclibc
+dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml_uclibc
+dev-lang/swig pcre
 dev-lang/tcl threads
-dev-lang/tk truetype threads -xscreensaver
+dev-lang/tk truetype threads
 dev-lang/yasm nls python
-dev-libs/atk nls -doc
-dev-libs/boost eselect python -doc -icu -mpi -static-libs -test -tools
-dev-libs/chmlib -examples -static-libs
-dev-libs/cyrus-sasl berkdb crypt gdbm ldap mysql pam ssl -authdaemond -elibc_FreeBSD -java -kerberos -ntlm_unsupported_patch -postgres -sample -srp -urandom
-dev-libs/dbus -glib bash-completion -doc -static-libs -test
-dev-libs/elfutils bzip2 elibc_glibc nls zlib -lzma
-dev-libs/eventlog -static-libs
-dev-libs/glibstatic -libs -doc fam -selinux -test -xattr
-dev-libs/gmp -nocxx
-dev-libs/icu -doc -examples -static-libs
-dev-libs/klibc -n32
-dev-libs/libIDL
-dev-libs/libassuan -static-libs
-dev-libs/libatasmart -static-libs
-dev-libs/libattica
-dev-libs/libcdio cddb cxx -minimal
-dev-libs/libcroco -doc -test
-dev-libs/libdaemon -doc -examples
-dev-libs/libdbusmenu -qt -test
-dev-libs/libevent -static-libs -test
-dev-libs/libf2c -static-libs
-dev-libs/libffi -static-libs -test
+dev-libs/atk nls
+dev-libs/boost eselect python-libs
+dev-libs/cyrus-sasl berkdb crypt gdbm ldap mysql pam ssl_FreeBSD_unsupported_patch
+dev-libs/dbus bash-completion-libs
+dev-libs/elfutils bzip2 elibc_glibc nls zlib
+dev-libs/glibstatic fam
+dev-libs/libcdio cddb cxx
 dev-libs/libgcrypt static-libs
-dev-libs/libgpg -error nls -common-lisp -static-libs
-dev-libs/libksba -static-libs
-dev-libs/liblinebreak -static-libs
-dev-libs/libnatspec python -doc
-dev-libs/libnl -doc
-dev-libs/libpcre bzip2 cxx recursion-limit unicode zlib -static-libs
-dev-libs/libpthread -stubs -static-libs
-dev-libs/libtasn1 -doc
-dev-libs/libusb -doc -nocxx
-dev-libs/libusb -doc
-dev-libs/libxml2 icu ipv6 python readline -doc -examples -test
+dev-libs/libgpg nls-lisp-libs
+dev-libs/libnatspec python
+dev-libs/libpcre bzip2 cxx recursion-limit unicode zlib-libs
+dev-libs/libxml2 icu ipv6 python readline
 dev-libs/libxsltcrypt python
-dev-libs/libzip -static-libs
-dev-libs/lzo-examples -static-libs
-dev-libs/nspr
-dev-libs/nss -utils
-dev-libs/openobex bluetooth usb -irda -syslog
-dev-libs/opensslsse2 zlib -bindist -gmp -kerberos -rfc3779 -test
-dev-libs/popt nls -static-libs
-dev-libs/pth
-dev-libs/qjson -doc -test
-dev-libs/qoauth -doc -static-libs -test
-dev-libs/rasqalpcre -gmp -test -xml
-dev-libs/redlandberkdb mysql ssl -iodbc -odbc -postgres -xml
-dev-libs/sopranodbus raptor redland virtuoso -clucene -doc -elibc_FreeBSD -test
-dev-perl/Authen-SASL -kerberos
-dev-perl/DBI-test
-dev-perl/DateManip -test
-dev-perl/Error -test
-dev-perl/File-BaseDir -test
-dev-perl/File-DesktopEntry -test
-dev-perl/File-MimeInfo -test
-dev-perl/HTML-Parser -test
+dev-libs/openobex bluetooth usb
+dev-libs/opensslsse2 zlib3779
+dev-libs/popt nls-libs
+dev-libs/redlandberkdb mysql ssl
+dev-libs/sopranodbus raptor redland virtuoso_FreeBSD
 dev-perl/IO-Socket-SSL idn
 dev-perl/libwww-perl ssl
-dev-python/PyQt4 X dbus declarative kde opengl sql svg webkit -assistant -doc -examples -multimedia phonon -xmlpatterns
-dev-python/cython -doc -examples
-dev-python/dbus-python -doc -examples -test
-dev-python/foolscapssl -doc
-dev-python/imaging X scanner -doc -examples -tk
-dev-python/ipython readline smp -doc -emacs -examples -gnuplot -test -wxwidgets
-dev-python/numpy -doc -lapack -test
-dev-python/pexpect -doc -examples
-dev-python/pycairo svg -doc -examples -test
-dev-python/pycups -doc -examples
-dev-python/pygobject cairo threads -doc -examples -libffi -test
-dev-python/pygtk -doc -examples -test
-dev-python/pyopenssl -doc
-dev-python/python-ldap ssl -doc -examples -sasl
-dev-python/pyxml -doc -examples
-dev-python/reportlab -doc -examples -test
-dev-python/sip -doc
-dev-python/twisted crypt gtk -serial
-dev-python/twisted-web -soap
-dev-tcltk/expect X -doc threads
-dev-util/bin_replace_string -doc
-dev-util/boost-buildpython -examples
-dev-util/cmake ncurses -emacs -qt4 -test -vim-syntax
-dev-util/cppunit -doc -examples
-dev-util/ctags -ada
-dev-util/desktop-file -utils-emacs
-dev-util/dialognls unicode -examples -minimal
-dev-util/diffball
-dev-util/pkgconfig -elibc_FreeBSD -hardened
-dev-vcs/git bash-completion blksha1 curl iconv perl threads tk webdav -cgi -cvs -doc -emacs -gtk -ppcsha1 -subversion -xinetd
-gnome-base/libglade -doc -static-libs -test
-gnome-base/librsvg gtk -doc -tools
-kde-base/activitymanagersemantic-desktop -kdeprefix
-kde-base/akonadi -kdeprefix
-kde-base/akregator handbook kontact -kdeprefix
-kde-base/arkarchive bzip2 handbook -kdeprefix -lzma
-kde-base/attica -kdeprefix
-kde-base/dolphin handbook semantic-desktop thumbnail -kdeprefix
-kde-base/drkonqi -kdeprefix
-kde-base/ffmpegthumbs -kdeprefix
-kde-base/filelight handbook -kdeprefix
-kde-base/freespacenotifier -kdeprefix
-kde-base/gwenview handbook kipi semantic-desktop -kdeprefix
-kde-base/kabcclient handbook -kdeprefix
-kde-base/kaddressbook handbook kontact -kdeprefix
-kde-base/kalarm handbook -kdeprefix
-kde-base/kamera handbook -kdeprefix
-kde-base/kate handbook plasma -kdeprefix
-kde-base/kcalc handbook -kdeprefix -test
-kde-base/kcharselect handbook -kdeprefix
-kde-base/kcheckpasspam -kdeprefix
-kde-base/kcminit -kdeprefix
-kde-base/kcmshell -kdeprefix
-kde-base/kcolorchooser -kdeprefix
-kde-base/kcontrol handbook -kdeprefix
-kde-base/kcron handbook -kdeprefix
-kde-base/kde-env -kdeprefix
-kde-base/kde-l10n handbook -kdeprefix
-kde-base/kdeartwork-colorschemes -kdeprefix
-kde-base/kdeartwork-desktopthemes -kdeprefix
-kde-base/kdeartwork-emoticons -kdeprefix
-kde-base/kdeartwork-iconthemes -kdeprefix
-kde-base/kdeartwork-kscreensavereigen kexiv2 opengl -kdeprefix -xscreensaver
-kde-base/kdeartwork-sounds -kdeprefix
-kde-base/kdeartwork-styles -kdeprefix
-kde-base/kdebase-cursors -kdeprefix
-kde-base/kdebase-data -kdeprefix
-kde-base/kdebase-desktoptheme -kdeprefix
-kde-base/kdebase-kioslavesbzip2 exif handbook openexr samba sftp -kdeprefix -lzma
-kde-base/kdebase-menu -kdeprefix
-kde-base/kdebase-menu-icons -kdeprefix
-kde-base/kdebase-runtime-meta handbook semantic-desktop -kdeprefix
-kde-base/kdebase-startkde -kdeprefix
-kde-base/kdebase-wallpapers -kdeprefix
-kde-base/kdebugdialog handbook -kdeprefix
-kde-base/kdegraphics -strigi-analyzer -kdeprefix
-kde-base/kdelibs3dnow acl alsa bzip2 handbook jpeg2k mmx nls openexr opengl policykit semantic-desktop spell sse sse2 ssl udev -altivec -bindist -doc fam -kdeprefix -kerberos -lzma -test -zeroconf
-kde-base/kdemultimedia-kioslaves encode flac handbook vorbis -kdeprefix
-kde-base/kdenetwork-filesharing -kdeprefix
-kde-base/kdepasswd handbook -kdeprefix
-kde-base/kdepim-icons -kdeprefix
-kde-base/kdepim-kresources -kdeprefix
-kde-base/kdepim-l10n -kdeprefix
-kde-base/kdepim-runtime -kdeprefix
-kde-base/kdepim-strigi-analyzer -kdeprefix
-kde-base/kdepimlibs handbook ldap semantic-desktop -kdeprefix -test
-kde-base/kdeplasma-addonsexif semantic-desktop -attica -desktopglobe -kdeprefix -qalculate -qwt -scim
-kde-base/kdesu handbook -kdeprefix
-kde-base/kdf handbook -kdeprefix
-kde-base/kdialog -kdeprefix
-kde-base/kdmconsolekit handbook pam -kdeprefix -kerberos
-kde-base/kdnssd -kdeprefix -zeroconf
-kde-base/kdontchangethehostname -kdeprefix
-kde-base/keditbookmarks -kdeprefix
-kde-base/keditfiletype -kdeprefix
-kde-base/kephal -kdeprefix
-kde-base/kfile -kdeprefix
-kde-base/kfind handbook -kdeprefix
-kde-base/kfmclient -kdeprefix
-kde-base/kgamma handbook -kdeprefix
-kde-base/kgetbittorrent handbook semantic-desktop webkit -kdeprefix
-kde-base/kglobalaccel -kdeprefix
-kde-base/kgpg handbook -kdeprefix
-kde-base/khelpcenter -kdeprefix
-kde-base/khotkeys -kdeprefix
-kde-base/kiconfinder -kdeprefix
-kde-base/kinfocenter handbook ieee1394 opengl -kdeprefix
-kde-base/kioclient -kdeprefix
-kde-base/kjots handbook kontact -kdeprefix
-kde-base/kleopatra handbook -kdeprefix
-kde-base/klipper handbook -kdeprefix
-kde-base/kmail handbook kontact -kdeprefix -test
-kde-base/kmenuedit handbook -kdeprefix
-kde-base/kmimetypefinder -kdeprefix
-kde-base/kmixalsa handbook -kdeprefix
-kde-base/knetattach handbook -kdeprefix
-kde-base/knewstuff -kdeprefix
-kde-base/knotes handbook kontact -kdeprefix
-kde-base/knotify -kdeprefix
-kde-base/kolourpaint handbook -kdeprefix
-kde-base/konquerorbookmarks handbook svg thumbnail -kdeprefix
-kde-base/konsole handbook -kdeprefix
-kde-base/konsolekalendar handbook -kdeprefix
-kde-base/kontact handbook -kdeprefix
-kde-base/kopeteaddbookmarks autoreplace contactnotes handbook highlight history jingle nowlistening oscar pipes privacy ssl statistics texteffect translator urlpicpreview v4l2 webpresence xmpp yahoo -gadu -groupwise -kdeprefix -latex -meanwhile -msn -otr -qq -skype -sms -testbed -winpopup -zeroconf
-kde-base/korganizer handbook kontact -kdeprefix
-kde-base/kpasswdserver -kdeprefix
-kde-base/kppp handbook -kdeprefix
-kde-base/kquitapp -kdeprefix
-kde-base/krdc handbook jpeg rdesktop vnc -kdeprefix -zeroconf
-kde-base/kreadconfig -kdeprefix
-kde-base/kremotecontrol handbook -kdeprefix
-kde-base/krfb handbook -kdeprefix
-kde-base/kruler handbook -kdeprefix
-kde-base/krunner opengl -kdeprefix
-kde-base/ksaneplugin -kdeprefix
-kde-base/kscd handbook -kdeprefix
-kde-base/kscreensaver opengl pam -kdeprefix
-kde-base/ksmserver -kdeprefix
-kde-base/ksnapshot handbook -kdeprefix -kipi
-kde-base/ksplash 3dnow mmx sse sse2 xinerama -altivec -kdeprefix
-kde-base/kstart -kdeprefix
-kde-base/kstartupconfig -kdeprefix
-kde-base/kstyles -kdeprefix
-kde-base/ksysguard handbook -kdeprefix lm_sensors -test
-kde-base/ksystemlog handbook -kdeprefix -test
-kde-base/ksystraycmd -kdeprefix
-kde-base/ktimezoned -kdeprefix
-kde-base/ktraderclient -kdeprefix
-kde-base/kuiserver -kdeprefix
-kde-base/kurifilter-plugins -kdeprefix
-kde-base/kuser handbook -kdeprefix
-kde-base/kwallet handbook -kdeprefix
-kde-base/kwalletd -kdeprefix
-kde-base/kwin opengl xcomposite xinerama -kdeprefix
-kde-base/kwrite handbook -kdeprefix
-kde-base/kwrited -kdeprefix
-kde-base/libkcddb -kdeprefix -musicbrainz
-kde-base/libkcompactdisc alsa -kdeprefix
-kde-base/libkdcraw -kdeprefix
-kde-base/libkdepim -kdeprefix
-kde-base/libkexiv2 -kdeprefix
-kde-base/libkipi -kdeprefix
-kde-base/libkleo -kdeprefix
-kde-base/libkonq -kdeprefix -test
-kde-base/libkpgp -kdeprefix
-kde-base/libksane -kdeprefix
-kde-base/libkworkspace -kdeprefix
-kde-base/liboxygenstyle -kdeprefix
-kde-base/libplasmaclockholidays opengl -kdeprefix
-kde-base/libplasmagenericshell -kdeprefix -test
-kde-base/libtaskmanager -kdeprefix
-kde-base/mplayerthumbs -kdeprefix -mplayer
-kde-base/nepomuk handbook -kdeprefix
-kde-base/okularchm crypt djvu ebook handbook jpeg pdf ps tiff -kdeprefix
-kde-base/oxygen-icons -kdeprefix
-kde-base/phonon-kde alsa xine -kdeprefix
-kde-base/plasma-apps -kdeprefix
-kde-base/plasma-runtime -kdeprefix
-kde-base/plasma-workspace handbook python rss semantic-desktop xinerama -google-gadgets -gps -kdeprefix -qalculate
-kde-base/powerdevil pm-utils -kdeprefix
-kde-base/printer-applet handbook -kdeprefix
-kde-base/pykde4 semantic-desktop -doc -examples -kdeprefix
-kde-base/qguiplatformplugin_kde -kdeprefix
-kde-base/renamedlg-plugins -kdeprefix
-kde-base/solidbluetooth networkmanager -kdeprefix -wicd
-kde-base/solid-runtime -kdeprefix
-kde-base/svgpart -kdeprefix
-kde-base/sweeper handbook -kdeprefix
-kde-base/system-config-printer-kde -kdeprefix
-kde-base/systemsettings handbook opengl usb xinerama -kdeprefix
-kde-base/thumbnailers -kdeprefix
+dev-python/PyQt4 X dbus declarative kde opengl sql svg webkit phonon
+dev-python/imaging X scanner
+dev-python/ipython readline smp
+dev-python/pycairo svg
+dev-python/pygobject cairo threads
+dev-python/python-ldap ssl
+dev-python/twisted crypt gtk
+dev-tcltk/expect X threads
+dev-util/cmake ncurses4-syntax
+dev-util/dialognls unicode
+dev-vcs/git bash-completion blksha1 curl iconv perl threads tk webdav1
+gnome-base/librsvg gtk
+kde-base/akregator handbook kontact
+kde-base/arkarchive bzip2 handbook
+kde-base/dolphin handbook semantic-desktop thumbnail
+kde-base/filelight handbook
+kde-base/gwenview handbook kipi semantic-desktop
+kde-base/kabcclient handbook
+kde-base/kaddressbook handbook kontact
+kde-base/kalarm handbook
+kde-base/kamera handbook
+kde-base/kate handbook plasma
+kde-base/kcalc handbook
+kde-base/kcharselect handbook
+kde-base/kcontrol handbook
+kde-base/kcron handbook
+kde-base/kde-l10n handbook
+kde-base/kdeartwork-kscreensaver eigen kexiv2 opengl
+kde-base/kdebase-kioslaves bzip2 exif handbook openexr samba sftp
+kde-base/kdebase-runtime-meta handbook semantic-desktop
+kde-base/kdebugdialog handbook
+kde-base/kdelibs 3dnow acl alsa bzip2 handbook jpeg2k mmx nls openexr opengl policykit semantic-desktop spell sse sse2 ssl udev fam
+kde-base/kdemultimedia-kioslaves encode flac handbook vorbis
+kde-base/kdepasswd handbook
+kde-base/kdepimlibs handbook ldap semantic-desktop
+kde-base/kdeplasma-addons exif semantic-desktop
+kde-base/kdesu handbook
+kde-base/kdf handbook
+kde-base/kdm consolekit handbook pam
+kde-base/kfind handbook
+kde-base/kgamma handbook
+kde-base/kget bittorrent handbook semantic-desktop webkit
+kde-base/kgpg handbook
+kde-base/kinfocenter handbook ieee1394 opengl
+kde-base/kjots handbook kontact
+kde-base/kleopatra handbook
+kde-base/klipper handbook
+kde-base/kmail handbook kontact
+kde-base/kmenuedit handbook
+kde-base/kmime typefinder
+kde-base/kmixalsa handbook
+kde-base/knetattach handbook
+kde-base/knotes handbook kontact
+kde-base/kolourpaint handbook
+kde-base/konquerorbookmarks handbook svg thumbnail
+kde-base/konsole handbook
+kde-base/konsolekalendar handbook
+kde-base/kontact handbook
+kde-base/kopeteaddbookmarks autoreplace contactnotes handbook highlight history jingle nowlistening oscar pipes privacy ssl statistics texteffect translator urlpicpreview v4l2 webpresence xmpp yahoo
+kde-base/korganizer handbook kontact
+kde-base/kppp handbook
+kde-base/krdc handbook jpeg rdesktop vnc
+kde-base/kremotecontrol handbook
+kde-base/krfb handbook
+kde-base/kruler handbook
+kde-base/krunner opengl
+kde-base/kscd handbook
+kde-base/kscreensaver opengl pam
+kde-base/ksnapshot handbook
+kde-base/ksplash 3dnow mmx sse sse2 xinerama
+kde-base/ksysguard handbook lm_sensors
+kde-base/ksystemlog handbook
+kde-base/kuser handbook
+kde-base/kwallet handbook
+kde-base/kwin opengl xcomposite xinerama
+kde-base/kwrite handbook
+kde-base/libkcompactdisc alsa
+kde-base/libplasmaclock holidays opengl
+kde-base/nepomuk handbook
+kde-base/okular chm crypt djvu ebook handbook jpeg pdf ps tiff
+kde-base/phonon-kde alsa xine
+kde-base/plasma-workspace handbook python rss semantic-desktop xinerama-gadgets
+kde-base/powerdevil pm-utils
+kde-base/printer-applet handbook
+kde-base/pykde4 semantic-desktop
+kde-base/solid bluetooth networkmanager
+kde-base/sweeper handbook
+kde-base/systemsettings handbook opengl usb xinerama
 kde-misc/knetworkmanager consolekit
-kde-misc/kwebkitpart
-kde-misc/openofficeorg-thumbnail
-kde-misc/polkit-kde-kcmodules
-mail-mta/ssmtp ipv6 ssl -maxsysuid -md5sum
+mail-mta/ssmtp ipv6 ssl5sum
 media-fonts/corefonts X
-media-fonts/dejavu X -fontforge
+media-fonts/dejavu X
 media-fonts/droid X
 media-fonts/font-misc-misc X nls
-media-fonts/terminus-font psf ru-g -X -a-like-o -bolddiag -pcf -quote -raw-font-data -ru-dv -ru-i -ru-k -width
+media-fonts/terminus-font psf
 media-fonts/ttf-bitstream-vera X
 media-fonts/urw-fonts X
-media-gfx/digikam gphoto2 handbookmysql semantic-desktop thumbnails addressbook -mysql -doc geolocation themedesigner video
-media-gfx/exiv2 nls unicode zlib -contrib -doc -examples -xmp
-media-gfx/gimpaalib alsa dbus exif jpeg mmx mng pdf png python smp sse svg tiff webkit wmf -altivec -curl -doc -gnome -lcms
-media-gfx/gtkimageview -doc -examples -test
-media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openexr openmp perl png raw svg tiff truetype wmf zlib -autotrace -fftw -fontconfig -fpx -graphviz -gs -hdri -jbig -lcms -lqr -q32 -q8 -static-libs -video_cards_nvidia -xml
-media-gfx/sane-backendsgphoto2 ipv6 sane_backends_abaton sane_backends_agfafocus sane_backends_apple sane_backends_artec sane_backends_artec_eplus48u sane_backends_as6e sane_backends_avision sane_backends_bh sane_backends_canon sane_backends_canon630u sane_backends_canon_dr sane_backends_canon_pp sane_backends_cardscan sane_backends_coolscan sane_backends_coolscan2 sane_backends_coolscan3 sane_backends_dc210 sane_backends_dc240 sane_backends_dc25 sane_backends_dell1600n_net sane_backends_dmc sane_backends_epjitsu sane_backends_epson sane_backends_epson2 sane_backends_fujitsu sane_backends_genesys sane_backends_gt68xx sane_backends_hp sane_backends_hp3500 sane_backends_hp3900 sane_backends_hp4200 sane_backends_hp5400 sane_backends_hp5590 sane_backends_hpljm1005 sane_backends_hpsj5s sane_backends_hs2p sane_backends_ibm sane_backends_kodak sane_backends_kvs1025 sane_backends_kvs20xx sane_backends_leo sane_backends_lexmark sane_backends_ma1509 sane_backends_magicolor sane_backends_matsushita sane_backends_microtek sane_backends_microtek2 sane_backends_mustek sane_backends_mustek_pp sane_backends_mustek_usb sane_backends_nec sane_backends_net sane_backends_niash sane_backends_p5 sane_backends_pie sane_backends_pixma sane_backends_plustek sane_backends_plustek_pp sane_backends_qcam sane_backends_ricoh sane_backends_rts8891 sane_backends_s9036 sane_backends_sceptre sane_backends_sharp sane_backends_sm3600 sane_backends_sm3840 sane_backends_snapscan sane_backends_sp15c sane_backends_st400 sane_backends_stv680 sane_backends_tamarack sane_backends_teco1 sane_backends_teco2 sane_backends_teco3 sane_backends_test sane_backends_u12 sane_backends_umax sane_backends_umax1220u sane_backends_umax_pp sane_backends_xerox_mfp usb -doc -v4l
+media-gfx/digikam gphoto2 handbookmysql semantic-desktop thumbnails addressbook geolocation themedesigner video
+media-gfx/exiv2 nls unicode zlib
+media-gfx/gimpaalib alsa dbus exif jpeg mmx mng pdf png python smp sse svg tiff webkit wmf
+media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openexr openmp perl png raw svg tiff truetype wmf zlib328-libs_cards_nvidia
+media-gfx/sane-backendsgphoto2 ipv6 sane_backends_abaton sane_backends_agfafocus sane_backends_apple sane_backends_artec sane_backends_artec_eplus48u sane_backends_as6e sane_backends_avision sane_backends_bh sane_backends_canon sane_backends_canon630u sane_backends_canon_dr sane_backends_canon_pp sane_backends_cardscan sane_backends_coolscan sane_backends_coolscan2 sane_backends_coolscan3 sane_backends_dc210 sane_backends_dc240 sane_backends_dc25 sane_backends_dell1600n_net sane_backends_dmc sane_backends_epjitsu sane_backends_epson sane_backends_epson2 sane_backends_fujitsu sane_backends_genesys sane_backends_gt68xx sane_backends_hp sane_backends_hp3500 sane_backends_hp3900 sane_backends_hp4200 sane_backends_hp5400 sane_backends_hp5590 sane_backends_hpljm1005 sane_backends_hpsj5s sane_backends_hs2p sane_backends_ibm sane_backends_kodak sane_backends_kvs1025 sane_backends_kvs20xx sane_backends_leo sane_backends_lexmark sane_backends_ma1509 sane_backends_magicolor sane_backends_matsushita sane_backends_microtek sane_backends_microtek2 sane_backends_mustek sane_backends_mustek_pp sane_backends_mustek_usb sane_backends_nec sane_backends_net sane_backends_niash sane_backends_p5 sane_backends_pie sane_backends_pixma sane_backends_plustek sane_backends_plustek_pp sane_backends_qcam sane_backends_ricoh sane_backends_rts8891 sane_backends_s9036 sane_backends_sceptre sane_backends_sharp sane_backends_sm3600 sane_backends_sm3840 sane_backends_snapscan sane_backends_sp15c sane_backends_st400 sane_backends_stv680 sane_backends_tamarack sane_backends_teco1 sane_backends_teco2 sane_backends_teco3 sane_backends_test sane_backends_u12 sane_backends_umax sane_backends_umax1220u sane_backends_umax_pp sane_backends_xerox_mfp usb4l
 media-gfx/scrot bash-completion
-media-gfx/splashutils fbcondecor gpm mng png truetype -hardened
-media-gfx/ufrawexif gimp gtk openmp -contrast -gnome -hotpixels -lensfun -timezone
-media-gfx/xsanejpeg nls png tiff -gimp -lcms
-media-libs/a52dec -djbfft -oss -static-libs
-media-libs/aalibX gpm -slang
-media-libs/alsa-lib alsa_pcm_plugins_adpcm alsa_pcm_plugins_alaw alsa_pcm_plugins_asym alsa_pcm_plugins_copy alsa_pcm_plugins_dmix alsa_pcm_plugins_dshare alsa_pcm_plugins_dsnoop alsa_pcm_plugins_empty alsa_pcm_plugins_extplug alsa_pcm_plugins_file alsa_pcm_plugins_hooks alsa_pcm_plugins_iec958 alsa_pcm_plugins_ioplug alsa_pcm_plugins_ladspa alsa_pcm_plugins_lfloat alsa_pcm_plugins_linear alsa_pcm_plugins_meter alsa_pcm_plugins_mmap_emul alsa_pcm_plugins_mulaw alsa_pcm_plugins_multi alsa_pcm_plugins_null alsa_pcm_plugins_plug alsa_pcm_plugins_rate alsa_pcm_plugins_route alsa_pcm_plugins_share alsa_pcm_plugins_shm alsa_pcm_plugins_softvol python -alisp -doc
-media-libs/audiofile -static-libs
-media-libs/babl mmx sse -altivec
-media-libs/faac -static-libs
-media-libs/faad2 -digitalradio -static-libs
-media-libs/flac 3dnow cxx ogg sse -altivec -static-libs
-media-libs/fontconfig -doc
-media-libs/freeglut -mpx -static-libs
-media-libs/freetype X -auto-hinter -bindist -doc -fontforge -utils
-media-libs/gd jpeg png truetype xpm -fontconfig
-media-libs/gegl cairo exif ffmpeg jpeg jpeg2k mmx openexr png raw sdl sse svg v4l -graphviz -lua -umfpack
-media-libs/giflib X -rle
-media-libs/ilmbase -static-libs
-media-libs/imlib2 X bzip2 gif jpeg mp3 nls png tiff zlib -doc -mmx
-media-libs/jasper jpeg opengl -static-libs
+media-gfx/splashutils fbcondecor gpm mng png truetype
+media-gfx/ufrawexif gimp gtk openmp
+media-gfx/xsanejpeg nls png tiff
+media-libs/aalib X gpm
+media-libs/alsa-lib alsa_pcm_plugins_adpcm alsa_pcm_plugins_alaw alsa_pcm_plugins_asym alsa_pcm_plugins_copy alsa_pcm_plugins_dmix alsa_pcm_plugins_dshare alsa_pcm_plugins_dsnoop alsa_pcm_plugins_empty alsa_pcm_plugins_extplug alsa_pcm_plugins_file alsa_pcm_plugins_hooks alsa_pcm_plugins_iec958 alsa_pcm_plugins_ioplug alsa_pcm_plugins_ladspa alsa_pcm_plugins_lfloat alsa_pcm_plugins_linear alsa_pcm_plugins_meter alsa_pcm_plugins_mmap_emul alsa_pcm_plugins_mulaw alsa_pcm_plugins_multi alsa_pcm_plugins_null alsa_pcm_plugins_plug alsa_pcm_plugins_rate alsa_pcm_plugins_route alsa_pcm_plugins_share alsa_pcm_plugins_shm alsa_pcm_plugins_softvol python
+media-libs/babl mmx sse
+media-libs/flac 3dnow cxx ogg sse-libs
+media-libs/freetype X-hinter
+media-libs/gd jpeg png truetype xpm
+media-libs/gegl cairo exif ffmpeg jpeg jpeg2k mmx openexr png raw sdl sse svg v4l
+media-libs/giflib X
+media-libs/imlib2 X bzip2 gif jpeg mp3 nls png tiff zlib
+media-libs/jasper jpeg opengl-libs
 media-libs/jpeg static-libs
 media-libs/lcms jpeg python static-libs tiff zlib
-media-libs/lensfun -doc
-media-libs/libao alsa nas -mmap -static-libs
-media-libs/libassenca fontconfig -static-libs
-media-libs/libcaca X cxx ncurses opengl truetype -doc -elibc_FreeBSD -imlib -java -mono -ruby -slang -static-libs
-media-libs/libcddb -doc
-media-libs/libdc1394 X -doc
-media-libs/libdca -oss -static-libs
+media-libs/libao alsa nas-libs
+media-libs/libassenca fontconfig-libs
+media-libs/libcaca X cxx ncurses opengl truetype_FreeBSD-libs
+media-libs/libdc1394 X
 media-libs/libdvsdl xv
-media-libs/libdvd css -doc
+media-libs/libdvd css
 media-libs/libdvdread css
-media-libs/libexifnls -doc -static-libs
-media-libs/libggi X aalib fbcon mmx -3dfx -directfb -svga -vis
+media-libs/libggi X aalib fbcon mmx -3dfx
 media-libs/libggiwmh X
 media-libs/libgii X
-media-libs/libgphoto2 cameras_adc65 cameras_agfa_cl20 cameras_aox cameras_ax203 cameras_barbie cameras_canon cameras_casio_qv cameras_clicksmart310 cameras_digigr8 cameras_digita cameras_dimagev cameras_dimera3500 cameras_directory cameras_enigma13 cameras_fuji cameras_gsmart300 cameras_hp215 cameras_iclick cameras_jamcam cameras_jd11 cameras_jl2005a cameras_jl2005c cameras_kodak_dc120 cameras_kodak_dc210 cameras_kodak_dc240 cameras_kodak_dc3200 cameras_kodak_ez200 cameras_konica cameras_konica_qm150 cameras_largan cameras_lg_gsm cameras_mars cameras_mustek cameras_panasonic_coolshot cameras_panasonic_dc1000 cameras_panasonic_dc1580 cameras_panasonic_l859 cameras_pccam300 cameras_pccam600 cameras_polaroid_pdc320 cameras_polaroid_pdc640 cameras_polaroid_pdc700 cameras_ptp2 cameras_ricoh cameras_ricoh_g3 cameras_samsung cameras_sierra cameras_sipix_blink cameras_sipix_blink2 cameras_sipix_web2 cameras_smal cameras_sonix cameras_sony_dscf1 cameras_sony_dscf55 cameras_soundvision cameras_spca50x cameras_sq905 cameras_st2205 cameras_stv0674 cameras_stv0680 cameras_sx330z cameras_template cameras_topfield cameras_toshiba_pdrm11 exif kernel_linux nls -doc -examples -zeroconf
-media-libs/libgpodgtk python udev -mono -static-libs
-media-libs/libid3tag -static-libs
-media-libs/libiec61883 -examples
-media-libs/liblqr -doc
-media-libs/libmad
-media-libs/libmng -lcms
-media-libs/libmodplug -static-libs
-media-libs/libmp4v2 -static-libs -utils
+media-libs/libgphoto2 cameras_adc65 cameras_agfa_cl20 cameras_aox cameras_ax203 cameras_barbie cameras_canon cameras_casio_qv cameras_clicksmart310 cameras_digigr8 cameras_digita cameras_dimagev cameras_dimera3500 cameras_directory cameras_enigma13 cameras_fuji cameras_gsmart300 cameras_hp215 cameras_iclick cameras_jamcam cameras_jd11 cameras_jl2005a cameras_jl2005c cameras_kodak_dc120 cameras_kodak_dc210 cameras_kodak_dc240 cameras_kodak_dc3200 cameras_kodak_ez200 cameras_konica cameras_konica_qm150 cameras_largan cameras_lg_gsm cameras_mars cameras_mustek cameras_panasonic_coolshot cameras_panasonic_dc1000 cameras_panasonic_dc1580 cameras_panasonic_l859 cameras_pccam300 cameras_pccam600 cameras_polaroid_pdc320 cameras_polaroid_pdc640 cameras_polaroid_pdc700 cameras_ptp2 cameras_ricoh cameras_ricoh_g3 cameras_samsung cameras_sierra cameras_sipix_blink cameras_sipix_blink2 cameras_sipix_web2 cameras_smal cameras_sonix cameras_sony_dscf1 cameras_sony_dscf55 cameras_soundvision cameras_spca50x cameras_sq905 cameras_st2205 cameras_stv0674 cameras_stv0680 cameras_sx330z cameras_template cameras_topfield cameras_toshiba_pdrm11 exif kernel_linux nls
+media-libs/libgpodgtk python udev-libs
 media-libs/libmpeg2 X sdl
-media-libs/libogg -static-libs
-media-libs/libopenraw gtk -static-libs -test
-media-libs/libpgf -doc
+media-libs/libopenraw gtk-libs
 media-libs/libpng static-libs
-media-libs/libquicktime X aac alsa dv encode ffmpeg -gtk jpeg mmx opengl png vorbis x264 -doc -lame -schroedinger
-media-libs/libsamplerate -sndfile
-media-libs/libsdl X aalib alsa audio -custom-cflags fbcon ggi joystick libcaca nas opengl video xinerama xv -dga -directfb -oss -ps3 -static-libs -svga -tslib
-media-libs/libsndfile alsa -minimal
-media-libs/libtheora encode -doc -examples -static-libs
-media-libs/libvorbis -static-libs
-media-libs/libvpx mmx sse sse2 sse3 ssse3 threads -altivec -doc -postproc
-media-libs/libwmf X gtk -doc -expat -xml
-media-libs/mediastreamerX alsa amr ipv6 portaudio sdl speex theora v4l2 video x264 -bindist -coreaudio -examples -gsm -ilbc -oss
-media-libs/mesaclassic gallium nptl video_cards_intel video_cards_mach64 video_cards_mga video_cards_nouveau video_cards_r128 video_cards_radeon video_cards_savage video_cards_sis video_cards_tdfx video_cards_via video_cards_vmware -gles -hardened -kernel_FreeBSD -llvm -motif -pic -selinux
-media-libs/mltdv ffmpeg frei0r gtk kde melt python qt4 quicktime sdl sse sse2 vdpau vorbis xml -compressed-lumas -libsamplerate -lua -mmx -ruby -xine
-media-libs/musicbrainz -test
-media-libs/mutagen -test
-media-libs/nas -doc
-media-libs/openal alsa portaudio -oss
-media-libs/openexr -examples -static-libs
-media-libs/openjpeg -tools
+media-libs/libquicktime X aac alsa dv encode ffmpeg jpeg mmx opengl png vorbis x264
+media-libs/libsdl X aalib alsa audio-cflags fbcon ggi joystick libcaca nas opengl video xinerama xv3-libs
+media-libs/libsndfile alsa
+media-libs/libtheora encode-libs
+media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
+media-libs/libwmf X gtk
+media-libs/mediastreamer X alsa amr ipv6 portaudio sdl speex theora v4l2 video x264
+media-libs/mesa classic gallium nptl gles
+media-libs/mlt dv ffmpeg frei0r gtk kde melt python qt4 quicktime sdl sse sse2 vdpau vorbis xml-lumas
+media-libs/openal alsa portaudio
 media-libs/phonon xine
 media-libs/phonon-xine xcb
-media-libs/portaudio alsa cxx -oss
-media-libs/qimage blitz 3dnow mmx sse sse2 -altivec
-media-libs/raptor unicode -curl -xml
-media-libs/sdl-image gif jpeg png tiff -static-libs
-media-libs/speexogg sse -static-libs
-media-libs/taglib asf mp4 -examples -test
-media-libs/taglib-extras
-media-libs/tiff cxx jpeg zlib -jbig -static-libs
-media-libs/vigra jpeg png tiff zlib -doc -fftw -test
-media-libs/x264 threads -pic
-media-libs/xine-lib X a52 aac aalib alsa css dts fbcon flac gtk imagemagick ipv6 libcaca mad mng modplug musepack nls opengl samba sdl speex theora truetype v4l vcd vorbis xcb xinerama xv xvmc -altivec -directfb -dxr3 -esd -gnome -mmap -oss -real -vidix -vis -wavpack -win32codecs
-media-libs/xvid -examples -pic
-media-plugins/frei0r-plugins -doc -facedetect -scale0tilt
-media-plugins/kipi-plugins cdr crypt imagemagick ipodopengl scanner -calendar -expoblending -handbook -mjpeg -redeyes
-media-sound/alsa-utils nls -doc -minimal
-media-sound/amarok embedded ipodopengl player semantic-desktop utils -cdda -daap -handbook -lastfm -mp3tunes -mtp -playdar -upnp
-media-sound/lame -mmx -mp3rtp -sndfile -static-libs
-media-sound/soxalsa encode ffmpeg flac id3tag mad ogg png -ao -ladspa -oss -sndfile -wavpack
-media-sound/twolame -static-libs
-media-video/dirac mmx -doc
+media-libs/portaudio alsa cxx
+media-libs/qimage blitz 3dnow mmx sse sse2
+media-libs/raptor unicode
+media-libs/sdl-image gif jpeg png tiff-libs
+media-libs/speexogg sse-libs
+media-libs/taglib asf mp4
+media-libs/tiff cxx jpeg zlib-libs
+media-libs/vigra jpeg png tiff zlib
+media-libs/x264 threads
+media-libs/xine-lib X a52 aac aalib alsa css dts fbcon flac gtk imagemagick ipv6 libcaca mad mng modplug musepack nls opengl samba sdl speex theora truetype v4l vcd vorbis xcb xinerama xv xvmc332codecs
+media-plugins/kipi-plugins cdr crypt imagemagick ipodopengl scanner
+media-sound/alsa-utils nls
+media-sound/amarok embedded ipodopengl player semantic-desktop utils3tunes
+media-sound/lame mp3rtp static-libs
+media-sound/sox alsa encode ffmpeg flac id3tag mad ogg png
+media-video/dirac mmx
 media-video/dvgrab jpeg quicktime
-media-video/ffmpeg 3dnow 3dnowext X alsa amr bzip2 cpudetection -custom-cflags encode hardcoded-tables ieee1394 jpeg2k mmx mmxext mp3 sdl speex ssse3 theora threads v4l v4l2 vdpau vorbis x264 xvid zlib -altivec -bindist -dirac -doc -faac -frei0r -gsm -network -oss -pic -qt-faststart -rtmp -schroedinger -static-libs -test -video_cards_nvidia -vpx
+media-video/ffmpeg 3dnow 3dnowext X alsa amr bzip2 cpudetection-cflags encode hardcoded-tables ieee1394 jpeg2k mmx mmxext mp3 sdl speex ssse3 theora threads v4l v4l2 vdpau vorbis x264 xvid zlib0r-faststart-libs_cards_nvidia
 media-video/ffmpegthumbnailer gtk jpeg png
 media-video/kdenlive semantic-desktop
-media-video/kffmpegthumbnailer
-media-video/mjpegtools dv gtk mmx png quicktime sdl v4l -dga -yv12
-media-video/mplayer 3dnow X a52 aalib alsa amr ass cddb cdio cdparanoia cpudetection dga dirac dts dv dvd dvdnav enca encode faac faad fbcon ftp ggi gif iconv ipv6 jpeg jpeg2k kernel_linux libcaca lirc live lzo mad md5sum mmx mmxext mng mp3 nas network openal opengl osdmenu png quicktime radio rar real rtc samba schroedinger sdl shm speex sse sse2 ssse3 tga theora toolame tremor truetype twolame unicode v4l v4l2 vdpau video_cards_mga video_cards_tdfx video_cards_vesa vorbis x264 xanim xinerama -xscreensaver xv xvid xvmc 3dnowext -altivec -bidi -bindist -bl -bluray -bs2b -custom-cpuopts -directfb -doc -dvb -dxr3 -esd -gsm -joystick -ladspa -libmpeg2 -mpg123 -nut -oss -pnm -pvr -rtmp -video_cards_s3virge -vidix vpx win32codecs -zoran
+media-video/mjpegtools dv gtk mmx png quicktime sdl v4l12
+media-video/mplayer 3dnow X a52 aalib alsa amr ass cddb cdio cdparanoia cpudetection dga dirac dts dv dvd dvdnav enca encode faac faad fbcon ftp ggi gif iconv ipv6 jpeg jpeg2k kernel_linux libcaca lirc live lzo mad md5sum mmx mmxext mng mp3 nas network openal opengl osdmenu png quicktime radio rar real rtc samba schroedinger sdl shm speex sse sse2 ssse3 tga theora toolame tremor truetype twolame unicode v4l v4l2 vdpau video_cards_mga video_cards_tdfx video_cards_vesa vorbis x264 xanim xinerama xv xvid xvmc 3dnowext2b-cpuopts32123_cards_s3virge vpx win32codecs
 media-video/recordmydesktop alsa
-media-video/smplayer
-media-video/transcode 3dnow X a52 aac alsa dv dvd iconv imagemagick jpeg lzo mjpeg mmx mp3 mpeg ogg quicktime sdl sse sse2 theora truetype v4l2 vorbis x264 xvid -altivec -nuv -oss -postproc -xml
-media-video/vcdimager-minimal -xml
-net-analyzer/nmapssl -gtk -lua
+media-video/transcode 3dnow X a52 aac alsa dv dvd iconv imagemagick jpeg lzo mjpeg mmx mp3 mpeg ogg quicktime sdl sse sse2 theora truetype v4l2 vorbis x264 xvid
 net-analyzer/vnstat gd
-net-dialup/pppgtk ipv6 pam -activefilter -atm -dhcp -eap-tls -radius
-net-dialup/pptpclient -tk
+net-dialup/ppp gtk ipv6 pam-tls
 net-dialup/rp-pppoe X
-net-dns/bind-toolsipv6 ssl -doc idn -urandom -xml
-net-dns/libidnnls -doc -elibc_FreeBSD -emacs -java -mono -static-libs
-net-fs/nfs-utils elibc_glibc ipv6 nfsv3 nfsv4 tcpd -caps -kerberos
-net-fs/sambaacl aio client cups ldap netapi pam quota readline server smbclient -addns -ads -caps -cluster -doc -examples fam -ldb -smbsharemodes -smbtav2 -swat -syslog -winbind
-net-im/choqok handbook -indicate
-net-im/skype-qt -static
+net-dns/bind-tools ipv6 ssl idn
+net-dns/libidn nls_FreeBSD-libs
+net-fs/nfs-utils elibc_glibc ipv6 nfsv3 nfsv4 tcpd
+net-fs/samba acl aio client cups ldap netapi pam quota readline server smbclient fam2
+net-im/choqok handbook
 net-irc/konversation crypt handbook
-net-libs/gnutls cxx lzo nls zlib -bindist -doc -examples -guile -test
-net-libs/libbluedevil
-net-libs/libktorrent handbook -test
-net-libs/libnfsidmap ldap
-net-libs/libpcapbluetooth ipv6 -libnl
-net-libs/libsoupssl -doc -test
-net-libs/libsshsftp zlib -examples -gcrypt -pcap -server -ssh1 -static-libs
-net-libs/libtirpc -kerberos
-net-libs/libvncserver jpeg zlib -no24bpp -test threads
-net-libs/neon nls ssl zlib -doc -expat -gnutls -kerberos -libproxy-pkcs11
-net-libs/ortp ipv6 ssl -doc -examples -minimal -srtp
-net-libs/webkit-gtk jit -coverage -doc -test
-net-libs/xulrunner alsa custom-optimization dbus ipc libnotify -elibc_FreeBSD -gnome -java -startup-notification -wifi
+net-libs/gnutls cxx lzo nls zlib
+net-libs/libktorrent handbook
+net-libs/libnfs idmap ldap
+net-libs/libpcap bluetooth ipv6
+net-libs/libsshsftp zlib1-libs
+net-libs/libvncserver jpeg zlib24bpp threads
+net-libs/neon nls ssl zlib-pkcs11
+net-libs/ortp ipv6 ssl
+net-libs/webkit-gtk jit
+net-libs/xulrunner alsa custom-optimization dbus ipc libnotify_FreeBSD-notification
 net-mail/mailbase pam
-net-misc/curl ipv6 ldap ssl -ares -gnutls idn -kerberos -libssh2 -nss -test
+net-misc/curl ipv6 ldap ssl idn2
 net-misc/dhcpcd elibc_glibc zeroconf
-net-misc/iputils ipv6 ssl -SECURITY_HAZARD -doc idn -static
-net-misc/modemmanager policykit -doc -test
-net-misc/networkmanager bluetooth dhcpcd kernel_linux -connection-sharing -dhclient -doc -gnutls -nss -resolvconf
-net-misc/networkmanager-openvpn -gnome
-net-misc/networkmanager-pptp -gnome -test
-net-misc/networkmanager-vpnc -gnome
-net-misc/ntp ipv6 ssl -caps -openntpd -parse-clocks -selinux -snmp -vim-syntax -zeroconf
-net-misc/openssh X hpn ldap pam tcpd -X509 -kerberos -libedit -selinux -skey -static
-net-misc/openvpn ipv6 pam ssl -eurephia -examples -iproute2 -minimal -passwordsave -pkcs11 -selinux -static -userland_BSD
-net-misc/rdesktop alsa ipv6 -ao -libsamplerate -oss -pcsc-lite
-net-misc/rsync acl iconv ipv6 -static -xattr
-net-misc/vconfig-static
-net-misc/vpnc -bindist -hybrid-auth -resolvconf
-net-misc/wget ipv6 nls ssl idn -ntlm -static
-net-nds/openldap berkdb crypt gnutls ipv6 perl samba ssl tcpd -cxx -experimental -icu -iodbc -kerberos -minimal -odbc -overlays -sasl -selinux -slp -smbkrb5passwd -syslog
-net-p2p/eiskaltdcpp cli dbus emoticons libnotifypcre qt4 spell -daemon -examples -gnome -gtk -javascript-lua -sound -upnp
-net-print/cndrvcups-capt -gtk
-net-print/cndrvcups-common -cngplp
-net-print/cnijfilteramd64 ip4700 mp250 mp270 mp490 mp550 mp560 -mp640 -nocupsdetection -servicetools
-net-print/cups X acl dbus gnutls jpeg ldappam perl png python samba ssl threads tiff usb -elibc_FreeBSD -java -kerberos -php -slp -static-libs -xinetd
+net-misc/iputils ipv6 ssl_HAZARD idn
+net-misc/modemmanager policykit
+net-misc/networkmanager bluetooth dhcpcd kernel_linux-sharing
+net-misc/ntp ipv6 ssl-clocks-syntax
+net-misc/openssh X hpn ldap pam tcpd509
+net-misc/openvpn ipv6 pam ssl211_BSD
+net-misc/rdesktop alsa ipv6-lite
+net-misc/rsync acl iconv ipv6
+net-misc/wget ipv6 nls ssl idn
+net-nds/openldap berkdb crypt gnutls ipv6 perl samba ssl tcpd5passwd
+net-p2p/eiskaltdcpp cli dbus emoticons libnotifypcre qt4 spell-lua
+net-print/cnijfilteramd64 ip4700 mp250 mp270 mp490 mp550 mp560640
+net-print/cups X acl dbus gnutls jpeg ldappam perl png python samba ssl threads tiff usb_FreeBSD-libs
 net-print/foomatic-filters cups
-net-print/gutenprintcups foomaticdb gimp gtk readline -ppds
-net-print/hplipfax hpcups hpijs kde libnotify policykit scanner static-ppds -X -doc -minimal -parport -qt4 -snmp -udev-acl
-net-print/samsung-unified-linux-driver -doc -test
-net-wireless/bluedevil
-net-wireless/bluez alsa consolekit cups usb -attrib -caps -health -maemo6 -old-daemons -pcmcia -pnat -test-programs
+net-print/gutenprintcups foomaticdb gimp gtk readline
+net-print/hplipfax hpcups hpijs kde libnotify policykit scanner static-ppds4-acl
+net-wireless/bluez alsa consolekit cups usb6-daemons-programs
 net-wireless/broadcom-sta kernel_linux
-net-wireless/madwifi-ng kernel_linux -injection
-net-wireless/madwimax -doc
+net-wireless/madwifi-ng kernel_linux
 net-wireless/rtl8192se kernel_linux
-net-wireless/wireless-tools nls -multicall
-net-wireless/wpa_supplicant dbus kernel_linux readline ssl wimax -eap-sim -fasteap -gnutls -kernel_FreeBSD -madwifi -ps3 -qt4 -wps
-sci-libs/blas-reference -doc
-sci-libs/clapack -test
-sys-apps/aclnls -nfs
+net-wireless/wireless-tools nls
+net-wireless/wpa_supplicant dbus kernel_linux readline ssl wimax-sim_FreeBSD34
 sys-apps/attr nls
-sys-apps/baselayout -build
-sys-apps/busybox elibc_glibc ipv6 mdev pam -make-symlinks -savedconfig -selinux -static
-sys-apps/calculate-client kde -gnome -xfce
-sys-apps/calculate-desktop kde -gnome -xfce
-sys-apps/calculate-install -minimal
-sys-apps/calculate-lib -minimal
-sys-apps/calculate-utilities cl_builder cl_client cl_desktop cl_installgui -cl_assemble -cl_server
-sys-apps/coreutils acl nls unicode -caps -gmp -selinux -static -vanilla -xattr
-sys-apps/dbus X -doc -selinux -static-libs -test
-sys-apps/debianutils kernel_linux -static
-sys-apps/diffutils nls -static
-sys-apps/file python -static-libs
-sys-apps/findutils nls -selinux -static
+sys-apps/busybox elibc_glibc ipv6 mdev pam-symlinks
+sys-apps/calculate-client kde
+sys-apps/calculate-desktop kde
+sys-apps/calculate-utilities cl_builder cl_client cl_desktop cl_installgui_assemble_server
+sys-apps/coreutils acl nls unicode
+sys-apps/dbus X-libs
+sys-apps/debianutils kernel_linux
+sys-apps/diffutils nls
+sys-apps/file python-libs
+sys-apps/findutils nls
 sys-apps/gawk nls
 sys-apps/grep nls pcre
-sys-apps/groff X -examples
+sys-apps/groff X
 sys-apps/help2man elibc_glibc nls
-sys-apps/hwdata-gentoo opengl -binary-drivers
+sys-apps/hwdata-gentoo opengl-drivers
 sys-apps/hwsetup zlib
-sys-apps/ifplugd -doc
-sys-apps/iproute2 berkdb ipv6 -atm -minimal
+sys-apps/iproute2 berkdb ipv6
 sys-apps/kbd nls
 sys-apps/keyexec kde
 sys-apps/less unicode
 sys-apps/lm_sensors sensord
 sys-apps/man-db berkdb gdbm nls
 sys-apps/man-pages nls
-sys-apps/memtest86+ -floppy -serial
-sys-apps/miscfiles -minimal
-sys-apps/module-init-tools -static
-sys-apps/net-tools nls -static
-sys-apps/openrc elibc_glibc kernel_linux ncurses pam unicode -kernel_FreeBSD -selinux
-sys-apps/pciutils -network -cron -zlib
-sys-apps/pcmciautils -static -staticsocket
-sys-apps/portage ipc -build -doc -epydoc -python2 -python3 -selinux
-sys-apps/preload -vanilla
+sys-apps/net-tools nls
+sys-apps/openrc elibc_glibc kernel_linux ncurses pam unicode_FreeBSD
+sys-apps/portage ipc
 sys-apps/pv nls
 sys-apps/sandbox multilib
-sys-apps/sed acl nls -selinux -static
-sys-apps/shadow cracklib nls pam -audit -selinux -skey
-sys-apps/smartmontools -caps -minimal -static
-sys-apps/sysvinit-ibm -kernel_FreeBSD -selinux -static
+sys-apps/sed acl nls
+sys-apps/shadow cracklib nls pam
 sys-apps/tcp-wrappers ipv6
-sys-apps/texinfo nls -static
-sys-apps/usbutils zlib -network-cron
-sys-apps/util-linux cramfs crypt ncurses nls perl unicode -old-linux -selinux -slang -uclibc
+sys-apps/texinfo nls
+sys-apps/usbutils zlib-cron
+sys-apps/util-linux cramfs crypt ncurses nls perl unicode-linux
 sys-apps/v86d x86emu
 sys-apps/xinetd perl tcpd
-sys-auth/consolekit kernel_linux pam policykit -doc -test
-sys-auth/nss_ldap ssl -kerberos -sasl
-sys-auth/pam_ldap ssl -sasl
-sys-auth/pambase consolekit cracklib sha512 -gnome-keyring -minimal -mktemp -pam_krb5 -pam_ssh -passwdqc -selinux
-sys-auth/polkit kde nls pam -doc -examples -gtk
-sys-auth/polkit-kde-agent
-sys-auth/polkit-qt -examples
+sys-auth/consolekit kernel_linux pam policykit
+sys-auth/nss_ldap ssl
+sys-auth/pam_ldap ssl
+sys-auth/pambase consolekit cracklib sha512-keyring_krb5_ssh
+sys-auth/polkit kde nls pam
 sys-auth/thinkfinger pam
 sys-block/eject nls
-sys-block/parted debug device-mapper nls readline -selinux
-sys-block/partitionmanager
-sys-boot/grub ncurses -custom-cflags -netboot -static
-sys-boot/syslinux -custom-cflags
-sys-devel/autoconf -emacs
-sys-devel/bc readline -libedit -static
-sys-devel/binutils nls -multislot -multitarget -test -vanilla
-sys-devel/bison nls -static
-sys-devel/flex nls -static
-sys-devel/gcc fortran gtk mudflap multilib nls nptl openmp -altivec -bootstrap -build -doc -fixed-point -gcj -graphite -hardened -libffi -multislot -n32 -n64 -nocxx -nopie -nossp -objc -objc++ -objc-gc -test -vanilla
-sys-devel/gettext acl elibc_glibc git nls openmp -doc -emacs -nocxx
-sys-devel/libtool -vanilla
-sys-devel/m4 -examples
-sys-devel/makenls -static
-sys-devel/patch -static
-sys-fs/dmraid -selinux -static
-sys-fs/e2fsprogs nls -elibc_FreeBSD
-sys-fs/fuse kernel_linux -kernel_FreeBSD
-sys-fs/jfsutils -static
-sys-fs/lvm2 lvm1 readline static -clvm -cman -selinux
-sys-fs/mdadm -static
-sys-fs/mtools -X
-sys-fs/ntfs3g acl external-fuse udev -suid
-sys-fs/ntfsprogs crypt -fuse -gnome -minimal
+sys-block/parted debug device-mapper nls readline
+sys-boot/grub ncurses-cflags
+sys-devel/bc readline
+sys-devel/binutils nls
+sys-devel/bison nls
+sys-devel/flex nls
+sys-devel/gcc fortran gtk mudflap multilib nls nptl openmp-point3264++-gc
+sys-devel/gettext acl elibc_glibc git nls openmp
+sys-fs/e2fsprogs nls_FreeBSD
+sys-fs/fuse kernel_linux_FreeBSD
+sys-fs/lvm2 lvm1 readline static
+sys-fs/ntfs3g acl external-fuse udev nfsprogs
+sys-fs/ntfsprogs crypt
 sys-fs/progsreiserfs nls
-sys-fs/squashfs-tools gzip lzma lzo -xattr
-sys-fs/udev extras -devfs-compat -old-hd-rules -selinux -test
-sys-fs/udisks bash-completion nls -doc -remote-access
-sys-fs/xfsprogs nls readline -libedit -static -static-libs
-sys-kernel/calckernel bash-completion video_cards_radeon -ibm -selinux
-sys-kernel/calculate-sources symlink -vmlinuz -build -deblob
+sys-fs/squashfs-tools gzip lzma lzo
+sys-fs/udev extras-compat-hd-rules
+sys-fs/udisks bash-completion nls-access
+sys-fs/xfsprogs nls readline-libs
+sys-kernel/calckernel bash-completion video_cards_radeon
+sys-kernel/calculate-sources symlink
 sys-libs/cracklibnls python
-sys-libs/db -doc -elibc_FreeBSD -examples -java -nocxx -tcl -test
 sys-libs/e2fsprogs-libs elibc_glibc nls
 sys-libs/gdbm berkdb
-sys-libs/glibc gd multilib nls -crosscompile_opts_headers-only -glibc-omitfp -hardened -profile -selinux -vanilla
-sys-libs/gpm -selinux
+sys-libs/glibc gd multilib nls_opts_headers-only-omitfp
 sys-libs/libcap pam
-sys-libs/libieee1284 python -doc
+sys-libs/libieee1284 python
 sys-libs/libkudzu zlib
 sys-libs/libstdc++-v3 multilib nls
-sys-libs/libutempter -elibc_FreeBSD
-sys-libs/ncurses cxx gpm unicode -ada -doc -minimal -profile -static-libs -trace
-sys-libs/pam berkdb cracklib elibc_glibc nls -audit -elibc_FreeBSD -selinux -test -vim-syntax
-sys-libs/talloc -compat -doc -static-libs -swig
-sys-libs/tdb python -static-libs -tdbtest -tools
-sys-libs/timezone-data elibc_glibc nls -elibc_FreeBSD
-sys-power/cpufreqd acpi nvidia -apm lm_sensors -nforce2 -pmu
+sys-libs/libutempter_FreeBSD
+sys-libs/ncurses cxx gpm unicode-libs
+sys-libs/pam berkdb cracklib elibc_glibc nls_FreeBSD-syntax
+sys-libs/talloc-libs
+sys-libs/tdb python-libs
+sys-libs/timezone-data elibc_glibc nls_FreeBSD
+sys-power/cpufreqd acpi nvidia lm_sensors2
 sys-power/cpufrequtils nls
-sys-power/pm-utils alsa networkmanager video_cards_intel video_cards_radeon -ntp
+sys-power/pm-utils alsa networkmanager video_cards_intel video_cards_radeon
 sys-power/powertop unicode
-sys-power/upower kernel_linux -doc -kernel_FreeBSD
-sys-process/htop
-sys-process/procps unicode -n32
-sys-process/psmisc X ipv6 nls -selinux
-sys-process/vixie-cron pam -selinux
+sys-power/upower kernel_linux_FreeBSD
+sys-process/procps unicode32
+sys-process/psmisc X ipv6 nls
+sys-process/vixie-cron pam
 virtual/ffmpeg X encode mp3 sdl theora threads vdpau x264
 virtual/jpeg static-libs
-virtual/libiconv elibc_glibc -elibc_uclibc
-virtual/libintl elibc_glibc -elibc_uclibc
-virtual/linux-sources-hardened
-virtual/mysql embedded -minimal -static
-virtual/notification-daemon -gnome
-virtual/ssh -minimal
-www-client/chromiumcups -gnome -gnome-keyring -test
-www-misc/htdigssl
-www-plugins/adobe-flashvdpau
-x11-apps/xauthipv6
-x11-apps/xdpyinfoxinerama -dga -dmx
-x11-apps/xhostipv6
-x11-apps/xinitminimal
-x11-apps/xmessage
-x11-apps/xpr
-x11-apps/xsetmode
-x11-base/xorg-server ipv6 nptl udev xorg -dmx -doc -kdrive -minimal -static-libs -tslib
+virtual/libiconv elibc_glibc_uclibc
+virtual/libintl elibc_glibc_uclibc
+virtual/mysql embedded
+x11-base/xorg-server ipv6 nptl udev xorg-libs
 x11-drivers/xf86-video-glint dri
 x11-drivers/xf86-video-intel dri
 x11-drivers/xf86-video-mach64 dri
@@ -656,102 +395,45 @@ x11-drivers/xf86-video-sis dri
 x11-drivers/xf86-video-tdfx dri
 x11-drivers/xf86-video-v4l
 x11-drivers/xf86-video-vesa
-x11-libs/cairo X glib opengl qt4 svg -directfb -doc -drm -gallium -openvg -static-libs -xcb
-x11-libs/gdk-pixbuf X jpeg jpeg2k tiff -doc -test
-x11-libs/gtk+ cups jpeg jpeg2k tiff xinerama -doc -examples -test -vim-syntax
-x11-libs/libICE ipv6 -doc -static-libs
-x11-libs/libSM ipv6 uuid -doc -static-libs
-x11-libs/libX11 ipv6 -doc -static-libs -test
-x11-libs/libXScrnSaver -static-libs
-x11-libs/libXTrap
-x11-libs/libXau -static-libs
-x11-libs/libXaw -doc -static-libs
-x11-libs/libXcomposite -doc -static-libs
-x11-libs/libXcursor -static-libs
-x11-libs/libXdamage -static-libs
-x11-libs/libXdmcp -doc -static-libs
-x11-libs/libXext -doc -static-libs
-x11-libs/libXfixes -static-libs
-x11-libs/libXfont ipv6 -doc -static-libs
-x11-libs/libXft -static-libs
-x11-libs/libXi -doc -static-libs
-x11-libs/libXinerama -static-libs
-x11-libs/libXmuipv6 -doc -static-libs
-x11-libs/libXp -static-libs
-x11-libs/libXpm -static-libs
-x11-libs/libXrandr -static-libs
-x11-libs/libXrender -static-libs
-x11-libs/libXres -static-libs
-x11-libs/libXt -static-libs
-x11-libs/libXtst -doc -static-libs
-x11-libs/libXv -static-libs
-x11-libs/libXvMC -static-libs
-x11-libs/libXxf86dga -static-libs
-x11-libs/libXxf86vm -static-libs
-x11-libs/libdrm libkms video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware -static-libs
-x11-libs/libfontenc -static-libs
-x11-libs/libnotify -doc -test
-x11-libs/libpciaccesszlib -minimal -static-libs
-x11-libs/libvdpau -doc
-x11-libs/libxcb -doc -selinux -static-libs
-x11-libs/libxkbfile -static-libs
-x11-libs/libxklavier -doc
-x11-libs/pango X -doc -test
-x11-libs/pixman mmx sse2 -altivec -static-libs
-x11-libs/qt-core exceptions glib iconv jit private-headers qt3support ssl -optimized-qmake -pch
-x11-libs/qt-dbus exceptions -pch
-x11-libs/qt-declarative exceptions private-headers qt3support webkit -pch
-x11-libs/qt-gui accessibility cups dbus exceptions glib mng nas private-headers qt3support tiff xinerama -egl -gtkstyle -nis -pch -raster -trace
-x11-libs/qt-multimedia exceptions iconv -pch
-x11-libs/qt-opengl exceptions qt3support -egl -pch
-x11-libs/qt-qt3support accessibility exceptions kde -pch phonon
-x11-libs/qt-script exceptions iconv jit private-headers -pch
-x11-libs/qt-sql exceptions iconv mysql qt3support sqlite -firebird -freetds -odbc -pch -postgres
-x11-libs/qt-svg accessibility exceptions iconv -pch
-x11-libs/qt-test exceptions iconv -pch
-x11-libs/qt-webkit dbus exceptions jit kde -pch
-x11-libs/qt-xml patterns -pch
+x11-libs/cairo X glib opengl qt4 svg-libs
+x11-libs/gdk-pixbuf X jpeg jpeg2k tiff
+x11-libs/gtk+ cups jpeg jpeg2k tiff xinerama-syntax
+x11-libs/libICE ipv6-libs
+x11-libs/libSM ipv6 uuid-libs
+x11-libs/libX11 ipv6-libs
+x11-libs/libXfont ipv6-libs
+x11-libs/libdrm libkms video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware-libs
+x11-libs/pango X
+x11-libs/pixman mmx sse2-libs
+x11-libs/qt-core exceptions glib iconv jit private-headers qt3support ssl-qmake
+x11-libs/qt-dbus exceptions
+x11-libs/qt-declarative exceptions private-headers qt3support webkit
+x11-libs/qt-gui accessibility cups dbus exceptions glib mng nas private-headers qt3support tiff xinerama
+x11-libs/qt-multimedia exceptions iconv
+x11-libs/qt-opengl exceptions qt3support
+x11-libs/qt-qt3support accessibility exceptions kde phonon
+x11-libs/qt-script exceptions iconv jit private-headers
+x11-libs/qt-sql exceptions iconv mysql qt3support sqlite
+x11-libs/qt-svg accessibility exceptions iconv
+x11-libs/qt-test exceptions iconv
+x11-libs/qt-webkit dbus exceptions jit kde
+x11-libs/qt-xml patterns
 x11-libs/qtscriptgenerator kde
-x11-libs/xcb-util -test
 x11-libs/xosd xinerama
-x11-libs/xtrans -doc
-x11-misc/gccmakedep
-x11-misc/xbindkeys -guile -tk
-x11-misc/xdg-utils -doc
-x11-proto/bigreqsproto -doc
-x11-proto/fontsproto -doc
-x11-proto/recordproto -doc
-x11-proto/scrnsaverproto -doc
-x11-proto/xcmiscproto -doc
-x11-proto/xextproto -doc
-x11-proto/xproto -doc
-x11-themes/oxygen -gtk -doc
-
-
-
-
-
-
-
 ### ----------------------------------------------
 
 app-antivirus/clamav gmp
 app-crypt/pinentry gtk
 app-emulation/wine xml
-app-text/djvu -nsplugin
 app-text/poppler-bindings gtk
 dev-db/sqlite secure-delete
 dev-vcs/git tk
-gnome-extra/nm-applet -bluetooth
 media-libs/mlt melt xml
 media-libs/xine-lib xcb
 media-video/avidemux lame libsamplerate
 media-video/dvdrip subtitles
 media-video/mplayer amrnb dga dts dvdnav md5sum mmxext radio vdpau x264
-media-video/realplayer -X
 media-video/transcode mjpeg
-media-video/xine-ui -X
-net-analyzer/nmap -gtk
 net-misc/networkmanager dhcpcd
 net-wireless/blueman network
 www-client/firefox bindist custom-optimization
@@ -761,18 +443,13 @@ media-libs/mediastreamer video
 media-video/ffmpeg custom-cflags threads
 virtual/ffmpeg threads
 net-libs/xulrunner custom-optimization
-net-print/cndrvcups-capt -gtk
-net-print/hplip fax -X -qt3 -qt4 gtk ppds static-ppds new-hpcups hpijs
-net-wireless/wpa_supplicant -qt4
-sys-apps/pciutils -zlib
+net-print/cndrvcups-capt
+net-print/hplip fax34 gtk ppds static-ppds new-hpcups hpijs
 sys-apps/hal laptop
-sys-fs/mtools -X
 sys-fs/ntfs3g udev
 sys-power/cpufreqd nvidia
-www-client/links -X
 x11-libs/cairo cleartype glitz svg
 x11-libs/libX11 xcb
-x11-misc/xscreensaver -opengl -jpeg
 
 #support amarok
 dev-db/mysql embedded
@@ -804,13 +481,10 @@ x11-libs/qt-core private-headers
 x11-libs/qt-declarative private-headers
 x11-libs/qt-gui private-headers
 x11-libs/qt-script private-headers
-app-arch/p7zip -kde
-=kde-base/kde-l10n-4.4.5 -handbook
->=app-office/openoffice-3.2.0 -gtk kde
-app-text/fbreader -gtk -qt3 qt4
+>=app-office/openoffice-3.2.0 kde
+app-text/fbreader3 qt4
 dev-python/PyQt4 sql
 dev-libs/soprano redland
-dev-util/cmake -qt4
 kde-base/dolphin thumbnail
 kde-base/gwenview kipi
 kde-base/konqueror thumbnail
@@ -821,10 +495,8 @@ media-gfx/imagemagick openexr
 media-sound/amarok embedded ipod
 net-im/qutim icq
 net-print/gutenprint gimp
-sys-auth/polkit -gtk
 
 dev-lang/lua deprecated
-net-p2p/eiskaltdcpp -gtk
 
 #for digikam with USE="geolocation"
 #media-gfx/digikam geolocation
@@ -837,9 +509,4 @@ kde-base/plasma-workspace rss
 # required by =kde-base/pykde4-4.6.0, required by =kde-base/printer-applet-4.6.0
 dev-python/PyQt4 declarative
 
-media-libs/mlt -xine
-media-libs/phonon -vlc xine
-kde-base/mplayerthumbs -mplayer
-
-# remove gstreamer dep
-net-libs/webkit-gtk -gstreamer
+media-libs/phonon xine

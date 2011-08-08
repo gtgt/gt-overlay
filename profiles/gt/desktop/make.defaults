@@ -1,28 +1,33 @@
 USE=""
 
+#System
+USE="${USE} pam nls bzip2 zlib readline ncurses iconv pcre openmp acl"
+
+#Lang support
+USE="${USE} python perl fortran gdbm"
+
 # Audio
 USE="${USE} cdda"
 
 # Network protocols
-USE="${USE} ldap rdesktop samba"
+USE="${USE} network ldap rdesktop samba upnp"
 
 # Sql support
-USE="${USE} mysql"
-#USE="${USE} postgres"
+USE="${USE} mysql berkdb"
 
-# System
-USE="${USE} networkmanager"
+# Network
+USE="${USE} networkmanager ipv6 tcpd"
 
 # Web
-USE="${USE} bittorent webkit"
+USE="${USE} bittorent webkit idn"
 
 # Window manager and speciality
-USE="${USE} -eds -gnome kde semantic-desktop qt4 qt3support -qt3"
+USE="${USE} X -eds -gnome kde semantic-desktop qt4 qt3support -qt3 xorg"
 
 VIDEO_CARDS="${VIDEO_CARDS} nvidia nouveau radeon fglrx intel"
 
 # Print
-USE="${USE} foomaticdb"
+USE="${USE} foomaticdb cups"
 
 # Audio
 USE="${USE} alsa amr -arts audiofile id3tag flac mad mp3 mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod"
@@ -31,7 +36,7 @@ USE="${USE} alsa amr -arts audiofile id3tag flac mad mp3 mpeg nas ogg oggvorbis 
 USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd"
 
 # Devices
-USE="${USE} ipod"
+USE="${USE} ipod ios fax apm bluetooth"
 
 # Documentation format
 USE="${USE} chm djvu ebook"
@@ -40,9 +45,7 @@ USE="${USE} chm djvu ebook"
 USE="${USE} clamav crypt ssl"
 
 # Hardware
-USE="${USE} ${USE} 3dnow acpi cairo cpudetection dbus dri ieee1394 lirc mmx mmxext opengl scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau xcomposite"
-
-#USE="${USE} apm bluetooth"
+USE="${USE} 3dnow acpi cairo cpudetection dbus dri ieee1394 lirc lm_sensors mmx mmxext opengl scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau xcomposite"
 
 #Photo
 USE="${USE} gphoto2"
@@ -51,7 +54,7 @@ USE="${USE} gphoto2"
 USE="${USE} irc jabber jingle oscar yahoo"
 
 # Image support
-USE="${USE} X exif fdftk gd gif imagemagick jpeg jpeg2k mng openexr pdf png raw svg tiff wmf wxwindows xpm"
+USE="${USE} exif fdftk gd gif imagemagick jpeg jpeg2k mng openexr pdf png raw svg tiff wmf wxwindows xpm"
 
 # Languages support
 #USE="${USE} -java"
@@ -66,7 +69,7 @@ USE="${USE} mbox"
 USE="${USE} consolekit nsplugin policykit bash-completion"
 
 # Video
-USE="${USE} a52 aac aalib avi cddb dv encode fbcon ffmpeg flash ggi gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora vaapi v4l v4l2 vidix win32codecs xanim x264 xine xinerama xv xvid xvmc"
+USE="${USE} a52 aac aalib avi cddb dv encode fbcon ffmpeg flash ggi gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi v4l v4l2 vidix win32codecs xanim x264 xine xinerama xv xvid xvmc"
 
 # Web
 #USE="${USE} -apache apache2 javascript"
