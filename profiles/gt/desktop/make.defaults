@@ -1,7 +1,7 @@
 USE=""
 
 #System
-USE="${USE} pam nls bzip2 zlib readline ncurses iconv pcre openmp acl"
+USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl"
 
 #Lang support
 USE="${USE} python perl fortran gdbm"
@@ -22,7 +22,7 @@ USE="${USE} networkmanager ipv6 tcpd"
 USE="${USE} bittorent webkit idn"
 
 # Window manager and speciality
-USE="${USE} X -eds -gnome kde semantic-desktop qt4 qt3support -qt3 xorg"
+USE="${USE} X -eds -gnome kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver"
 
 VIDEO_CARDS="${VIDEO_CARDS} nvidia nouveau radeon fglrx intel"
 
@@ -54,13 +54,13 @@ USE="${USE} gphoto2"
 USE="${USE} irc jabber jingle oscar yahoo"
 
 # Image support
-USE="${USE} exif fdftk gd gif imagemagick jpeg jpeg2k mng openexr pdf png raw svg tiff wmf wxwindows xpm"
+USE="${USE} exif fdftk gd gif imagemagick jpeg jpeg2k lcms mng openexr pdf png raw svg tiff wmf wxwindows xpm"
 
 # Languages support
 #USE="${USE} -java"
 
 # Locale and Fonts
-USE="${USE} spell truetype"
+USE="${USE} spell truetype fontconfig unicode utf8 nls idn iconv"
 
 # Mail
 USE="${USE} mbox"
@@ -69,11 +69,10 @@ USE="${USE} mbox"
 USE="${USE} consolekit nsplugin policykit bash-completion"
 
 # Video
-USE="${USE} a52 aac aalib avi cddb dv encode fbcon ffmpeg flash ggi gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi v4l v4l2 vidix win32codecs xanim x264 xine xinerama xv xvid xvmc"
+USE="${USE} a52 aac aalib avi cddb dv encode fbcon dri ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 vidix win32codecs xanim x264 xine xinerama xv xvid xvmc"
 
 # Web
-#USE="${USE} -apache apache2 javascript"
-USE="${USE} libwww vhosts"
+USE="${USE} libwww vhosts nsplugin javascript"
 
 # Wireless
 USE="${USE} bluetooth wimax"
