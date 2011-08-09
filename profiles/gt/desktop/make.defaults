@@ -7,24 +7,25 @@ USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl"
 USE="${USE} python perl fortran gdbm"
 
 # Audio
-USE="${USE} cdda"
+USE="${USE} cdda jack"
 
 # Network protocols
-USE="${USE} network ldap rdesktop samba upnp"
+USE="${USE} network ldap rdesktop samba upnp nss resolvconf"
 
 # Sql support
 USE="${USE} mysql berkdb"
 
 # Network
-USE="${USE} networkmanager ipv6 tcpd"
+USE="${USE} networkmanager ipv6 tcpd autoipd"
 
 # Web
 USE="${USE} bittorent webkit idn"
 
 # Window manager and speciality
-USE="${USE} X -eds -gnome kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver"
+USE="${USE} X -eds -gnome -gdu -gvfs -evolution kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver libnotify inotify"
 
 VIDEO_CARDS="${VIDEO_CARDS} nvidia nouveau radeon fglrx intel"
+INPUT_DEVICES="${INPUT_DEVICES} evdev synaptics"
 
 # Print
 USE="${USE} foomaticdb cups"
@@ -69,7 +70,7 @@ USE="${USE} mbox"
 USE="${USE} consolekit nsplugin policykit bash-completion"
 
 # Video
-USE="${USE} a52 aac aalib avi cddb dv encode fbcon dri ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 vidix win32codecs xanim x264 xine xinerama xv xvid xvmc"
+USE="${USE} a52 aac aalib avi cddb dv dvb encode fbcon dri ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
 
 # Web
 USE="${USE} libwww vhosts nsplugin javascript"

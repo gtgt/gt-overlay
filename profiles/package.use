@@ -272,7 +272,7 @@ net-misc/curl ipv6 ldap ssl idn2
 net-misc/dhcpcd elibc_glibc zeroconf
 net-misc/iputils ipv6 ssl_HAZARD idn
 net-misc/modemmanager policykit
-net-misc/networkmanager bluetooth dhcpcd kernel_linux-sharing
+net-misc/networkmanager bluetooth dhcpcd kernel_linux-sharing nss resolvconf
 net-misc/ntp ipv6 ssl-clocks-syntax
 net-misc/openssh X hpn ldap pam tcpd509
 net-misc/openvpn ipv6 pam ssl211_BSD

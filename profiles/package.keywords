@@ -1,5 +1,7 @@
 <app-emulation/wine-9999 ~amd64 ~x86
 
+<kde-misc/quadkonsole-2.0.0 ~amd64 ~x86
+
 <dev-libs/grantlee-9999 ~amd64 ~x86
 <dev-libs/soprano-9999 ~amd64 ~x86
 <app-office/akonadi-server-9999 ~amd64 ~x86
@@ -81,9 +83,23 @@ media-gfx/exiv2
 <www-plugins/adobe-flash-9999 ~amd64 ~x86
 
 dev-libs/rasqal ~amd64 ~x86
-media-libs/raptor ~amd64 ~x86
-media-libs/gst-plugins-bad ~amd64 ~x86
 dev-libs/redland ~amd64 ~x86
+media-libs/raptor ~amd64 ~x86
+media-libs/libpgf ~amd64 ~x86
+media-libs/libkface ~amd64 ~x86
+
+net-dns/avahi ~amd64 ~x86
+net-dns/avahi-gtk ~amd64 ~x86
+net-dns/avahi-qt ~amd64 ~x86
+net-dns/avahi-base ~amd64 ~x86
+
+sys-libs/talloc ~amd64 ~x86
+sys-libs/tdb ~amd64 ~x86
+net-fs/cifs-utils ~amd64 ~x86
+
+
+sys-kernel/mm-sources ~amd64 ~x86
+sys-kernel/gentoo-sources ~amd64 ~x86
 
 
 # unmask xorg-server for ~x86
