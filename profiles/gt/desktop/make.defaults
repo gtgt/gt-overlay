@@ -10,10 +10,10 @@ USE="${USE} python perl fortran gdbm"
 USE="${USE} cdda jack"
 
 # Network protocols
-USE="${USE} network ldap rdesktop samba upnp nss resolvconf"
+USE="${USE} network ldap rdesktop samba upnp nss resolvconf zeroconf avahi"
 
-# Sql support
-USE="${USE} mysql berkdb"
+# Sql & data support
+USE="${USE} mysql berkdb sqlite sqlite3 xml"
 
 # Network
 USE="${USE} networkmanager ipv6 tcpd autoipd"

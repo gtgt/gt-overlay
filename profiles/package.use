@@ -51,6 +51,7 @@ dev-db/libiodbc gtk
 dev-db/mysql community embedded perl ssl
 dev-db/sqlite extensions fts3 readline secure-delete threadsafe-notify
 dev-db/virtuoso-server ldap readline
+dev-java/swt -xulrunner
 dev-lang/perl berkdb gdbm
 dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml_uclibc
 dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml_uclibc
@@ -251,6 +252,7 @@ media-video/vlc -nsplugin
 net-analyzer/vnstat gd
 net-dialup/ppp gtk ipv6 pam-tls
 net-dialup/rp-pppoe X
+net-dns/avahi howl-compat mdnsresponder-compat
 net-dns/bind-tools ipv6 ssl idn
 net-dns/libidn nls_FreeBSD-libs
 net-fs/nfs-utils elibc_glibc ipv6 nfsv3 nfsv4 tcpd
@@ -342,7 +344,7 @@ sys-devel/bc readline
 sys-devel/binutils nls
 sys-devel/bison nls
 sys-devel/flex nls
-sys-devel/gcc fortran gtk mudflap multilib nls nptl openmp-point3264++-gc
+sys-devel/gcc fortran -gtk mudflap multilib nls nptl openmp-point3264++-gc
 sys-devel/gettext acl elibc_glibc git nls openmp
 sys-fs/e2fsprogs nls_FreeBSD
 sys-fs/fuse kernel_linux_FreeBSD
