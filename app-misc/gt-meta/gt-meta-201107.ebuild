@@ -30,6 +30,9 @@ system? (
 	dev-vcs/subversion
 	dev-vcs/mercurial
 	media-gfx/splashutils
+	media-fonts/terminus-font
+	sys-apps/man-pages
+	sys-apps/man-pages-posix
 	!sys-apps/hotplug
 	sys-apps/ifplugd
 	>sys-apps/baselayout-2.0.0
@@ -95,9 +98,7 @@ desktop? (
 	media-plugins/gst-plugins-libpng
 	media-plugins/gst-plugins-libvisual
 	media-plugins/gst-plugins-libmms
-	media-plugins/gst-plugins-mpeg2enc
 	media-plugins/gst-plugins-mplex
-	media-plugins/gst-plugins-neon
 	media-plugins/gst-plugins-speex
 	media-plugins/gst-plugins-vp8
 	media-plugins/gst-plugins-ximagesrc

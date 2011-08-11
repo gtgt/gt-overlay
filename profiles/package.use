@@ -175,7 +175,7 @@ media-fonts/font-misc-misc X nls
 media-fonts/terminus-font psf
 media-fonts/ttf-bitstream-vera X
 media-fonts/urw-fonts X
-media-gfx/digikam gphoto2 handbookmysql semantic-desktop thumbnails addressbook geolocation themedesigner video
+media-gfx/digikam -mysql gphoto2 handbookmysql semantic-desktop thumbnails addressbook geolocation themedesigner video
 media-gfx/exiv2 nls unicode zlib
 media-gfx/gimpaalib alsa dbus exif jpeg mmx mng pdf png python smp sse svg tiff webkit wmf
 media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openexr openmp perl png raw svg tiff truetype wmf zlib328-libs_cards_nvidia
@@ -211,7 +211,7 @@ media-libs/libgpodgtk python udev-libs
 media-libs/libmpeg2 X sdl
 media-libs/libopenraw gtk-libs
 media-libs/libpng static-libs
-media-libs/libquicktime X aac alsa dv encode ffmpeg jpeg mmx opengl png vorbis x264
+media-libs/libquicktime X aac alsa dv encode ffmpeg jpeg mmx opengl png vorbis x264 -gtk
 media-libs/libsdl X aalib alsa audio-cflags fbcon ggi joystick libcaca nas opengl video xinerama xv3-libs
 media-libs/libsndfile alsa
 media-libs/libtheora encode-libs

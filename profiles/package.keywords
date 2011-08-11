@@ -82,6 +82,7 @@ media-gfx/exiv2
 
 <www-plugins/adobe-flash-9999 ~amd64 ~x86
 
+dev-python/py-smbpasswd ~amd64 ~x86
 dev-libs/rasqal ~amd64 ~x86
 dev-libs/redland ~amd64 ~x86
 media-libs/raptor ~amd64 ~x86
