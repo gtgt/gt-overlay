@@ -4,7 +4,7 @@ USE=""
 USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl"
 
 #Lang support
-USE="${USE} python perl fortran gdbm"
+USE="${USE} python perl fortran gdbm cblas-external"
 
 # Audio
 USE="${USE} cdda jack"
@@ -23,9 +23,6 @@ USE="${USE} bittorent webkit idn"
 
 # Window manager and speciality
 USE="${USE} X -eds -gnome -gdu -gvfs -evolution kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver libnotify inotify"
-
-VIDEO_CARDS="${VIDEO_CARDS} nvidia nouveau radeon fglrx intel"
-INPUT_DEVICES="${INPUT_DEVICES} evdev synaptics"
 
 # Print
 USE="${USE} foomaticdb cups"
@@ -78,5 +75,6 @@ USE="${USE} libwww vhosts nsplugin javascript"
 # Wireless
 USE="${USE} bluetooth wimax"
 
+VIDEO_CARDS="nvidia nouveau radeon fglrx intel"
+INPUT_DEVICES="evdev synaptics"
 LIRC_DEVICES="devinput"
-
