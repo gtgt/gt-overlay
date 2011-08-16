@@ -90,8 +90,10 @@ desktop? (
 	media-libs/gst-plugins-good
 	media-libs/gst-plugins-bad
 	media-libs/gst-plugins-ugly
+	media-plugins/gst-plugins-alsa
 	media-plugins/gst-plugins-esd
 	media-plugins/gst-plugins-dvb
+	media-plugins/gst-plugins-faac
 	media-plugins/gst-plugins-gl
 	media-plugins/gst-plugins-jack
 	media-plugins/gst-plugins-jpeg

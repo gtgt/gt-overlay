@@ -120,6 +120,7 @@ media-plugins/gst-plugins-base ~amd64 ~x86
 media-plugins/gst-plugins-good ~amd64 ~x86
 media-plugins/gst-plugins-bad ~amd64 ~x86
 media-plugins/gst-plugins-ugly ~amd64 ~x86
+media-plugins/gst-plugins-faac ~amd64 ~x86
 media-plugins/gst-plugins-esd ~amd64 ~x86
 media-plugins/gst-plugins-dvb ~amd64 ~x86
 media-plugins/gst-plugins-gl ~amd64 ~x86
