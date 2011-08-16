@@ -5,6 +5,7 @@
 <dev-libs/grantlee-9999 ~amd64 ~x86
 <dev-libs/soprano-9999 ~amd64 ~x86
 <app-office/akonadi-server-9999 ~amd64 ~x86
+<app-office/calligra-9999 ~amd64 ~x86
 <dev-libs/shared-desktop-ontologies-9999 ~amd64 ~x86
 <sys-fs/udev-9999 ~amd64 ~x86
 
@@ -114,6 +115,7 @@ sys-kernel/gentoo-sources ~amd64 ~x86
 <x11-drivers/xf86-input-evdev-9999 ~amd64 ~x86
 
 ## GStreamer
+media-plugins/gst-plugins-alsa ~amd64 ~x86
 media-plugins/gst-plugins-base ~amd64 ~x86
 media-plugins/gst-plugins-good ~amd64 ~x86
 media-plugins/gst-plugins-bad ~amd64 ~x86
@@ -136,6 +138,11 @@ media-plugins/gst-plugins-xvid ~amd64 ~x86
 media-plugins/gst-plugins-x264 ~amd64 ~x86
 media-plugins/gst-plugins-wavpack ~amd64 ~x86
 
+media-libs/alsa-lib ~amd64 ~x86
+media-plugins/alsa-plugins  ~amd64 ~x86
+<media-sound/alsa-headers-9999 ~amd64 ~x86
+media-sound/alsa-utils ~amd64 ~x86
+
 ## QT
 =x11-libs/qt-assistant-4.7.3 ~amd64 ~x86
 =x11-libs/qt-core-4.7.3 ~amd64 ~x86
@@ -153,3 +160,8 @@ media-plugins/gst-plugins-wavpack ~amd64 ~x86
 =x11-libs/qt-test-4.7.3 ~amd64 ~x86
 =x11-libs/qt-webkit-4.7.3 ~amd64 ~x86
 =x11-libs/qt-xmlpatterns-4.7.3 ~amd64 ~x86
+
+
+~dev-lang/python-2.7.2 ~amd64 ~x86
+~dev-lang/python-3.1.4 ~amd64 ~x86
+
