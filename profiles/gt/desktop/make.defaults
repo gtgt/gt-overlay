@@ -22,7 +22,7 @@ USE="${USE} networkmanager ipv6 tcpd autoipd"
 USE="${USE} bittorent webkit idn"
 
 # Window manager and speciality
-USE="${USE} X -eds -gnome -gdu -gvfs -evolution kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver libnotify inotify"
+USE="${USE} X -eds -gnome -gdu -gvfs -evolution egl kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver libnotify inotify"
 
 # Print
 USE="${USE} foomaticdb cups"
