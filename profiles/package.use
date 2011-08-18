@@ -4,6 +4,7 @@ app-admin/sudoldap pam
 app-admin/syslog-ng ipv6 pcre ssl tcpd-source
 app-admin/system-config-printer-common policykit
 app-admin/testdisk jpeg ntfs reiserfs
+app-arch/bzip2 static
 app-arch/cpio nls
 app-arch/dump readline
 app-arch/gzip nls
@@ -153,7 +154,7 @@ kde-base/ksysguard handbook lm_sensors
 kde-base/ksystemlog handbook
 kde-base/kuser handbook
 kde-base/kwallet handbook
-kde-base/kwin opengl -gles xcomposite xinerama
+kde-base/kwin gles -opengl xcomposite xinerama
 kde-base/kwrite handbook
 kde-base/libkcompactdisc alsa
 kde-base/libplasmaclock holidays opengl
@@ -396,7 +397,7 @@ x11-drivers/xf86-video-r128 dri
 x11-drivers/xf86-video-savage dri
 x11-drivers/xf86-video-sis dri
 x11-drivers/xf86-video-tdfx dri
-x11-libs/cairo X glib opengl qt4 svg-libs
+x11-libs/cairo X glib opengl qt4 svg -gallium -openvg -static-libs
 x11-libs/gdk-pixbuf X jpeg jpeg2k tiff
 x11-libs/gtk+ cups jpeg jpeg2k tiff xinerama-syntax
 x11-libs/libICE ipv6-libs
