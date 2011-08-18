@@ -153,7 +153,7 @@ kde-base/ksysguard handbook lm_sensors
 kde-base/ksystemlog handbook
 kde-base/kuser handbook
 kde-base/kwallet handbook
-kde-base/kwin opengl xcomposite xinerama
+kde-base/kwin opengl -gles xcomposite xinerama
 kde-base/kwrite handbook
 kde-base/libkcompactdisc alsa
 kde-base/libplasmaclock holidays opengl
@@ -219,7 +219,7 @@ media-libs/libtheora encode-libs
 media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
 media-libs/libwmf X gtk
 media-libs/mediastreamer X alsa amr ipv6 portaudio sdl speex theora v4l2 video x264
-media-libs/mesa classic gallium nptl gles
+media-libs/mesa classic -gallium -openvg nptl gles egl pic gbm shared-dricore shared-glapi
 media-libs/mlt dv ffmpeg frei0r gtk kde melt python qt4 quicktime sdl sse sse2 vorbis xml-lumas
 media-libs/openal alsa portaudio
 media-libs/phonon xine
