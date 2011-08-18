@@ -64,10 +64,10 @@ USE="${USE} spell truetype fontconfig unicode utf8 nls idn iconv"
 USE="${USE} mbox"
 
 # System
-USE="${USE} consolekit nsplugin policykit bash-completion"
+USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon"
 
 # Video
-USE="${USE} a52 aac aalib avi cddb dv dvb encode fbcon dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
+USE="${USE} a52 aac aalib avi cddb dv dvb encode dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
 
 # Web
 USE="${USE} libwww vhosts nsplugin javascript"

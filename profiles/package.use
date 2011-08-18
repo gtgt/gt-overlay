@@ -4,6 +4,7 @@ app-admin/sudoldap pam
 app-admin/syslog-ng ipv6 pcre ssl tcpd-source
 app-admin/system-config-printer-common policykit
 app-admin/testdisk jpeg ntfs reiserfs
+app-arch/bzip2 static
 app-arch/cpio nls
 app-arch/dump readline
 app-arch/gzip nls
@@ -153,7 +154,7 @@ kde-base/ksysguard handbook lm_sensors
 kde-base/ksystemlog handbook
 kde-base/kuser handbook
 kde-base/kwallet handbook
-kde-base/kwin opengl xcomposite xinerama
+kde-base/kwin gles -opengl xcomposite xinerama
 kde-base/kwrite handbook
 kde-base/libkcompactdisc alsa
 kde-base/libplasmaclock holidays opengl

@@ -10,12 +10,14 @@
 autopatch() {
 	local diff level p patches patched 
 	
-	echo -e ' \e[0;36m*\e[0m '"Local autopatch enabled (${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/*.{patch,diff})"
+	source /etc/init.d/functions.sh	
+
+	ebegin "Local autopatch enabled (${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/*.{patch,diff})"
 	
 	[[ ! -d "$PATCH_OVERLAY_LOCAL" ]] && return 0
 
 	patches=$(ls -1 ${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/*.{patch,diff} 2>/dev/null)
-	[[ $patches == "" ]] && echo "!!! No autopatch found" && return 0
+	[[ $patches == "" ]] && ewarn "No autopatch found" && return 0
 
 	if ! cd ${S}; then
 		echo ">>> FAILED TO cd $S"
@@ -37,12 +39,13 @@ autopatch() {
 					fi
 				fi
 			done
-			[[ $patched != 1 ]] && echo "!!! FAILED auto patching $p"
+			[[ $patched != 1 ]] && eerror "FAILED auto patching $p"
 		else
-			[[ ! -e $diff ]] && echo "!!! $diff does not exist, unable to auto patch"
+			[[ ! -e $diff ]] && eerror "$diff does not exist, unable to auto patch"
 		fi
 	done
 	cd $OLDPWD
+	eend "Done"
 }
 
 if [[ $EBUILD_PHASE == prepare ]]; then

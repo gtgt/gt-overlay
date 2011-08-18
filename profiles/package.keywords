@@ -10,6 +10,7 @@
 <sys-fs/udev-9999 ~amd64 ~x86
 
 <x11-drivers/ati-drivers-9999 ~amd64 ~x86
+x11-base/nouveau-drm ~amd64 ~x86
 
 <sys-apps/keyexec-9999 ~amd64 ~x86
 <sys-auth/pam_keystore-9999 ~amd64 ~x86
@@ -166,3 +167,5 @@ media-sound/alsa-utils ~amd64 ~x86
 ~dev-lang/python-2.7.2 ~amd64 ~x86
 ~dev-lang/python-3.1.4 ~amd64 ~x86
 
+www-client/firefox ~amd64 ~x86
+www-client/firefox-bin ~amd64 ~x86
