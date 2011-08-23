@@ -1,13 +1,30 @@
+CFLAGS="-Os -march=native -pipe"
+CXXFLAGS="${CFLAGS}"
+MAKEOPTS="-j6"
+
+FEATURES="ccache fixlafiles unmerge-orphans userfetch -userpriv usersync metadata-transfer buildpkg splitdebug news candy"
+ACCEPT_LICENSE="*"
+
+VIDEO_CARDS="nvidia nouveau radeon fglrx intel"
+INPUT_DEVICES="evdev synaptics"
+LIRC_DEVICES="devinput"
+
+APACHE2_MODULES="actions alias auth_basic auth_digest authn_alias authn_anon authn_default authn_dbd authn_file authz_default authz_groupfile authz_host authz_user autoindex cache cgi cgid charset_lite dbd deflate dir disk_cache env expires file_cache filter headers include info log_config logio mem_cache mime mime_magic proxy proxy_http reqtimeout rewrite setenvif speling status unique_id usertrack vhost_alias"
+APACHE2_MPMS="event"
+
+# Logging
+PORTAGE_ELOG_CLASSES="warn error info log qa"
+PORTAGE_ELOG_SYSTEM="save"
+
+PKGDIR="/usr/portage/packages/`uname -m`"
+
 USE=""
 
 #System
-USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl"
+USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl lib32 threads"
 
 #Lang support
-USE="${USE} python perl fortran gdbm cblas-external"
-
-# Audio
-USE="${USE} cdda jack"
+USE="${USE} python perl ithreads fortran gdbm cblas-external"
 
 # Network protocols
 USE="${USE} network ldap rdesktop samba upnp nss resolvconf zeroconf avahi"
@@ -22,19 +39,19 @@ USE="${USE} networkmanager ipv6 tcpd autoipd"
 USE="${USE} bittorent webkit idn"
 
 # Window manager and speciality
-USE="${USE} X -eds -gnome -gdu -gvfs -evolution kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver libnotify inotify"
+USE="${USE} X akonadi -eds -gnome -gdu -gvfs -evolution kde libnotify plasma semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver"
 
 # Print
 USE="${USE} foomaticdb cups"
 
 # Audio
-USE="${USE} alsa amr -arts audiofile id3tag flac mad mp3 mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod"
+USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod"
 
 # CD and DVD
 USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd"
 
 # Devices
-USE="${USE} ipod ios fax apm bluetooth"
+USE="${USE} ipod ios fax apm bluetooth ieee1394"
 
 # Documentation format
 USE="${USE} chm djvu ebook"
@@ -43,7 +60,7 @@ USE="${USE} chm djvu ebook"
 USE="${USE} clamav crypt ssl"
 
 # Hardware
-USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 lirc lm_sensors mmx mmxext opengl gbm gles egl -gallium scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau xcomposite"
+USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 lirc lm_sensors mmx mmxext opengl gbm gles egl -gallium scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau vaapi xcomposite"
 
 #Photo
 USE="${USE} gphoto2"
@@ -64,10 +81,10 @@ USE="${USE} spell truetype fontconfig unicode utf8 nls idn iconv"
 USE="${USE} mbox"
 
 # System
-USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon"
+USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify gstreamer -caps"
 
 # Video
-USE="${USE} a52 aac aalib avi cddb dv dvb encode dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
+USE="${USE} a52 aac aalib avi cddb dv dvb encode dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
 
 # Web
 USE="${USE} libwww vhosts nsplugin javascript"
@@ -75,6 +92,8 @@ USE="${USE} libwww vhosts nsplugin javascript"
 # Wireless
 USE="${USE} bluetooth wimax"
 
-VIDEO_CARDS="nvidia nouveau radeon fglrx intel"
-INPUT_DEVICES="evdev synaptics"
-LIRC_DEVICES="devinput"
+EMERGE_DEFAULT_OPTS="--verbose --keep-going --autounmask-write y --binpkg-respect-use y"
+QUICKPKG_DEFAULT_OPTS="--include-config=y"
+#DISTCC_VERBOSE="1"
+CCACHE_SIZE="2G"
+
