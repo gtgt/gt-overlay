@@ -398,7 +398,7 @@ x11-drivers/xf86-video-r128 dri
 x11-drivers/xf86-video-savage dri
 x11-drivers/xf86-video-sis dri
 x11-drivers/xf86-video-tdfx dri
-x11-libs/cairo X glib opengl qt4 svg-libs
+x11-libs/cairo X glib opengl qt4 svg -gallium -openvg -static-libs
 x11-libs/gdk-pixbuf X jpeg jpeg2k tiff
 x11-libs/gtk+ cups jpeg jpeg2k tiff xinerama-syntax
 x11-libs/libICE ipv6-libs
