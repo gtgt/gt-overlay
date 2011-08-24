@@ -164,10 +164,31 @@ media-sound/alsa-utils ~amd64 ~x86
 =x11-libs/qt-xmlpatterns-4.7.3 ~amd64 ~x86
 
 
-~dev-lang/python-2.7.2 ~amd64 ~x86
-~dev-lang/python-3.1.4 ~amd64 ~x86
+<dev-lang/python-3.2 ~amd64 ~x86
+
+net-dns/mydns ~amd64 ~x86
 
 www-client/firefox ~amd64 ~x86
 www-client/firefox-bin ~amd64 ~x86
 
 www-plugins/lightspark ~amd64 ~x86
+
+media-libs/mesa **
+x11-libs/libdrm **
+
+app-admin/eselect-opengl ~amd64 ~x86
+x11-proto/dri2proto ~amd64 ~x86
+x11-proto/glproto ~amd64 ~x86
+x11-base/xorg-drivers ~amd64 ~x86
+x11-drivers/xf86-video-intel ~amd64 ~x86
+x11-drivers/xf86-video-ati ~amd64 ~x86
+x11-drivers/xf86-video-nouveau ~amd64 ~x86
+x11-drivers/xf86-input-evdev ~amd64 ~x86
+
+x11-proto/xcb-proto ~amd64 ~x86
+x11-libs/xcb-util-wm ~amd64 ~x86
+x11-libs/xcb-util-renderutil ~amd64 ~x86
+x11-libs/xcb-util-keysyms ~amd64 ~x86
+x11-libs/xcb-util-image ~amd64 ~x86
+x11-libs/libxcb ~amd64 ~x86
+x11-libs/xcb-util ~amd64 ~x86

@@ -5,7 +5,7 @@ MAKEOPTS="-j6"
 FEATURES="ccache fixlafiles unmerge-orphans userfetch -userpriv usersync metadata-transfer buildpkg splitdebug news candy"
 ACCEPT_LICENSE="*"
 
-VIDEO_CARDS="nvidia nouveau radeon fglrx intel"
+VIDEO_CARDS="nouveau radeon intel"
 INPUT_DEVICES="evdev synaptics"
 LIRC_DEVICES="devinput"
 
@@ -21,7 +21,7 @@ PKGDIR="/usr/portage/packages/`uname -m`"
 USE=""
 
 #System
-USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl lib32 threads"
+USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization"
 
 #Lang support
 USE="${USE} python perl ithreads fortran gdbm cblas-external"
@@ -39,7 +39,7 @@ USE="${USE} networkmanager ipv6 tcpd autoipd"
 USE="${USE} bittorent webkit idn"
 
 # Window manager and speciality
-USE="${USE} X akonadi -eds -gnome -gdu -gvfs -evolution kde libnotify plasma semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver"
+USE="${USE} X akonadi -eds -gnome -gdu -gvfs -evolution egl gles gbm gallium openvg d3d g3dvl llvm xvmc kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver libnotify"
 
 # Print
 USE="${USE} foomaticdb cups"
@@ -96,4 +96,3 @@ EMERGE_DEFAULT_OPTS="--verbose --keep-going --autounmask-write y --binpkg-respec
 QUICKPKG_DEFAULT_OPTS="--include-config=y"
 #DISTCC_VERBOSE="1"
 CCACHE_SIZE="2G"
-

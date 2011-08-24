@@ -12,17 +12,21 @@ autopatch() {
 	
 	source /etc/init.d/functions.sh	
 
-	ebegin "Local autopatch enabled (${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/*.{patch,diff})"
-	
+	[[ ! -d "$PATCH_OVERLAY_LOCAL" ]] && PATCH_OVERLAY_LOCAL="`echo ${PORTAGE_OVERLAY}|sed s/\ //`/patches"
 	[[ ! -d "$PATCH_OVERLAY_LOCAL" ]] && return 0
 
-	patches=$(ls -1 ${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/*.{patch,diff} 2>/dev/null)
-	[[ $patches == "" ]] && ewarn "No autopatch found" && return 0
+	ebegin "Local autopatch enabled. Searching for ${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/{$PV,all}-*.{patch,diff}"
+	
+	patches=$(ls -1 ${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/{$PV,all}-*.{patch,diff} 2>/dev/null)
+	[[ $patches == "" ]] && einfo "No autopatch found" && return 0
 
 	if ! cd ${S}; then
-		echo ">>> FAILED TO cd $S"
+		eerror "FAILED TO cd $S"
 		return 1
 	fi
+
+	eend 
+	ebegin "Patch(es) found: $patches"
 
 	for p in ${patches}; do
 		p=$(basename $p)
@@ -31,10 +35,10 @@ autopatch() {
 			patched=0
 			for level in 1 0 2 3 4; do
 				if [[ $patched == 0 ]]; then
-					patch -g0 -F 10 --dry -p${level} >/dev/null < $diff
+					patch -g0 -F 100 --dry -p${level} >/dev/null < $diff
 					if [ $? = 0 ]; then
-						echo -e ' \e[0;36m*\e[0m '"auto patching (-p${level}) ${p}"
-						patch -g0 -F 10 -p${level} < $diff > /dev/null && patched=1
+						einfo "Applying auto patch: (-p${level}) ${p}"
+						patch -g0 -F 100 -p${level} < $diff > /dev/null && patched=1
 						touch ${S}/.${p}
 					fi
 				fi
@@ -44,8 +48,8 @@ autopatch() {
 			[[ ! -e $diff ]] && eerror "$diff does not exist, unable to auto patch"
 		fi
 	done
+	[[ $patched == 1 ]] && eend
 	cd $OLDPWD
-	eend "Done"
 }
 
 if [[ $EBUILD_PHASE == prepare ]]; then
