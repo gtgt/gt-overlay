@@ -427,7 +427,7 @@ x11-misc/google-gadgets -gtk -xulrunner -webkit
 
 app-antivirus/clamav gmp
 app-crypt/pinentry gtk
-app-emulation/wine xml
+app-emulation/wine custom-cflags xml
 app-text/poppler-bindings gtk
 dev-db/sqlite secure-delete
 dev-vcs/git tk
