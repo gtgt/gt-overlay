@@ -1,4 +1,4 @@
-CFLAGS="-Os -march=native -pipe"
+CFLAGS="-Os -march=native -pipe -fomit-frame-pointer"
 CXXFLAGS="${CFLAGS}"
 MAKEOPTS="-j6"
 
@@ -39,7 +39,7 @@ USE="${USE} networkmanager ipv6 tcpd autoipd"
 USE="${USE} bittorent webkit idn"
 
 # Window manager and speciality
-USE="${USE} X akonadi -eds -gnome -gdu -gvfs -evolution egl gles gbm gallium openvg d3d g3dvl llvm xvmc kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver libnotify"
+USE="${USE} X akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gbm gallium openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver libnotify"
 
 # Print
 USE="${USE} foomaticdb cups"
@@ -60,10 +60,10 @@ USE="${USE} chm djvu ebook"
 USE="${USE} clamav crypt ssl"
 
 # Hardware
-USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 lirc lm_sensors mmx mmxext opengl gbm gles egl -gallium scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau vaapi xcomposite"
+USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 lirc lm_sensors mmx mmxext scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau vaapi xcomposite"
 
 #Photo
-USE="${USE} gphoto2"
+USE="${USE} gphoto2 kipi"
 
 # Internet Messager
 USE="${USE} irc jabber jingle oscar yahoo"

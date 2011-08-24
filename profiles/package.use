@@ -33,7 +33,7 @@ app-misc/strigi clucene dbus exif qt4 fam
 app-mobilephone/obex-data-server gtk imagemagick usb
 app-mobilephone/obexd usb
 app-office/akonadi-server mysql sqlite
-app-office/libreoffice bash-completion cups dbus gtk kde ldap nsplugin opengl-cflags_FreeBSD-odk
+app-office/libreoffice bash-completion cups dbus gtk kde ldap nsplugin opengl custom-cflags elibc_FreeBSD -odk
 app-pda/libplist python
 app-portage/eix bzip2 nls
 app-portage/genlop bash-completion
@@ -52,7 +52,7 @@ dev-db/libiodbc gtk
 dev-db/mysql community embedded perl ssl
 dev-db/sqlite extensions fts3 readline secure-delete threadsafe-notify
 dev-db/virtuoso-server ldap readline
-dev-java/swt -xulrunner
+dev-java/swt xulrunner
 dev-lang/perl berkdb gdbm
 dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml_uclibc
 dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml_uclibc
@@ -177,17 +177,16 @@ media-fonts/font-misc-misc X nls
 media-fonts/terminus-font psf
 media-fonts/ttf-bitstream-vera X
 media-fonts/urw-fonts X
-media-gfx/digikam -mysql gphoto2 handbookmysql semantic-desktop thumbnails addressbook geolocation themedesigner video
+media-gfx/digikam -mysql handbookmysql semantic-desktop thumbnails addressbook geolocation themedesigner video
 media-gfx/exiv2 nls unicode zlib
 media-gfx/gimpaalib alsa dbus exif jpeg mmx mng pdf png python smp sse svg tiff webkit wmf
 media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openexr openmp perl png raw svg tiff truetype wmf zlib328-libs_cards_nvidia
-media-gfx/sane-backendsgphoto2 ipv6 sane_backends_abaton sane_backends_agfafocus sane_backends_apple sane_backends_artec sane_backends_artec_eplus48u sane_backends_as6e sane_backends_avision sane_backends_bh sane_backends_canon sane_backends_canon630u sane_backends_canon_dr sane_backends_canon_pp sane_backends_cardscan sane_backends_coolscan sane_backends_coolscan2 sane_backends_coolscan3 sane_backends_dc210 sane_backends_dc240 sane_backends_dc25 sane_backends_dell1600n_net sane_backends_dmc sane_backends_epjitsu sane_backends_epson sane_backends_epson2 sane_backends_fujitsu sane_backends_genesys sane_backends_gt68xx sane_backends_hp sane_backends_hp3500 sane_backends_hp3900 sane_backends_hp4200 sane_backends_hp5400 sane_backends_hp5590 sane_backends_hpljm1005 sane_backends_hpsj5s sane_backends_hs2p sane_backends_ibm sane_backends_kodak sane_backends_kvs1025 sane_backends_kvs20xx sane_backends_leo sane_backends_lexmark sane_backends_ma1509 sane_backends_magicolor sane_backends_matsushita sane_backends_microtek sane_backends_microtek2 sane_backends_mustek sane_backends_mustek_pp sane_backends_mustek_usb sane_backends_nec sane_backends_net sane_backends_niash sane_backends_p5 sane_backends_pie sane_backends_pixma sane_backends_plustek sane_backends_plustek_pp sane_backends_qcam sane_backends_ricoh sane_backends_rts8891 sane_backends_s9036 sane_backends_sceptre sane_backends_sharp sane_backends_sm3600 sane_backends_sm3840 sane_backends_snapscan sane_backends_sp15c sane_backends_st400 sane_backends_stv680 sane_backends_tamarack sane_backends_teco1 sane_backends_teco2 sane_backends_teco3 sane_backends_test sane_backends_u12 sane_backends_umax sane_backends_umax1220u sane_backends_umax_pp sane_backends_xerox_mfp usb4l
+media-gfx/sane-backends ipv6 usb4l
 media-gfx/scrot bash-completion
 media-gfx/splashutils fbcondecor gpm mng png truetype
 media-gfx/ufrawexif gimp gtk openmp
 media-gfx/xsanejpeg nls png tiff
 media-libs/aalib X gpm
-media-libs/alsa-lib alsa_pcm_plugins_adpcm alsa_pcm_plugins_alaw alsa_pcm_plugins_asym alsa_pcm_plugins_copy alsa_pcm_plugins_dmix alsa_pcm_plugins_dshare alsa_pcm_plugins_dsnoop alsa_pcm_plugins_empty alsa_pcm_plugins_extplug alsa_pcm_plugins_file alsa_pcm_plugins_hooks alsa_pcm_plugins_iec958 alsa_pcm_plugins_ioplug alsa_pcm_plugins_ladspa alsa_pcm_plugins_lfloat alsa_pcm_plugins_linear alsa_pcm_plugins_meter alsa_pcm_plugins_mmap_emul alsa_pcm_plugins_mulaw alsa_pcm_plugins_multi alsa_pcm_plugins_null alsa_pcm_plugins_plug alsa_pcm_plugins_rate alsa_pcm_plugins_route alsa_pcm_plugins_share alsa_pcm_plugins_shm alsa_pcm_plugins_softvol python
 media-libs/babl mmx sse
 media-libs/flac 3dnow cxx ogg sse-libs
 media-libs/freetype X-hinter
@@ -347,7 +346,7 @@ sys-devel/bc readline
 sys-devel/binutils nls
 sys-devel/bison nls
 sys-devel/flex nls
-sys-devel/gcc fortran -gtk mudflap multilib nls nptl openmp-point3264++-gc
+sys-devel/gcc fortran -gtk mudflap multilib nls nptl openmp
 sys-devel/gettext acl elibc_glibc git nls openmp
 sys-fs/e2fsprogs nls_FreeBSD
 sys-fs/fuse kernel_linux_FreeBSD
@@ -398,7 +397,7 @@ x11-drivers/xf86-video-r128 dri
 x11-drivers/xf86-video-savage dri
 x11-drivers/xf86-video-sis dri
 x11-drivers/xf86-video-tdfx dri
-x11-libs/cairo X glib opengl qt4 svg -gallium -openvg -static-libs
+x11-libs/cairo X glib opengl qt4 svg -static-libs
 x11-libs/gdk-pixbuf X jpeg jpeg2k tiff
 x11-libs/gtk+ cups jpeg jpeg2k tiff xinerama-syntax
 x11-libs/libICE ipv6-libs
@@ -411,9 +410,9 @@ x11-libs/pixman mmx sse2-libs
 x11-libs/qt-core exceptions glib iconv jit private-headers qt3support ssl-qmake
 x11-libs/qt-dbus exceptions
 x11-libs/qt-declarative exceptions private-headers qt3support webkit
-x11-libs/qt-gui accessibility cups dbus exceptions glib mng nas private-headers qt3support tiff xinerama gtkstyle
+x11-libs/qt-gui -egl accessibility cups dbus exceptions glib mng nas private-headers qt3support tiff xinerama gtkstyle
 x11-libs/qt-multimedia exceptions iconv
-x11-libs/qt-opengl exceptions qt3support
+x11-libs/qt-opengl -egl exceptions qt3support
 x11-libs/qt-qt3support accessibility exceptions kde phonon
 x11-libs/qt-script exceptions iconv jit private-headers
 x11-libs/qt-sql exceptions iconv mysql qt3support sqlite
