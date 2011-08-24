@@ -137,6 +137,7 @@ desktop? (
 	www-client/chromium
 	www-client/firefox
 	www-client/rekonq
+	www-plugins/lightspark
 )
 "
 #x11
@@ -276,11 +277,12 @@ print? (
 	net-print/cups
 	net-print/foo2zjs
 	net-print/gutenprint
-	net-print/hplip
-	net-print/hplip-plugin
-	net-print/samsung-unified-linux-driver
 )
 "
+#	net-print/hplip
+#	net-print/hplip-plugin
+#	net-print/samsung-unified-linux-driver
+
 #wireless
 RDEPEND="${RDEPEND}
 wireless? (

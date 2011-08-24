@@ -99,7 +99,7 @@ net-dns/avahi-base ~amd64 ~x86
 sys-libs/talloc ~amd64 ~x86
 sys-libs/tdb ~amd64 ~x86
 net-fs/cifs-utils ~amd64 ~x86
-
+net-libs/glib-networking ~amd64 ~x86
 
 sys-kernel/mm-sources ~amd64 ~x86
 sys-kernel/gentoo-sources ~amd64 ~x86
@@ -169,3 +169,5 @@ media-sound/alsa-utils ~amd64 ~x86
 
 www-client/firefox ~amd64 ~x86
 www-client/firefox-bin ~amd64 ~x86
+
+www-plugins/lightspark ~amd64 ~x86
