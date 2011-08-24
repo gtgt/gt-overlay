@@ -154,7 +154,7 @@ kde-base/ksysguard handbook lm_sensors
 kde-base/ksystemlog handbook
 kde-base/kuser handbook
 kde-base/kwallet handbook
-kde-base/kwin gles -opengl xcomposite xinerama
+kde-base/kwin -gles opengl xcomposite xinerama
 kde-base/kwrite handbook
 kde-base/libkcompactdisc alsa
 kde-base/libplasmaclock holidays opengl
@@ -220,7 +220,7 @@ media-libs/libtheora encode-libs
 media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
 media-libs/libwmf X gtk
 media-libs/mediastreamer X alsa amr ipv6 portaudio sdl speex theora v4l2 video x264
-media-libs/mesa classic nptl shared-dricore shared-glapi
+media-libs/mesa classic nptl shared-dricore shared-glapi vdpau llvm
 media-libs/mlt dv ffmpeg frei0r gtk kde melt python qt4 quicktime sdl sse sse2 vorbis xml-lumas
 media-libs/openal alsa portaudio
 media-libs/phonon xine
@@ -257,6 +257,7 @@ net-dialup/rp-pppoe X
 net-dns/avahi howl-compat mdnsresponder-compat
 net-dns/bind-tools ipv6 ssl idn
 net-dns/libidn nls_FreeBSD-libs
+net-dns/mydns alias status
 net-fs/nfs-utils elibc_glibc ipv6 nfsv3 nfsv4 tcpd
 net-fs/samba acl aio client cups ldap netapi pam quota readline server smbclient fam2
 net-im/choqok handbook
@@ -422,6 +423,7 @@ x11-libs/qt-webkit dbus exceptions jit kde
 x11-libs/qt-xml patterns
 x11-libs/qtscriptgenerator kde
 x11-libs/xosd xinerama
+x11-misc/google-gadgets -gtk -xulrunner -webkit
 ### ----------------------------------------------
 
 app-antivirus/clamav gmp
