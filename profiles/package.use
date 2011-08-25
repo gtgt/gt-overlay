@@ -337,7 +337,7 @@ sys-auth/consolekit kernel_linux pam policykit
 sys-auth/nss_ldap ssl
 sys-auth/pam_ldap ssl
 sys-auth/pambase consolekit cracklib sha512-keyring_krb5_ssh
-sys-auth/polkit kde nls pam
+sys-auth/polkit kde nls pam -gtk
 sys-auth/thinkfinger pam
 sys-block/eject nls
 sys-block/parted debug device-mapper nls readline
