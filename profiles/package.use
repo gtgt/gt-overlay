@@ -77,7 +77,7 @@ dev-libs/openobex bluetooth usb
 dev-libs/opensslsse2 zlib3779
 dev-libs/popt nls-libs
 dev-libs/redlandberkdb mysql ssl
-dev-libs/soprano dbus -redland -raptor virtuoso
+dev-libs/soprano dbus virtuoso
 dev-perl/IO-Socket-SSL idn
 dev-perl/libwww-perl ssl
 dev-python/PyQt4 X dbus declarative kde opengl sql svg webkit phonon
