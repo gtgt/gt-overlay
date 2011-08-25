@@ -137,7 +137,6 @@ desktop? (
 	www-client/chromium
 	www-client/firefox
 	www-client/rekonq
-	www-plugins/lightspark
 )
 "
 #x11
