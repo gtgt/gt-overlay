@@ -51,8 +51,6 @@ system? (
 RDEPEND="${RDEPEND}
 desktop? (
 	app-cdr/k3b
-	app-office/abiword
-	app-office/gnumeric
 	kde-base/kate
 	kde-base/kcron
 	kde-base/kde-l10n
