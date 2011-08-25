@@ -90,7 +90,7 @@ dev-python/twisted crypt gtk
 dev-tcltk/expect X threads
 dev-util/cmake ncurses4-syntax
 dev-util/dialognls unicode
-dev-vcs/git bash-completion blksha1 curl iconv perl threads tk webdav1
+dev-vcs/git bash-completion blksha1 curl iconv perl threads -tk -gtk webdav1
 gnome-base/librsvg gtk
 kde-base/akregator handbook kontact
 kde-base/arkarchive bzip2 handbook
@@ -430,7 +430,6 @@ app-crypt/pinentry gtk
 app-emulation/wine custom-cflags xml
 app-text/poppler-bindings gtk
 dev-db/sqlite secure-delete
-dev-vcs/git tk
 media-libs/mlt melt xml
 media-libs/xine-lib xcb
 media-video/avidemux lame libsamplerate
