@@ -189,7 +189,7 @@ media-gfx/xsanejpeg nls png tiff
 media-libs/aalib X gpm
 media-libs/babl mmx sse
 media-libs/flac 3dnow cxx ogg sse-libs
-media-libs/freetype X-hinter
+media-libs/freetype X-hinter static-libs
 media-libs/gd jpeg png truetype xpm
 media-libs/gegl cairo exif ffmpeg jpeg jpeg2k mmx openexr png raw sdl sse svg v4l
 media-libs/giflib X

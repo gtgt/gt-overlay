@@ -1,4 +1,6 @@
 <app-emulation/wine-9999 ~amd64 ~x86
+dev-java/sun-jdk **
+virtual/jdk **
 
 <kde-misc/quadkonsole-2.0.0 ~amd64 ~x86
 
@@ -117,29 +119,52 @@ sys-kernel/gentoo-sources ~amd64 ~x86
 <x11-drivers/xf86-input-evdev-9999 ~amd64 ~x86
 
 ## GStreamer
-media-plugins/gst-plugins-alsa ~amd64 ~x86
-media-plugins/gst-plugins-base ~amd64 ~x86
-media-plugins/gst-plugins-good ~amd64 ~x86
-media-plugins/gst-plugins-bad ~amd64 ~x86
-media-plugins/gst-plugins-ugly ~amd64 ~x86
-media-plugins/gst-plugins-faac ~amd64 ~x86
-media-plugins/gst-plugins-esd ~amd64 ~x86
-media-plugins/gst-plugins-dvb ~amd64 ~x86
+media-libs/gst-plugins-bad ~amd64 ~x86
+media-libs/gst-plugins-base ~amd64 ~x86
+media-libs/gst-plugins-good ~amd64 ~x86
+media-libs/gst-plugins-ugly ~amd64 ~x86
 media-plugins/gst-plugins-gl ~amd64 ~x86
+media-plugins/gst-plugins-meta ~amd64 ~x86
+media-plugins/gst-plugins-pulse ~amd64 ~x86
+media-plugins/gst-plugins-soup ~amd64 ~x86
+media-plugins/gst-plugins-a52dec ~amd64 ~x86
+media-plugins/gst-plugins-alsa ~amd64 ~x86
+media-plugins/gst-plugins-cdparanoia ~amd64 ~x86
+media-plugins/gst-plugins-cdio ~amd64 ~x86
+media-plugins/gst-plugins-dv ~amd64 ~x86
+media-plugins/gst-plugins-dvb ~amd64 ~x86
+media-plugins/gst-plugins-dvdread ~amd64 ~x86
+media-plugins/gst-plugins-esd ~amd64 ~x86
+media-plugins/gst-plugins-faac ~amd64 ~x86
+media-plugins/gst-plugins-faad ~amd64 ~x86
+media-plugins/gst-plugins-flac ~amd64 ~x86
+media-plugins/gst-plugins-gio ~amd64 ~x86
 media-plugins/gst-plugins-jack ~amd64 ~x86
 media-plugins/gst-plugins-jpeg ~amd64 ~x86
+media-plugins/gst-plugins-libmms ~amd64 ~x86
 media-plugins/gst-plugins-libpng ~amd64 ~x86
 media-plugins/gst-plugins-libvisual ~amd64 ~x86
-media-plugins/gst-plugins-libmms ~amd64 ~x86
-media-plugins/gst-plugins-mpeg2enc ~amd64 ~x86
+media-plugins/gst-plugins-mad ~amd64 ~x86
+media-plugins/gst-plugins-mimic ~amd64 ~x86
+media-plugins/gst-plugins-mpeg2dec ~amd64 ~x86
 media-plugins/gst-plugins-mplex ~amd64 ~x86
-media-plugins/gst-plugins-neon ~amd64 ~x86
+media-plugins/gst-plugins-musepack ~amd64 ~x86
+media-plugins/gst-plugins-ofa ~amd64 ~x86
+media-plugins/gst-plugins-ogg ~amd64 ~x86
+media-plugins/gst-plugins-resindvd ~amd64 ~x86
 media-plugins/gst-plugins-speex ~amd64 ~x86
+media-plugins/gst-plugins-taglib ~amd64 ~x86
+media-plugins/gst-plugins-theora ~amd64 ~x86
+media-plugins/gst-plugins-v4l2 ~amd64 ~x86
+media-plugins/gst-plugins-vorbis ~amd64 ~x86
 media-plugins/gst-plugins-vp8 ~amd64 ~x86
+media-plugins/gst-plugins-wavpack ~amd64 ~x86
+media-plugins/gst-plugins-x ~amd64 ~x86
+media-plugins/gst-plugins-x264 ~amd64 ~x86
 media-plugins/gst-plugins-ximagesrc ~amd64 ~x86
 media-plugins/gst-plugins-xvid ~amd64 ~x86
-media-plugins/gst-plugins-x264 ~amd64 ~x86
-media-plugins/gst-plugins-wavpack ~amd64 ~x86
+media-plugins/gst-plugins-xvideo ~amd64 ~x86
+media-plugins/gst-plugins-ffmpeg ~amd64 ~x86
 
 media-libs/alsa-lib ~amd64 ~x86
 media-plugins/alsa-plugins  ~amd64 ~x86

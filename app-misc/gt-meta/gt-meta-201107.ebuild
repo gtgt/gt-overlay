@@ -92,6 +92,8 @@ desktop? (
 	media-plugins/gst-plugins-esd
 	media-plugins/gst-plugins-dvb
 	media-plugins/gst-plugins-faac
+	media-plugins/gst-plugins-cdio
+	media-plugins/gst-plugins-cdparanoia
 	media-plugins/gst-plugins-gl
 	media-plugins/gst-plugins-jack
 	media-plugins/gst-plugins-jpeg
