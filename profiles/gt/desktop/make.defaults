@@ -40,19 +40,19 @@ USE="${USE} networkmanager ipv6 tcpd autoipd"
 USE="${USE} bittorent webkit idn"
 
 # Window manager and speciality
-USE="${USE} X akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gbm gallium openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver libnotify"
+USE="${USE} X akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gbm gallium openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver google-gadgets libnotify"
 
 # Print
 USE="${USE} foomaticdb cups"
 
 # Audio
-USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod"
+USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms"
 
 # CD and DVD
 USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd"
 
 # Devices
-USE="${USE} ipod ios fax apm bluetooth ieee1394"
+USE="${USE} ipod ios fax apm bluetooth ieee1394 remote"
 
 # Documentation format
 USE="${USE} chm djvu ebook"

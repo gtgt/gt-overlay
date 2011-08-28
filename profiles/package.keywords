@@ -170,6 +170,7 @@ media-libs/alsa-lib ~amd64 ~x86
 media-plugins/alsa-plugins  ~amd64 ~x86
 <media-sound/alsa-headers-9999 ~amd64 ~x86
 media-sound/alsa-utils ~amd64 ~x86
+net-libs/pjsip ~amd64 ~x86
 
 ## QT
 =x11-libs/qt-assistant-4.7.3 ~amd64 ~x86
