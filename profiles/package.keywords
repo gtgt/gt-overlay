@@ -5,6 +5,7 @@
 <dev-libs/grantlee-9999 ~amd64 ~x86
 <dev-libs/soprano-9999 ~amd64 ~x86
 <app-office/akonadi-server-9999 ~amd64 ~x86
+kde-misc/akonadi-googledata **
 <app-office/calligra-9999 ~amd64 ~x86
 <dev-libs/shared-desktop-ontologies-9999 ~amd64 ~x86
 <sys-fs/udev-9999 ~amd64 ~x86
@@ -174,8 +175,9 @@ www-client/firefox-bin ~amd64 ~x86
 
 www-plugins/lightspark ~amd64 ~x86
 
-media-libs/mesa **
-x11-libs/libdrm **
+media-libs/mesa ~amd64 ~x86
+x11-apps/mesa-progs ~amd64 ~x86
+x11-libs/libdrm ~amd64 ~x86
 
 app-admin/eselect-opengl ~amd64 ~x86
 x11-proto/dri2proto ~amd64 ~x86
