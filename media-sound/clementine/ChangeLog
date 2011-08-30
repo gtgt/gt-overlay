@@ -1,0 +1,130 @@
+# ChangeLog for media-sound/clementine
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  03 Aug 2011; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild,
+  metadata.xml:
+  upstream removed scripting, fix deps for USE remote
+
+  03 Aug 2011; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild:
+  upstream migrated to git
+
+  06 Jul 2011; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild,
+  metadata.xml:
+  add mms and ofa USE, TODO was removed
+
+  15 May 2011; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild:
+  sync with portage
+
+  26 Mar 2011; Nikoli <nikoli@lavabit.com> -clementine-0.7_rc1.ebuild,
+  -files/clementine-0.7_rc1-tests-liblastfm.patch, clementine-9999.ebuild:
+  0.7 rc1 is in portage, update libechonest dep
+
+*clementine-0.7_rc1 (25 Mar 2011)
+
+  25 Mar 2011; Nikoli <nikoli@lavabit.com> +clementine-0.7_rc1.ebuild,
+  +files/clementine-0.7_rc1-tests-liblastfm.patch, clementine-9999.ebuild:
+  version bump, remove tunepimp dep, migrate to EAPI 4
+
+  15 Mar 2011; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild:
+  upstream fixed most tests
+
+  09 Mar 2011; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild:
+  update deps, add tests
+
+  26 Dec 2010; Nikoli <nikoli@lavabit.com> -clementine-0.6-r1.ebuild,
+  -clementine-0.6-r2.ebuild,
+  -files/clementine-0.6-optional-dbus-devicekit.patch,
+  -files/clementine-0.6-optional-liblastfm.patch:
+  clementine-0.6 with both patches is in portage
+
+  26 Dec 2010; Nikoli <nikoli@lavabit.com> clementine-0.6-r2.ebuild,
+  files/clementine-0.6-optional-dbus-devicekit.patch,
+  clementine-9999.ebuild, metadata.xml:
+  upstream accepted dbus patch, removed other engines
+
+*clementine-0.6-r2 (25 Dec 2010)
+
+  25 Dec 2010; Nikoli <nikoli@lavabit.com> +clementine-0.6-r2.ebuild,
+  +files/clementine-0.6-optional-dbus-devicekit.patch:
+  make dbus and devicekit optional
+
+*clementine-0.6-r1 (19 Dec 2010)
+
+  19 Dec 2010; Nikoli <nikoli@lavabit.com> +clementine-0.6-r1.ebuild,
+  +files/clementine-0.6-optional-liblastfm.patch, clementine-9999.ebuild,
+  metadata.xml:
+  optional liblastfm
+
+  18 Dec 2010; Nikoli <nikoli@lavabit.com> -clementine-0.6_rc1.ebuild,
+  -clementine-0.6.ebuild:
+  0.6 is in portage
+
+*clementine-0.6 (12 Dec 2010)
+
+  12 Dec 2010; Nikoli <nikoli@lavabit.com> +clementine-0.6.ebuild:
+  version bump
+
+*clementine-0.6_rc1 (07 Dec 2010)
+
+  07 Dec 2010; Nikoli <nikoli@lavabit.com> +clementine-0.6_rc1.ebuild,
+  clementine-9999.ebuild, metadata.xml:
+  version bump, update live ebuild
+
+  17 Nov 2010; Nikoli <nikoli@lavabit.com> -clementine-0.4.2.ebuild,
+  -clementine-0.5.3.ebuild, -files/clementine-0.5.3-automagic.patch,
+  clementine-9999.ebuild, metadata.xml:
+  update live ebuild, remove old
+
+  30 Sep 2010; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild:
+  update live ebuild
+
+*clementine-0.5.3 (30 Sep 2010)
+
+  30 Sep 2010; Nikoli <nikoli@lavabit.com> -clementine-0.5.1.ebuild,
+  -files/clementine-0.5.1_automagic.patch, +clementine-0.5.3.ebuild,
+  +files/clementine-0.5.3-automagic.patch:
+  version bump
+
+*clementine-0.5.1 (21 Sep 2010)
+
+  21 Sep 2010; Nikoli <nikoli@lavabit.com> +clementine-0.5.1.ebuild,
+  +files/clementine-0.5.1_automagic.patch, metadata.xml:
+  version bump
+
+  21 Sep 2010; Nikoli <nikoli@lavabit.com> clementine-0.4.2.ebuild,
+  clementine-9999.ebuild:
+  fix deps, linguas cosmetics
+
+  11 Jul 2010; Nikoli <nikoli@lavabit.com> clementine-0.4.2.ebuild,
+  clementine-9999.ebuild:
+  fixed projectm dep
+
+  11 Jul 2010; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild:
+  building without gstreamer is fixed, cosmetics
+
+  11 Jul 2010; Nikoli <nikoli@lavabit.com> -clementine-0.3.99.ebuild:
+  remove 0.4 RC
+
+*clementine-0.4.2 (11 Jul 2010)
+
+  11 Jul 2010; Nikoli <nikoli@lavabit.com> +clementine-0.4.2.ebuild:
+  add 0.4.2
+
+*clementine-0.3.99 (25 Jun 2010)
+
+  25 Jun 2010; Nikoli <nikoli@lavabit.com> +clementine-0.3.99.ebuild:
+  add 0.4 RC1
+
+  25 Jun 2010; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild:
+  gstreamer is default, fixed vlc and phonon deps, cosmetics
+
+  12 Jun 2010; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild:
+  upstream now supports LINGUAS
+
+*clementine-9999 (11 Jun 2010)
+
+  11 Jun 2010; Nikoli <nikoli@lavabit.com> +clementine-9999.ebuild,
+  +metadata.xml:
+  Initial live ebuild
+
