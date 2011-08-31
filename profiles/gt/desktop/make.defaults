@@ -55,7 +55,8 @@ USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd"
 USE="${USE} ipod ios fax apm bluetooth ieee1394 remote mtp"
 
 # Documentation format
-USE="${USE} chm djvu ebook"
+
+USE="${USE} chm djvu ebook marble"
 
 # Guard and security
 USE="${USE} clamav crypt ssl"
