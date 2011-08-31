@@ -7,12 +7,11 @@ virtual/jdk **
 <dev-libs/grantlee-9999 ~amd64 ~x86
 <dev-libs/soprano-9999 ~amd64 ~x86
 <app-office/akonadi-server-9999 ~amd64 ~x86
-<app-office/calligra-9999 ~amd64 ~x86
+kde-misc/akonadi-googledata **
+<app-office/libreoffice-bin-9999 ~amd64 ~x86
 <dev-libs/shared-desktop-ontologies-9999 ~amd64 ~x86
 <sys-fs/udev-9999 ~amd64 ~x86
-
-<x11-drivers/ati-drivers-9999 ~amd64 ~x86
-x11-base/nouveau-drm ~amd64 ~x86
+<dev-cpp/clucene-9999 ~amd64 ~x86
 
 <sys-apps/keyexec-9999 ~amd64 ~x86
 <sys-auth/pam_keystore-9999 ~amd64 ~x86
@@ -26,6 +25,7 @@ media-gfx/exiv2
 <media-plugins/gstreamer-999 ~amd64 ~x86
 
 >=app-admin/logrotate-3.8.0 ~amd64 ~x86
+app-admin/keepassx2 **
 
 <app-admin/testdisk-9999 ~amd64 ~x86
 <net-print/foo2zjs-9999 ~amd64 ~x86
@@ -79,9 +79,6 @@ media-gfx/exiv2
 
 <dev-libs/liblinebreak-9999 ~amd64 ~x86
 
-<x11-drivers/nvidia-drivers-9999 ~amd64 ~x86
-<media-video/nvidia-settings-9999 ~amd64 ~x86
-
 <app-emulation/wine-9999 ~amd64 ~x86
 
 <www-plugins/adobe-flash-9999 ~amd64 ~x86
@@ -109,14 +106,36 @@ sys-kernel/gentoo-sources ~amd64 ~x86
 
 
 # unmask xorg-server for ~x86
-<x11-libs/pixman-9999 ~amd64 ~x86
-<x11-base/xorg-server-9999 ~amd64 ~x86
-<x11-base/xorg-drivers-9999 ~amd64 ~x86
-<x11-drivers/xf86-video-fbdev-9999 ~amd64 ~x86
-<x11-drivers/xf86-video-radeon-9999 ~amd64 ~x86
-<x11-drivers/xf86-video-nouveau-9999 ~amd64 ~x86
-<x11-drivers/xf86-input-synaptics-9999 ~amd64 ~x86
-<x11-drivers/xf86-input-evdev-9999 ~amd64 ~x86
+x11-libs/pixman ~amd64 ~x86
+x11-base/xorg-server ~amd64 ~x86
+x11-proto/dri2proto ~amd64 ~x86
+x11-proto/glproto ~amd64 ~x86
+x11-libs/libdrm ~amd64 ~x86
+x11-apps/mesa-progs ~amd64 ~x86
+media-libs/mesa ~amd64 ~x86
+
+x11-proto/xcb-proto ~amd64 ~x86
+x11-libs/xcb-util-wm ~amd64 ~x86
+x11-libs/xcb-util-renderutil ~amd64 ~x86
+x11-libs/xcb-util-keysyms ~amd64 ~x86
+x11-libs/xcb-util-image ~amd64 ~x86
+x11-libs/libxcb ~amd64 ~x86
+<x11-libs/xcb-util-9999 ~amd64 ~x86
+
+x11-base/xorg-drivers ~amd64 ~x86
+x11-drivers/xf86-video-fbdev ~amd64 ~x86
+x11-drivers/xf86-video-ati ~amd64 ~x86
+x11-drivers/xf86-video-nouveau ~amd64 ~x86
+x11-drivers/xf86-video-intel ~amd64 ~x86
+x11-drivers/xf86-input-synaptics ~amd64 ~x86
+x11-drivers/xf86-input-evdev ~amd64 ~x86
+x11-base/nouveau-drm ~amd64 ~x86
+app-admin/eselect-opengl ~amd64 ~x86
+
+<x11-drivers/ati-drivers-9999 ~amd64 ~x86
+<x11-drivers/nvidia-drivers-9999 ~amd64 ~x86
+<media-video/nvidia-settings-9999 ~amd64 ~x86
+
 
 ## GStreamer
 media-libs/gst-plugins-bad ~amd64 ~x86
@@ -199,23 +218,3 @@ www-client/firefox ~amd64 ~x86
 www-client/firefox-bin ~amd64 ~x86
 
 www-plugins/lightspark ~amd64 ~x86
-
-media-libs/mesa **
-x11-libs/libdrm **
-
-app-admin/eselect-opengl ~amd64 ~x86
-x11-proto/dri2proto ~amd64 ~x86
-x11-proto/glproto ~amd64 ~x86
-x11-base/xorg-drivers ~amd64 ~x86
-x11-drivers/xf86-video-intel ~amd64 ~x86
-x11-drivers/xf86-video-ati ~amd64 ~x86
-x11-drivers/xf86-video-nouveau ~amd64 ~x86
-x11-drivers/xf86-input-evdev ~amd64 ~x86
-
-x11-proto/xcb-proto ~amd64 ~x86
-x11-libs/xcb-util-wm ~amd64 ~x86
-x11-libs/xcb-util-renderutil ~amd64 ~x86
-x11-libs/xcb-util-keysyms ~amd64 ~x86
-x11-libs/xcb-util-image ~amd64 ~x86
-x11-libs/libxcb ~amd64 ~x86
-x11-libs/xcb-util ~amd64 ~x86
