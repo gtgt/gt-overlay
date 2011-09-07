@@ -9,6 +9,7 @@ virtual/jdk **
 <app-office/akonadi-server-9999 ~amd64 ~x86
 kde-misc/akonadi-googledata **
 <app-office/libreoffice-bin-9999 ~amd64 ~x86
+<app-office/libreoffice-l10n-9999 ~amd64 ~x86
 <dev-libs/shared-desktop-ontologies-9999 ~amd64 ~x86
 <sys-fs/udev-9999 ~amd64 ~x86
 <dev-cpp/clucene-9999 ~amd64 ~x86
