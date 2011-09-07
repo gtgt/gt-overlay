@@ -95,6 +95,17 @@ net-dns/avahi-gtk ~amd64 ~x86
 net-dns/avahi-qt ~amd64 ~x86
 net-dns/avahi-base ~amd64 ~x86
 
+kde-misc/knetworkmanager ~amd64 ~x86
+net-misc/networkmanager ~amd64 ~x86
+net-misc/networkmanager-openvpn ~amd64 ~x86
+net-misc/networkmanager-pptp ~amd64 ~x86
+net-misc/networkmanager-vpnc ~amd64 ~x86
+
+net-wireless/wimax ~amd64 ~x86
+net-wireless/wpa_supplicant ~amd64 ~x86
+net-wireless/wimax-tools ~amd64 ~x86
+kde-base/gwenview ~amd64 ~x86
+
 sys-libs/talloc ~amd64 ~x86
 sys-libs/tdb ~amd64 ~x86
 net-fs/cifs-utils ~amd64 ~x86
