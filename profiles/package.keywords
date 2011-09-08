@@ -45,7 +45,6 @@ app-admin/keepassx2 **
 <net-misc/networkmanager-openvpn-9999 ~amd64 ~x86
 <net-misc/networkmanager-pptp-9999 ~amd64 ~x86
 <net-misc/networkmanager-vpnc-9999 ~amd64 ~x86
-<gnome-extra/nm-applet-9999 ~amd64 ~x86
 <net-dialup/ppp-9999 ~amd64 ~x86
 <dev-libs/liblinebreak-9999 ~amd64 ~x86
 <net-wireless/blueman-9999 ~amd64 ~x86
@@ -64,8 +63,6 @@ app-admin/keepassx2 **
 <app-emulation/virtualbox-ose-additions-9999 ~amd64 ~x86
 <x11-drivers/xf86-input-virtualbox-9999 ~amd64 ~x86
 <x11-drivers/xf86-video-virtualbox-9999 ~amd64 ~x86
-
-<net-misc/cnetworkmanager-9999 ~amd64 ~x86
 
 <media-libs/libvpx-9999 ~amd64 ~x86
 
@@ -96,7 +93,7 @@ net-dns/avahi-gtk ~amd64 ~x86
 net-dns/avahi-qt ~amd64 ~x86
 net-dns/avahi-base ~amd64 ~x86
 
-kde-misc/knetworkmanager ~amd64 ~x86
+kde-misc/knetworkmanager **
 net-misc/networkmanager ~amd64 ~x86
 net-misc/networkmanager-openvpn ~amd64 ~x86
 net-misc/networkmanager-pptp ~amd64 ~x86
@@ -152,7 +149,6 @@ kde-misc/oxygen-appmenu **
 app-emulation/q4wine **
 app-backup/luckybackup
 app-misc/strigi ~amd64
-app-office/calligra **
 app-office/akonadi-server ~amd64
 app-pda/libopensync ~amd64
 app-pda/libopensync-plugin-akonadi ~amd64
