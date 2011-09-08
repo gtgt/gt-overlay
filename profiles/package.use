@@ -389,7 +389,7 @@ virtual/libiconv elibc_glibc_uclibc
 virtual/libintl elibc_glibc_uclibc
 virtual/mysql embedded
 x11-base/xorg-server ipv6 nptl udev xorg-libs
-x11-drivers/nvidia-drivers -gtk
+x11-drivers/nvidia-drivers gtk
 x11-drivers/xf86-video-glint dri
 x11-drivers/xf86-video-intel dri
 x11-drivers/xf86-video-mach64 dri

@@ -105,7 +105,6 @@ net-misc/networkmanager-vpnc ~amd64 ~x86
 net-wireless/wimax ~amd64 ~x86
 net-wireless/wpa_supplicant ~amd64 ~x86
 net-wireless/wimax-tools ~amd64 ~x86
-kde-base/gwenview ~amd64 ~x86
 
 sys-libs/talloc ~amd64 ~x86
 sys-libs/tdb ~amd64 ~x86
@@ -147,6 +146,60 @@ app-admin/eselect-opengl ~amd64 ~x86
 <x11-drivers/ati-drivers-9999 ~amd64 ~x86
 <x11-drivers/nvidia-drivers-9999 ~amd64 ~x86
 <media-video/nvidia-settings-9999 ~amd64 ~x86
+
+## KDE Stuff
+kde-misc/oxygen-appmenu **
+
+app-emulation/q4wine **
+app-backup/luckybackup
+app-misc/strigi ~amd64
+app-office/calligra **
+app-office/akonadi-server ~amd64
+app-pda/libopensync ~amd64
+app-pda/libopensync-plugin-akonadi ~amd64
+app-pda/libopensync-plugin-vformat ~amd64
+app-portage/kportagetray ~amd64
+app-portage/kuroo4 **
+<dev-libs/libdbusmenu-9999 ~amd64
+<dev-libs/libdbusmenu-qt-9999 ~amd64
+dev-libs/qjson ~amd64
+dev-libs/soprano ~amd64
+dev-python/PyQt4 ~amd64
+dev-python/qscintilla-python ~amd64
+dev-python/sip ~amd64
+dev-util/quanta **
+dev-vcs/qgit **
+kde-misc/akonadi-googledata ~amd64
+kde-misc/akonadi-facebook **
+kde-misc/basket **
+kde-misc/kaption **
+kde-misc/knetworkmanager -~amd64
+media-gfx/digikam ~amd64
+media-gfx/kcoloredit ~amd64
+media-libs/opengtl ~amd64
+media-libs/phonon ~amd64
+media-libs/phonon-gstreamer ~amd64
+media-plugins/kipi-plugins **
+media-sound/amarok **
+media-sound/clementine ~amd64
+media-sound/kmetronome ~amd64
+media-sound/kwave ~amd64
+media-sound/kid3 ~amd64
+media-sound/qjackctl ~amd64
+media-sound/qt-gstreamer **
+media-sound/qtractor ~amd64
+media-video/kamoso **
+net-analyzer/ksniffer ~amd64
+net-dialup/qtwvdialer ~amd64
+net-libs/libqinfinity ~amd64
+net-libs/libgcal ~amd64
+dev-libs/soprano ~amd64
+net-nds/luma ~amd64
+net-wireless/bluedevil ~amd64
+sys-block/partitionmanager **
+sys-devel/llvm ~amd64
+x11-misc/appmenu-qt **
+x11-misc/appmenu-gtk **
 
 
 ## GStreamer
