@@ -154,6 +154,8 @@ app-pda/libopensync ~amd64
 app-pda/libopensync-plugin-akonadi ~amd64
 app-pda/libopensync-plugin-vformat ~amd64
 app-portage/kportagetray ~amd64
+app-portage/smart-live-rebuild ~amd64 ~x86
+app-portage/gentoopm ~amd64 ~x86
 app-portage/kuroo4 **
 <dev-libs/libdbusmenu-9999 ~amd64
 <dev-libs/libdbusmenu-qt-9999 ~amd64

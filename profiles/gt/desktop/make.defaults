@@ -53,7 +53,7 @@ USE="${USE} foomaticdb cups"
 USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms"
 
 # CD and DVD
-USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd"
+USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd blueray"
 
 # Devices
 USE="${USE} ipod ios fax apm bluetooth ieee1394 remote mtp"
