@@ -153,6 +153,18 @@ app-office/akonadi-server ~amd64
 app-pda/libopensync ~amd64
 app-pda/libopensync-plugin-akonadi ~amd64
 app-pda/libopensync-plugin-vformat ~amd64
+app-office/koffice-meta  ~amd64
+app-office/akonadi-server ~amd64
+app-office/karbon ~amd64
+app-office/kexi ~amd64
+app-office/koffice-data ~amd64
+app-office/koffice-l10n ~amd64
+app-office/koffice-libs ~amd64
+app-office/kpresenter ~amd64
+app-office/krita ~amd64
+app-office/kspread ~amd64
+app-office/kword ~amd64
+app-office/skrooge ~amd64
 app-portage/kportagetray ~amd64
 app-portage/smart-live-rebuild ~amd64 ~x86
 app-portage/gentoopm ~amd64 ~x86
