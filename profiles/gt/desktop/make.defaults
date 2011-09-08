@@ -38,7 +38,7 @@ USE="${USE} network -ldap rdesktop samba upnp nss resolvconf zeroconf avahi"
 USE="${USE} mysql berkdb sqlite sqlite3 xml"
 
 # Network
-USE="${USE} networkmanager ipv6 tcpd autoipd"
+USE="${USE} networkmanager nm09 ipv6 tcpd autoipd"
 
 # Web
 USE="${USE} bittorent webkit idn"

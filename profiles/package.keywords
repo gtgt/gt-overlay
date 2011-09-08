@@ -149,7 +149,6 @@ app-admin/eselect-opengl ~amd64 ~x86
 
 ## KDE Stuff
 kde-misc/oxygen-appmenu **
-
 app-emulation/q4wine **
 app-backup/luckybackup
 app-misc/strigi ~amd64
@@ -173,7 +172,7 @@ kde-misc/akonadi-googledata ~amd64
 kde-misc/akonadi-facebook **
 kde-misc/basket **
 kde-misc/kaption **
-kde-misc/knetworkmanager -~amd64
+kde-misc/knetworkmanager **
 media-gfx/digikam ~amd64
 media-gfx/kcoloredit ~amd64
 media-libs/opengtl ~amd64
