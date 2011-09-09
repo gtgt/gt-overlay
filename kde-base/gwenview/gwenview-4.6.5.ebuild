@@ -4,14 +4,10 @@
 
 EAPI=4
 
-KDE_HANDBOOK="optional"
 KDE_SCM="git"
-if [[ ${PV} == *9999 ]]; then
-	kde_eclass="kde4-base"
-else
-	KMNAME="kdegraphics"
-	kde_eclass="kde4-meta"
-fi
+KMNAME="kdegraphics"
+kde_eclass="kde4-meta"
+
 inherit ${kde_eclass}
 
 DESCRIPTION="KDE image viewer"
@@ -19,15 +15,16 @@ KEYWORDS="amd64 ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux"
 IUSE="debug kipi semantic-desktop"
 
 # tests hang, last checked for 4.2.96
-RESTRICT="test"
+RESTRICT=""
 
+# $(add_kdebase_dep kdelibs 'semantic-desktop=')
 DEPEND="
-	$(add_kdebase_dep kdelibs 'semantic-desktop=')
 	>=media-gfx/exiv2-0.18
 	virtual/jpeg
 	kipi? ( $(add_kdebase_dep libkipi) )
 "
-RDEPEND="${DEPEND}"
+RDEPEND=""
+#RDEPEND="${DEPEND}"
 
 src_configure() {
 	mycmakeargs=(

@@ -1,33 +1,22 @@
-<app-emulation/wine-9999 ~amd64 ~x86
+virtual/jdk ~amd64
+sys-devel/kgcc64 **
+
+
+## Java stuff
+dev-java/icedtea6-bin ~amd64 ~x86
+dev-java/icedtea ~amd64 ~x86
+dev-java/icedtea-web ~amd64 ~x86
 dev-java/sun-jdk **
-virtual/jdk **
 
-<kde-misc/quadkonsole-2.0.0 ~amd64 ~x86
-
-<dev-libs/grantlee-9999 ~amd64 ~x86
-<dev-libs/soprano-9999 ~amd64 ~x86
-<app-office/akonadi-server-9999 ~amd64 ~x86
-kde-misc/akonadi-googledata **
-<app-office/libreoffice-bin-9999 ~amd64 ~x86
-<app-office/libreoffice-l10n-9999 ~amd64 ~x86
-<dev-libs/shared-desktop-ontologies-9999 ~amd64 ~x86
-<sys-fs/udev-9999 ~amd64 ~x86
-<dev-cpp/clucene-9999 ~amd64 ~x86
-
+# Auth stuff
 <sys-apps/keyexec-9999 ~amd64 ~x86
 <sys-auth/pam_keystore-9999 ~amd64 ~x86
 <sys-auth/thinkfinger-9999 ~amd64 ~x86
-<sys-fs/udev-9999 ~amd64
-
-<app-text/fbreader-9999 ~amd64 ~x86
-media-gfx/exiv2
-<media-video/mplayer-9999 ~amd64 ~x86
-
-<media-plugins/gstreamer-999 ~amd64 ~x86
-
 >=app-admin/logrotate-3.8.0 ~amd64 ~x86
 app-admin/keepassx2 **
 
+# Hardware & Drivers
+<sys-fs/udev-9999 ~amd64
 <app-admin/testdisk-9999 ~amd64 ~x86
 <net-print/foo2zjs-9999 ~amd64 ~x86
 <net-print/foomatic-db-9999 ~amd64 ~x86
@@ -37,22 +26,19 @@ app-admin/keepassx2 **
 <net-print/cups-9999 ~amd64 ~x86
 
 
-<x11-plugins/pidgin-facebookchat-9999 ~amd64 ~x86
-
+# Picture and social
+<app-text/fbreader-9999 ~amd64 ~x86
+media-gfx/exiv2
+<media-video/mplayer-9999 ~amd64 ~x86
+<net-im/skype-9999 ~amd64 ~x86
+net-fs/cifs-utils ~amd64 ~x86
+net-libs/glib-networking ~amd64 ~x86
+net-libs/libsoup ~amd64 ~x86
+net-libs/pjsip ~amd64 ~x86
 <net-news/liferea-9999 ~amd64 ~x86
 
-<net-misc/networkmanager-9999 ~amd64 ~x86
-<net-misc/networkmanager-openvpn-9999 ~amd64 ~x86
-<net-misc/networkmanager-pptp-9999 ~amd64 ~x86
-<net-misc/networkmanager-vpnc-9999 ~amd64 ~x86
-<net-dialup/ppp-9999 ~amd64 ~x86
-<dev-libs/liblinebreak-9999 ~amd64 ~x86
-<net-wireless/blueman-9999 ~amd64 ~x86
 
-<net-im/skype-9999 ~amd64 ~x86
-
-<x11-libs/qtermwidget-9999 ~amd64 ~x86
-
+# Virtualization
 <app-emulation/virtualbox-9999 ~amd64 ~x86
 <app-emulation/virtualbox-additions-9999 ~amd64 ~x86
 <app-emulation/virtualbox-bin-9999 ~amd64 ~x86
@@ -63,57 +49,68 @@ app-admin/keepassx2 **
 <app-emulation/virtualbox-ose-additions-9999 ~amd64 ~x86
 <x11-drivers/xf86-input-virtualbox-9999 ~amd64 ~x86
 <x11-drivers/xf86-video-virtualbox-9999 ~amd64 ~x86
-
 <media-libs/libvpx-9999 ~amd64 ~x86
 
+# Office
 <app-dicts/ispell-pt-br-9999 ~amd64 ~x86
-
-<x11-drivers/xf86-video-intel-9999 ~amd64 ~x86
-<x11-drivers/xf86-video-ati-9999 ~amd64 ~x86
-<x11-drivers/xf86-video-openchrome-9999 ~amd64 ~x86
-
 <app-office/libreoffice-9999 ~amd64 ~x86
-<app-office/libreoffice-9999 ~amd64 ~x86
+<app-office/libreoffice-bin-9999 ~amd64 ~x86
+<app-office/libreoffice-l10n-9999 ~amd64 ~x86
+
 
 <dev-libs/liblinebreak-9999 ~amd64 ~x86
 
+# Bad stuff
 <app-emulation/wine-9999 ~amd64 ~x86
-
 <www-plugins/adobe-flash-9999 ~amd64 ~x86
 
+# Desktop libs
 dev-python/py-smbpasswd ~amd64 ~x86
 dev-libs/rasqal ~amd64 ~x86
 dev-libs/redland ~amd64 ~x86
 media-libs/raptor ~amd64 ~x86
 media-libs/libpgf ~amd64 ~x86
 media-libs/libkface ~amd64 ~x86
+<dev-libs/grantlee-9999 ~amd64 ~x86
+<dev-libs/soprano-9999 ~amd64 ~x86
+<app-office/akonadi-server-9999 ~amd64 ~x86
+kde-misc/akonadi-googledata **
+<dev-libs/shared-desktop-ontologies-9999 ~amd64 ~x86
+<dev-cpp/clucene-9999 ~amd64 ~x86
+media-libs/lcms ~amd64 ~x86
 
+
+
+# Avahi
 net-dns/avahi ~amd64 ~x86
 net-dns/avahi-gtk ~amd64 ~x86
 net-dns/avahi-qt ~amd64 ~x86
 net-dns/avahi-base ~amd64 ~x86
 
+# Networkmanager
 kde-misc/knetworkmanager **
-net-misc/networkmanager ~amd64 ~x86
-net-misc/networkmanager-openvpn ~amd64 ~x86
-net-misc/networkmanager-pptp ~amd64 ~x86
-net-misc/networkmanager-vpnc ~amd64 ~x86
+<net-misc/networkmanager-9999 ~amd64 ~x86
+<net-misc/networkmanager-openvpn-9999 ~amd64 ~x86
+<net-misc/networkmanager-pptp-9999 ~amd64 ~x86
+<net-misc/networkmanager-vpnc-9999 ~amd64 ~x86
+<net-dialup/ppp-9999 ~amd64 ~x86
+<dev-libs/liblinebreak-9999 ~amd64 ~x86
+<net-wireless/blueman-9999 ~amd64 ~x86
 
+# Wireless
 net-wireless/wimax ~amd64 ~x86
 net-wireless/wpa_supplicant ~amd64 ~x86
 net-wireless/wimax-tools ~amd64 ~x86
 
 sys-libs/talloc ~amd64 ~x86
 sys-libs/tdb ~amd64 ~x86
-net-fs/cifs-utils ~amd64 ~x86
-net-libs/glib-networking ~amd64 ~x86
-net-libs/libsoup ~amd64 ~x86
 
+# Kernels
 sys-kernel/mm-sources ~amd64 ~x86
 sys-kernel/gentoo-sources ~amd64 ~x86
 
 
-# unmask xorg-server for ~x86
+# XOrg X11
 x11-libs/pixman ~amd64 ~x86
 x11-base/xorg-server ~amd64 ~x86
 x11-proto/dri2proto ~amd64 ~x86
@@ -130,15 +127,18 @@ x11-libs/xcb-util-image ~amd64 ~x86
 x11-libs/libxcb ~amd64 ~x86
 <x11-libs/xcb-util-9999 ~amd64 ~x86
 
-x11-base/xorg-drivers ~amd64 ~x86
-x11-drivers/xf86-video-fbdev ~amd64 ~x86
-x11-drivers/xf86-video-ati ~amd64 ~x86
-x11-drivers/xf86-video-nouveau ~amd64 ~x86
-x11-drivers/xf86-video-intel ~amd64 ~x86
-x11-drivers/xf86-input-synaptics ~amd64 ~x86
-x11-drivers/xf86-input-evdev ~amd64 ~x86
-x11-base/nouveau-drm ~amd64 ~x86
-app-admin/eselect-opengl ~amd64 ~x86
+
+
+<x11-base/xorg-drivers-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-fbdev-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-ati-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-nouveau-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-intel-9999 ~amd64 ~x86
+<x11-drivers/xf86-video-openchrome-9999 ~amd64 ~x86
+<x11-drivers/xf86-input-synaptics-9999 ~amd64 ~x86
+<x11-drivers/xf86-input-evdev-9999 ~amd64 ~x86
+<x11-base/nouveau-drm-9999 ~amd64 ~x86
+<app-admin/eselect-opengl-9999 ~amd64 ~x86
 
 <x11-drivers/ati-drivers-9999 ~amd64 ~x86
 <x11-drivers/nvidia-drivers-9999 ~amd64 ~x86
@@ -178,16 +178,18 @@ dev-python/qscintilla-python ~amd64
 dev-python/sip ~amd64
 dev-util/quanta **
 dev-vcs/qgit **
+kde-base/gwenview -~amd64 -~x86
 kde-misc/akonadi-googledata ~amd64
 kde-misc/akonadi-facebook **
 kde-misc/basket **
 kde-misc/kaption **
 kde-misc/knetworkmanager **
+<kde-misc/quadkonsole-2.0.0 ~amd64 ~x86
 media-gfx/digikam ~amd64
 media-gfx/kcoloredit ~amd64
 media-libs/opengtl ~amd64
-media-libs/phonon ~amd64
-media-libs/phonon-gstreamer ~amd64
+<media-libs/phonon-9999 ~amd64
+<media-libs/phonon-gstreamer-9999 ~amd64
 media-plugins/kipi-plugins **
 media-sound/amarok **
 media-sound/clementine ~amd64
@@ -207,11 +209,13 @@ net-nds/luma ~amd64
 net-wireless/bluedevil ~amd64
 sys-block/partitionmanager **
 sys-devel/llvm ~amd64
+<x11-libs/qtermwidget-9999 ~amd64 ~x86
 x11-misc/appmenu-qt **
 x11-misc/appmenu-gtk **
 
 
 ## GStreamer
+<media-plugins/gstreamer-9999 ~amd64 ~x86
 media-libs/gst-plugins-bad ~amd64 ~x86
 media-libs/gst-plugins-base ~amd64 ~x86
 media-libs/gst-plugins-good ~amd64 ~x86
@@ -259,11 +263,11 @@ media-plugins/gst-plugins-xvid ~amd64 ~x86
 media-plugins/gst-plugins-xvideo ~amd64 ~x86
 media-plugins/gst-plugins-ffmpeg ~amd64 ~x86
 
+## Alsa
 media-libs/alsa-lib ~amd64 ~x86
 media-plugins/alsa-plugins  ~amd64 ~x86
 <media-sound/alsa-headers-9999 ~amd64 ~x86
 media-sound/alsa-utils ~amd64 ~x86
-net-libs/pjsip ~amd64 ~x86
 
 ## QT
 =x11-libs/qt-assistant-4.7.3 ~amd64 ~x86
