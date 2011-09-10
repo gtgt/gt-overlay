@@ -36,8 +36,7 @@ app-admin/keepassx2 **
 <net-print/foomatic-filters-9999 ~amd64 ~x86
 <net-print/cups-9999 ~amd64 ~x86
 
-
-<x11-plugins/pidgin-facebookchat-9999 ~amd64 ~x86
+media-fonts/unifont ~amd64 ~x86
 
 <net-news/liferea-9999 ~amd64 ~x86
 
