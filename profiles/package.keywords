@@ -183,7 +183,9 @@ kde-misc/akonadi-googledata ~amd64
 kde-misc/akonadi-facebook **
 kde-misc/basket **
 kde-misc/kaption **
-kde-misc/knetworkmanager **
+kde-misc/kfilebox ~amd64 ~x86
+kde-misc/kregexpeditor **
+kde-misc/kustodian **
 <kde-misc/quadkonsole-2.0.0 ~amd64 ~x86
 media-gfx/digikam ~amd64
 media-gfx/kcoloredit ~amd64
