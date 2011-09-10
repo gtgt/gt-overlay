@@ -424,7 +424,7 @@ x11-libs/qt-webkit dbus exceptions jit kde
 x11-libs/qt-xml patterns
 x11-libs/qtscriptgenerator kde
 x11-libs/xosd xinerama
-x11-misc/google-gadgets -gtk -xulrunner -webkit
+x11-misc/google-gadgets -gtk xulrunner -webkit -dbus
 ### ----------------------------------------------
 
 app-antivirus/clamav gmp
