@@ -1,4 +1,6 @@
 virtual/jdk ~amd64
+dev-java/oracle-jdk-bin ~amd64 ~x86
+sys-devel/gcc ~amd64 ~x86
 sys-devel/kgcc64 **
 
 

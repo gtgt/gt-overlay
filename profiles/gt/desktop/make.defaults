@@ -26,16 +26,16 @@ PKGDIR="/usr/portage/packages/`uname -m`"
 USE=""
 
 #System
-USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization threads"
+USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization threads pgo"
 
 #Lang support
 USE="${USE} python perl ithreads fortran gdbm cblas-external"
 
 # Network protocols
-USE="${USE} network -ldap rdesktop samba upnp nss resolvconf zeroconf avahi"
+USE="${USE} network -ldap rdesktop samba upnp nss resolvconf zeroconf avahi wifi"
 
 # Sql & data support
-USE="${USE} mysql berkdb sqlite sqlite3 xml"
+USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite"
 
 # Network
 USE="${USE} networkmanager nm09 ipv6 tcpd autoipd"
@@ -44,7 +44,7 @@ USE="${USE} networkmanager nm09 ipv6 tcpd autoipd"
 USE="${USE} bittorent webkit idn"
 
 # Window manager and speciality
-USE="${USE} X akonadi -eds -gnome -gdu -gvfs -evolution opengl egl -gles gbm gallium openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver google-gadgets libnotify appmenu"
+USE="${USE} X xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl -gles gbm gallium openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver google-gadgets libnotify appmenu"
 
 # Print
 USE="${USE} foomaticdb cups"

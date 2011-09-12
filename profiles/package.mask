@@ -1,1 +1,5 @@
 >kde-base/gwenview-4.6.5
+<sys-devel/gcc-4.5.3-r1
+>sys-devel/gcc-4.5.3-r1
+<sys-devel/kgcc64-4.5.2
+>sys-devel/kgcc64-4.5.2

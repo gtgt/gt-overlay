@@ -4,4 +4,4 @@ kde-misc/knetworkmanager
 <net-misc/networkmanager-openvpn-9999
 <net-misc/networkmanager-pptp-9999
 <net-misc/networkmanager-vpnc-9999
-
+=sys-devel/kgcc64-4.5.2
