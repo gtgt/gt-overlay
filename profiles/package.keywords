@@ -27,7 +27,6 @@ app-admin/keepassx2 **
 <net-print/foomatic-filters-9999 ~amd64 ~x86
 <net-print/cups-9999 ~amd64 ~x86
 
-
 # Picture and social
 <app-text/fbreader-9999 ~amd64 ~x86
 media-gfx/exiv2

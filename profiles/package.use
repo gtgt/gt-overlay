@@ -286,7 +286,7 @@ net-misc/rdesktop alsa ipv6-lite
 net-misc/rsync acl iconv ipv6
 net-misc/wget ipv6 nls ssl idn
 net-nds/openberkdb crypt gnutls ipv6 perl samba ssl tcpd5passwd
-net-p2p/eiskaltdcpp cli dbus emoticons libnotifypcre qt4 spell-lua
+net-p2p/eiskaltdcpp cli dbus emoticons libnotifypcre qt4 spell-lua -gtk
 net-print/cnijfilteramd64 ip4700 mp250 mp270 mp490 mp550 mp560640
 net-print/cups X acl dbus gnutls jpeg pam perl png python samba ssl threads tiff usb_FreeBSD-libs
 net-print/foomatic-filters cups
