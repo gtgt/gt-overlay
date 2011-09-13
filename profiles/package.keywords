@@ -10,6 +10,16 @@ dev-java/icedtea ~amd64 ~x86
 dev-java/icedtea-web ~amd64 ~x86
 dev-java/sun-jdk **
 
+dev-util/netbeans ~amd64 ~x86
+dev-java/netbeans-apisupport ~amd64 ~x86
+dev-java/netbeans-php ~amd64 ~x86
+dev-java/netbeans-ide  ~amd64 ~x86
+dev-java/netbeans-websvccommon ~amd64 ~x86
+dev-java/netbeans-harness ~amd64 ~x86
+dev-java/netbeans-nb ~amd64 ~x86
+dev-java/netbeans-ergonomics ~amd64 ~x86
+dev-java/netbeans-platform ~amd64 ~x86
+
 # Auth stuff
 <sys-apps/keyexec-9999 ~amd64 ~x86
 <sys-auth/pam_keystore-9999 ~amd64 ~x86
@@ -142,8 +152,8 @@ x11-libs/libxcb ~amd64 ~x86
 <app-admin/eselect-opengl-9999 ~amd64 ~x86
 
 <x11-drivers/ati-drivers-9999 ~amd64 ~x86
-<x11-drivers/nvidia-drivers-9999 ~amd64 ~x86
-<media-video/nvidia-settings-9999 ~amd64 ~x86
+#<x11-drivers/nvidia-drivers-9999 ~amd64 ~x86
+#<media-video/nvidia-settings-9999 ~amd64 ~x86
 
 ## KDE Stuff
 kde-misc/oxygen-appmenu **

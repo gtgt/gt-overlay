@@ -17,6 +17,9 @@ CAMERAS="ptp2 adc65 agfa_cl20 aox ax203 barbie canon casio_qv clicksmart310 digi
 APACHE2_MODULES="actions alias auth_basic auth_digest authn_alias authn_anon authn_default authn_dbd authn_file authz_default authz_groupfile authz_host authz_user autoindex cache cgi cgid charset_lite dbd deflate dir disk_cache env expires file_cache filter headers include info log_config logio mem_cache mime mime_magic proxy proxy_http reqtimeout rewrite setenvif speling status unique_id usertrack vhost_alias"
 APACHE2_MPMS="event"
 
+#apisupport cnd dlight enterprise ergonomics groovy gsf harness ide identity j2ee java javacard mobility nb php profiler ruby soa visualweb webcommon websvccommon xml
+NETBEANS_MODULES="php websvccommon ergonomics"
+
 # Logging
 PORTAGE_ELOG_CLASSES="warn error info log qa"
 PORTAGE_ELOG_SYSTEM="save"

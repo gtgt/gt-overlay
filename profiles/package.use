@@ -54,7 +54,9 @@ dev-db/mysql community embedded perl ssl
 dev-db/sqlite extensions fts3 readline secure-delete threadsafe-notify unlock-notify
 dev-db/virtuoso-server readline
 dev-java/swt xulrunner
+dev-java/swing-layout source
 dev-java/icedtea xrender cacao -jamvm -zero
+dev-java/netbeans-nb keychain
 dev-lang/perl berkdb gdbm
 dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml_uclibc
 dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml_uclibc
@@ -92,7 +94,9 @@ dev-python/twisted crypt gtk
 dev-tcltk/expect X threads
 dev-util/cmake ncurses4-syntax
 dev-util/dialognls unicode
+dev-util/netbeans -netbeans_modules_java -netbeans_modules_apisupport
 dev-vcs/git bash-completion blksha1 curl iconv perl threads -tk -gtk webdav1
+dev-vcs/subversion java
 gnome-base/librsvg gtk
 kde-base/akregator handbook kontact
 kde-base/arkarchive bzip2 handbook
@@ -163,7 +167,7 @@ kde-base/libplasmaclock holidays opengl
 kde-base/nepomuk handbook
 kde-base/okular chm crypt djvu ebook handbook jpeg pdf ps tiff
 kde-base/phonon-kde alsa xine
-kde-base/plasma-workspace handbook python rss semantic-desktop xinerama-gadgets
+kde-base/plasma-workspace handbook python rss semantic-desktop xinerama google-gadgets
 kde-base/powerdevil pm-utils
 kde-base/printer-applet handbook
 kde-base/pykde4 semantic-desktop
@@ -182,7 +186,7 @@ media-fonts/urw-fonts X
 media-gfx/digikam -mysql handbookmysql semantic-desktop thumbnails addressbook geolocation themedesigner video
 media-gfx/exiv2 nls unicode zlib
 media-gfx/gimpaalib alsa dbus exif jpeg mmx mng pdf png python smp sse svg tiff webkit wmf
-media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openexr openmp perl png raw svg tiff truetype wmf zlib328-libs_cards_nvidia
+media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openexr openmp perl png raw svg tiff truetype wmf zlib328-libs
 media-gfx/sane-backends ipv6 usb4l
 media-gfx/scrot bash-completion
 media-gfx/splashutils fbcondecor gpm mng png truetype
@@ -244,7 +248,7 @@ media-sound/sox alsa encode ffmpeg flac id3tag mad ogg png
 media-sound/pulseaudio system-wide
 media-video/dirac mmx
 media-video/dvgrab jpeg quicktime
-media-video/ffmpeg 3dnow 3dnowext X alsa amr bzip2 -cpudetection-cflags encode hardcoded-tables ieee1394 jpeg2k mmx mmxext mp3 sdl speex ssse3 theora threads v4l v4l2 vorbis x264 xvid zlib0r-faststart-libs_cards_nvidia
+media-video/ffmpeg 3dnow 3dnowext X alsa amr bzip2 -cpudetection-cflags encode hardcoded-tables ieee1394 jpeg2k mmx mmxext mp3 sdl speex ssse3 theora threads v4l v4l2 vorbis x264 xvid zlib0r faststart
 media-video/ffmpegthumbnailer gtk jpeg png
 media-video/kdenlive semantic-desktop
 media-video/mjpegtools dv gtk mmx png quicktime sdl v4l12
@@ -378,7 +382,7 @@ sys-libs/tdb python-libs
 sys-libs/timezone-data elibc_glibc nls_FreeBSD
 sys-power/cpufreqd acpi nvidia lm_sensors2
 sys-power/cpufrequtils nls
-sys-power/pm-utils alsa networkmanager video_cards_intel video_cards_radeon
+sys-power/pm-utils alsa networkmanager
 sys-power/powertop unicode
 sys-power/upower kernel_linux_FreeBSD
 sys-process/procps unicode32
@@ -390,7 +394,7 @@ virtual/libiconv elibc_glibc_uclibc
 virtual/libintl elibc_glibc_uclibc
 virtual/mysql embedded
 x11-base/xorg-server ipv6 nptl udev xorg-libs
-x11-drivers/nvidia-drivers gtk
+x11-drivers/nvidia-drivers -gtk -custom-cflags
 x11-drivers/xf86-video-glint dri
 x11-drivers/xf86-video-intel dri
 x11-drivers/xf86-video-mach64 dri
