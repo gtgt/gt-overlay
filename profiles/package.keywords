@@ -152,8 +152,8 @@ x11-libs/libxcb ~amd64 ~x86
 <app-admin/eselect-opengl-9999 ~amd64 ~x86
 
 <x11-drivers/ati-drivers-9999 ~amd64 ~x86
-#<x11-drivers/nvidia-drivers-9999 ~amd64 ~x86
-#<media-video/nvidia-settings-9999 ~amd64 ~x86
+<x11-drivers/nvidia-drivers-9999 **
+<media-video/nvidia-settings-9999 **
 
 ## KDE Stuff
 kde-misc/oxygen-appmenu **
