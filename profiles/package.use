@@ -276,13 +276,13 @@ net-libs/libvncserver jpeg zlib24bpp threads
 net-libs/neon nls ssl zlib-pkcs11
 net-libs/ortp ipv6 ssl
 net-libs/webkit-gtk jit
-net-libs/xulrunner alsa dbus ipc libnotify_FreeBSD-notification
+net-libs/xulrunner alsa dbus ipc libnotify startup-notification
 net-mail/mailbase pam
 net-misc/curl ipv6 ssl idn2
 net-misc/dhcpcd elibc_glibc zeroconf
 net-misc/iputils ipv6 ssl_HAZARD idn
 net-misc/modemmanager policykit
-net-misc/networkmanager bluetooth dhcpcd kernel_linux-sharing nss resolvconf
+net-misc/networkmanager bluetooth dhcpcd kernel_linux -sharing nss resolvconf
 net-misc/ntp ipv6 ssl-clocks-syntax
 net-misc/openssh X hpn pam tcpd509
 net-misc/openvpn ipv6 pam ssl211_BSD
