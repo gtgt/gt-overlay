@@ -227,8 +227,8 @@ sys-devel/llvm ~amd64
 <x11-libs/qtermwidget-9999 ~amd64 ~x86
 x11-misc/appmenu-qt **
 x11-misc/appmenu-gtk **
-#<=x11-themes/qtcurve-qt4-1.8.7 ~amd64 ~x86
-#<=x11-themes/gtk-engines-qtcurve-1.8.7 ~amd64 ~x86
+<=x11-themes/qtcurve-qt4-1.8.7 ~amd64 ~x86
+<=x11-themes/gtk-engines-qtcurve-1.8.7 ~amd64 ~x86
 
 ## GStreamer
 <media-plugins/gstreamer-9999 ~amd64 ~x86
