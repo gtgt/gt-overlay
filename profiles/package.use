@@ -174,7 +174,7 @@ kde-base/pykde4 semantic-desktop
 kde-base/solid bluetooth networkmanager
 kde-base/sweeper handbook
 kde-base/systemsettings handbook opengl usb xinerama
-kde-base/tqtinterface -qt4 qt3
+kde-base/tqtinterface qt4 -qt3
 kde-misc/knetworkmanager consolekit
 mail-mta/ssmtp ipv6 ssl5sum
 media-fonts/corefonts X
@@ -416,22 +416,22 @@ x11-libs/libdrm libkms video_cards_intel video_cards_nouveau video_cards_radeon 
 x11-libs/pango X
 x11-libs/pixman mmx sse2-libs
 x11-libs/qt:3 immqt-bc
-x11-libs/qt-core exceptions glib iconv jit private-headers -qt3support ssl-qmake
+x11-libs/qt-core exceptions glib iconv jit private-headers ssl-qmake
 x11-libs/qt-dbus exceptions
-x11-libs/qt-declarative exceptions private-headers -qt3support webkit
-x11-libs/qt-gui -egl accessibility cups dbus exceptions glib mng nas private-headers -qt3support tiff xinerama gtkstyle
+x11-libs/qt-declarative exceptions private-headers webkit
+x11-libs/qt-gui -egl cups dbus exceptions glib mng nas private-headers tiff xinerama gtkstyle
 x11-libs/qt-multimedia exceptions iconv
-x11-libs/qt-opengl -egl exceptions -qt3support
-x11-libs/qt--qt3support accessibility exceptions kde phonon
+x11-libs/qt-opengl -egl exceptions
+x11-libs/qt-qt3support exceptions kde phonon
 x11-libs/qt-script exceptions iconv jit private-headers
-x11-libs/qt-sql exceptions iconv mysql -qt3support sqlite
-x11-libs/qt-svg accessibility exceptions iconv
+x11-libs/qt-sql exceptions iconv mysql sqlite
+x11-libs/qt-svg exceptions iconv
 x11-libs/qt-test exceptions iconv
 x11-libs/qt-webkit dbus exceptions jit kde
 x11-libs/qt-xml patterns
 x11-libs/qtscriptgenerator kde
 x11-libs/xosd xinerama
-x11-misc/google-gadgets -gtk xulrunner -webkit dbus
+x11-misc/google-gadgets -gtk -xulrunner -webkit dbus
 www-client/icecat -crashreporter
 ### ----------------------------------------------
 
