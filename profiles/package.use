@@ -34,7 +34,7 @@ app-mobilephone/obex-data-server gtk imagemagick usb
 app-mobilephone/obexd usb
 app-office/akonadi-server mysql sqlite
 app-office/koffice-l10n doc
-app-office/libreoffice bash-completion cups dbus gtk kde nsplugin opengl custom-cflags elibc_FreeBSD -odk
+app-office/libreoffice bash-completion cups dbus gtk kde nsplugin opengl custom-cflags -odk
 app-pda/libplist python
 app-portage/eix bzip2 nls
 app-portage/genlop bash-completion
@@ -58,15 +58,14 @@ dev-java/swing-layout source
 dev-java/icedtea xrender cacao -jamvm -zero
 dev-java/netbeans-nb keychain
 dev-lang/perl berkdb gdbm
-dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml_uclibc
-dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml_uclibc
+dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml
 dev-lang/swig pcre
 dev-lang/tcl threads
 dev-lang/tk truetype threads
 dev-lang/yasm nls python
 dev-libs/atk nls
 dev-libs/boost eselect python-libs
-dev-libs/cyrus-sasl berkdb crypt gdbm mysql pam ssl_FreeBSD_unsupported_patch
+dev-libs/cyrus-sasl berkdb crypt gdbm mysql pam ssl
 dev-libs/dbus bash-completion-libs
 dev-libs/elfutils bzip2 elibc_glibc nls zlib
 dev-libs/glibstatic fam
@@ -206,7 +205,7 @@ media-libs/jpeg static-libs
 media-libs/lcms jpeg python static-libs tiff zlib
 media-libs/libao alsa nas-libs
 media-libs/libassenca fontconfig-libs
-media-libs/libcaca X cxx ncurses opengl truetype_FreeBSD-libs
+media-libs/libcaca X cxx ncurses opengl truetype
 media-libs/libdc1394 X
 media-libs/libdvsdl xv
 media-libs/libdvd css
@@ -262,7 +261,7 @@ net-dialup/ppp gtk ipv6 pam-tls
 net-dialup/rp-pppoe X
 net-dns/avahi howl-compat mdnsresponder-compat
 net-dns/bind-tools ipv6 ssl idn
-net-dns/libidn nls_FreeBSD-libs
+net-dns/libidn nls
 net-dns/mydns alias status
 net-fs/nfs-utils elibc_glibc ipv6 nfsv3 nfsv4 tcpd
 net-fs/samba acl aio client cups netapi pam quota readline server smbclient fam2
@@ -291,18 +290,18 @@ net-misc/rdesktop alsa ipv6-lite
 net-misc/rsync acl iconv ipv6
 net-misc/wget ipv6 nls ssl idn
 net-nds/openberkdb crypt gnutls ipv6 perl samba ssl tcpd5passwd
-net-p2p/eiskaltdcpp cli dbus emoticons libnotifypcre qt4 spell-lua -gtk
+net-p2p/eiskaltdcpp cli dbus emoticons libnotifypcre qt4 -spell -lua -gtk
 net-print/cnijfilteramd64 ip4700 mp250 mp270 mp490 mp550 mp560640
-net-print/cups X acl dbus gnutls jpeg pam perl png python samba ssl threads tiff usb_FreeBSD-libs
+net-print/cups X acl dbus gnutls jpeg pam perl png python samba ssl threads tiff usb -static-libs
 net-print/foomatic-filters cups
 net-print/gutenprintcups foomaticdb gimp gtk readline
-net-print/hplip -X fax hpcups hpijs -kde libnotify policykit scanner static-ppds4-acl
-net-wireless/bluez alsa consolekit cups usb6-daemons-programs
+net-print/hplip -X fax hpcups hpijs -kde libnotify policykit scanner static-ppds -acl
+net-wireless/bluez alsa consolekit cups usb -maemo6 old-daemons test-programs
 net-wireless/broadcom-sta kernel_linux
 net-wireless/madwifi-ng kernel_linux
 net-wireless/rtl8192se kernel_linux
 net-wireless/wireless-tools nls
-net-wireless/wpa_supplicant dbus kernel_linux readline ssl wimax-sim_FreeBSD34
+net-wireless/wpa_supplicant dbus kernel_linux readline ssl -wimax eap-sim
 sys-apps/attr nls
 sys-apps/busybox elibc_glibc ipv6 mdev pam-symlinks
 sys-apps/calculate-client kde
@@ -328,7 +327,7 @@ sys-apps/lm_sensors sensord
 sys-apps/man-db berkdb gdbm nls
 sys-apps/man-pages nls
 sys-apps/net-tools nls
-sys-apps/openrc elibc_glibc kernel_linux ncurses pam unicode_FreeBSD
+sys-apps/openrc elibc_glibc kernel_linux ncurses pam unicode
 sys-apps/portage ipc
 sys-apps/pv nls
 sys-apps/sandbox multilib
@@ -355,8 +354,8 @@ sys-devel/bison nls
 sys-devel/flex nls
 sys-devel/gcc fortran gtk mudflap multilib nls nptl openmp objc objc++ objc-gc
 sys-devel/gettext acl elibc_glibc git nls openmp
-sys-fs/e2fsprogs nls_FreeBSD
-sys-fs/fuse kernel_linux_FreeBSD
+sys-fs/e2fsprogs nls
+sys-fs/fuse kernel_linux
 sys-fs/lvm2 lvm1 readline static
 sys-fs/ntfs3g acl external-fuse udev ntfsprogs
 sys-fs/ntfsprogs crypt
@@ -370,22 +369,22 @@ sys-kernel/calculate-sources symlink
 sys-libs/cracklibnls python
 sys-libs/e2fsprogs-libs elibc_glibc nls
 sys-libs/gdbm berkdb
-sys-libs/glibc gd multilib nls_opts_headers-only-omitfp
+sys-libs/glibc gd multilib nls glibc-omitfp
 sys-libs/libcap pam
 sys-libs/libieee1284 python
 sys-libs/libkudzu zlib
 sys-libs/libstdc++-v3 multilib nls
-sys-libs/libutempter_FreeBSD
+sys-libs/libutempter 
 sys-libs/ncurses cxx gpm unicode-libs
-sys-libs/pam berkdb cracklib elibc_glibc nls_FreeBSD-syntax
+sys-libs/pam berkdb cracklib elibc_glibc nls
 sys-libs/talloc-libs
 sys-libs/tdb python-libs
-sys-libs/timezone-data elibc_glibc nls_FreeBSD
+sys-libs/timezone-data nls
 sys-power/cpufreqd acpi nvidia lm_sensors2
 sys-power/cpufrequtils nls
 sys-power/pm-utils alsa networkmanager
 sys-power/powertop unicode
-sys-power/upower kernel_linux_FreeBSD
+sys-power/upower kernel_linux
 sys-process/procps unicode32
 sys-process/psmisc X ipv6 nls
 sys-process/vixie-cron pam

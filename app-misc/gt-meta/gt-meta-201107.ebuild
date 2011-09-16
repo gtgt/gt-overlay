@@ -85,6 +85,7 @@ desktop? (
 	media-gfx/gimp
 	media-libs/phonon[gstreamer,xine]
 	media-plugins/alsa-plugins
+	media-libs/glew
 	media-libs/gst-plugins-good
 	media-libs/gst-plugins-bad
 	media-libs/gst-plugins-ugly
