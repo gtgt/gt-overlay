@@ -215,6 +215,7 @@ media-sound/qjackctl ~amd64
 media-sound/qt-gstreamer **
 media-sound/qtractor ~amd64
 media-video/kamoso **
+media-video/recorditnow **
 net-analyzer/ksniffer ~amd64
 net-dialup/qtwvdialer ~amd64
 net-libs/libqinfinity ~amd64

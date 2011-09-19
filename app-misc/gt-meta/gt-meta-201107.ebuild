@@ -50,19 +50,22 @@ system? (
 #desktop
 RDEPEND="${RDEPEND}
 desktop? (
+	kde-base/kdebase-meta
+	kde-base/kdenetwork-meta
+	kde-base/kdeutils-meta
+	kde-base/kdepim-meta
+	kde-base/kdegraphics-meta
+	kde-base/kdegames-meta
+	kde-base/kdeadmin-meta
+
 	app-cdr/k3b
 	kde-base/kate
 	kde-base/kcron
 	kde-base/kde-l10n
-	kde-base/kdeartwork-meta
-	kde-base/kdebase-meta
-	kde-base/kdegraphics-meta
 	kde-base/kdemultimedia-kioslaves
 	kde-base/kdenetwork-filesharing
 	kde-base/kdepasswd
-	kde-base/kdepim-meta
 	kde-base/kdeplasma-addons
-	kde-base/kdeutils-meta
 	kde-base/kget
 	kde-misc/kgtk
 	kde-base/kmix
@@ -89,6 +92,7 @@ desktop? (
 	media-libs/gst-plugins-good
 	media-libs/gst-plugins-bad
 	media-libs/gst-plugins-ugly
+	media-plugins/gst-plugins-meta
 	media-plugins/gst-plugins-alsa
 	media-plugins/gst-plugins-esd
 	media-plugins/gst-plugins-dvb
@@ -112,7 +116,6 @@ desktop? (
 	media-video/kaffeine
 	media-video/kdenlive
 	media-video/kffmpegthumbnailer
-	media-video/qt-recordmydesktop
 	media-sound/alsa-utils
 	media-sound/clementine
 	media-sound/qjackctl
