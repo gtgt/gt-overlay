@@ -196,6 +196,8 @@ dev-python/sip ~amd64
 dev-util/quanta **
 dev-vcs/qgit **
 kde-base/gwenview -~amd64 -~x86
+kde-base/tqtinterface:3.5 ~amd64 ~x86
+kde-base/kate:3.5 ~amd64
 kde-misc/akonadi-googledata ~amd64
 kde-misc/akonadi-facebook **
 kde-misc/basket **
@@ -219,6 +221,7 @@ media-sound/qjackctl ~amd64
 <media-sound/qt-gstreamer-9999 ~amd64 ~x86
 media-sound/qtractor ~amd64
 media-video/kamoso **
+media-video/recorditnow **
 net-analyzer/ksniffer ~amd64
 net-dialup/qtwvdialer ~amd64
 net-libs/libqinfinity ~amd64
@@ -231,7 +234,8 @@ sys-devel/llvm ~amd64
 <x11-libs/qtermwidget-9999 ~amd64 ~x86
 x11-misc/appmenu-qt **
 x11-misc/appmenu-gtk **
-
+<=x11-themes/qtcurve-qt4-1.8.7 ~amd64 ~x86
+<=x11-themes/gtk-engines-qtcurve-1.8.7 ~amd64 ~x86
 
 ## GStreamer
 <media-plugins/gstreamer-9999 ~amd64 ~x86
@@ -290,22 +294,24 @@ media-plugins/alsa-plugins  ~amd64 ~x86
 media-sound/alsa-utils ~amd64 ~x86
 
 ## QT
-=x11-libs/qt-assistant-4.7.3 ~amd64 ~x86
-=x11-libs/qt-core-4.7.3 ~amd64 ~x86
-=x11-libs/qt-dbus-4.7.3 ~amd64 ~x86
-=x11-libs/qt-declarative-4.7.3 ~amd64 ~x86
-=x11-libs/qt-demo-4.7.3 ~amd64 ~x86
-=x11-libs/qt-gui-4.7.3 ~amd64 ~x86
-=x11-libs/qt-multimedia-4.7.3 ~amd64 ~x86
-=x11-libs/qt-opengl-4.7.3 ~amd64 ~x86
-=x11-libs/qt-phonon-4.7.3 ~amd64 ~x86
-=x11-libs/qt-qt3support-4.7.3 ~amd64 ~x86
-=x11-libs/qt-script-4.7.3 ~amd64 ~x86
-=x11-libs/qt-sql-4.7.3 ~amd64 ~x86
-=x11-libs/qt-svg-4.7.3 ~amd64 ~x86
-=x11-libs/qt-test-4.7.3 ~amd64 ~x86
-=x11-libs/qt-webkit-4.7.3 ~amd64 ~x86
-=x11-libs/qt-xmlpatterns-4.7.3 ~amd64 ~x86
+=x11-libs/qt-4.7.4 ~amd64 ~x86
+=x11-libs/qt-meta-4.7 ~amd64 ~x86
+=x11-libs/qt-assistant-4.7.4 ~amd64 ~x86
+=x11-libs/qt-core-4.7.4 ~amd64 ~x86
+=x11-libs/qt-dbus-4.7.4 ~amd64 ~x86
+=x11-libs/qt-declarative-4.7.4 ~amd64 ~x86
+=x11-libs/qt-demo-4.7.4 ~amd64 ~x86
+=x11-libs/qt-gui-4.7.4 ~amd64 ~x86
+=x11-libs/qt-multimedia-4.7.4 ~amd64 ~x86
+=x11-libs/qt-opengl-4.7.4 ~amd64 ~x86
+=x11-libs/qt-phonon-4.7.4 ~amd64 ~x86
+=x11-libs/qt-qt3support-4.7.4 ~amd64 ~x86
+=x11-libs/qt-script-4.7.4 ~amd64 ~x86
+=x11-libs/qt-sql-4.7.4 ~amd64 ~x86
+=x11-libs/qt-svg-4.7.4 ~amd64 ~x86
+=x11-libs/qt-test-4.7.4 ~amd64 ~x86
+=x11-libs/qt-webkit-4.7.4 ~amd64 ~x86
+=x11-libs/qt-xmlpatterns-4.7.4 ~amd64 ~x86
 
 
 <dev-lang/python-3.2 ~amd64 ~x86

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+  <repo priority="50" quality="experimental" status="official">
+    <name>kde-trinity</name>
+    <description>A fork of KDE 3.5 in active development.</description>
+    <homepage>http://www.trinitydesktop.org/</homepage>
+    <owner>
+      <email></email>
+      <name>kde-trinity</name>
+    </owner>
+    <source type="git">git://github.com/serghei/kde-trinity.git</source>
+  </repo>
+  <repo priority="50" quality="experimental" status="official">
+    <name>etrnls</name>
+    <description>Etrnls overlay</description>
+    <homepage>https://github.com/Etrnls/Etrnlay/tree/master/</homepage>
+    <owner>
+      <email></email>
+      <name>Etrnls</name>
+    </owner>
+    <source type="git">git://github.com/Etrnls/Etrnlay.git</source>
+  </repo>
+  <repo priority="50" quality="experimental" status="official">
+    <name>stuff2</name>
+    <description>Stuff overlay</description>
+    <homepage>https://github.com/megabaks/stuff</homepage>
+    <owner>
+      <email></email>
+      <name>suff2</name>
+    </owner>
+    <source type="git">git://github.com/megabaks/stuff.git</source>
+  </repo>
+</repositories>

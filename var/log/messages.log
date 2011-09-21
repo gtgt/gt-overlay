@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+>Log Session: Wednesday, September 14, 2011 10:03:34 AM GMT+01:00
+>System Info: 
+  Product Version         = NetBeans IDE Dev (Build 201109120600) (#c50ade4b58c7)
+  Operating System        = Linux version 3.0.3-pf running on amd64
+  Java; VM; Vendor        = 1.7.0_136-icedtea; OpenJDK 64-Bit Server VM 21.0-b07; Oracle Corporation
+  Runtime                 = OpenJDK Runtime Environment 1.7.0_136-icedtea-b136
+  Java Home               = /usr/lib64/icedtea7/jre
+  System Locale; Encoding = en_GB (nb); UTF-8
+  Home Directory          = /home/gt
+  Current Directory       = /var/lib/layman/gt-overlay
+  User Directory          = /var/lib/layman/gt-overlay
+  Cache Directory         = /var/lib/layman/gt-overlay/var/cache
+  Installation            = /opt/netbeans-dev/nb
+                            /opt/netbeans-dev/ide
+                            /opt/netbeans-dev/webcommon
+                            /opt/netbeans-dev/websvccommon
+                            /opt/netbeans-dev/php
+                            /opt/netbeans-dev/extra
+                            /opt/netbeans-dev/platform
+  Boot & Ext. Classpath   = /usr/lib64/icedtea7/jre/lib/resources.jar:/usr/lib64/icedtea7/jre/lib/rt.jar:/usr/lib64/icedtea7/jre/lib/sunrsasign.jar:/usr/lib64/icedtea7/jre/lib/jsse.jar:/usr/lib64/icedtea7/jre/lib/jce.jar:/usr/lib64/icedtea7/jre/lib/charsets.jar:/usr/lib64/icedtea7/jre/lib/netx.jar:/usr/lib64/icedtea7/jre/lib/plugin.jar:/usr/lib64/icedtea7/jre/lib/rhino.jar:/usr/lib64/icedtea7/jre/classes:/usr/lib64/icedtea7/jre/lib/ext/dnsns.jar:/usr/lib64/icedtea7/jre/lib/ext/zipfs.jar:/usr/lib64/icedtea7/jre/lib/ext/sunpkcs11.jar:/usr/lib64/icedtea7/jre/lib/ext/sunjce_provider.jar:/usr/lib64/icedtea7/jre/lib/ext/localedata.jar
+  Application Classpath   = /opt/netbeans-dev/platform/lib/boot.jar:/opt/netbeans-dev/platform/lib/org-openide-modules.jar:/opt/netbeans-dev/platform/lib/org-openide-util.jar:/opt/netbeans-dev/platform/lib/org-openide-util-lookup.jar:/opt/netbeans-dev/platform/lib/locale/boot_ja.jar:/opt/netbeans-dev/platform/lib/locale/boot_pt_BR.jar:/opt/netbeans-dev/platform/lib/locale/boot_ru.jar:/opt/netbeans-dev/platform/lib/locale/boot_zh_CN.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-modules_ja.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-modules_pt_BR.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-modules_ru.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-modules_zh_CN.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-util_ja.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-util-lookup_ja.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-util-lookup_pt_BR.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-util-lookup_ru.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-util-lookup_zh_CN.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-util_pt_BR.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-util_ru.jar:/opt/netbeans-dev/platform/lib/locale/org-openide-util_zh_CN.jar
+  Startup Classpath       = /opt/netbeans-dev/platform/core/core.jar:/opt/netbeans-dev/platform/core/org-openide-filesystems.jar:/opt/netbeans-dev/platform/core/locale/core_pt_BR.jar:/opt/netbeans-dev/platform/core/locale/core_ru.jar:/opt/netbeans-dev/platform/core/locale/org-openide-filesystems_zh_CN.jar:/opt/netbeans-dev/platform/core/locale/core_zh_CN.jar:/opt/netbeans-dev/platform/core/locale/org-openide-filesystems_ja.jar:/opt/netbeans-dev/platform/core/locale/org-openide-filesystems_pt_BR.jar:/opt/netbeans-dev/platform/core/locale/org-openide-filesystems_ru.jar:/opt/netbeans-dev/platform/core/locale/core_ja.jar:/opt/netbeans-dev/nb/core/org-netbeans-upgrader.jar:/opt/netbeans-dev/nb/core/locale/core_nb.jar:/opt/netbeans-dev/nb/core/locale/core_nb_pt_BR.jar:/opt/netbeans-dev/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/opt/netbeans-dev/nb/core/locale/core_nb_ja.jar:/opt/netbeans-dev/nb/core/locale/org-netbeans-upgrader_ja.jar:/opt/netbeans-dev/nb/core/locale/core_nb_ru.jar:/opt/netbeans-dev/nb/core/locale/org-netbeans-upgrader_ru.jar:/opt/netbeans-dev/nb/core/locale/core_nb_zh_CN.jar:/opt/netbeans-dev/nb/core/locale/org-netbeans-upgrader_zh_CN.jar
+-------------------------------------------------------------------------------

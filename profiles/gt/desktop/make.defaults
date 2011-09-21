@@ -44,10 +44,10 @@ USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite"
 USE="${USE} networkmanager nm09 ipv6 tcpd autoipd"
 
 # Web
-USE="${USE} bittorent webkit idn"
+USE="${USE} bittorent webkit idn mozilla xulrunner firefox"
 
 # Window manager and speciality
-USE="${USE} X xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl -gles gbm gallium openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver google-gadgets libnotify appmenu"
+USE="${USE} X xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl -gles gbm gallium glew openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver google-gadgets libnotify appmenu windeco"
 
 # Print
 USE="${USE} foomaticdb cups"
@@ -62,7 +62,6 @@ USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd blueray"
 USE="${USE} ipod ios fax apm bluetooth ieee1394 remote mtp"
 
 # Documentation format
-
 USE="${USE} chm djvu ebook marble"
 
 # Guard and security
@@ -80,11 +79,8 @@ USE="${USE} irc jabber jingle oscar yahoo"
 # Image support
 USE="${USE} exif fdftk gd gif imagemagick jpeg jpeg2k lcms mng openexr pdf png raw svg tiff wmf wxwindows xpm"
 
-# Languages support
-#USE="${USE} -java"
-
 # Locale and Fonts
-USE="${USE} spell truetype fontconfig unicode utf8 nls idn iconv"
+USE="${USE} spell hunspell enchant truetype fontconfig unicode utf8 nls idn iconv"
 
 # Mail
 USE="${USE} mbox"
