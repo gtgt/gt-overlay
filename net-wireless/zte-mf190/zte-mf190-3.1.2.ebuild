@@ -29,3 +29,7 @@ src_compile() {
 	ln -s ${KERNEL_DIR}/drivers/usb/serial/usb-wwan.h ${S}/usb-wwan.h
 	linux-mod_src_compile
 }
+
+#    /sbin/udevadm control reload_rules >/dev/null 2>&1
+#    /sbin/udevadm control --reload-rules >/dev/null 2>&1
+#    /sbin/udevadm trigger --subsystem-match=block
