@@ -1,6 +1,6 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/vhba/vhba-20101015-r1.ebuild,v 1.2 2011/04/28 19:01:45 ulm Exp $
+# $Header: gt-overlay/media-video/dvb-usb-rtl2832u.ebuild,v 1.0 2011/09/22 19:01:45 gt Exp $
 
 EAPI="3"
 
@@ -18,14 +18,20 @@ IUSE=""
 DEPEND="virtual/linux-sources"
 RDEPEND="!media-tv/v4l-dvb-hg"
 
-#S=${WORKDIR}/${MY_P}
-MODULE_NAMES="dvb_usb_rtl2832u"
-BUILD_TARGETS=all
+MY_LIBDIR="kernel/drivers/media/dvb/dvb-usb"
+
+S=${WORKDIR}/${PN}
+
+MODULE_NAMES="dvb-usb-rtl2832u(${MY_LIBDIR}:${S}:${S})"
+BUILD_TARGETS="modules"
 
 pkg_setup() {
 	CONFIG_CHECK="~DVB_USB"
 	check_extra_config
-	BUILD_PARAMS="KDIR=${KV_DIR}"
+	export INSTALL_MOD_PATH="/"
+	export INSTALL_MOD_DIR="${MY_LIBDIR}"
+	export KBUILD_SRC="${KERNEL_DIR}"
+	BUILD_PARAMS="-C ${KERNEL_DIR} M=${S}"
 	linux-mod_pkg_setup
 }
 
