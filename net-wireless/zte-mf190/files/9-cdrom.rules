@@ -6,15 +6,6 @@
 #SUBSYSTEM!="usb_device", GOTO="phone_rules_end"
 #ACTION!="add", GOTO="phone_rules_end"KERNEL=="sr*",SUBSYSTEMS=="scsi"
 #ACTION!="remove", GOTO="phone_rules_end",KERNEL=="scd*",NAME="%k", ACTION=="add",
-#################
-#################
-#autorun#
-SUBSYSTEMS=="usb", ACTION=="add", SYSFS{idVendor}=="19d2",SYSFS{idProduct}=="2000", MODE="0666", RUN+="/bin/launch-gui.sh"
-SUBSYSTEMS=="usb", ACTION=="add", SYSFS{idVendor}=="19d2",SYSFS{idProduct}=="0053", MODE="0666", RUN+="/bin/launch-gui.sh"
-SUBSYSTEMS=="usb", ACTION=="remove", RUN+="/bin/launch-gui.sh"
-#################
-#################
-
 
 #################
 #################
