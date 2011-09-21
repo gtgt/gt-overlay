@@ -29,7 +29,6 @@ app-admin/keepassx2 **
 
 # Hardware & Drivers
 <sys-fs/udev-9999
-sys-apps/usb_modeswitch
 <app-admin/testdisk-9999
 <net-print/foo2zjs-9999
 <net-print/foomatic-db-9999
