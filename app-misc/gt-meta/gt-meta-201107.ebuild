@@ -23,6 +23,7 @@ system? (
   app-portage/elogv
 	app-portage/gentoolkit
 	app-portage/layman
+	app-portage/smart-live-rebuild
 	app-text/wgetpaste
 	dev-vcs/git
 	dev-vcs/qgit

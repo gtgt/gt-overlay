@@ -32,7 +32,7 @@ USE=""
 USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization threads pgo"
 
 #Lang support
-USE="${USE} python perl ithreads fortran gdbm cblas-external"
+USE="${USE} python perl mono ithreads fortran gdbm cblas-external"
 
 # Network protocols
 USE="${USE} network -ldap rdesktop samba upnp nss resolvconf zeroconf avahi wifi"
