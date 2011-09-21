@@ -36,6 +36,7 @@ app-admin/keepassx2 **
 <net-print/foomatic-db-engine-9999
 <net-print/foomatic-filters-9999
 <net-print/cups-9999
+sys-apps/usb_modeswitch
 
 # Picture and social
 <app-text/fbreader-9999
