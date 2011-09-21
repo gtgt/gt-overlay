@@ -29,7 +29,7 @@ PKGDIR="/usr/portage/packages/`uname -m`"
 USE=""
 
 #System
-USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization threads pgo"
+USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization optimization threads"
 
 #Lang support
 USE="${USE} python perl ithreads fortran gdbm cblas-external"
@@ -93,7 +93,7 @@ USE="${USE} mbox"
 USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify gstreamer -caps"
 
 # Video
-USE="${USE} a52 aac aalib avi cddb dv dvb encode dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
+USE="${USE} a52 aac aalib avi cddb cuda dv dvb encode dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
 
 # Web
 USE="${USE} libwww vhosts nsplugin javascript"

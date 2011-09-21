@@ -1,14 +1,16 @@
-virtual/jdk ~amd64
-dev-java/oracle-jdk-bin ~amd64 ~x86
+# System
 sys-devel/gcc ~amd64 ~x86
 sys-devel/kgcc64 **
+<dev-libs/liblinebreak-9999 ~amd64 ~x86
 
 
 ## Java stuff
 dev-java/icedtea6-bin ~amd64 ~x86
 dev-java/icedtea ~amd64 ~x86
 dev-java/icedtea-web ~amd64 ~x86
-dev-java/sun-jdk **
+
+virtual/jdk ~amd64
+dev-java/oracle-jdk-bin ~amd64 ~x86
 
 dev-util/netbeans ~amd64 ~x86
 dev-java/netbeans-apisupport ~amd64 ~x86
@@ -19,6 +21,8 @@ dev-java/netbeans-harness ~amd64 ~x86
 dev-java/netbeans-nb ~amd64 ~x86
 dev-java/netbeans-ergonomics ~amd64 ~x86
 dev-java/netbeans-platform ~amd64 ~x86
+
+dev-java/jpcap ~amd64 ~x86
 
 # Auth stuff
 <sys-apps/keyexec-9999 ~amd64 ~x86
@@ -63,13 +67,15 @@ net-libs/pjsip ~amd64 ~x86
 <media-libs/libvpx-9999 ~amd64 ~x86
 
 # Office
-<app-dicts/ispell-pt-br-9999 ~amd64 ~x86
+<app-text/hunspell-1.4.0 ~amd64 ~x86
 <app-office/libreoffice-9999 ~amd64 ~x86
 <app-office/libreoffice-bin-9999 ~amd64 ~x86
 <app-office/libreoffice-l10n-9999 ~amd64 ~x86
 
-
-<dev-libs/liblinebreak-9999 ~amd64 ~x86
+# Web
+www-client/firefox ~amd64 ~x86
+www-client/firefox-bin ~amd64 ~x86
+www-plugins/lightspark ~amd64 ~x86
 
 # Bad stuff
 <app-emulation/wine-9999 ~amd64 ~x86
@@ -89,6 +95,7 @@ kde-misc/akonadi-googledata **
 <dev-libs/shared-desktop-ontologies-9999 ~amd64 ~x86
 <dev-cpp/clucene-9999 ~amd64 ~x86
 media-libs/lcms ~amd64 ~x86
+media-libs/opencv ~amd64
 
 
 
@@ -130,6 +137,7 @@ x11-libs/libdrm ~amd64 ~x86
 x11-apps/mesa-progs ~amd64 ~x86
 media-libs/mesa ~amd64 ~x86
 
+x11-misc/appmenu ~amd64
 x11-proto/xcb-proto ~amd64 ~x86
 x11-libs/xcb-util-wm ~amd64 ~x86
 x11-libs/xcb-util-renderutil ~amd64 ~x86
@@ -137,8 +145,6 @@ x11-libs/xcb-util-keysyms ~amd64 ~x86
 x11-libs/xcb-util-image ~amd64 ~x86
 x11-libs/libxcb ~amd64 ~x86
 <x11-libs/xcb-util-9999 ~amd64 ~x86
-
-
 
 <x11-base/xorg-drivers-9999 ~amd64 ~x86
 <x11-drivers/xf86-video-fbdev-9999 ~amd64 ~x86
@@ -210,7 +216,7 @@ media-sound/kmetronome ~amd64
 media-sound/kwave ~amd64
 media-sound/kid3 ~amd64
 media-sound/qjackctl ~amd64
-media-sound/qt-gstreamer **
+<media-sound/qt-gstreamer-9999 ~amd64 ~x86
 media-sound/qtractor ~amd64
 media-video/kamoso **
 net-analyzer/ksniffer ~amd64
@@ -243,6 +249,7 @@ media-plugins/gst-plugins-cdparanoia ~amd64 ~x86
 media-plugins/gst-plugins-cdio ~amd64 ~x86
 media-plugins/gst-plugins-dv ~amd64 ~x86
 media-plugins/gst-plugins-dvb ~amd64 ~x86
+media-plugins/gst-plugins-dts ~amd64 ~x86
 media-plugins/gst-plugins-dvdread ~amd64 ~x86
 media-plugins/gst-plugins-esd ~amd64 ~x86
 media-plugins/gst-plugins-faac ~amd64 ~x86
@@ -305,7 +312,4 @@ media-sound/alsa-utils ~amd64 ~x86
 
 net-dns/mydns ~amd64 ~x86
 
-www-client/firefox ~amd64 ~x86
-www-client/firefox-bin ~amd64 ~x86
-
-www-plugins/lightspark ~amd64 ~x86
+sys-boot/unetbootin ~amd64 ~x86
