@@ -282,7 +282,7 @@ net-misc/curl ipv6 ssl idn2
 net-misc/dhcpcd elibc_glibc zeroconf
 net-misc/iputils ipv6 ssl_HAZARD idn
 net-misc/modemmanager policykit
-net-misc/networkmanager bluetooth dhcpcd kernel_linux -sharing nss resolvconf
+net-misc/networkmanager bluetooth dhcpcd kernel_linux -sharing nss resolvconf -wimax
 net-misc/ntp ipv6 ssl-clocks-syntax
 net-misc/openssh X hpn pam tcpd509
 net-misc/openvpn ipv6 pam ssl211_BSD
@@ -296,7 +296,7 @@ net-print/cups X acl dbus gnutls jpeg pam perl png python samba ssl threads tiff
 net-print/foomatic-filters cups
 net-print/gutenprintcups foomaticdb gimp gtk readline
 net-print/hplip -X fax hpcups hpijs -kde libnotify policykit scanner static-ppds -acl
-net-wireless/bluez alsa consolekit cups usb -maemo6 old-daemons test-programs
+net-wireless/bluez alsa consolekit cups usb -maemo6 -old-daemons test-programs
 net-wireless/broadcom-sta kernel_linux
 net-wireless/madwifi-ng kernel_linux
 net-wireless/rtl8192se kernel_linux
@@ -447,7 +447,7 @@ media-video/mplayer amrnb dga dts dvdnav md5sum mmxext radio  x264
 media-video/transcode mjpeg
 net-misc/networkmanager dhcpcd
 net-wireless/blueman network
-www-client/firefox bindist system-sqlite
+www-client/firefox bindist system-sqlite pgo
 media-gfx/ufraw gimp
 media-libs/libsdl
 media-libs/mediastreamer video
