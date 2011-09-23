@@ -20,6 +20,10 @@ dev-java/netbeans-nb
 dev-java/netbeans-ergonomics
 dev-java/netbeans-platform
 
+# PHP
+dev-php/xhprof
+www-apps/xhprof-ui
+
 # Auth stuff
 <sys-apps/keyexec-9999
 <sys-auth/pam_keystore-9999

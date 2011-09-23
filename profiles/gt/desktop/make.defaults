@@ -92,7 +92,7 @@ USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify
 USE="${USE} a52 aac aalib avi cddb cuda dv dvb encode dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
 
 # Web
-USE="${USE} libwww vhosts nsplugin javascript"
+USE="${USE} libwww -vhosts nsplugin javascript"
 
 # Wireless
 USE="${USE} bluetooth wimax"
