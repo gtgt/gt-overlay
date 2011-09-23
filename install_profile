@@ -1,0 +1,38 @@
+#!/bin/bash
+source /etc/init.d/functions.sh
+mydir=`dirname $0|xargs realpath`
+myname=`basename $0`
+
+[[ $1 && -d $mydir/profiles/gt/$1 ]] || eerror "Usage: $myname [`find $mydir/profiles/gt/* -maxdepth 0 -type d|xargs basename`]" || exit -1
+
+l=/etc/make.profile
+[[ ! -f $l ]] && l=/etc/portage/make.profile
+[ ! `readlink $l` ] && ( eerror "Symlink not found at /etc/make.profile, probably profile is already installed" || exit -1)
+
+ebegin "Renaming $l to $l.bak"
+mv $l $l.bak || eend -1 || exit -1
+eend
+
+ebegin "Creating /etc/portage/make.profile"
+mkdir -p /etc/portage/make.profile
+eend
+
+ebegin "Adding ../`readlink $l.bak` to \"parent\" file"
+echo "../`readlink $l.bak`" > /etc/portage/make.profile/parent || eend -1 || exit -1
+eend
+
+ebegin "Adding $mydir/profiles/gt/$1 to \"parent\" file"
+echo "$mydir/profiles/gt/$1" >> /etc/portage/make.profile/parent  || eend -1 || exit -1
+eend
+
+ebegin 'Setting EAPI to 3'
+echo 3 > /etc/portage/make.profile/eapi || eend -1 || exit -1
+eend
+
+ebegin 'Creating make.defaults'
+echo 'CUSTOM_PROFILE="yes"' > /etc/portage/make.profile/make.defaults || eend -1 || exit -1
+eend
+
+ebegin "Setting repo_name to \"gt/$1\""
+echo "gt/$1" > /etc/portage/make.profile/repo_name || eend -1 || exit -1
+eend
