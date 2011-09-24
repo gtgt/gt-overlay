@@ -4,6 +4,8 @@ sys-devel/gcc
 sys-devel/kgcc64 **
 
 ## Java stuff
+dev-java/cacao
+dev-java/gcj-jdk
 dev-java/icedtea6-bin
 dev-java/icedtea
 dev-java/icedtea-web

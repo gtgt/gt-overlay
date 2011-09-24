@@ -130,13 +130,13 @@ pkg_setup() {
 		die 'Re-try with USE="webstart"'
 		elog "Note that the nsplugin flag implies the webstart flag. Enable it to remove this message."
 	fi
-
+JAVA_PKG_FORCE_VM=`eselect --brief java-vm show system|sed "s/ //"`
 	# quite a hack since java-config does not provide a way for a package
 	# to limit supported VM's for building and their preferred order
 	if [[ -n "${JAVA_PKG_FORCE_VM}" ]]; then
 		einfo "Honoring user-set JAVA_PKG_FORCE_VM"
-	#elif has_version dev-java/icedtea:7; then
-	#	JAVA_PKG_FORCE_VM="icedtea7"
+#	elif has_version dev-java/icedtea:7; then
+#		JAVA_PKG_FORCE_VM="icedtea7"
 	elif has_version dev-java/icedtea:6; then
 		JAVA_PKG_FORCE_VM="icedtea6"
 	elif has_version dev-java/icedtea:0; then
@@ -219,7 +219,7 @@ src_configure() {
 		config="${config} --with-jamvm-src-zip=${DISTDIR}/${JAMVM_TARBALL}";
 	fi
 
-	unset_vars
+#	unset_vars
 
 	econf ${config} \
 		--with-openjdk-src-zip="${DISTDIR}/${OPENJDK_TARBALL}" \
@@ -254,15 +254,17 @@ src_compile() {
 	# otherwise we try to load the least that's needed to avoid possible classpath collisions
 	export ANT_TASKS="xerces-2 xalan ant-nodeps"
 
+	export ANT_OPTS="-Xms256m -Xmx256m"
+
 	# Paludis does not respect unset from src_configure
-	unset_vars
+#	unset_vars
 
 	CPWD=`pwd`
 	cd ${S}
 	einfo "${S}"
 #	epatch "${FILESDIR}/all-kernel3_support.patch"
 	cd ${CPWD}
-
+	export JAVA_HOME="/etc/java-config-2/current-system-vm"
 	DISABLE_HOTSPOT_OS_VERSION_CHECK=ok emake -j 1  || die "make failed"
 }
 
