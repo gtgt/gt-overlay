@@ -23,6 +23,6 @@ sys-auth/polkit gtk introspection
 x11-libs/cairo static-libs
 x11-libs/qt-gui egl
 x11-libs/qt-opengl egl
-x11-misc/google-gadgets gtk xulrunner webkit
+x11-misc/google-gadgets xulrunner webkit gtk networkmanager
 www-client/icecat crashreporter
 ### ---------------------------------------------
