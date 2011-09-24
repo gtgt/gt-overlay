@@ -236,6 +236,7 @@ net-wireless/bluedevil
 sys-block/partitionmanager **
 sys-devel/llvm
 <x11-libs/qtermwidget-9999
+x11-misc/appmenu **
 x11-misc/appmenu-qt **
 x11-misc/appmenu-gtk **
 <=x11-themes/qtcurve-qt4-1.8.7

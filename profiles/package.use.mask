@@ -1,6 +1,7 @@
 app-office/libreoffice odk
 app-text/fbreader gtk
 dev-java/icedtea jamvm zero hs20
+dev-java/swt xulrunner
 dev-util/netbeans netbeans_modules_java netbeans_modules_apisupport
 dev-vcs/git tk gtk
 kde-base/kwin gles
