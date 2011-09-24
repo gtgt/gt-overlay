@@ -8,9 +8,9 @@ LANGS="ar br cs de es fr gl it lt nl pl pt ru si tr zh zh_CN"
 
 KDE_SCM="git"
 
-inherit qt4-r2 subversion
+inherit qt4-r2 git
 
-ESVN_REPO_URI="https://kdropbox.svn.sourceforge.net/svnroot/kdropbox"
+EGIT_REPO_URI="git://gitorious.org/kfilebox/kfilebox.git"
 
 DESCRIPTION="KDE Dropbox client"
 HOMEPAGE="http://kdropbox.deuteros.es"
