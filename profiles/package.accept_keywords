@@ -5,8 +5,8 @@ sys-devel/kgcc64 **
 
 ## Java stuff
 dev-java/icedtea6-bin
-dev-java/icedtea::gt-overlay
-dev-java/icedtea-web::gt-overlay
+dev-java/icedtea
+dev-java/icedtea-web
 dev-java/sun-jdk **
 
 dev-util/netbeans

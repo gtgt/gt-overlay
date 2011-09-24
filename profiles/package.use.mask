@@ -8,6 +8,7 @@ kde-base/tqtinterface qt3
 media-gfx/digikam mysql
 media-libs/libggi 3dfx
 media-libs/libquicktime gtk
+media-libs/opencv cuda
 media-video/ffmpeg cpudetection-cflags
 media-video/mplayer cpudetection
 media-video/vlc aalib libcaca sdl sdl-image win32codecs nsplugin
