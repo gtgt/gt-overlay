@@ -6,8 +6,8 @@ myname=`basename $0`
 [[ $1 && -d $mydir/profiles/gt/$1 ]] || eerror "Usage: $myname [`find $mydir/profiles/gt/* -maxdepth 0 -type d|xargs basename`]" || exit -1
 
 l=/etc/make.profile
-[[ ! -f $l ]] && l=/etc/portage/make.profile
-[ ! `readlink $l` ] && ( eerror "Symlink not found at /etc/make.profile, probably profile is already installed" || exit -1)
+[[ ! -d $l ]] && l=/etc/portage/make.profile
+[ ! `readlink $l` ] && ( eerror "Symlink not found at /etc/make.profile, probably profile is already installed"; exit -1)
 
 ebegin "Renaming $l to $l.bak"
 mv $l $l.bak || eend -1 || exit -1

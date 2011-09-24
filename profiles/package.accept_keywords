@@ -3,11 +3,10 @@ dev-java/oracle-jdk-bin
 sys-devel/gcc
 sys-devel/kgcc64 **
 
-
 ## Java stuff
 dev-java/icedtea6-bin
-dev-java/icedtea
-dev-java/icedtea-web
+dev-java/icedtea::gt-overlay
+dev-java/icedtea-web::gt-overlay
 dev-java/sun-jdk **
 
 dev-util/netbeans
@@ -41,6 +40,9 @@ app-admin/keepassx2 **
 <net-print/foomatic-filters-9999
 <net-print/cups-9999
 sys-apps/usb_modeswitch
+media-tv/dvb-usb-rtl2832u
+net-wireless/zte-mf190
+
 
 # Picture and social
 <app-text/fbreader-9999
@@ -51,6 +53,7 @@ net-fs/cifs-utils
 net-libs/glib-networking
 net-libs/libsoup
 net-libs/pjsip
+media-libs/opencv
 <net-news/liferea-9999
 
 

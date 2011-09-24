@@ -1,0 +1,26 @@
+app-office/libreoffice odk
+app-text/fbreader gtk
+dev-java/icedtea jamvm zero hs20
+dev-util/netbeans netbeans_modules_java netbeans_modules_apisupport
+dev-vcs/git tk gtk
+kde-base/kwin gles
+kde-base/tqtinterface qt3
+media-gfx/digikam mysql
+media-libs/libggi 3dfx
+media-libs/libquicktime gtk
+media-video/ffmpeg cpudetection-cflags
+media-video/mplayer cpudetection
+media-video/vlc aalib libcaca sdl sdl-image win32codecs nsplugin
+net-misc/networkmanager sharing wimax
+net-p2p/eiskaltdcpp spell lua gtk
+net-print/cups static-libs
+net-print/hplip X kde acl
+net-wireless/bluez maemo6 old-daemons
+net-wireless/wpa_supplicant wimax
+sys-auth/polkit gtk introspection
+x11-libs/cairo static-libs
+x11-libs/qt-gui egl
+x11-libs/qt-opengl egl
+x11-misc/google-gadgets gtk xulrunner webkit
+www-client/icecat crashreporter
+### ---------------------------------------------
