@@ -22,7 +22,7 @@ KEYWORDS="alpha amd64 hppa ia64 ~mips ppc ~ppc64 sparc x86 ~x86-fbsd"
 IUSE="cups debug doc examples firebird ipv6 mysql nas nis odbc opengl postgres sqlite xinerama immqt immqt-bc"
 
 RDEPEND="
-	media-libs/jpeg
+	virtual/jpeg
 	>=media-libs/freetype-2
 	>=media-libs/libmng-1.0.9
 	media-libs/libpng
