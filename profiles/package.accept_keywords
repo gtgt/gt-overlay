@@ -209,6 +209,7 @@ kde-misc/kaption **
 kde-misc/kfilebox
 kde-misc/kregexpeditor **
 kde-misc/kustodian **
+kde-misc/kio-sysinfo **
 <kde-misc/quadkonsole-2.0.0
 media-gfx/digikam
 media-gfx/kcoloredit
@@ -243,7 +244,10 @@ x11-misc/appmenu-gtk **
 <=x11-themes/gtk-engines-qtcurve-1.8.7
 
 ## GStreamer
+media-video/snappy **
+
 <media-plugins/gstreamer-9999
+media-libs/clutter-gst
 media-libs/gst-plugins-bad
 media-libs/gst-plugins-base
 media-libs/gst-plugins-good

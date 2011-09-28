@@ -10,13 +10,14 @@ KDE_SCM="git"
 
 inherit qt4-r2 git
 
+#ESVN_REPO_URI="https://kdropbox.svn.sourceforge.net/svnroot/kdropbox"
 EGIT_REPO_URI="git://gitorious.org/kfilebox/kfilebox.git"
 
 DESCRIPTION="KDE Dropbox client"
 HOMEPAGE="http://kdropbox.deuteros.es"
 
 LICENSE="GPL-3"
-KEYWORDS="~amd64"
+KEYWORDS="**"
 SLOT="0"
 IUSE="debug "
 

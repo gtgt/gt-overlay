@@ -60,6 +60,7 @@ desktop? (
 	kde-base/kdeadmin-meta
 
 	app-cdr/k3b
+	=kde-base/gwenview-4.6.5
 	kde-base/kate
 	kde-base/kcron
 	kde-base/kde-l10n

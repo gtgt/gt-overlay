@@ -17,7 +17,7 @@ USE="${USE} python perl mono ithreads fortran gdbm cblas-external"
 USE="${USE} network -ldap rdesktop samba upnp nss resolvconf zeroconf avahi wifi"
 
 # Sql & data support
-USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite"
+USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite qalculate"
 
 # Network
 USE="${USE} networkmanager nm09 ipv6 tcpd autoipd"
@@ -26,7 +26,7 @@ USE="${USE} networkmanager nm09 ipv6 tcpd autoipd"
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox"
 
 # Window manager and speciality
-USE="${USE} X xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl -gles gbm gallium glew openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver google-gadgets libnotify appmenu windeco"
+USE="${USE} X xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl -gles gbm gallium glew openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica libnotify appmenu windeco"
 
 # Print
 USE="${USE} foomaticdb cups"
@@ -47,7 +47,7 @@ USE="${USE} chm djvu ebook marble"
 USE="${USE} clamav crypt ssl"
 
 # Hardware
-USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 lirc lm_sensors mmx mmxext scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau vaapi xcomposite"
+USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 lirc lircd lm_sensors mmx mmxext scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau vaapi xcomposite"
 
 #Photo
 USE="${USE} gphoto2 kipi"
@@ -56,7 +56,7 @@ USE="${USE} gphoto2 kipi"
 USE="${USE} irc jabber jingle oscar yahoo"
 
 # Image support
-USE="${USE} exif fdftk gd gif imagemagick jpeg jpeg2k lcms mng openexr pdf png raw svg tiff wmf wxwindows xpm"
+USE="${USE} exif fdftk gd gif imagemagick jpeg jpeg2k lcms mng openexr pdf png raw svg tiff wmf wxwindows xpm qwt"
 
 # Locale and Fonts
 USE="${USE} spell hunspell enchant truetype fontconfig unicode utf8 nls idn iconv"
