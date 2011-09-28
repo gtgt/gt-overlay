@@ -77,7 +77,7 @@ media-libs/opencv
 <app-office/libreoffice-9999
 <app-office/libreoffice-bin-9999
 <app-office/libreoffice-l10n-9999
-
+app-dicts/goldendict **
 
 <dev-libs/liblinebreak-9999
 
@@ -213,6 +213,7 @@ kde-misc/kfilebox
 kde-misc/kregexpeditor **
 kde-misc/kustodian **
 kde-misc/kio-sysinfo **
+kde-misc/qtrans
 <kde-misc/quadkonsole-2.0.0
 media-gfx/digikam
 media-gfx/kcoloredit
