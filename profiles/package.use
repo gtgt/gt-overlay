@@ -51,6 +51,7 @@ app-text/recode nls-libs
 dev-cpp/clucene static-libs threads
 dev-db/libiodbc gtk
 dev-db/mysql community embedded perl ssl
+dev-db/mysql-workbench static-libs
 dev-db/sqlite extensions fts3 readline secure-delete threadsafe-notify unlock-notify
 dev-db/virtuoso-server readline
 dev-java/swt xulrunner
