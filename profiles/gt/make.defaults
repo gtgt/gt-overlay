@@ -24,7 +24,7 @@ PORTAGE_ELOG_SYSTEM="save"
 
 PKGDIR="/usr/portage/packages/`uname -m`"
 
-EMERGE_DEFAULT_OPTS="--verbose --keep-going --autounmask-write n --binpkg-respect-use y"
+EMERGE_DEFAULT_OPTS="--verbose --keep-going --autounmask-write n --binpkg-respect-use y --quiet-build"
 QUICKPKG_DEFAULT_OPTS="--include-config=y"
 #DISTCC_VERBOSE="1"
 CCACHE_SIZE="2G"

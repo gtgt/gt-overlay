@@ -98,9 +98,12 @@ media-libs/libkface
 kde-misc/akonadi-googledata **
 <dev-libs/shared-desktop-ontologies-9999
 <dev-cpp/clucene-9999
+
+# Media libs
 media-libs/lcms
-
-
+## need for digikam
+sci-libs/clapack
+dev-libs/libf2c
 
 # Avahi
 net-dns/avahi
