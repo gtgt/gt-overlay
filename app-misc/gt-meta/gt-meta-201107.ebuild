@@ -94,26 +94,11 @@ desktop? (
 	media-libs/gst-plugins-good
 	media-libs/gst-plugins-bad
 	media-libs/gst-plugins-ugly
-	media-plugins/gst-plugins-meta
-	media-plugins/gst-plugins-alsa
-	media-plugins/gst-plugins-esd
-	media-plugins/gst-plugins-dvb
 	media-plugins/gst-plugins-faac
-	media-plugins/gst-plugins-cdio
-	media-plugins/gst-plugins-cdparanoia
-	media-plugins/gst-plugins-gl
 	media-plugins/gst-plugins-jack
-	media-plugins/gst-plugins-jpeg
-	media-plugins/gst-plugins-libpng
-	media-plugins/gst-plugins-libvisual
-	media-plugins/gst-plugins-libmms
-	media-plugins/gst-plugins-mplex
 	media-plugins/gst-plugins-speex
-	media-plugins/gst-plugins-vp8
-	media-plugins/gst-plugins-ximagesrc
 	media-plugins/gst-plugins-xvid
 	media-plugins/gst-plugins-x264
-	media-plugins/gst-plugins-wavpack
 	media-plugins/kipi-plugins
 	media-video/kaffeine
 	media-video/kdenlive
@@ -137,6 +122,8 @@ desktop? (
 	sys-power/powernowd
 	sys-power/powertop
 	x11-apps/mesa-progs
+	x11-misc/xclip
+	x11-misc/xautomation
 	x11-themes/gtk-engines-qtcurve
 	x11-themes/qtcurve-qt4
 	x11-themes/oxygen-gtk

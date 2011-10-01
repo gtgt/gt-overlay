@@ -429,7 +429,7 @@ x11-libs/qt-xml patterns
 x11-libs/qtscriptgenerator kde
 x11-libs/xosd xinerama
 x11-misc/google-gadgets dbus
-www-client/icecat
+www-client/icecat custom-cflags custom-optimization pgo
 ###
 
 app-antivirus/clamav gmp

@@ -1,4 +1,5 @@
 app-office/libreoffice odk
+app-office/koffice-libs opengl
 app-text/fbreader gtk
 dev-java/icedtea zero hs20
 =dev-java/icedtea-7.1.14  xrender

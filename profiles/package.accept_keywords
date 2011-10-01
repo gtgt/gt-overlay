@@ -77,8 +77,9 @@ media-libs/opencv
 <app-office/libreoffice-9999
 <app-office/libreoffice-bin-9999
 <app-office/libreoffice-l10n-9999
-app-dicts/goldendict **
-
+app-dicts/goldendict
+app-dicts/mdic
+app-dicts/mdicconv
 <dev-libs/liblinebreak-9999
 
 # Bad stuff
@@ -122,6 +123,7 @@ kde-misc/knetworkmanager **
 <net-wireless/blueman-9999
 
 # Wireless
+~app-misc/lirc-0.9.0
 net-wireless/wimax
 net-wireless/wpa_supplicant
 net-wireless/wimax-tools
@@ -244,8 +246,9 @@ sys-devel/llvm
 x11-misc/appmenu **
 x11-misc/appmenu-qt **
 x11-misc/appmenu-gtk **
-<=x11-themes/qtcurve-qt4-1.8.7
-<=x11-themes/gtk-engines-qtcurve-1.8.7
+x11-themes/qtcurve-qt4
+x11-themes/gtk-engines-qtcurve
+www-client/rekonq
 
 ## GStreamer
 media-video/snappy **

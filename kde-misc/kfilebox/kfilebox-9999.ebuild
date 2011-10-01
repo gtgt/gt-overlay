@@ -17,7 +17,7 @@ DESCRIPTION="KDE Dropbox client"
 HOMEPAGE="http://kdropbox.deuteros.es"
 
 LICENSE="GPL-3"
-KEYWORDS="**"
+KEYWORDS="~amd64"
 SLOT="0"
 IUSE="debug "
 
