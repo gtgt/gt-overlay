@@ -1,9 +1,11 @@
-virtual/jdk
+# System
 dev-java/oracle-jdk-bin
 sys-devel/gcc
 sys-devel/kgcc64 **
+=dev-libs/glib-2.30.0
 
 ## Java stuff
+virtual/jdk
 dev-java/cacao
 dev-java/gcj-jdk
 dev-java/icedtea6-bin

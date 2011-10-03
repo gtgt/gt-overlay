@@ -44,7 +44,7 @@ USE="${USE} X xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl -gles gb
 USE="${USE} foomaticdb cups"
 
 # Audio
-USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms phonon"
+USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms phonon sndfile musicbrainz gsm"
 
 # CD and DVD
 USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd blueray"
