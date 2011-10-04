@@ -3,6 +3,7 @@ dev-java/oracle-jdk-bin
 sys-devel/gcc
 sys-devel/kgcc64 **
 =dev-libs/glib-2.30.0
+sys-power/upower
 
 ## Java stuff
 virtual/jdk

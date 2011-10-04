@@ -1,0 +1,13 @@
+--- src.orig/mdicbuilder.cpp    2011-10-04 00:49:00.000000000 +0200
++++ src/mdicbuilder.cpp 2011-10-04 00:54:08.000000000 +0200
+@@ -17,7 +17,10 @@
+  *   Free Software Foundation, Inc.,                                       *
+  *   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.          *
+  ***************************************************************************/
+-
++#include <stdio.h>
++#include <stdlib.h>
++#include <string>
++#include <sqlite3.h>
+ #include "mdicbuilder.h"
+ using namespace std;

@@ -23,3 +23,11 @@ IUSE="debug "
 
 DEPEND=""
 RDEPEND="${DEPEND}"
+
+src_configure() {
+	epatch "${FILESDIR}/${PN}-stdio-include.patch"
+	cp "${FILESDIR}/FindSqlite.cmake" "${S}/cmake/modules"
+  #mycmakeargs=( -DKCALDAV_VERSION=${PV} )
+  kde4-base_src_configure
+}
+
