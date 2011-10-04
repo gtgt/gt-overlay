@@ -1,3 +1,5 @@
+## plymouth biosdevname btrfs caps crypt crypt-gpg dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs syslog xen
+DRACUT_MODULES="plymouth biosdevname dmraid gensplash lvm mdraid nfs syslog"
 
 VIDEO_CARDS="fglrx nvidia"
 INPUT_DEVICES="evdev synaptics"
@@ -32,7 +34,7 @@ USE="${USE} ftp network -ldap rdesktop samba upnp nss resolvconf zeroconf avahi 
 USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite qalculate"
 
 # Network
-USE="${USE} networkmanager nm09 ipv6 tcpd autoipd"
+USE="${USE} networkmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd"
 
 # Web
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox"
