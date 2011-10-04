@@ -254,7 +254,7 @@ media-video/ffmpeg 3dnow 3dnowext X alsa amr bzip2 encode hardcoded-tables ieee1
 media-video/ffmpegthumbnailer gtk jpeg png
 media-video/kdenlive semantic-desktop
 media-video/mjpegtools dv gtk mmx png quicktime sdl v4l12
-media-video/mplayer 3dnow X a52 aalib alsa amr ass cddb cdio cdparanoia dga dirac dts dv dvd dvdnav enca encode faac faad fbcon ftp ggi gif iconv ipv6 jpeg jpeg2k kernel_linux libcaca lirc live lzo mad md5sum mmx mmxext mng mp3 nas network openal opengl osdmenu png quicktime radio rar real rtc samba schroedinger sdl shm speex sse sse2 ssse3 tga theora toolame tremor truetype twolame unicode v4l v4l2 vorbis x264 xanim xinerama xv xvid xvmc 3dnowext vpx win32codecs
+media-video/mplayer2 symlink
 media-video/recordmydesktop alsa
 media-video/transcode 3dnow X a52 aac alsa dv dvd iconv imagemagick jpeg lzo mjpeg mmx mp3 mpeg ogg quicktime sdl sse sse2 theora truetype v4l2 vorbis x264 xvid
 media-video/vlc cdda dvb upnp pvr projectm wma-fixed dts httpd zvbi vlm stream sqlite shout rtsp mtp libass gnutls fontconfig xcb xv
