@@ -57,7 +57,7 @@ dev-db/virtuoso-server readline
 dev-java/swt xulrunner
 dev-java/swing-layout source
 dev-java/icedtea:6 xrender cacao
-dev-java/icedtea:7 xrender -cacao jamvm
+dev-java/icedtea:7 xrender cacao
 dev-java/netbeans-nb keychain
 dev-lang/perl berkdb gdbm
 dev-lang/python gdbm ipv6 ncurses readline ssl threads wide-unicode xml

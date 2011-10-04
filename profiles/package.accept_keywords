@@ -1,5 +1,4 @@
 # System
-dev-java/oracle-jdk-bin
 sys-apps/biosdevname
 sys-apps/systemd
 sys-apps/dbus
@@ -13,6 +12,7 @@ sys-kernel/dracut
 sys-kernel/linux-headers
 sys-libs/talloc
 sys-libs/tdb
+sys-power/upower
 
 ## Gentoo
 app-portage/flaggie
@@ -26,6 +26,7 @@ dev-java/gcj-jdk
 dev-java/icedtea6-bin
 dev-java/icedtea
 dev-java/icedtea-web
+dev-java/oracle-jdk-bin
 dev-java/sun-jdk **
 
 dev-util/netbeans
