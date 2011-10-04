@@ -1,8 +1,23 @@
 # System
 dev-java/oracle-jdk-bin
+sys-apps/biosdevname
+sys-apps/systemd
+sys-apps/dbus
+sys-boot/plymouth-openrc-plugin
+sys-boot/plymouth
 sys-devel/gcc
 sys-devel/kgcc64 **
 =dev-libs/glib-2.30.0
+sys-fs/udev
+sys-kernel/dracut
+sys-kernel/linux-headers
+sys-libs/talloc
+sys-libs/tdb
+
+## Gentoo
+app-portage/flaggie
+sys-apps/baselayout-systemd
+sys-apps/systemd-units
 
 ## Java stuff
 virtual/jdk
@@ -28,6 +43,7 @@ dev-php/xhprof
 www-apps/xhprof-ui
 
 # Auth stuff
+sys-auth/consolekit
 <sys-apps/keyexec-9999
 <sys-auth/pam_keystore-9999
 <sys-auth/thinkfinger-9999
@@ -35,7 +51,6 @@ www-apps/xhprof-ui
 app-admin/keepassx2 **
 
 # Hardware & Drivers
-<sys-fs/udev-9999
 <app-admin/testdisk-9999
 <net-print/foo2zjs-9999
 <net-print/foomatic-db-9999
@@ -129,9 +144,9 @@ kde-misc/knetworkmanager **
 net-wireless/wimax
 net-wireless/wpa_supplicant
 net-wireless/wimax-tools
-
-sys-libs/talloc
-sys-libs/tdb
+net-misc/networkmanager
+net-wireless/bluez
+net-wireless/wpa_supplicant
 
 # Kernels
 sys-kernel/mm-sources

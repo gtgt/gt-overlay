@@ -284,7 +284,7 @@ net-misc/curl ipv6 ssl idn2
 net-misc/dhcpcd elibc_glibc zeroconf
 net-misc/iputils ipv6 ssl_HAZARD idn
 net-misc/modemmanager policykit
-net-misc/networkmanager bluetooth dhcpcd kernel_linux nss resolvconf
+net-misc/networkmanager bluetooth nss resolvconf -dhclient
 net-misc/ntp ipv6 ssl-clocks-syntax
 net-misc/openssh X hpn pam tcpd509
 net-misc/openvpn ipv6 pam ssl211_BSD
@@ -332,6 +332,7 @@ sys-apps/pv nls
 sys-apps/sandbox multilib
 sys-apps/sed acl nls
 sys-apps/shadow cracklib nls pam
+sys-apps/systemd plymouth
 sys-apps/tcp-wrappers ipv6
 sys-apps/texinfo nls
 sys-apps/usbutils zlib-cron
