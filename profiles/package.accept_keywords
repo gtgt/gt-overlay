@@ -10,6 +10,8 @@ sys-devel/kgcc64 **
 sys-fs/udev
 sys-kernel/dracut
 sys-kernel/linux-headers
+sys-libs/lwp
+sys-libs/rvm
 sys-libs/talloc
 sys-libs/tdb
 sys-power/upower
@@ -130,13 +132,16 @@ net-dns/avahi-gtk
 net-dns/avahi-qt
 net-dns/avahi-base
 
-# Networkmanager
-kde-misc/knetworkmanager **
+# Network
+dev-libs/libcaldav
 <net-misc/networkmanager-9999
 <net-misc/networkmanager-openvpn-9999
 <net-misc/networkmanager-pptp-9999
 <net-misc/networkmanager-vpnc-9999
 <net-dialup/ppp-9999
+net-fs/coda
+net-fs/davfs2
+net-libs/rpc2
 <dev-libs/liblinebreak-9999
 <net-wireless/blueman-9999
 
@@ -229,7 +234,9 @@ kde-misc/akonadi-googledata
 kde-misc/akonadi-facebook **
 kde-misc/basket **
 kde-misc/kaption **
+kde-misc/kcaldav
 kde-misc/kfilebox
+kde-misc/knetworkmanager **
 kde-misc/kregexpeditor **
 kde-misc/kustodian **
 kde-misc/kio-sysinfo **

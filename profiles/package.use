@@ -265,6 +265,7 @@ net-dns/avahi howl-compat mdnsresponder-compat
 net-dns/bind-tools ipv6 ssl idn
 net-dns/libidn nls
 net-dns/mydns alias status
+net-fs/coda client server
 net-fs/nfs-utils elibc_glibc ipv6 nfsv3 nfsv4 tcpd
 net-fs/samba acl aio client cups netapi pam quota readline server smbclient fam2
 net-im/choqok handbook
