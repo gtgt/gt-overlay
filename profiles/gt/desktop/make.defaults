@@ -22,13 +22,13 @@ APACHE2_MPMS="event"
 USE=""
 
 #System
-USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization optimization threads lib32"
+USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization optimization custom-cpuopts threads lib32 mmap"
 
 #Lang support
 USE="${USE} python perl mono ithreads fortran gdbm cblas-external"
 
 # Network protocols
-USE="${USE} network -ldap rdesktop samba upnp nss resolvconf zeroconf avahi wifi"
+USE="${USE} ftp network -ldap rdesktop samba upnp nss resolvconf zeroconf avahi wifi"
 
 # Sql & data support
 USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite qalculate"
@@ -49,7 +49,7 @@ USE="${USE} foomaticdb cups"
 USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms phonon sndfile musicbrainz gsm"
 
 # CD and DVD
-USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd blueray"
+USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd blueray bluray"
 
 # Devices
 USE="${USE} ipod ios fax apm bluetooth ieee1394 remote mtp"
@@ -61,7 +61,7 @@ USE="${USE} chm djvu ebook marble"
 USE="${USE} clamav crypt ssl"
 
 # Hardware
-USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 lirc lircd lm_sensors mmx mmxext scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau vaapi xcomposite"
+USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 joystick lirc lircd lm_sensors mmx mmxext radio scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vdpau vaapi xcomposite"
 
 #Photo
 USE="${USE} gphoto2 kipi"
@@ -82,7 +82,7 @@ USE="${USE} mbox"
 USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify gstreamer -caps"
 
 # Video
-USE="${USE} a52 aac aalib avi cddb cuda dv dvb encode dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska musepack real sdl speex srt -svga tga quicktime theora rtmp vaapi libv4l libv4l2 v4l v4l2 video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
+USE="${USE} a52 aac aalib avi cddb cuda dv dvb encode dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
 
 # Web
 USE="${USE} libwww -vhosts nsplugin javascript"
