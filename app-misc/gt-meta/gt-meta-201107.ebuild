@@ -100,7 +100,6 @@ desktop? (
 	media-plugins/gst-plugins-xvid
 	media-plugins/gst-plugins-x264
 	media-plugins/kipi-plugins
-	media-video/kaffeine
 	media-video/kdenlive
 	media-video/kffmpegthumbnailer
 	media-sound/alsa-utils

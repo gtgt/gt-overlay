@@ -44,6 +44,7 @@ dev-java/netbeans-platform
 # PHP
 dev-php/xhprof
 www-apps/xhprof-ui
+www-apps/webgrind
 
 # Auth stuff
 sys-auth/consolekit
@@ -227,6 +228,7 @@ dev-python/qscintilla-python
 dev-python/sip
 dev-util/quanta **
 dev-vcs/qgit **
+dev-vcs/kdesvn **
 kde-base/gwenview -~amd64 -~x86
 kde-base/tqtinterface:3.5
 kde-base/kate:3.5
@@ -358,7 +360,9 @@ media-sound/alsa-utils
 
 net-dns/mydns
 
-www-client/firefox
-www-client/firefox-bin
+<=www-client/firefox-7.9
+<=www-client/firefox-bin-7.9
+www-client/icecat
+www-client/opera-next
 
 www-plugins/lightspark
