@@ -245,8 +245,7 @@ media-fonts/ttf-bitstream-vera X
 media-fonts/urw-fonts X
 media-gfx/digikam addressbook geolocation semantic-desktop themedesigner thumbnails video
 media-gfx/exiv2 nls unicode zlib
-media-gfx/gimp -aalib alsa dbus exif jpeg -lcms -mmx mng pdf png -python -smp -sse svg tiff -webkit wmf
-media-gfx/gimpaalib alsa dbus exif jpeg mmx mng pdf png python smp sse svg tiff webkit wmf
+media-gfx/gimp -aalib alsa dbus exif jpeg -lcms mmx mng pdf png -python smp sse svg tiff -webkit wmf
 media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openmp perl png raw svg tiff truetype wmf
 media-gfx/imagemagick openexr
 media-gfx/sane-backends ipv6

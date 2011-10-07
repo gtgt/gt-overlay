@@ -1,4 +1,5 @@
 # System
+=dev-util/valgrind-3.6.1-r2
 sys-apps/biosdevname
 sys-apps/systemd
 sys-apps/dbus
@@ -64,6 +65,7 @@ app-admin/keepassx2 **
 <net-print/cups-9999
 sys-apps/usb_modeswitch
 media-tv/dvb-usb-rtl2832u
+media-tv/linuxtv-dvb-apps
 net-wireless/zte-mf190
 
 
