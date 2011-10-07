@@ -193,8 +193,8 @@ x11-libs/libxcb
 <app-admin/eselect-opengl-9999
 
 <x11-drivers/ati-drivers-9999
-<x11-drivers/nvidia-drivers-9999 **
-<media-video/nvidia-settings-9999 **
+x11-drivers/nvidia-drivers **
+media-video/nvidia-settings **
 
 ## KDE Stuff
 kde-misc/oxygen-appmenu **
@@ -231,7 +231,7 @@ dev-python/sip
 dev-util/quanta **
 dev-vcs/qgit **
 dev-vcs/kdesvn **
-kde-base/gwenview -~amd64 -~x86
+#kde-base/gwenview -~amd64 -~x86
 kde-base/tqtinterface:3.5
 kde-base/kate:3.5
 kde-misc/akonadi-googledata
