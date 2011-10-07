@@ -23,8 +23,6 @@ sys-apps/calculate-lib
 sys-apps/portage
 sys-fs/ntfs3g
 =sys-devel/kgcc64-4.5.2
-x11-drivers/nvidia-drivers
-x11-drivers/nvidia-settings
 =x11-libs/qt-4.7.4
 =virtual/mysql-5.5
 www-client/opera-next
