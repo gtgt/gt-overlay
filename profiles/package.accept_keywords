@@ -278,6 +278,9 @@ net-dialup/qtwvdialer
 =net-im/telepathy-presence-dataengine-9999 **
 =net-im/telepathy-send-file-9999 **
 =net-im/telepathy-approver-9999 **
+=net-im/telepathy-filetransfer-handler-9999 **
+=net-im/telepathy-auth-handler-9999 **
+=net-im/telepathy-kded-module-9999 **
 net-libs/libqinfinity
 net-libs/libgcal
 dev-libs/soprano
