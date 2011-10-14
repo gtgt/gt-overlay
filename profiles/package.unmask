@@ -12,6 +12,7 @@ kde-misc/basket
 kde-misc/knetworkmanager
 media-gfx/gimp
 media-sound/amarok
+<net-im/emesene-9999
 net-libs/libgcal
 net-libs/xulrunner
 net-misc/modemmanager

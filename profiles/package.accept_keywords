@@ -4,6 +4,7 @@ sys-apps/systemd
 sys-apps/dbus
 sys-boot/plymouth-openrc-plugin
 sys-boot/plymouth
+sys-boot/unetbootin
 sys-devel/gcc
 sys-devel/kgcc64 **
 =dev-libs/glib-2.30.0
@@ -161,13 +162,15 @@ sys-kernel/gentoo-sources
 
 
 # XOrg X11
+dev-python/xmpppy
+media-libs/mesa
+
 x11-libs/pixman
 x11-base/xorg-server
 x11-proto/dri2proto
 x11-proto/glproto
 x11-libs/libdrm
 x11-apps/mesa-progs
-media-libs/mesa
 
 x11-proto/xcb-proto
 x11-libs/xcb-util-wm
@@ -262,6 +265,17 @@ media-video/kamoso **
 media-video/recorditnow **
 net-analyzer/ksniffer
 net-dialup/qtwvdialer
+=net-im/telepathy-kde-meta-9999 **
+=net-im/telepathy-contact-list-9999 **
+=net-im/telepathy-presence-applet-9999 **
+=net-im/telepathy-accounts-kcm-plugins-9999 **
+=net-im/telepathy-accounts-kcm-9999 **
+=net-im/telepathy-contact-applet-9999 **
+=net-im/telepathy-call-ui-9999 **
+=net-im/telepathy-text-ui-9999 **
+=net-im/telepathy-presence-dataengine-9999 **
+=net-im/telepathy-send-file-9999 **
+=net-im/telepathy-approver-9999 **
 net-libs/libqinfinity
 net-libs/libgcal
 dev-libs/soprano

@@ -376,6 +376,7 @@ net-libs/libsshsftp zlib1-libs
 net-libs/libvncserver jpeg threads
 net-libs/neon nls ssl
 net-libs/ortp ipv6 ssl
+net-libs/telepathy-qt4 farsight
 net-libs/webkit-gtk jit
 net-libs/xulrunner alsa dbus ipc libnotify startup-notification
 net-libs/xulrunner
