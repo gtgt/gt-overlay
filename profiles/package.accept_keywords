@@ -15,6 +15,7 @@ sys-libs/lwp
 sys-libs/rvm
 sys-libs/talloc
 sys-libs/tdb
+sys-power/pm-utils
 sys-power/upower
 
 ## Gentoo
@@ -261,6 +262,7 @@ media-sound/qjackctl
 media-sound/qt-gstreamer **
 media-sound/qtractor
 media-video/kamoso **
+media-sound/traverso
 media-video/recorditnow **
 net-analyzer/ksniffer
 net-dialup/qtwvdialer
