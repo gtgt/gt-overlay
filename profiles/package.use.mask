@@ -2,6 +2,7 @@ app-text/fbreader gtk
 dev-java/icedtea zero hs20
 =dev-java/icedtea-7.1.14 xrender
 dev-java/swt xulrunner
+dev-libs/json-glib introspection
 dev-util/netbeans netbeans_modules_java netbeans_modules_apisupport
 dev-vcs/git tk gtk
 dev-vcs/subversion dso
