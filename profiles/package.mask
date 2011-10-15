@@ -7,6 +7,7 @@
 >kde-base/gwenview-4.6.5
 <media-gfx/gimp-2.7.0
 >=media-libs/libpng-1.5.0
+=net-im/emesene-9999
 <net-libs/xulrunner-2.0
 <sys-devel/gcc-4.5.3-r1
 >sys-devel/gcc-4.5.3-r1
