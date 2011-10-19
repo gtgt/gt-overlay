@@ -121,7 +121,7 @@ media-libs/libkface
 <dev-libs/grantlee-9999
 <dev-libs/soprano-9999
 <app-office/akonadi-server-9999
-kde-misc/akonadi-googledata **
+kde-misc/akonadi-google **
 <dev-libs/shared-desktop-ontologies-9999
 <dev-cpp/clucene-9999
 
