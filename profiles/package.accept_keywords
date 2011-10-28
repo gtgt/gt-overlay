@@ -112,9 +112,9 @@ app-dicts/mdicconv
 <www-plugins/adobe-flash-9999
 
 # Desktop libs
-dev-python/py-smbpasswd
 dev-libs/rasqal
 dev-libs/redland
+dev-python/py-smbpasswd
 media-libs/raptor
 media-libs/libpgf
 media-libs/libkface
@@ -124,6 +124,13 @@ media-libs/libkface
 kde-misc/akonadi-google **
 <dev-libs/shared-desktop-ontologies-9999
 <dev-cpp/clucene-9999
+
+#GTK libs
+dev-libs/json-glib
+dev-util/dbus-test-runner
+x11-libs/pango
+dev-libs/glib
+
 
 # Media libs
 media-libs/lcms
@@ -248,6 +255,7 @@ kde-misc/knetworkmanager **
 kde-misc/kregexpeditor **
 kde-misc/kustodian **
 kde-misc/kio-sysinfo **
+kde-misc/libnm-qt **
 kde-misc/qtrans
 <kde-misc/quadkonsole-2.0.0
 media-gfx/digikam

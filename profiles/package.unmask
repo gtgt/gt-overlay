@@ -4,6 +4,7 @@ app-pda/libopensync-plugin-vformat
 app-portage/udept
 =dev-db/mysql-5.5*
 net-libs/libinfinity
+dev-libs/json-glib
 dev-libs/nspr
 dev-libs/nss
 kde-base/tqtinterface:3.5
