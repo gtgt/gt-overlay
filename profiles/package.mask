@@ -8,6 +8,7 @@
 <media-gfx/gimp-2.7.0
 =net-im/emesene-9999
 <net-libs/xulrunner-2.0
+net-nds/openldap
 <sys-devel/gcc-4.5.3-r1
 >sys-devel/gcc-4.5.3-r1
 <sys-devel/kgcc64-4.5.2
@@ -15,4 +16,3 @@
 =x11-base/xorg-server-1.10.99.902
 <www-client/firefox-4.0.0
 >=www-client/firefox-8.0.0
-

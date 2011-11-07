@@ -29,6 +29,6 @@ sys-auth/polkit gtk introspection
 x11-libs/cairo static-libs
 x11-libs/qt-gui egl
 x11-libs/qt-opengl egl
-x11-misc/google-gadgets -xulrunner webkit gtk dbus
+x11-misc/google-gadgets xulrunner webkit gtk dbus
 www-client/icecat crashreporter dbus system-sqlite wifi
 ### ---------------------------------------------

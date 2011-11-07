@@ -255,6 +255,7 @@ kde-misc/knetworkmanager **
 kde-misc/kregexpeditor **
 kde-misc/kustodian **
 kde-misc/kio-sysinfo **
+kde-misc/libmm-qt **
 kde-misc/libnm-qt **
 kde-misc/qtrans
 <kde-misc/quadkonsole-2.0.0
