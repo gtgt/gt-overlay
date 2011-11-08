@@ -32,6 +32,7 @@ dev-java/icedtea6-bin
 dev-java/icedtea
 dev-java/icedtea-web
 dev-java/oracle-jdk-bin
+dev-java/oracle-jre-bin
 dev-java/sun-jdk **
 
 dev-util/netbeans
@@ -50,12 +51,13 @@ www-apps/xhprof-ui
 www-apps/webgrind
 
 # Auth stuff
+>=app-admin/logrotate-3.8.0
+app-admin/keepassx2 **
+app-crypt/chntpw
 sys-auth/consolekit
 <sys-apps/keyexec-9999
 <sys-auth/pam_keystore-9999
 <sys-auth/thinkfinger-9999
->=app-admin/logrotate-3.8.0
-app-admin/keepassx2 **
 
 # Hardware & Drivers
 <app-admin/testdisk-9999
