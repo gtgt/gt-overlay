@@ -93,7 +93,6 @@ dev-libs/dbus bash-completion-libs
 dev-libs/elfutils bzip2 nls zlib
 dev-libs/glibstatic fam
 dev-libs/libcdio cddb cxx
-dev-libs/libdbusmenu introspection
 dev-libs/libgcrypt static-libs
 dev-libs/libgpg nls-lisp-libs
 dev-libs/libnatspec python

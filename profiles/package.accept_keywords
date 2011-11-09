@@ -205,7 +205,7 @@ x11-libs/libxcb
 <x11-base/nouveau-drm-9999
 <app-admin/eselect-opengl-9999
 
-<x11-drivers/ati-drivers-9999
+x11-drivers/ati-drivers
 x11-drivers/nvidia-drivers **
 media-video/nvidia-settings **
 

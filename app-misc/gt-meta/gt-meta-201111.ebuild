@@ -113,7 +113,7 @@ desktop? (
 	net-misc/networkmanager-openvpn
 	net-misc/networkmanager-pptp
 	net-misc/networkmanager-vpnc
-	kde-misc/networkmanager
+	kde-misc/networkmanagement
 	net-p2p/eiskaltdcpp
 	net-p2p/ktorrent
 	sys-block/partitionmanager
