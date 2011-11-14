@@ -23,6 +23,7 @@ net-misc/networkmanager sharing wimax
 net-p2p/eiskaltdcpp spell lua gtk
 net-print/cups static-libs
 net-print/hplip X kde acl
+net-voip/telepathy-connection-managers icq yahoo
 net-wireless/bluez maemo6 old-daemons
 net-wireless/wpa_supplicant wimax
 sys-auth/polkit gtk introspection

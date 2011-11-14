@@ -294,6 +294,7 @@ net-dialup/qtwvdialer
 =net-im/telepathy-filetransfer-handler-9999 **
 =net-im/telepathy-auth-handler-9999 **
 =net-im/telepathy-kded-module-9999 **
+net-libs/farsight2
 net-libs/libqinfinity
 net-libs/libgcal
 dev-libs/soprano

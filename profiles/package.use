@@ -379,6 +379,7 @@ net-print/gutenprint gimp
 net-print/gutenprintcups foomaticdb gimp gtk readline
 net-print/hplip fax hpcups libnotify policykit scanner
 net-print/hplip hpijs static-ppds
+net-voip/telepathy-connection-managers irc jabber msn zeroconf sip
 net-wireless/blueman network
 net-wireless/bluez alsa consolekit cups test-programs usb
 net-wireless/bluez health pnat
