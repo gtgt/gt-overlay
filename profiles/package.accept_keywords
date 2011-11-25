@@ -3,6 +3,7 @@
 sys-apps/biosdevname
 sys-apps/systemd
 sys-apps/dbus
+sys-auth/realtime-base
 sys-boot/plymouth-openrc-plugin
 sys-boot/plymouth
 sys-boot/unetbootin
@@ -242,7 +243,7 @@ dev-python/PyQt4
 dev-python/qscintilla-python
 dev-python/sip
 dev-util/quanta **
-dev-vcs/qgit **
+dev-vcs/qgit
 dev-vcs/kdesvn **
 #kde-base/gwenview -~amd64 -~x86
 kde-base/tqtinterface:3.5
@@ -308,7 +309,7 @@ x11-misc/appmenu-qt **
 x11-misc/appmenu-gtk **
 x11-themes/qtcurve-qt4
 x11-themes/gtk-engines-qtcurve
-www-client/rekonq
+www-client/rekonq **
 
 ## GStreamer
 media-video/snappy **
@@ -367,6 +368,7 @@ media-libs/alsa-lib
 media-plugins/alsa-plugins 
 <media-sound/alsa-headers-9999
 media-sound/alsa-utils
+media-sound/jack-audio-connection-kit
 
 ## QT
 =x11-libs/qt-4.7.4
