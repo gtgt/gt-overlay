@@ -28,8 +28,7 @@ app-emulation/emul-linux-x86-compat multilib
 app-emulation/emul-linux-x86-soundlibs alsa
 app-emulation/emul-linux-x86-xlibs opengl
 app-emulation/virtualbox-bin rdesktop-vrdp vboxwebsrv
-app-emulation/wine custom-cflags xml
-app-emulation/wine fontconfig
+app-emulation/wine X alsa cups fontconfig gsm jpeg nls opengl png samba ssl truetype win32
 app-misc/lirc X kernel_linux
 app-misc/livecd-tools X opengl
 app-misc/mcX edit gpm nls samba
