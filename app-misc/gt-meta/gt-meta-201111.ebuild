@@ -49,6 +49,7 @@ system? (
 )
 "
 #desktop
+#	=kde-base/gwenview-4.6.5
 RDEPEND="${RDEPEND}
 desktop? (
 	kde-base/kdebase-meta
@@ -60,7 +61,6 @@ desktop? (
 	kde-base/kdeadmin-meta
 
 	app-cdr/k3b
-	=kde-base/gwenview-4.6.5
 	kde-base/kate
 	kde-base/kcron
 	kde-base/kde-l10n
@@ -88,7 +88,6 @@ desktop? (
 	media-fonts/font-misc-misc
 	media-gfx/digikam
 	media-gfx/gimp
-	media-libs/phonon[gstreamer,xine]
 	media-plugins/alsa-plugins
 	media-libs/glew
 	media-libs/gst-plugins-good
