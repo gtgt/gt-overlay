@@ -28,6 +28,7 @@ net-voip/telepathy-connection-managers icq yahoo
 net-wireless/bluez maemo6 old-daemons
 net-wireless/wpa_supplicant wimax
 sys-auth/polkit gtk introspection
+sys-apps/pciutils zlib
 x11-libs/cairo static-libs
 x11-libs/qt-gui egl
 x11-libs/qt-opengl egl

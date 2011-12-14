@@ -242,6 +242,7 @@ app-portage/gentoopm
 app-portage/kuroo4 **
 <dev-libs/libdbusmenu-9999
 <dev-libs/libdbusmenu-qt-9999
+<dev-libs/libindicate-9999
 dev-libs/qjson
 dev-libs/soprano
 dev-python/PyQt4
@@ -260,6 +261,7 @@ kde-misc/kaption **
 kde-misc/kcaldav
 kde-misc/kfilebox
 kde-misc/knetworkmanager **
+kde-misc/kobby
 kde-misc/kregexpeditor **
 kde-misc/kustodian **
 kde-misc/kio-sysinfo **
