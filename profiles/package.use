@@ -28,7 +28,7 @@ app-emulation/emul-linux-x86-compat multilib
 app-emulation/emul-linux-x86-soundlibs alsa
 app-emulation/emul-linux-x86-xlibs opengl
 app-emulation/virtualbox-bin rdesktop-vrdp vboxwebsrv
-app-emulation/wine X alsa cups fontconfig gsm jpeg nls opengl png samba ssl truetype win32
+app-emulation/wine X alsa cups fontconfig gsm jpeg nls opengl png samba ssl truetype win32 win64
 app-misc/lirc X kernel_linux
 app-misc/livecd-tools X opengl
 app-misc/mcX edit gpm nls samba
@@ -478,10 +478,10 @@ virtual/mysql embedded
 www-client/firefox bindist pgo system-sqlite
 www-client/icecat custom-cflags custom-optimization pgo
 www-client/opera-next -gtk
-www-plugins/adobe-flash nspluginwrapper
+www-plugins/adobe-flash 32bit 64bit multilib
 x11-base/xorg-server ipv6 nptl udev
 x11-base/xorg-server dmx xnest
-x11-drivers/nvidia-drivers custom-cflags gtk
+x11-drivers/nvidia-drivers custom-cflags gtk rt
 x11-drivers/xf86-video-glint dri
 x11-drivers/xf86-video-intel dri
 x11-drivers/xf86-video-mach64 dri

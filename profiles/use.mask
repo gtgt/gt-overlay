@@ -1,0 +1,4 @@
+custom-cflags
+cpudetection-cflags
+cpudetection
+custom-optimization

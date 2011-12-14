@@ -1,4 +1,4 @@
-app-emulation/wine custom-cflags dbus gecko gphoto2 lcms mp3 ncurses openal oss perl scanner threads v4l win64 xcomposite xinerama xml
+app-emulation/wine custom-cflags dbus gecko gphoto2 lcms mp3 ncurses openal oss perl scanner v4l xcomposite xinerama xml
 app-text/fbreader gtk
 dev-java/icedtea zero hs20
 =dev-java/icedtea-7.1.14 xrender

@@ -50,6 +50,7 @@ dev-java/netbeans-platform
 dev-php/xhprof
 www-apps/xhprof-ui
 www-apps/webgrind
+dev-db/mysql-proxy
 
 # Auth stuff
 >=app-admin/logrotate-3.8.0
@@ -262,9 +263,11 @@ kde-misc/qtrans
 <kde-misc/quadkonsole-2.0.0
 media-gfx/digikam
 media-gfx/kcoloredit
+media-libs/mlt
 media-libs/opengtl
-<media-libs/phonon-9999
-<media-libs/phonon-gstreamer-9999
+media-libs/phonon **
+media-libs/phonon-gstreamer **
+media-libs/phonon-xine **
 media-plugins/kipi-plugins **
 media-sound/amarok **
 media-sound/clementine
@@ -274,8 +277,9 @@ media-sound/kid3
 media-sound/qjackctl
 media-sound/qt-gstreamer **
 media-sound/qtractor
-media-video/kamoso **
 media-sound/traverso
+media-video/libav
+media-video/kamoso **
 media-video/recorditnow **
 net-analyzer/ksniffer
 net-dialup/qtwvdialer
