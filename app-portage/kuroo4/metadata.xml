@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>tools-portage</herd>
+	<longdescription lang='en'>Kuroo is a portage GUI written in C++ and based
+	on Qt 4</longdescription>
+	<herd>tools-portage</herd>
+	<maintainer>
+		<email>brian.dolbec@gmail.com</email>
+		<name>Brian Dolbec</name>
+		<description>Upstream Maintainer (please CC on bugs)</description>
+	</maintainer>
+</pkgmetadata>

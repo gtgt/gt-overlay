@@ -5,7 +5,7 @@
 =dev-vcs/qgit-9999
 #>dev-libs/glib-2.30.1
 #>net-libs/glib-networking-2.30.1
->kde-base/gwenview-4.6.5
+#>kde-base/gwenview-4.6.5
 <media-gfx/gimp-2.7.0
 =net-im/emesene-9999
 <net-libs/xulrunner-2.0

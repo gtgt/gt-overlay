@@ -47,10 +47,17 @@ dev-java/netbeans-ergonomics
 dev-java/netbeans-platform
 
 # PHP
+dev-lang/php
 dev-php/xhprof
 www-apps/xhprof-ui
 www-apps/webgrind
 dev-db/mysql-proxy
+dev-php5/pecl-oauth
+dev-php5/pecl-svn
+dev-php/pecl-mysqlnd_qc
+dev-php/pecl-v8js
+dev-php/xdebug
+dev-php/xdebug-client
 
 # Auth stuff
 >=app-admin/logrotate-3.8.0
@@ -164,7 +171,6 @@ net-libs/rpc2
 net-wireless/wimax
 net-wireless/wpa_supplicant
 net-wireless/wimax-tools
-net-misc/networkmanager
 net-wireless/bluez
 net-wireless/wpa_supplicant
 
@@ -268,6 +274,8 @@ media-libs/opengtl
 media-libs/phonon **
 media-libs/phonon-gstreamer **
 media-libs/phonon-xine **
+media-libs/libdmtx
+=media-libs/prison-9999 **
 media-plugins/kipi-plugins **
 media-sound/amarok **
 media-sound/clementine
@@ -309,6 +317,7 @@ sys-devel/llvm
 x11-misc/appmenu **
 x11-misc/appmenu-qt **
 x11-misc/appmenu-gtk **
+x11-misc/appmenu-firefox
 x11-themes/qtcurve-qt4
 x11-themes/gtk-engines-qtcurve
 www-client/rekonq **

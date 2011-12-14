@@ -1,0 +1,13 @@
+  22 Jul 2010; Brian Dolbec <brian.dolbec@gmail.com> *: Add a +debug USE flag.
+
+  08 Apr 2011; Brian Dolbec <brian.dolbec@gmail.com> kuroo4-9999.ebuild:
+  update EAPI to 3 per kde4-functions.eclass requirement
+
+*kuroo4-9999 (20 Jul 2010)
+
+  20 Jul 2010; Detlev Casanova <detlev.casanova@gmail.com> *: Remove keywords.
+
+*kuroo4-9999 (16 Jul 2010)
+
+  16 Jul 2010; Detlev Casanova <detlev.casanova@gmail.com> *: Initial commit.
+
