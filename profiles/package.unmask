@@ -1,4 +1,5 @@
 app-misc/liveusb-creator
+app-misc/strigi
 app-pda/libopensync
 app-pda/libopensync-plugin-vformat
 app-portage/udept
@@ -7,6 +8,7 @@ net-libs/libinfinity
 dev-libs/json-glib
 dev-libs/nspr
 dev-libs/nss
+dev-libs/soprano
 kde-base/tqtinterface:3.5
 kde-base/kate:3.5
 kde-misc/basket
@@ -26,6 +28,8 @@ sys-apps/calculate-lib
 sys-apps/portage
 sys-fs/ntfs3g
 =sys-devel/kgcc64-4.5.2
+=sys-kernel/pf-sources-3.1.3
 =x11-libs/qt-4.7.4
 =virtual/mysql-5.5
 www-client/opera-next
+=x11-libs/qt-webkit-4.7.8_rc1
