@@ -12,7 +12,9 @@ kde-base/kate:3.5
 kde-misc/basket
 kde-misc/knetworkmanager
 media-gfx/gimp
-media-libs/phonon-xine
+=media-libs/phonon-9999
+=media-libs/phonon-xine-9999
+=media-libs/phonon-gstreamer-9999
 media-sound/amarok
 <net-im/emesene-9999
 net-libs/libgcal
