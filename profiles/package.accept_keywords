@@ -17,6 +17,7 @@ sys-libs/lwp
 sys-libs/rvm
 sys-libs/talloc
 sys-libs/tdb
+sys-libs/zlib
 sys-power/pm-utils
 sys-power/upower
 
@@ -51,6 +52,7 @@ dev-lang/php
 dev-php/xhprof
 www-apps/xhprof-ui
 www-apps/webgrind
+dev-db/mysql-proxy
 dev-php5/pecl-oauth
 dev-php5/pecl-svn
 dev-php/pecl-mysqlnd_qc
@@ -113,6 +115,8 @@ media-libs/opencv
 app-dicts/goldendict
 app-dicts/mdic
 app-dicts/mdicconv
+dev-db/virtuoso-server
+dev-db/virtuoso-odbc
 <dev-libs/liblinebreak-9999
 
 # Bad stuff
@@ -127,7 +131,7 @@ media-libs/raptor
 media-libs/libpgf
 media-libs/libkface
 <dev-libs/grantlee-9999
-<dev-libs/soprano-9999
+dev-libs/soprano **
 <app-office/akonadi-server-9999
 kde-misc/akonadi-google **
 <dev-libs/shared-desktop-ontologies-9999
@@ -218,7 +222,7 @@ media-video/nvidia-settings **
 kde-misc/oxygen-appmenu **
 app-emulation/q4wine **
 app-backup/luckybackup
-app-misc/strigi
+app-misc/strigi **
 app-office/akonadi-server
 app-pda/libopensync
 app-pda/libopensync-plugin-akonadi
@@ -241,6 +245,7 @@ app-portage/gentoopm
 app-portage/kuroo4 **
 <dev-libs/libdbusmenu-9999
 <dev-libs/libdbusmenu-qt-9999
+<dev-libs/libindicate-9999
 dev-libs/qjson
 dev-libs/soprano
 dev-python/PyQt4
@@ -257,8 +262,10 @@ kde-misc/akonadi-facebook **
 kde-misc/basket **
 kde-misc/kaption **
 kde-misc/kcaldav
+kde-misc/kim4
 kde-misc/kfilebox
 kde-misc/knetworkmanager **
+kde-misc/kobby
 kde-misc/kregexpeditor **
 kde-misc/kustodian **
 kde-misc/kio-sysinfo **
@@ -268,6 +275,7 @@ kde-misc/qtrans
 <kde-misc/quadkonsole-2.0.0
 media-gfx/digikam
 media-gfx/kcoloredit
+media-libs/mlt
 media-libs/opengtl
 media-libs/phonon **
 media-libs/phonon-gstreamer **
@@ -283,8 +291,9 @@ media-sound/kid3
 media-sound/qjackctl
 media-sound/qt-gstreamer **
 media-sound/qtractor
-media-video/kamoso **
 media-sound/traverso
+media-video/libav
+media-video/kamoso **
 media-video/recorditnow **
 net-analyzer/ksniffer
 net-dialup/qtwvdialer
@@ -315,6 +324,7 @@ x11-misc/appmenu **
 x11-misc/appmenu-qt **
 x11-misc/appmenu-gtk **
 x11-misc/appmenu-firefox
+=x11-libs/qt-webkit-4.8.0_rc1 **
 x11-themes/qtcurve-qt4
 x11-themes/gtk-engines-qtcurve
 www-client/rekonq **

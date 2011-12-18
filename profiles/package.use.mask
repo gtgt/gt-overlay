@@ -1,4 +1,4 @@
-app-emulation/wine custom-cflags dbus gecko gphoto2 lcms mp3 ncurses openal oss perl scanner threads v4l win64 xcomposite xinerama xml
+app-emulation/wine custom-cflags dbus gecko gphoto2 lcms mp3 ncurses openal oss perl scanner v4l xcomposite xinerama xml
 app-text/fbreader gtk
 dev-java/icedtea zero hs20
 =dev-java/icedtea-7.1.14 xrender
@@ -28,6 +28,7 @@ net-voip/telepathy-connection-managers icq yahoo
 net-wireless/bluez maemo6 old-daemons
 net-wireless/wpa_supplicant wimax
 sys-auth/polkit gtk introspection
+sys-apps/pciutils zlib
 x11-libs/cairo static-libs
 x11-libs/qt-gui egl
 x11-libs/qt-opengl egl
