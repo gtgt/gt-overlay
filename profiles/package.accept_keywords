@@ -11,6 +11,7 @@ sys-devel/gcc
 sys-devel/kgcc64 **
 =dev-libs/glib-2.30.0
 sys-fs/udev
+sys-fs/hfsplusutils **
 sys-kernel/dracut
 sys-kernel/linux-headers
 sys-libs/lwp
@@ -63,6 +64,8 @@ dev-php/xdebug-client
 # Auth stuff
 >=app-admin/logrotate-3.8.0
 app-admin/keepassx2 **
+sys-auth/polkit
+sys-auth/polkit-qt
 app-crypt/chntpw
 sys-auth/consolekit
 <sys-apps/keyexec-9999
@@ -154,6 +157,7 @@ media-libs/libpng:1.4
 ## need for digikam
 sci-libs/clapack
 dev-libs/libf2c
+sys-fs/dmg2img
 
 # Avahi
 net-dns/avahi
@@ -220,8 +224,8 @@ x11-libs/libxcb
 <app-admin/eselect-opengl-9999
 
 x11-drivers/ati-drivers
-x11-drivers/nvidia-drivers **
-media-video/nvidia-settings **
+#x11-drivers/nvidia-drivers **
+#media-video/nvidia-settings **
 
 ## KDE Stuff
 kde-misc/oxygen-appmenu **
