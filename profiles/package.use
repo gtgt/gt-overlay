@@ -463,7 +463,7 @@ sys-libs/ncurses cxx gpm
 sys-libs/pam berkdb cracklib elibc_glibc nls
 sys-libs/talloc-libs
 sys-libs/timezone-data nls
-sys-libs/zlib minizip
+sys-libs/zlib minizip static-libs
 sys-power/cpufreqd acpi
 sys-power/cpufreqd nvidia
 sys-power/cpufrequtils nls
