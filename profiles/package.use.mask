@@ -19,6 +19,7 @@ media-libs/libquicktime gtk
 media-libs/opencv cuda
 media-video/ffmpeg cpudetection-cflags
 media-video/mplayer cpudetection
+media-video/mplayer2 cpudetection xvmc
 media-video/vlc aalib libcaca sdl sdl-image win32codecs nsplugin
 net-misc/networkmanager sharing wimax
 net-p2p/eiskaltdcpp spell lua gtk

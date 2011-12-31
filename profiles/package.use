@@ -113,9 +113,9 @@ dev-python/python-ssl
 dev-python/twisted crypt gtk
 dev-tcltk/expect X threads
 dev-util/dialognls unicode
-dev-util/kdevelop okteta qthelp
+dev-util/kdevelop -okteta -qthelp
 dev-util/kdevelop-php -kdevelop quanta
-dev-util/kdevplatform -cvs -debug git reviewboard subversion
+dev-util/kdevplatform -cvs -debug git -reviewboard subversion
 dev-util/netbeans
 dev-util/qt-creator -bazaar bineditor bookmarks cmake -debug designer -doc examples -fakevim git inspector mercurial perforce qml qtscript subversion
 dev-util/valgrind qt4
@@ -463,7 +463,7 @@ sys-libs/ncurses cxx gpm
 sys-libs/pam berkdb cracklib elibc_glibc nls
 sys-libs/talloc-libs
 sys-libs/timezone-data nls
-sys-libs/zlib minizip
+sys-libs/zlib minizip static-libs
 sys-power/cpufreqd acpi
 sys-power/cpufreqd nvidia
 sys-power/cpufrequtils nls
