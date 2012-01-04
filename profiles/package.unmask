@@ -12,6 +12,7 @@ dev-libs/soprano
 kde-base/tqtinterface:3.5
 kde-base/kate:3.5
 kde-misc/basket
+kde-misc/kobby
 kde-misc/knetworkmanager
 media-gfx/gimp
 =media-libs/phonon-9999
@@ -37,3 +38,4 @@ sys-fs/hfsplusutils
 www-plugins/google-talkplugin
 www-client/opera-next
 =x11-libs/qt-webkit-4.7.8_rc1
+x11-misc/appmenu-firefox

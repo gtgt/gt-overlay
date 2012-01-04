@@ -147,6 +147,7 @@ sys-auth/polkit-qt
 #GTK libs
 dev-libs/json-glib
 dev-util/dbus-test-runner
+x11-libs/gtk+
 x11-libs/pango
 dev-libs/glib
 
@@ -274,7 +275,7 @@ kde-misc/kcaldav
 kde-misc/kim4
 kde-misc/kfilebox
 kde-misc/knetworkmanager **
-kde-misc/kobby
+kde-misc/kobby **
 kde-misc/kregexpeditor **
 kde-misc/kustodian **
 kde-misc/kio-sysinfo **
@@ -284,6 +285,8 @@ kde-misc/qtrans
 <kde-misc/quadkonsole-2.0.0
 media-gfx/digikam
 media-gfx/kcoloredit
+media-libs/babl
+media-libs/gegl
 media-libs/mlt
 media-libs/opengtl
 media-libs/phonon **
@@ -323,8 +326,10 @@ net-dialup/qtwvdialer
 net-libs/farsight2
 net-libs/libqinfinity
 net-libs/libgcal
+net-libs/libktorrent
 dev-libs/soprano
 net-nds/luma
+net-p2p/ktorrent
 net-wireless/bluedevil
 sys-block/partitionmanager **
 sys-devel/llvm
@@ -332,11 +337,11 @@ sys-devel/llvm
 x11-misc/appmenu **
 x11-misc/appmenu-qt **
 x11-misc/appmenu-gtk **
-x11-misc/appmenu-firefox
+x11-misc/appmenu-firefox **
 =x11-libs/qt-webkit-4.8.0_rc1 **
 x11-themes/qtcurve-qt4
 x11-themes/gtk-engines-qtcurve
-www-client/rekonq **
+www-client/rekonq
 
 ## GStreamer
 media-video/snappy **
@@ -422,8 +427,8 @@ media-sound/jack-audio-connection-kit
 
 net-dns/mydns
 
-<=www-client/firefox-7.9
-<=www-client/firefox-bin-7.9
+<=www-client/firefox-9999
+<=www-client/firefox-bin-9999
 www-client/icecat
 www-client/opera-next
 
