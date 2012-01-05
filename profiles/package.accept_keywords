@@ -1,4 +1,5 @@
 # System
+dev-cpp/gmock
 =dev-util/valgrind-3.6.1-r2
 sys-apps/biosdevname
 sys-apps/systemd
