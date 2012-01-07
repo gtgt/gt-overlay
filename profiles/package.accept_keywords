@@ -334,9 +334,10 @@ x11-misc/appmenu-qt **
 x11-misc/appmenu-gtk **
 x11-misc/appmenu-firefox
 =x11-libs/qt-webkit-4.8.0_rc1 **
+x11-libs/libXi
 x11-themes/qtcurve-qt4
 x11-themes/gtk-engines-qtcurve
-www-client/rekonq **
+<www-client/rekonq-9999 **
 
 ## GStreamer
 media-video/snappy **

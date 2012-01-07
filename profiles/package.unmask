@@ -9,8 +9,9 @@ dev-libs/json-glib
 dev-libs/nspr
 dev-libs/nss
 dev-libs/soprano
-kde-base/tqtinterface:3.5
 kde-base/kate:3.5
+=kde-base/kdepim-wizards-4.7.95
+kde-base/tqtinterface:3.5
 kde-misc/basket
 kde-misc/knetworkmanager
 media-gfx/gimp
