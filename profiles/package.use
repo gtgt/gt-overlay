@@ -411,6 +411,7 @@ sys-apps/net-tools nls
 sys-apps/openrc elibc_glibc kernel_linux ncurses pam unicode
 sys-apps/portage ipc
 sys-apps/pv nls
+sci-geosciences/qlandkartegt gps
 sys-apps/sandbox multilib
 sys-apps/sed acl nls
 sys-apps/shadow cracklib nls pam

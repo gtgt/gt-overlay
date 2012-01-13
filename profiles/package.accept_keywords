@@ -35,9 +35,14 @@ dev-java/gcj-jdk
 dev-java/icedtea6-bin
 dev-java/icedtea
 dev-java/icedtea-web
+dev-java/netbeans-profiler
+dev-java/netbeans-javafx
+dev-java/netbeans-java
+dev-java/maven-bin
 dev-java/oracle-jdk-bin
 dev-java/oracle-jre-bin
 dev-java/sun-jdk **
+dev-java/ws-commons-util
 
 dev-util/netbeans
 dev-java/netbeans-apisupport
@@ -115,11 +120,16 @@ www-plugins/google-talkplugin **
 <media-libs/libvpx-9999
 
 # Office
+app-editors/gobby
+<app-office/calligra-9999
+<app-office/calligra-l10n-9999
+<app-office/krita-9999
 <app-dicts/ispell-pt-br-9999
 <app-office/libreoffice-bin-9999
 app-dicts/goldendict
 app-dicts/mdic
 app-dicts/mdicconv
+dev-db/sqlite
 dev-db/virtuoso-server
 dev-db/virtuoso-odbc
 <dev-libs/liblinebreak-9999
@@ -238,18 +248,18 @@ app-office/akonadi-server
 app-pda/libopensync
 app-pda/libopensync-plugin-akonadi
 app-pda/libopensync-plugin-vformat
-app-office/koffice-meta 
+<app-office/koffice-meta-9999
 app-office/akonadi-server
-app-office/karbon
-app-office/kexi
-app-office/koffice-data
-app-office/koffice-l10n
-app-office/koffice-libs
-app-office/kpresenter
-app-office/krita
-app-office/kspread
-app-office/kword
-app-office/skrooge
+<app-office/karbon-9999
+<app-office/kexi-99999
+<app-office/koffice-data-9999
+<app-office/koffice-l10n-9999
+<app-office/koffice-libs-9999
+<app-office/kpresenter-9999
+<app-office/krita-9999
+<app-office/kspread-9999
+<app-office/kword-9999
+<app-office/skrooge-9999
 app-portage/kportagetray
 app-portage/smart-live-rebuild
 app-portage/gentoopm
@@ -299,8 +309,9 @@ media-plugins/kipi-plugins **
 media-sound/amarok **
 media-sound/clementine
 media-sound/kmetronome
-media-sound/kwave
 media-sound/kid3
+media-sound/kstreamripper
+media-sound/kwave
 media-sound/qjackctl
 media-sound/qt-gstreamer **
 media-sound/qtractor
@@ -332,6 +343,7 @@ dev-libs/soprano
 net-nds/luma
 net-p2p/ktorrent
 net-wireless/bluedevil
+sci-geosciences/qlandkartegt
 sys-block/partitionmanager **
 sys-devel/llvm
 <x11-libs/qtermwidget-9999
@@ -429,7 +441,7 @@ media-sound/jack-audio-connection-kit
 
 net-dns/mydns
 
-<=www-client/firefox-9999
+<=www-client/firefox-9.9.0
 <=www-client/firefox-bin-9999
 www-client/icecat
 www-client/opera-next
