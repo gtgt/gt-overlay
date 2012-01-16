@@ -170,6 +170,11 @@ media-libs/libpng:1.4
 sci-libs/clapack
 dev-libs/libf2c
 sys-fs/dmg2img
+media-libs/lv2core
+media-libs/lilv
+dev-libs/serd
+dev-libs/sord
+
 
 # Avahi
 net-dns/avahi
