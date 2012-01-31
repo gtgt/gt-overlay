@@ -27,6 +27,8 @@ sys-power/upower
 app-portage/flaggie
 sys-apps/baselayout-systemd
 sys-apps/systemd-units
+app-portage/elogviewer
+app-admin/eselect-qtgraphicssystem
 
 ## Java stuff
 virtual/jdk
@@ -102,6 +104,7 @@ net-fs/cifs-utils
 net-libs/glib-networking
 net-libs/libsoup
 net-libs/pjsip
+media-libs/chromaprint
 media-libs/opencv
 <net-news/liferea-9999
 www-plugins/google-talkplugin **
@@ -158,22 +161,24 @@ sys-auth/polkit-qt
 #GTK libs
 dev-libs/json-glib
 dev-util/dbus-test-runner
+x11-libs/cairo
 x11-libs/gtk+
 x11-libs/pango
 dev-libs/glib
 
 
 # Media libs
-media-libs/lcms
-media-libs/libpng:1.4
-## need for digikam
-sci-libs/clapack
-dev-libs/libf2c
-sys-fs/dmg2img
-media-libs/lv2core
-media-libs/lilv
 dev-libs/serd
 dev-libs/sord
+dev-libs/libf2c
+media-libs/lcms
+media-libs/libpng:1.4
+media-libs/libbluray
+media-libs/lv2core
+media-libs/lilv
+## need for digikam
+sci-libs/clapack
+sys-fs/dmg2img
 
 
 # Avahi
@@ -245,9 +250,9 @@ x11-drivers/ati-drivers
 #media-video/nvidia-settings **
 
 ## KDE Stuff
-kde-misc/oxygen-appmenu **
-app-emulation/q4wine **
 app-backup/luckybackup
+app-cdr/k9copy
+app-emulation/q4wine **
 app-misc/strigi **
 app-office/akonadi-server
 app-pda/libopensync
@@ -283,6 +288,7 @@ dev-vcs/kdesvn **
 #kde-base/gwenview -~amd64 -~x86
 kde-base/tqtinterface:3.5
 kde-base/kate:3.5
+kde-misc/oxygen-appmenu **
 kde-misc/akonadi-googledata
 kde-misc/akonadi-facebook **
 kde-misc/basket **
