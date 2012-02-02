@@ -117,7 +117,7 @@ dev-util/kdevelop -okteta -qthelp
 dev-util/kdevelop-php -kdevelop quanta
 dev-util/kdevplatform -cvs -debug git -reviewboard subversion
 dev-util/netbeans
-dev-util/qt-creator -bazaar bineditor bookmarks cmake -debug designer -doc examples -fakevim git inspector mercurial perforce qml qtscript subversion
+dev-util/qt-creator -bazaar bineditor bookmarks cmake -debug designer -doc -examples -fakevim git inspector mercurial perforce qml qtscript subversion
 dev-util/valgrind qt4
 dev-vcs/git bash-completion blksha1 curl iconv perl threads
 dev-vcs/subversion java

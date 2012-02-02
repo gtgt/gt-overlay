@@ -6,6 +6,7 @@ dev-java/swt xulrunner
 dev-libs/json-glib introspection
 dev-libs/libdbusmenu test
 dev-util/netbeans netbeans_modules_java netbeans_modules_apisupport
+dev-util/qt-creator bazaar debug doc examples fakevim
 dev-vcs/git tk gtk
 dev-vcs/subversion dso
 kde-base/kdesdk-kioslaves subversion
@@ -32,6 +33,7 @@ sys-auth/polkit gtk introspection
 sys-apps/pciutils zlib
 x11-libs/cairo static-libs
 x11-libs/qt-gui egl
+x11-libs/qt-meta openvg
 x11-libs/qt-opengl egl
 x11-misc/google-gadgets xulrunner webkit gtk dbus
 www-client/icecat crashreporter dbus system-sqlite wifi
