@@ -211,6 +211,7 @@ x11-libs/pixman
 x11-base/xorg-server
 x11-proto/dri2proto
 x11-proto/glproto
+x11-proto/inputproto
 x11-libs/libdrm
 x11-apps/mesa-progs
 
