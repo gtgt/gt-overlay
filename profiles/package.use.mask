@@ -10,7 +10,6 @@ dev-util/qt-creator bazaar debug doc examples fakevim
 dev-vcs/git tk gtk
 dev-vcs/subversion dso
 kde-base/kdesdk-kioslaves subversion
-kde-base/kwin gles
 kde-base/tqtinterface qt3
 media-gfx/digikam mysql
 media-gfx/enblend doc
@@ -32,9 +31,7 @@ net-wireless/wpa_supplicant wimax
 sys-auth/polkit gtk introspection
 sys-apps/pciutils zlib
 x11-libs/cairo static-libs
-x11-libs/qt-gui egl
 x11-libs/qt-meta openvg
-x11-libs/qt-opengl egl
 x11-misc/google-gadgets xulrunner webkit gtk dbus
 www-client/icecat crashreporter dbus system-sqlite wifi
 www-servers/apache apache2_modules_cgi apache2_modules_cgid

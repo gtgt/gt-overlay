@@ -92,12 +92,14 @@ app-benchmarks/phoronix-test-suite
 sys-apps/usb_modeswitch
 media-tv/dvb-usb-rtl2832u
 media-tv/linuxtv-dvb-apps
+net-misc/modemmanager
 net-wireless/zte-mf190
 
 
 # Picture and social
 <app-text/fbreader-9999
 media-gfx/exiv2
+=media-gfx/imagemagick-6.7.5.0
 <media-video/mplayer-9999
 <net-im/skype-9999
 net-fs/cifs-utils
@@ -313,8 +315,7 @@ media-libs/gegl
 media-libs/mlt
 media-libs/opengtl
 media-libs/phonon **
-media-libs/phonon-gstreamer **
-media-libs/phonon-xine **
+media-libs/phonon-kde
 media-libs/libdmtx
 =media-libs/prison-9999 **
 media-plugins/kipi-plugins **
@@ -448,6 +449,24 @@ x11-libs/qt-test
 x11-libs/qt-webkit
 x11-libs/qt-xmlpatterns
 
+## x86 emul
+app-emulation/emul-linux-x86-baselibs
+app-emulation/emul-linux-x86-compat
+app-emulation/emul-linux-x86-cpplibs
+app-emulation/emul-linux-x86-db
+app-emulation/emul-linux-x86-glibc-errno-compat
+app-emulation/emul-linux-x86-gstplugins
+app-emulation/emul-linux-x86-gtklibs
+app-emulation/emul-linux-x86-gtkmmlibs
+app-emulation/emul-linux-x86-java
+app-emulation/emul-linux-x86-medialibs
+app-emulation/emul-linux-x86-motif
+app-emulation/emul-linux-x86-opengl
+app-emulation/emul-linux-x86-qtlibs
+app-emulation/emul-linux-x86-sdl
+app-emulation/emul-linux-x86-soundlibs
+app-emulation/emul-linux-x86-xlibs
+app-emulation/emul-linux-x86-bjdeps
 
 <dev-lang/python-3.2
 
