@@ -64,7 +64,7 @@ www-apps/webgrind
 dev-db/mysql-proxy
 dev-php5/pecl-oauth
 dev-php5/pecl-svn
-dev-php/pecl-mysqlnd_qc
+dev-php/pecl-mysqlnd_qc **
 dev-php/pecl-v8js
 dev-php/xdebug
 dev-php/xdebug-client
@@ -88,7 +88,6 @@ app-benchmarks/phoronix-test-suite
 <net-print/foomatic-db-ppds-9999
 <net-print/foomatic-db-engine-9999
 <net-print/foomatic-filters-9999
-<net-print/cups-9999
 sys-apps/usb_modeswitch
 media-tv/dvb-usb-rtl2832u
 media-tv/linuxtv-dvb-apps
