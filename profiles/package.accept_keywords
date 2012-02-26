@@ -10,7 +10,7 @@ sys-boot/plymouth
 sys-boot/unetbootin
 sys-devel/gcc
 sys-devel/kgcc64 **
-=dev-libs/glib-2.30.0
+dev-libs/glib
 sys-fs/udev
 sys-fs/hfsplusutils **
 sys-kernel/dracut
@@ -81,6 +81,7 @@ sys-auth/consolekit
 <sys-auth/thinkfinger-9999
 
 # Hardware & Drivers
+app-mobilephone/qtadb
 app-benchmarks/phoronix-test-suite
 <app-admin/testdisk-9999
 <net-print/foo2zjs-9999
@@ -108,6 +109,7 @@ net-libs/libsoup
 net-libs/pjsip
 media-libs/chromaprint
 media-libs/opencv
+media-libs/xine-lib
 <net-news/liferea-9999
 www-plugins/google-talkplugin **
 
@@ -144,6 +146,8 @@ dev-db/virtuoso-odbc
 <www-plugins/adobe-flash-9999
 
 # Desktop libs
+app-admin/eselect-opencl
+dev-lang/v8
 dev-libs/rasqal
 dev-libs/redland
 dev-python/py-smbpasswd
@@ -158,7 +162,6 @@ kde-misc/akonadi-google **
 <dev-cpp/clucene-9999
 sys-auth/polkit
 sys-auth/polkit-qt
-
 
 #GTK libs
 dev-libs/json-glib
@@ -277,8 +280,8 @@ app-portage/kportagetray
 app-portage/smart-live-rebuild
 app-portage/gentoopm
 app-portage/kuroo4 **
-<dev-libs/libdbusmenu-9999
-<dev-libs/libdbusmenu-qt-9999
+dev-libs/libdbusmenu
+dev-libs/libdbusmenu-qt
 <dev-libs/libindicate-9999
 dev-libs/qjson
 dev-libs/soprano
@@ -360,15 +363,16 @@ sci-geosciences/qlandkartegt
 sys-block/partitionmanager **
 sys-devel/llvm
 <x11-libs/qtermwidget-9999
-x11-misc/appmenu **
-x11-misc/appmenu-qt **
-x11-misc/appmenu-gtk **
+x11-misc/appmenu
+x11-misc/appmenu-qt
+x11-misc/appmenu-gtk
 x11-misc/appmenu-firefox **
 =x11-libs/qt-webkit-4.8.0_rc1 **
 x11-libs/libXi
 x11-themes/qtcurve-qt4
 x11-themes/gtk-engines-qtcurve
 <www-client/rekonq-9999 **
+=www-client/chromium-18.0.1025.39
 
 ## GStreamer
 media-video/snappy **
