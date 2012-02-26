@@ -368,10 +368,9 @@ net-nds/opengnutls
 net-p2p/eiskaltdcpp cli dbus emoticons qt4
 net-p2p/eiskaltdcpp sqlite upnp
 net-p2p/ktorrent webinterface
-net-print/cndrvcups-capt
+net-print/cndrv cups-capt
 net-print/cnijfilteramd64 ip4700 mp250 mp270 mp490 mp550 mp560640
-net-print/cups X acl dbus jpeg pam perl png python samba ssl threads tiff usb
-net-print/cups gnutls
+net-print/cups X acl dbus jpeg pam perl png python samba ssl threads tiff usb gnutls php
 net-print/foomatic-filters cups
 net-print/gutenprint gimp
 net-print/gutenprintcups foomaticdb gimp gtk readline
