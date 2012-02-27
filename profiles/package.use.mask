@@ -1,4 +1,4 @@
-app-emulation/wine custom-cflags dbus gecko gphoto2 lcms mp3 ncurses openal oss perl scanner v4l xcomposite xinerama xml
+app-emulation/wine custom-cflags gphoto2 openal oss
 app-text/fbreader gtk
 dev-java/icedtea zero hs20
 =dev-java/icedtea-7.1.14 xrender
@@ -19,7 +19,7 @@ media-libs/libquicktime gtk
 media-libs/opencv cuda
 media-video/ffmpeg cpudetection-cflags
 media-video/mplayer cpudetection
-media-video/mplayer2 cpudetection xvmc
+media-video/mplayer2 cpudetection xvmc cdio
 media-video/vlc aalib libcaca sdl sdl-image win32codecs nsplugin
 net-misc/networkmanager sharing wimax
 net-p2p/eiskaltdcpp spell lua gtk
