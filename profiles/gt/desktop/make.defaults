@@ -26,7 +26,7 @@ USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom
 USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify gstreamer -caps"
 
 #Lang support
-USE="${USE} python perl mono ithreads fortran gdbm cblas-external quanta subversion git script -introspection"
+USE="${USE} python perl mono ithreads fortran gdbm cblas-external quanta subversion git cvs mercurial bazaar script -introspection"
 
 # Network protocols
 USE="${USE} ftp network -ldap rdesktop samba upnp nss resolvconf zeroconf avahi wifi"

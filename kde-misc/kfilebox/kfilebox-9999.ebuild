@@ -8,7 +8,7 @@ LANGS="ar br cs de es fr gl it lt nl pl pt ru si tr zh zh_CN"
 
 KDE_SCM="git"
 
-inherit qt4-r2 git
+inherit qt4-r2 git-2
 
 #ESVN_REPO_URI="https://kdropbox.svn.sourceforge.net/svnroot/kdropbox"
 EGIT_REPO_URI="git://gitorious.org/kfilebox/kfilebox.git"
@@ -27,7 +27,7 @@ unset name
 DEPEND="kde-base/kdelibs"
 RDEPEND="${DEPEND}"
 
-PATCHES=( "${FILESDIR}/${P}-installroot.patch" )
+#PATCHES=( "${FILESDIR}/kfilebox-${PV}-installroot.patch" )
 
 src_install() {
   dobin bin/kfilebox
