@@ -364,7 +364,6 @@ sci-geosciences/qlandkartegt
 sys-block/partitionmanager **
 sys-devel/llvm
 <x11-libs/qtermwidget-9999
-x11-misc/appmenu
 x11-misc/appmenu-qt
 x11-misc/appmenu-gtk
 x11-misc/appmenu-firefox **
