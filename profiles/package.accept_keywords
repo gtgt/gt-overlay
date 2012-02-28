@@ -146,6 +146,7 @@ dev-db/virtuoso-odbc
 
 # Desktop libs
 app-admin/eselect-opencl
+app-pda/libsyncml
 dev-lang/v8
 dev-libs/rasqal
 dev-libs/redland
@@ -251,8 +252,10 @@ x11-libs/libxcb
 <app-admin/eselect-opengl-9999
 
 x11-drivers/ati-drivers
-#x11-drivers/nvidia-drivers **
-#media-video/nvidia-settings **
+x11-drivers/nvidia-drivers
+media-video/nvidia-settings
+
+x11-libs/qscintilla
 
 ## KDE Stuff
 app-admin/keepassx2 **
@@ -262,9 +265,11 @@ app-cdr/k9copy
 app-emulation/q4wine **
 app-misc/strigi
 app-office/akonadi-server
-app-pda/libopensync
-app-pda/libopensync-plugin-akonadi
-app-pda/libopensync-plugin-vformat
+<app-pda/libopensync-9999
+<app-pda/libopensync-plugin-akonadi-9999
+<app-pda/libopensync-plugin-vformat-9999
+<app-pda/libopensync-plugin-syncml-9999
+<app-pda/libopensync-plugin-google-calendar-9999
 <app-office/koffice-meta-9999
 app-office/akonadi-server
 <app-office/karbon-9999

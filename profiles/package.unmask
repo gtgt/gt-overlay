@@ -3,6 +3,8 @@ app-misc/strigi
 =app-office/calligra-2.3.86
 app-pda/libopensync
 app-pda/libopensync-plugin-vformat
+app-pda/libopensync-plugin-syncml
+app-pda/libopensync-plugin-google-calendar
 app-portage/udept
 =dev-db/mysql-5.5*
 net-libs/libinfinity

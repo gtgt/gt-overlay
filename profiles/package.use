@@ -46,6 +46,8 @@ app-office/koffice-l10n doc
 app-office/koffice-libs reports
 app-office/libreoffice bash-completion cups custom-cflags dbus gtk kde nsplugin opengl
 app-pda/libplist python
+app-pda/libopensync-plugin-syncml http
+app-pda/libsyncml http
 app-portage/eix bzip2 nls
 app-portage/eix sqlite
 app-portage/genlop bash-completion
