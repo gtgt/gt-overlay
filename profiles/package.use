@@ -10,7 +10,7 @@ app-arch/cpio nls
 app-arch/dump readline
 app-arch/gzip nls
 app-arch/libarchiv bzip2 eacl kernel_linux lzma zlib-libs
-app-arch/p7zip pch kde
+app-arch/p7zip pch kde rar
 app-arch/tar nls userland_GNU
 app-arch/unzipbzip2 natspec unicode
 app-arch/xz-utils nls

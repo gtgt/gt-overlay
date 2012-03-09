@@ -155,7 +155,6 @@ media-libs/raptor
 media-libs/libpgf
 media-libs/libkface
 <dev-libs/grantlee-9999
-<dev-libs/soprano-9999
 <app-office/akonadi-server-9999
 kde-misc/akonadi-google
 <dev-libs/shared-desktop-ontologies-9999
@@ -170,7 +169,6 @@ x11-libs/cairo
 x11-libs/gtk+
 x11-libs/pango
 dev-libs/glib
-
 
 # Media libs
 dev-libs/serd
@@ -290,7 +288,7 @@ dev-libs/libdbusmenu
 dev-libs/libdbusmenu-qt
 <dev-libs/libindicate-9999
 dev-libs/qjson
-dev-libs/soprano
+dev-libs/soprano **
 dev-python/PyQt4
 dev-python/qscintilla-python
 dev-python/sip
@@ -361,13 +359,15 @@ net-libs/farsight2
 net-libs/libqinfinity
 net-libs/libgcal
 net-libs/libktorrent
-dev-libs/soprano
 net-nds/luma
 net-p2p/ktorrent
 net-wireless/bluedevil
 sci-geosciences/qlandkartegt
 sys-block/partitionmanager **
 sys-devel/llvm
+sys-fs/trash-cli
+dev-python/unipath
+
 <x11-libs/qtermwidget-9999
 x11-misc/appmenu-qt
 x11-misc/appmenu-gtk
