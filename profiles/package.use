@@ -1,6 +1,6 @@
 >=app-office/openoffice-3.2.0 kde
 app-admin/hddtemp nls
-app-admin/puppet diff -ldap sqlite3
+app-admin/puppet diff sqlite3
 app-admin/sudo pam
 app-admin/syslog-ng ipv6 pcre ssl
 app-admin/system-config-printer-common policykit
@@ -36,12 +36,11 @@ app-misc/realpath nls
 app-misc/screen multiuser nethack
 app-misc/strigi clucene dbus exif fam qt4
 app-misc/strigi ffmpeg inotify
-app-misc/tomboy -applet
 app-mobilephone/obex-data-server gtk imagemagick usb
 app-mobilephone/obexd usb
 app-office/abiword cups math ots spell collab openxml plugins
 app-office/akonadi-server mysql sqlite
-app-office/calligra crypt eigen exif -freetds gif glew gsf gsl iconv jpeg -jpeg2k kdcraw kdepim mso mysql okular -openctl threads tiff wmf -word-perfect xml
+app-office/calligra crypt eigen exif gif glew gsf gsl iconv jpeg kdcraw kdepim mso mysql okular threads tiff wmf xml
 app-office/koffice-l10n doc
 app-office/koffice-libs reports
 app-office/libreoffice bash-completion cups custom-cflags dbus gtk kde nsplugin opengl
@@ -115,11 +114,10 @@ dev-python/python-ssl
 dev-python/twisted crypt gtk
 dev-tcltk/expect X threads
 dev-util/dialognls unicode
-dev-util/kdevelop -okteta -qthelp
-dev-util/kdevelop-php -kdevelop quanta
-dev-util/kdevplatform -cvs -debug git -reviewboard subversion
+dev-util/kdevelop-php quanta
+dev-util/kdevplatform git subversion
 dev-util/netbeans
-dev-util/qt-creator -bazaar bineditor bookmarks cmake -debug designer -doc -examples -fakevim git inspector mercurial perforce qml qtscript subversion
+dev-util/qt-creator bineditor bookmarks cmake designer git inspector mercurial perforce qml qtscript subversion
 dev-util/valgrind qt4
 dev-vcs/git bash-completion blksha1 curl iconv perl threads
 dev-vcs/subversion java
@@ -180,8 +178,7 @@ kde-base/kopeteaddbookmarks autoreplace contactnotes handbook highlight history 
 kde-base/korganizer handbook kontact
 kde-base/kppp handbook
 kde-base/krdc handbook jpeg rdesktop
-kde-base/krdc vnc
-kde-base/krdc -zeroconf
+kde-base/krdc vnc -zeroconf
 kde-base/kremotecontrol handbook
 kde-base/krfb handbook
 kde-base/kruler handbook
@@ -223,7 +220,7 @@ media-fonts/ttf-bitstream-vera X
 media-fonts/urw-fonts X
 media-gfx/digikam addressbook geolocation semantic-desktop themedesigner thumbnails video
 media-gfx/exiv2 nls unicode zlib
-media-gfx/gimp -aalib alsa dbus exif jpeg -lcms mmx mng pdf png -python smp sse svg tiff -webkit wmf
+media-gfx/gimp alsa dbus exif jpeg mmx mng pdf png smp sse svg tiff wmf
 media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openmp perl png raw svg tiff truetype wmf
 media-gfx/imagemagick openexr
 media-gfx/sane-backends ipv6
