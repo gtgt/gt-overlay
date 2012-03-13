@@ -5,6 +5,7 @@ app-pda/libopensync
 app-pda/libopensync-plugin-vformat
 app-pda/libopensync-plugin-syncml
 app-pda/libopensync-plugin-google-calendar
+app-pda/libopensync-plugin-file
 app-portage/udept
 =dev-db/mysql-5.5*
 net-libs/libinfinity

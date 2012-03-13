@@ -249,8 +249,7 @@ RDEPEND="${RDEPEND}
 packers? (
 	app-arch/arj
 	app-arch/dump
-	app-arch/p7zip
-	app-arch/rar
+	app-arch/p7zip[rar]
 	app-arch/unace
 	app-arch/unarj
 	app-arch/unzip

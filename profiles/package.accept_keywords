@@ -267,7 +267,9 @@ app-office/akonadi-server
 <app-pda/libopensync-plugin-akonadi-9999
 <app-pda/libopensync-plugin-vformat-9999
 <app-pda/libopensync-plugin-syncml-9999
+<app-pda/libopensync-plugin-file-9999
 <app-pda/libopensync-plugin-google-calendar-9999
+app-pda/kitchensync
 <app-office/koffice-meta-9999
 app-office/akonadi-server
 <app-office/karbon-9999
