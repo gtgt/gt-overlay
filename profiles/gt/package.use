@@ -1,2 +1,2 @@
 www-servers/apache threads ldap ssl
-dev-lang/php threads bcmath apache2 ctype curl curlwrappers doc exif ftp fpm gd fileinfo hash imap intl json ldap mhash mysql mysqli mysqlnd pcntl pdo posix -simplexml sharedext soap sockets sqlite3 ssl sysvipc tokanizer xml xmlreader xmlrpc xmlwriter zip
+dev-lang/php threads bcmath apache2 ctype curl -curlwrappers doc exif ftp fpm gd fileinfo hash imap intl json ldap mhash mysql mysqli mysqlnd pcntl pdo posix -simplexml sharedext soap sockets sqlite3 ssl sysvipc tokanizer xml xmlreader xmlrpc xmlwriter zip

@@ -84,6 +84,7 @@ sys-auth/consolekit
 app-mobilephone/qtadb
 app-benchmarks/phoronix-test-suite
 <app-admin/testdisk-9999
+dev-php/pecl-ps
 <net-print/foo2zjs-9999
 <net-print/foomatic-db-9999
 <net-print/foomatic-db-ppds-9999
