@@ -1,18 +1,23 @@
 # System
+app-shells/dash
 dev-cpp/gmock
+dev-libs/glib
 =dev-util/valgrind-3.6.1-r2
+sys-apps/kmod
+sys-apps/openrc
 sys-apps/biosdevname
 sys-apps/systemd
 sys-apps/dbus
 sys-auth/realtime-base
-sys-boot/plymouth-openrc-plugin
 sys-boot/plymouth
+sys-boot/plymouth-openrc-plugin
 sys-boot/unetbootin
 sys-devel/gcc
 sys-devel/kgcc64 **
-dev-libs/glib
 sys-fs/udev
+sys-fs/udev-init-scripts
 sys-fs/hfsplusutils **
+sys-kernel/genkernel
 sys-kernel/dracut
 sys-kernel/linux-headers
 sys-libs/lwp
@@ -218,8 +223,10 @@ sys-kernel/gentoo-sources
 
 
 # XOrg X11
+<app-admin/eselect-opengl-9999
 dev-python/xmpppy
 media-libs/mesa
+sys-libs/mtdev
 
 x11-libs/pixman
 x11-base/xorg-server
@@ -236,7 +243,7 @@ x11-libs/xcb-util-keysyms
 x11-libs/xcb-util-image
 x11-libs/libxcb
 <x11-libs/xcb-util-9999
-
+x11-libs/libpciaccess
 
 
 <x11-base/xorg-drivers-9999
@@ -248,7 +255,6 @@ x11-libs/libxcb
 <x11-drivers/xf86-input-synaptics-9999
 <x11-drivers/xf86-input-evdev-9999
 <x11-base/nouveau-drm-9999
-<app-admin/eselect-opengl-9999
 
 x11-drivers/ati-drivers
 x11-drivers/nvidia-drivers

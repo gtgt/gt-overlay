@@ -92,3 +92,6 @@ EMERGE_DEFAULT_OPTS="--verbose --keep-going --autounmask-write y --binpkg-respec
 QUICKPKG_DEFAULT_OPTS="--include-config=y"
 #DISTCC_VERBOSE="1"
 CCACHE_SIZE="2G"
+
+#Splash support
+DRACUT_MODULES="plymouth mdraid dmraid gensplash lvm btrfs crypt syslog biosdevname nfs ssh-client"

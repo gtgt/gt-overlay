@@ -94,13 +94,15 @@ dev-libs/elfutils bzip2 nls zlib
 dev-libs/glibstatic fam
 dev-libs/libcdio cddb cxx
 dev-libs/libgcrypt static-libs
-dev-libs/libgpg nls-lisp-libs
+dev-libs/libgpg nls common-lisp static-libs
+dev-libs/libgpg-error static-libs
 dev-libs/libnatspec python
 dev-libs/libpcre bzip2 cxx recursion-limit unicode
 dev-libs/libxml2 ipv6 python readline icu
 dev-libs/libxsltcrypt python
 dev-libs/openobex bluetooth usb
 dev-libs/opensslsse2 zlib3779
+dev-libs/popt static-libs
 dev-libs/redlandberkdb mysql ssl
 dev-libs/soprano clucene dbus redland virtuoso
 dev-perl/IO-Socket-SSL idn
@@ -241,7 +243,7 @@ media-libs/imlib2 X bzip2 gif jpeg mp3 nls png tiff zlib
 media-libs/jasper jpeg
 media-libs/jpeg static-libs
 media-libs/lcms jpeg python static-libs tiff zlib
-media-libs/libao alsa
+media-libs/libao alsa static-libs
 media-libs/libassenca fontconfig-libs
 media-libs/libcaca X cxx ncurses opengl truetype
 media-libs/libdc1394 X
@@ -292,6 +294,7 @@ media-sound/bpmdetect debug realtime
 media-sound/clementine -mtp projectm 
 media-sound/kid3 mp4
 media-sound/lame mp3rtp static-libs
+media-sound/mangler celt alsa gsm speex
 media-sound/pulseaudio system-wide
 media-sound/pulseaudio realtime
 media-sound/qtractor dssi libsamplerate rubberband
@@ -416,7 +419,7 @@ sys-apps/shadow cracklib nls pam
 sys-apps/systemd plymouth
 sys-apps/tcp-wrappers ipv6
 sys-apps/texinfo nls
-sys-apps/util-linux cramfs crypt ncurses nls perl
+sys-apps/util-linux cramfs crypt ncurses nls perl static-libs
 sys-apps/v86d x86emu
 sys-apps/xinetd perl tcpd
 sys-auth/consolekit kernel_linux pam policykit
@@ -443,11 +446,12 @@ sys-fs/ntfs3g suid
 sys-fs/ntfsprogs crypt
 sys-fs/progsreiserfs nls
 sys-fs/squashfs-tools gzip lzma lzo
-sys-fs/udev extras hwdb keymap rule_generator
+sys-fs/udev extras hwdb keymap rule_generator static-libs
 sys-fs/udisks bash-completion
 sys-fs/xfsprogs nls
 sys-kernel/calckernel bash-completion video_cards_radeon
 sys-kernel/calculate-sources symlink
+sys-kernel/dracut net device-mapper
 sys-libs/cracklibnls python
 sys-libs/e2fsprogs-libs elibc_glibc nls
 sys-libs/gdbm berkdb
@@ -519,4 +523,5 @@ x11-libs/qt:3 immqt-bc
 x11-libs/qtscriptgenerator kde
 x11-libs/xosd xinerama
 x11-misc/google-gadgets dbus
+x11-terms/rxvt-unicode wcwidth xft blink 256-color mousewheel secondary-wheel fading-colors font-styles
 x11-themes/gtk-engines-qtcurve mozilla
