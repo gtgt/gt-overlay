@@ -19,6 +19,7 @@ kde-base/kate:3.5
 kde-base/tqtinterface:3.5
 kde-misc/basket
 kde-misc/kobby
+kde-misc/kgtk
 kde-misc/knetworkmanager
 media-gfx/gimp
 =media-libs/phonon-9999
@@ -29,6 +30,7 @@ media-sound/amarok
 net-libs/libgcal
 net-libs/xulrunner
 net-misc/modemmanager
+net-libs/libqinfinity
 <net-misc/networkmanager-9999
 <net-misc/networkmanager-openvpn-9999
 <net-misc/networkmanager-pptp-9999

@@ -324,6 +324,7 @@ kde-misc/libmm-qt **
 kde-misc/libnm-qt **
 kde-misc/qtrans
 <kde-misc/quadkonsole-2.0.0
+mail-client/trojita
 media-gfx/digikam
 media-gfx/kcoloredit
 media-libs/babl
@@ -365,7 +366,7 @@ net-dialup/qtwvdialer
 =net-im/telepathy-auth-handler-9999 **
 =net-im/telepathy-kded-module-9999 **
 net-libs/farsight2
-net-libs/libqinfinity
+net-libs/libqinfinity **
 net-libs/libgcal
 net-libs/libktorrent
 net-nds/luma

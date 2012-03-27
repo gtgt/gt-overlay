@@ -338,7 +338,7 @@ net-irc/konversation crypt handbook
 net-libs/farsight2 msn
 net-libs/gnutls cxx lzo nls zlib
 net-libs/gtk-vnc python
-net-libs/libinfinity -gtk
+net-libs/libinfinity -gtk server
 net-libs/libktorrent handbook
 net-libs/libnfs idmap
 net-libs/libnice gstreamer
