@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <herd>sound</herd>
+  <maintainer>
+    <email>nikoli@lavabit.com</email>
+    <name>Nikoli</name>
+  </maintainer>
+  <use>
+    <flag name="ayatana">Build in support for Ayatana notification using the libindicate-qt plugin.</flag>
+    <flag name="kde">Enable plasma krunner global search</flag>
+    <flag name="lastfm">Use liblastfm for fetching song info, scrobbling and radio streams</flag>
+    <flag name='projectm'>Build with ProjectM visualization</flag>
+    <flag name='remote'>Enable remote control support</flag>
+    <flag name="wiimote">Enable support for Wii remote</flag>
+  </use>
+</pkgmetadata>

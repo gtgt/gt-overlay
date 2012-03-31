@@ -266,7 +266,7 @@ media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
 media-libs/libwmf X gtk
 media-libs/mediastreamer X alsa amr ipv6 portaudio sdl speex theora v4l2 x264
 media-libs/mediastreamer video
-media-libs/mesa classic llvm nptl shared-dricore shared-glapi
+media-libs/mesa classic llvm nptl shared-dricore shared-glapi gles gles2
 media-libs/mlt dv ffmpeg gtk kde python qt4 quicktime sdl sse sse2 vorbis melt xml frei0r
 media-libs/openal alsa portaudio
 media-libs/phonon xine gstreamer -vlc
@@ -290,7 +290,7 @@ media-sound/amarok player semantic-desktop
 media-sound/amarok embedded ipod
 media-sound/amarok cdda daap lastfm mtp
 media-sound/bpmdetect debug realtime
-media-sound/clementine -mtp projectm 
+media-sound/clementine mtp projectm lastfm
 media-sound/kid3 mp4
 media-sound/lame mp3rtp static-libs
 media-sound/pulseaudio system-wide

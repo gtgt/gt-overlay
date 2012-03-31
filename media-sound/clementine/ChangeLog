@@ -1,6 +1,24 @@
 # ChangeLog for media-sound/clementine
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Jan 2012; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild,
+  metadata.xml:
+  update, upstream migrated from ofa to chromaprint
+
+  05 Jan 2012; Nikoli <nikoli@lavabit.com> -clementine-1.0.0_rc1.ebuild,
+  clementine-9999.ebuild:
+  update deps, gio works fine now
+
+  05 Dec 2011; Nikoli <nikoli@lavabit.com> clementine-1.0.0_rc1.ebuild,
+  clementine-9999.ebuild:
+  gmock is not optional
+
+*clementine-1.0.0_rc1 (04 Dec 2011)
+
+  04 Dec 2011; Nikoli <nikoli@lavabit.com> +clementine-1.0.0_rc1.ebuild,
+  clementine-9999.ebuild, metadata.xml:
+  version bump, add cdda and kde use flags, use system gmock
 
   03 Aug 2011; Nikoli <nikoli@lavabit.com> clementine-9999.ebuild,
   metadata.xml:

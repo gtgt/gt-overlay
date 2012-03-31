@@ -1,21 +1,21 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=4
 
-LANGS=" ar be bg br ca cs cy da de el en_CA en_GB eo es et eu fi fr gl he hi hr hu is it ja kk lt lv nb nl oc pa pl pt pt_BR ro ru sk sl sr sv tr uk vi zh_CN zh_TW"
+LANGS=" ar be bg bn br bs ca cs cy da de el en_CA en_GB eo es et eu fa fi fr gl he hi hr hu hy ia id is it ja ka kk ko lt lv mr ms nb nl oc pa pl pt_BR pt ro ru sk sl sr@latin sr sv tr uk vi zh_CN zh_TW"
 
 inherit cmake-utils gnome2-utils virtualx git-2
 
 DESCRIPTION="A modern music player and library organizer based on Amarok 1.4 and Qt4"
 HOMEPAGE="http://www.clementine-player.org/ http://code.google.com/p/clementine-player/"
-EGIT_REPO_URI="http://code.google.com/p/clementine-player/"
+EGIT_REPO_URI="https://code.google.com/p/clementine-player/"
 
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
-IUSE="ayatana +dbus ios ipod +lastfm mms mtp +ofa projectm remote +udev wiimote"
+IUSE="ayatana cdda +dbus ios ipod kde lastfm mms mtp projectm remote test +udev wiimote"
 IUSE+="${LANGS// / linguas_}"
 
 REQUIRED_USE="
@@ -29,13 +29,16 @@ COMMON_DEPEND="
 	>=x11-libs/qt-opengl-4.5:4
 	>=x11-libs/qt-sql-4.5:4[sqlite]
 	dev-db/sqlite[fts3]
-	>=media-libs/taglib-1.6
-	>=dev-libs/glib-2.24.1-r1:2
+	>=media-libs/taglib-1.7
+	>=dev-libs/glib-2.24.1-r1
 	dev-libs/libxml2
+	dev-libs/qjson
 	media-libs/libechonest
+	>=media-libs/chromaprint-0.6
 	media-libs/gstreamer:0.10
 	media-libs/gst-plugins-base:0.10
 	ayatana? ( dev-libs/libindicate-qt )
+	cdda? ( dev-libs/libcdio )
 	ipod? (
 		>=media-libs/libgpod-0.8.0[ios?]
 		ios? (
@@ -44,7 +47,8 @@ COMMON_DEPEND="
 			app-pda/usbmuxd
 		)
 	)
-	lastfm? ( media-libs/liblastfm )
+	kde? ( >=kde-base/kdelibs-4.4 )
+	lastfm? ( >=media-libs/liblastfm-0.3.3 )
 	mtp? ( >=media-libs/libmtp-1.0.0 )
 	projectm? ( media-libs/glew )
 	remote? (
@@ -61,7 +65,6 @@ RDEPEND="${COMMON_DEPEND}
 	dbus? ( udev? ( sys-fs/udisks ) )
 	mms? ( media-plugins/gst-plugins-libmms:0.10 )
 	mtp? ( gnome-base/gvfs )
-	ofa? ( media-plugins/gst-plugins-ofa )
 	projectm? ( >=media-libs/libprojectm-1.2.0 )
 	media-plugins/gst-plugins-meta:0.10
 	media-plugins/gst-plugins-gio:0.10
@@ -73,6 +76,9 @@ DEPEND="${COMMON_DEPEND}
 	dev-util/pkgconfig
 	sys-devel/gettext
 	x11-libs/qt-test:4
+	kde? ( dev-util/automoc )
+	dev-cpp/gmock
+	test? ( gnome-base/gsettings-desktop-schemas )
 "
 DOCS="Changelog"
 
@@ -89,23 +95,29 @@ src_configure() {
 		use linguas_${x} && langs+=" ${x}"
 	done
 
-	# GIO is disabled because of upstream #802
+	# spotify is not in portage
 	local mycmakeargs=(
 		-DBUILD_WERROR=OFF
 		-DLINGUAS="${langs}"
 		-DBUNDLE_PROJECTM_PRESETS=OFF
+		$(cmake-utils_use cdda ENABLE_AUDIOCD)
 		$(cmake-utils_use dbus ENABLE_DBUS)
 		$(cmake-utils_use udev ENABLE_DEVICEKIT)
 		$(cmake-utils_use ipod ENABLE_LIBGPOD)
 		$(cmake-utils_use ios ENABLE_IMOBILEDEVICE)
+		$(cmake-utils_use kde ENABLE_PLASMARUNNER)
 		$(cmake-utils_use lastfm ENABLE_LIBLASTFM)
 		$(cmake-utils_use mtp ENABLE_LIBMTP)
-		-DENABLE_GIO=OFF
+		-DENABLE_GIO=ON
 		$(cmake-utils_use wiimote ENABLE_WIIMOTEDEV)
 		$(cmake-utils_use projectm ENABLE_VISUALISATIONS)
 		$(cmake-utils_use ayatana ENABLE_SOUNDMENU)
 		$(cmake-utils_use remote ENABLE_REMOTE)
+		-DENABLE_SPOTIFY=OFF
+		-DENABLE_SPOTIFY_BLOB=OFF
+		-DENABLE_BREAKPAD=OFF
 		-DSTATIC_SQLITE=OFF
+		-DUSE_SYSTEM_GMOCK=ON
 		)
 
 	cmake-utils_src_configure
