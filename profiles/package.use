@@ -1,6 +1,6 @@
 >=app-office/openoffice-3.2.0 kde
 app-admin/hddtemp nls
-app-admin/puppet diff -ldap sqlite3
+app-admin/puppet diff sqlite3
 app-admin/sudo pam
 app-admin/syslog-ng ipv6 pcre ssl
 app-admin/system-config-printer-common policykit
@@ -10,7 +10,7 @@ app-arch/cpio nls
 app-arch/dump readline
 app-arch/gzip nls
 app-arch/libarchiv bzip2 eacl kernel_linux lzma zlib-libs
-app-arch/p7zip pch kde
+app-arch/p7zip pch kde rar
 app-arch/tar nls userland_GNU
 app-arch/unzipbzip2 natspec unicode
 app-arch/xz-utils nls
@@ -36,16 +36,17 @@ app-misc/realpath nls
 app-misc/screen multiuser nethack
 app-misc/strigi clucene dbus exif fam qt4
 app-misc/strigi ffmpeg inotify
-app-misc/tomboy -applet
 app-mobilephone/obex-data-server gtk imagemagick usb
 app-mobilephone/obexd usb
 app-office/abiword cups math ots spell collab openxml plugins
 app-office/akonadi-server mysql sqlite
-app-office/calligra crypt eigen exif -freetds gif glew gsf gsl iconv jpeg -jpeg2k kdcraw kdepim mso mysql okular -openctl threads tiff wmf -word-perfect xml
+app-office/calligra crypt eigen exif gif glew gsf gsl iconv jpeg kdcraw kdepim mso mysql okular threads tiff wmf xml
 app-office/koffice-l10n doc
 app-office/koffice-libs reports
 app-office/libreoffice bash-completion cups custom-cflags dbus gtk kde nsplugin opengl
 app-pda/libplist python
+app-pda/libopensync-plugin-syncml http
+app-pda/libsyncml http
 app-portage/eix bzip2 nls
 app-portage/eix sqlite
 app-portage/genlop bash-completion
@@ -93,13 +94,15 @@ dev-libs/elfutils bzip2 nls zlib
 dev-libs/glibstatic fam
 dev-libs/libcdio cddb cxx
 dev-libs/libgcrypt static-libs
-dev-libs/libgpg nls-lisp-libs
+dev-libs/libgpg nls common-lisp static-libs
+dev-libs/libgpg-error static-libs
 dev-libs/libnatspec python
 dev-libs/libpcre bzip2 cxx recursion-limit unicode
 dev-libs/libxml2 ipv6 python readline icu
 dev-libs/libxsltcrypt python
 dev-libs/openobex bluetooth usb
 dev-libs/opensslsse2 zlib3779
+dev-libs/popt static-libs
 dev-libs/redlandberkdb mysql ssl
 dev-libs/soprano clucene dbus redland virtuoso
 dev-perl/IO-Socket-SSL idn
@@ -113,11 +116,10 @@ dev-python/python-ssl
 dev-python/twisted crypt gtk
 dev-tcltk/expect X threads
 dev-util/dialognls unicode
-dev-util/kdevelop -okteta -qthelp
-dev-util/kdevelop-php -kdevelop quanta
-dev-util/kdevplatform -cvs -debug git -reviewboard subversion
+dev-util/kdevelop-php quanta
+dev-util/kdevplatform git subversion
 dev-util/netbeans
-dev-util/qt-creator -bazaar bineditor bookmarks cmake -debug designer -doc -examples -fakevim git inspector mercurial perforce qml qtscript subversion
+dev-util/qt-creator bineditor bookmarks cmake designer git inspector mercurial perforce qml qtscript subversion
 dev-util/valgrind qt4
 dev-vcs/git bash-completion blksha1 curl iconv perl threads
 dev-vcs/subversion java
@@ -178,8 +180,7 @@ kde-base/kopeteaddbookmarks autoreplace contactnotes handbook highlight history 
 kde-base/korganizer handbook kontact
 kde-base/kppp handbook
 kde-base/krdc handbook jpeg rdesktop
-kde-base/krdc vnc
-kde-base/krdc -zeroconf
+kde-base/krdc vnc -zeroconf
 kde-base/kremotecontrol handbook
 kde-base/krfb handbook
 kde-base/kruler handbook
@@ -221,7 +222,7 @@ media-fonts/ttf-bitstream-vera X
 media-fonts/urw-fonts X
 media-gfx/digikam addressbook geolocation semantic-desktop themedesigner thumbnails video
 media-gfx/exiv2 nls unicode zlib
-media-gfx/gimp -aalib alsa dbus exif jpeg -lcms mmx mng pdf png -python smp sse svg tiff -webkit wmf
+media-gfx/gimp alsa dbus exif jpeg mmx mng pdf png smp sse svg tiff wmf
 media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openmp perl png raw svg tiff truetype wmf
 media-gfx/imagemagick openexr
 media-gfx/sane-backends ipv6
@@ -242,7 +243,7 @@ media-libs/imlib2 X bzip2 gif jpeg mp3 nls png tiff zlib
 media-libs/jasper jpeg
 media-libs/jpeg static-libs
 media-libs/lcms jpeg python static-libs tiff zlib
-media-libs/libao alsa
+media-libs/libao alsa static-libs
 media-libs/libassenca fontconfig-libs
 media-libs/libcaca X cxx ncurses opengl truetype
 media-libs/libdc1394 X
@@ -293,6 +294,7 @@ media-sound/bpmdetect debug realtime
 media-sound/clementine mtp projectm lastfm
 media-sound/kid3 mp4
 media-sound/lame mp3rtp static-libs
+media-sound/mangler celt alsa gsm speex
 media-sound/pulseaudio system-wide
 media-sound/pulseaudio realtime
 media-sound/qtractor dssi libsamplerate rubberband
@@ -336,7 +338,7 @@ net-irc/konversation crypt handbook
 net-libs/farsight2 msn
 net-libs/gnutls cxx lzo nls zlib
 net-libs/gtk-vnc python
-net-libs/libinfinity -gtk
+net-libs/libinfinity -gtk server
 net-libs/libktorrent handbook
 net-libs/libnfs idmap
 net-libs/libnice gstreamer
@@ -417,7 +419,7 @@ sys-apps/shadow cracklib nls pam
 sys-apps/systemd plymouth
 sys-apps/tcp-wrappers ipv6
 sys-apps/texinfo nls
-sys-apps/util-linux cramfs crypt ncurses nls perl
+sys-apps/util-linux cramfs crypt ncurses nls perl static-libs
 sys-apps/v86d x86emu
 sys-apps/xinetd perl tcpd
 sys-auth/consolekit kernel_linux pam policykit
@@ -444,11 +446,12 @@ sys-fs/ntfs3g suid
 sys-fs/ntfsprogs crypt
 sys-fs/progsreiserfs nls
 sys-fs/squashfs-tools gzip lzma lzo
-sys-fs/udev extras hwdb keymap rule_generator
+sys-fs/udev extras hwdb keymap rule_generator static-libs
 sys-fs/udisks bash-completion
 sys-fs/xfsprogs nls
 sys-kernel/calckernel bash-completion video_cards_radeon
 sys-kernel/calculate-sources symlink
+sys-kernel/dracut net device-mapper
 sys-libs/cracklibnls python
 sys-libs/e2fsprogs-libs elibc_glibc nls
 sys-libs/gdbm berkdb
@@ -520,4 +523,5 @@ x11-libs/qt:3 immqt-bc
 x11-libs/qtscriptgenerator kde
 x11-libs/xosd xinerama
 x11-misc/google-gadgets dbus
+x11-terms/rxvt-unicode wcwidth xft blink 256-color mousewheel secondary-wheel fading-colors font-styles
 x11-themes/gtk-engines-qtcurve mozilla

@@ -1,16 +1,25 @@
+app-admin/packagekit gtk
+app-admin/puppet ldap
 app-emulation/wine custom-cflags gphoto2 openal oss
+app-misc/tomboy applet
 app-text/fbreader gtk
 dev-java/icedtea zero hs20
+app-office/calligra freetds jpeg2k openctl word-perfect
 =dev-java/icedtea-7.1.14 xrender
 dev-java/swt xulrunner
 dev-libs/json-glib introspection
 dev-libs/libdbusmenu test
+dev-util/kdevelop okteta qthelp
+dev-util/kdevelop-php kdevelop
+dev-util/kdevplatform cvs debug reviewboard
 dev-util/netbeans netbeans_modules_java netbeans_modules_apisupport
 dev-util/qt-creator bazaar debug doc examples fakevim
+dev-util/netbeans
 dev-vcs/git tk gtk
 dev-vcs/subversion dso
 kde-base/kdesdk-kioslaves subversion
 kde-base/tqtinterface qt3
+media-gfx/gimp aalib lcms python webkit
 media-gfx/digikam mysql
 media-gfx/enblend doc
 =media-gfx/splashutils-1.5.4.3-r3 truetype
@@ -18,6 +27,7 @@ media-libs/libggi 3dfx
 media-libs/libquicktime gtk
 media-libs/mesa d3d
 media-libs/opencv cuda
+media-sound/mangler xosd
 media-video/ffmpeg cpudetection-cflags
 media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc cdio

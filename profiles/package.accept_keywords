@@ -1,18 +1,23 @@
 # System
+app-shells/dash
 dev-cpp/gmock
+dev-libs/glib
 =dev-util/valgrind-3.6.1-r2
+sys-apps/kmod
+sys-apps/openrc
 sys-apps/biosdevname
 sys-apps/systemd
 sys-apps/dbus
 sys-auth/realtime-base
-sys-boot/plymouth-openrc-plugin
 sys-boot/plymouth
+sys-boot/plymouth-openrc-plugin
 sys-boot/unetbootin
 sys-devel/gcc
 sys-devel/kgcc64 **
-dev-libs/glib
 sys-fs/udev
+sys-fs/udev-init-scripts
 sys-fs/hfsplusutils **
+sys-kernel/genkernel
 sys-kernel/dracut
 sys-kernel/linux-headers
 sys-libs/lwp
@@ -84,6 +89,7 @@ sys-auth/consolekit
 app-mobilephone/qtadb
 app-benchmarks/phoronix-test-suite
 <app-admin/testdisk-9999
+dev-php/pecl-ps
 <net-print/foo2zjs-9999
 <net-print/foomatic-db-9999
 <net-print/foomatic-db-ppds-9999
@@ -146,6 +152,7 @@ dev-db/virtuoso-odbc
 
 # Desktop libs
 app-admin/eselect-opencl
+app-pda/libsyncml
 dev-lang/v8
 dev-libs/rasqal
 dev-libs/redland
@@ -154,7 +161,6 @@ media-libs/raptor
 media-libs/libpgf
 media-libs/libkface
 <dev-libs/grantlee-9999
-<dev-libs/soprano-9999
 <app-office/akonadi-server-9999
 kde-misc/akonadi-google
 <dev-libs/shared-desktop-ontologies-9999
@@ -169,7 +175,6 @@ x11-libs/cairo
 x11-libs/gtk+
 x11-libs/pango
 dev-libs/glib
-
 
 # Media libs
 dev-libs/serd
@@ -218,8 +223,10 @@ sys-kernel/gentoo-sources
 
 
 # XOrg X11
+<app-admin/eselect-opengl-9999
 dev-python/xmpppy
 media-libs/mesa
+sys-libs/mtdev
 
 x11-libs/pixman
 x11-base/xorg-server
@@ -236,7 +243,7 @@ x11-libs/xcb-util-keysyms
 x11-libs/xcb-util-image
 x11-libs/libxcb
 <x11-libs/xcb-util-9999
-
+x11-libs/libpciaccess
 
 
 <x11-base/xorg-drivers-9999
@@ -248,11 +255,12 @@ x11-libs/libxcb
 <x11-drivers/xf86-input-synaptics-9999
 <x11-drivers/xf86-input-evdev-9999
 <x11-base/nouveau-drm-9999
-<app-admin/eselect-opengl-9999
 
 x11-drivers/ati-drivers
-#x11-drivers/nvidia-drivers **
-#media-video/nvidia-settings **
+x11-drivers/nvidia-drivers
+media-video/nvidia-settings
+
+x11-libs/qscintilla
 
 ## KDE Stuff
 app-admin/keepassx2 **
@@ -262,9 +270,13 @@ app-cdr/k9copy
 app-emulation/q4wine **
 app-misc/strigi
 app-office/akonadi-server
-app-pda/libopensync
-app-pda/libopensync-plugin-akonadi
-app-pda/libopensync-plugin-vformat
+<app-pda/libopensync-9999
+<app-pda/libopensync-plugin-akonadi-9999
+<app-pda/libopensync-plugin-vformat-9999
+<app-pda/libopensync-plugin-syncml-9999
+<app-pda/libopensync-plugin-file-9999
+<app-pda/libopensync-plugin-google-calendar-9999
+app-pda/kitchensync
 <app-office/koffice-meta-9999
 app-office/akonadi-server
 <app-office/karbon-9999
@@ -285,7 +297,7 @@ dev-libs/libdbusmenu
 dev-libs/libdbusmenu-qt
 <dev-libs/libindicate-9999
 dev-libs/qjson
-dev-libs/soprano
+dev-libs/soprano **
 dev-python/PyQt4
 dev-python/qscintilla-python
 dev-python/sip
@@ -312,6 +324,7 @@ kde-misc/libmm-qt **
 kde-misc/libnm-qt **
 kde-misc/qtrans
 <kde-misc/quadkonsole-2.0.0
+mail-client/trojita
 media-gfx/digikam
 media-gfx/kcoloredit
 media-libs/babl
@@ -353,16 +366,18 @@ net-dialup/qtwvdialer
 =net-im/telepathy-auth-handler-9999 **
 =net-im/telepathy-kded-module-9999 **
 net-libs/farsight2
-net-libs/libqinfinity
+net-libs/libqinfinity **
 net-libs/libgcal
 net-libs/libktorrent
-dev-libs/soprano
 net-nds/luma
 net-p2p/ktorrent
 net-wireless/bluedevil
 sci-geosciences/qlandkartegt
 sys-block/partitionmanager **
 sys-devel/llvm
+sys-fs/trash-cli
+dev-python/unipath
+
 <x11-libs/qtermwidget-9999
 x11-misc/appmenu-qt
 x11-misc/appmenu-gtk
