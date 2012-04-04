@@ -17,6 +17,7 @@ sys-devel/kgcc64 **
 sys-fs/udev
 sys-fs/udev-init-scripts
 sys-fs/hfsplusutils **
+sys-fs/multipath-tools
 sys-kernel/genkernel
 sys-kernel/dracut
 <sys-kernel/linux-headers-3.3
