@@ -101,6 +101,8 @@ media-tv/dvb-usb-rtl2832u
 media-tv/linuxtv-dvb-apps
 net-misc/modemmanager
 net-wireless/zte-mf190
+sys-apps/pciutils
+sys-apps/usbutils
 
 
 # Picture and social
