@@ -4,7 +4,7 @@ app-emulation/wine custom-cflags gphoto2 openal oss
 app-misc/tomboy applet
 app-text/fbreader gtk
 dev-java/icedtea zero hs20
-app-office/calligra freetds jpeg2k openctl word-perfect
+app-office/calligra freetds jpeg2k openctl word-perfect calligra_features_braindump calligra_features_stage
 =dev-java/icedtea-7.1.14 xrender
 dev-java/swt xulrunner
 dev-libs/json-glib introspection
@@ -25,9 +25,10 @@ media-gfx/enblend doc
 =media-gfx/splashutils-1.5.4.3-r3 truetype
 media-libs/libggi 3dfx
 media-libs/libquicktime gtk
-media-libs/mesa d3d
+media-libs/mesa classic
 media-libs/opencv cuda
 media-sound/mangler xosd
+media-sound/jack-audio-connection-kit ieee1394
 media-video/ffmpeg cpudetection-cflags
 media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc cdio

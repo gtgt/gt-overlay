@@ -18,9 +18,10 @@ sys-devel/kgcc64 **
 sys-fs/udev
 sys-fs/udev-init-scripts
 sys-fs/hfsplusutils **
+sys-fs/multipath-tools
 sys-kernel/genkernel
 sys-kernel/dracut
-sys-kernel/linux-headers
+<sys-kernel/linux-headers-3.3
 sys-libs/lwp
 sys-libs/rvm
 sys-libs/talloc
@@ -102,6 +103,9 @@ media-tv/dvb-usb-rtl2832u
 media-tv/linuxtv-dvb-apps
 net-misc/modemmanager
 net-wireless/zte-mf190
+sys-apps/hwids
+sys-apps/pciutils
+sys-apps/usbutils
 
 
 # Picture and social
@@ -164,7 +168,6 @@ media-libs/libpgf
 media-libs/libkface
 <dev-libs/grantlee-9999
 <app-office/akonadi-server-9999
-kde-misc/akonadi-google
 <dev-libs/shared-desktop-ontologies-9999
 <dev-cpp/clucene-9999
 sys-auth/polkit
@@ -227,6 +230,7 @@ sys-kernel/gentoo-sources
 
 # XOrg X11
 <app-admin/eselect-opengl-9999
+dev-libs/wayland
 dev-python/xmpppy
 media-libs/mesa
 sys-libs/mtdev
@@ -257,7 +261,7 @@ x11-libs/libpciaccess
 <x11-drivers/xf86-video-openchrome-9999
 <x11-drivers/xf86-input-synaptics-9999
 <x11-drivers/xf86-input-evdev-9999
-<x11-base/nouveau-drm-9999
+<=x11-base/nouveau-drm-20111101
 
 x11-drivers/ati-drivers
 x11-drivers/nvidia-drivers
@@ -311,8 +315,8 @@ dev-vcs/kdesvn **
 kde-base/tqtinterface:3.5
 kde-base/kate:3.5
 kde-misc/oxygen-appmenu **
-kde-misc/akonadi-googledata
-kde-misc/akonadi-facebook
+kde-misc/akonadi-google **
+kde-misc/akonadi-facebook **
 kde-misc/basket **
 kde-misc/kaption **
 kde-misc/kcaldav
@@ -321,6 +325,7 @@ kde-misc/kfilebox
 kde-misc/knetworkmanager **
 kde-misc/kobby **
 kde-misc/kregexpeditor **
+kde-misc/kwin-button-applet
 kde-misc/kustodian **
 kde-misc/kio-sysinfo **
 kde-misc/libmm-qt **

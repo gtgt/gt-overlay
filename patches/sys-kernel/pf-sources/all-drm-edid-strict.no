@@ -1,0 +1,98 @@
+diff --git a/drivers/gpu/drm/drm_edid.c b/drivers/gpu/drm/drm_edid.c
+index a245d17..4794faa 100644
+--- a/drivers/gpu/drm/drm_edid.c
++++ b/drivers/gpu/drm/drm_edid.c
+@@ -128,8 +128,8 @@ static const u8 edid_header[] = {
+ };
+ 
+ /*
+- * Sanity check the EDID block (base or extension).  Return 0 if the block
+- * doesn't check out, or 1 if it's valid.
++ * Sanity check the EDID block (base or extension).  Return false if the block
++ * doesn't check out, or true if it's valid.
+  */
+ static bool
+ drm_edid_block_valid(u8 *raw_edid)
+@@ -160,8 +160,10 @@ drm_edid_block_valid(u8 *raw_edid)
+ 		DRM_ERROR("EDID checksum is invalid, remainder is %d\n", csum);
+ 
+ 		/* allow CEA to slide through, switches mangle this */
+-		if (raw_edid[0] != 0x02)
+-			goto bad;
++		if (raw_edid[0] != 0x02) {
++			if (drm_edid_strict)
++				goto bad;
++		}
+ 	}
+ 
+ 	/* per-block-type checks */
+@@ -169,7 +171,8 @@ drm_edid_block_valid(u8 *raw_edid)
+ 	case 0: /* base */
+ 		if (edid->version != 1) {
+ 			DRM_ERROR("EDID has major version %d, instead of 1\n", edid->version);
+-			goto bad;
++			if (drm_edid_strict)
++				goto bad;
+ 		}
+ 
+ 		if (edid->revision > 4)
+@@ -180,7 +183,7 @@ drm_edid_block_valid(u8 *raw_edid)
+ 		break;
+ 	}
+ 
+-	return 1;
++	return true;
+ 
+ bad:
+ 	if (raw_edid) {
+@@ -188,7 +191,7 @@ bad:
+ 		print_hex_dump_bytes(KERN_ERR, DUMP_PREFIX_NONE, raw_edid, EDID_LENGTH);
+ 		printk("\n");
+ 	}
+-	return 0;
++	return false;
+ }
+ 
+ /**
+diff --git a/drivers/gpu/drm/drm_stub.c b/drivers/gpu/drm/drm_stub.c
+index d59edc1..8b4530e 100644
+--- a/drivers/gpu/drm/drm_stub.c
++++ b/drivers/gpu/drm/drm_stub.c
+@@ -46,16 +46,21 @@ EXPORT_SYMBOL(drm_vblank_offdelay);
+ unsigned int drm_timestamp_precision = 20;  /* Default to 20 usecs. */
+ EXPORT_SYMBOL(drm_timestamp_precision);
+ 
++int drm_edid_strict = 1;	/* 0 to disable strict edid conformance */
++EXPORT_SYMBOL(drm_edid_strict);
++
+ MODULE_AUTHOR(CORE_AUTHOR);
+ MODULE_DESCRIPTION(CORE_DESC);
+ MODULE_LICENSE("GPL and additional rights");
+ MODULE_PARM_DESC(debug, "Enable debug output");
+ MODULE_PARM_DESC(vblankoffdelay, "Delay until vblank irq auto-disable [msecs]");
+ MODULE_PARM_DESC(timestamp_precision_usec, "Max. error on timestamps [usecs]");
++MODULE_PARM_DESC(edid_strict, "Strict EDID checks (0 = disable)");
+ 
+ module_param_named(debug, drm_debug, int, 0600);
+ module_param_named(vblankoffdelay, drm_vblank_offdelay, int, 0600);
+ module_param_named(timestamp_precision_usec, drm_timestamp_precision, int, 0600);
++module_param_named(edid_strict, drm_edid_strict, int, 0600);
+ 
+ struct idr drm_minors_idr;
+ 
+diff --git a/include/drm/drmP.h b/include/drm/drmP.h
+index 0f14f94..fd99988 100644
+--- a/include/drm/drmP.h
++++ b/include/drm/drmP.h
+@@ -1430,6 +1430,8 @@ extern unsigned int drm_debug;
+ extern unsigned int drm_vblank_offdelay;
+ extern unsigned int drm_timestamp_precision;
+ 
++extern int drm_edid_strict;
++
+ extern struct class *drm_class;
+ extern struct proc_dir_entry *drm_proc_root;
+ extern struct dentry *drm_debugfs_root;
+-- 
+1.7.1.1
+

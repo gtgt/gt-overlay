@@ -267,7 +267,7 @@ media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
 media-libs/libwmf X gtk
 media-libs/mediastreamer X alsa amr ipv6 portaudio sdl speex theora v4l2 x264
 media-libs/mediastreamer video
-media-libs/mesa classic llvm nptl shared-dricore shared-glapi gles gles2
+media-libs/mesa llvm nptl shared-dricore shared-glapi wayland xa osmesa gles1 gles2
 media-libs/mlt dv ffmpeg gtk kde python qt4 quicktime sdl sse sse2 vorbis melt xml frei0r
 media-libs/openal alsa portaudio
 media-libs/phonon xine gstreamer -vlc
