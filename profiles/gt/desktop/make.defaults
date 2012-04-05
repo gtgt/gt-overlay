@@ -29,7 +29,7 @@ USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify
 USE="${USE} python perl mono ithreads fortran gdbm cblas-external quanta subversion git cvs mercurial bazaar script -introspection"
 
 # Network protocols
-USE="${USE} ftp network -ldap rdesktop samba upnp nss resolvconf zeroconf avahi wifi"
+USE="${USE} ftp network -ldap rdesktop samba upnp resolvconf zeroconf avahi wifi"
 
 # Sql & data support
 USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite"
@@ -41,7 +41,7 @@ USE="${USE} networkmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd"
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox"
 
 # Window manager and speciality
-USE="${USE} X gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gles1 gles2 gbm gallium glew openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu libnotify windeco"
+USE="${USE} X gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gles1 gles2 gbm gallium glew openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu windeco"
 
 # Print
 USE="${USE} foomaticdb cups"
