@@ -47,4 +47,5 @@ x11-libs/qt-meta openvg
 x11-misc/google-gadgets xulrunner webkit gtk dbus
 www-client/icecat crashreporter dbus system-sqlite wifi
 www-servers/apache apache2_modules_cgi apache2_modules_cgid
+x11-terms/rxvt-unicode vanilla
 ### ---------------------------------------------

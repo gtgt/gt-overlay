@@ -523,5 +523,5 @@ x11-libs/qt:3 immqt-bc
 x11-libs/qtscriptgenerator kde
 x11-libs/xosd xinerama
 x11-misc/google-gadgets dbus
-x11-terms/rxvt-unicode wcwidth xft blink 256-color mousewheel secondary-wheel fading-colors font-styles
+x11-terms/rxvt-unicode wcwidth xft blink 256-color mousewheel secondary-wheel fading-colors font-styles blink buffer-on-clear fading-colors 
 x11-themes/gtk-engines-qtcurve mozilla
