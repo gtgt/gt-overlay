@@ -1,23 +1,16 @@
-=app-emulation/wine-1.3.28
-=app-emulation/wine-1.3.29
 =app-office/akonadi-server-9999
 =dev-libs/libcaldav-0.6.5
 =dev-vcs/qgit-9999
 #>dev-libs/glib-2.30.1
 #>net-libs/glib-networking-2.30.1
+>sys-devel/gcc-4.5.3-r2
+>sys-devel/kgcc64-4.5.3-r2
 #>kde-base/gwenview-4.6.5
 <media-gfx/gimp-2.7.0
 =net-im/emesene-9999
 <net-libs/xulrunner-2.0
 net-nds/openldap
-<sys-devel/gcc-4.5.3-r2
->sys-devel/gcc-4.5.3-r2
-<sys-devel/kgcc64-4.5.2
->sys-devel/kgcc64-4.5.2
 <sys-kernel/pf-sources-3.2.0
-=x11-base/xorg-server-1.10.99.902
-<www-client/firefox-4.0.0
-#>=www-client/firefox-8.0.0
 >x11-base/xorg-server-1.11.4
 
 ## QT
