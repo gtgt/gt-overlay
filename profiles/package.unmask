@@ -21,7 +21,7 @@ kde-base/tqtinterface:3.5
 kde-misc/basket
 kde-misc/kobby
 kde-misc/kgtk
-kde-misc/knetworkmanager
+kde-misc/networkmanagement
 media-gfx/gimp
 =media-libs/phonon-9999
 =media-libs/phonon-xine-9999
