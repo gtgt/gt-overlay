@@ -41,7 +41,7 @@ app-admin/eselect-qtgraphicssystem
 virtual/jdk
 dev-java/cacao
 dev-java/gcj-jdk
-dev-java/icedtea6-bin
+dev-java/icedtea-bin
 dev-java/icedtea
 dev-java/icedtea-web
 dev-java/netbeans-profiler
@@ -310,7 +310,7 @@ dev-python/qscintilla-python
 dev-python/sip
 dev-util/quanta **
 dev-vcs/qgit
-dev-vcs/kdesvn **
+dev-vcs/kdesvn
 #kde-base/gwenview -~amd64 -~x86
 kde-base/tqtinterface:3.5
 kde-base/kate:3.5

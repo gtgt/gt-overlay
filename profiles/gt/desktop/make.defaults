@@ -22,7 +22,7 @@ APACHE2_MPMS="event"
 USE=""
 
 #System
-USE="${USE} pam bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization optimization custom-cpuopts threads lib32 mmap mpi"
+USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization optimization custom-cpuopts threads lib32 mmap mpi"
 USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify gstreamer -caps"
 
 #Lang support
@@ -41,7 +41,7 @@ USE="${USE} networkmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd"
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox"
 
 # Window manager and speciality
-USE="${USE} X gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gles1 gles2 gbm gallium glew openvg d3d g3dvl llvm kde semantic-desktop qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu libnotify windeco"
+USE="${USE} X gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gles1 gles2 gbm gallium glew openvg d3d g3dvl llvm kde qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu libnotify windeco"
 
 # Print
 USE="${USE} foomaticdb cups"

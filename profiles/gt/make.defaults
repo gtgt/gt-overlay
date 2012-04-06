@@ -6,14 +6,15 @@ LINGUAS="hu en en_GB"
 
 PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
 PORTAGE_NICENESS="5"
-
-FEATURES="ccache -distcc fixlafiles unmerge-orphans userfetch -userpriv usersync metadata-transfer buildpkg splitdebug news candy prelink-checksums -sandbox"
+#digest...
+FEATURES="ccache -distcc fixlafiles unmerge-orphans userfetch -userpriv usersync metadata-transfer buildpkg splitdebug news candy prelink-checksums -sandbox preserve-libs -protect-owned split-elog split-log clean-logs"
 COLLISION_IGNORE="1"
 ACCEPT_LICENSE="*"
 
 # Logging
-PORTAGE_ELOG_CLASSES="warn error info log qa"
-PORTAGE_ELOG_SYSTEM="save"
+#PORTAGE_ELOG_CLASSES="warn error info log qa"
+PORTAGE_ELOG_CLASSES="warn error info log"
+PORTAGE_ELOG_SYSTEM="save:warn,error save_summary echo"
 
 GENTOO_MIRRORS="http://gentoo.inf.elte.hu http://www.mirrorservice.org/sites/www.ibiblio.org/gentoo"
 PKGDIR="/usr/portage/packages/`uname -m`"
