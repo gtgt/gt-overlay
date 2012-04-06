@@ -82,10 +82,17 @@ desktop? (
 	kde-base/libkcompactdisc
 	kde-base/system-config-printer-kde
 	kde-base/thumbnailers
+	media-fonts/arphicfonts
+	media-fonts/bitstream-cyberbit
 	media-fonts/corefonts
 	media-fonts/droid
 	media-fonts/dejavu
 	media-fonts/font-misc-misc
+	media-fonts/ipamonafont
+	media-fonts/ja-ipafonts
+	media-fonts/takao-fonts
+	media-fonts/wqy-microhei
+	media-fonts/wqy-zenhei
 	media-gfx/digikam
 	media-gfx/gimp
 	media-plugins/alsa-plugins

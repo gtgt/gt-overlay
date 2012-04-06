@@ -41,9 +41,7 @@ app-admin/eselect-qtgraphicssystem
 virtual/jdk
 dev-java/cacao
 dev-java/gcj-jdk
-dev-java/icedtea6-bin
-dev-java/icedtea
-dev-java/icedtea-web
+dev-java/icedtea-bin
 dev-java/netbeans-profiler
 dev-java/netbeans-javafx
 dev-java/netbeans-java
@@ -185,6 +183,7 @@ dev-libs/glib
 dev-libs/serd
 dev-libs/sord
 dev-libs/libf2c
+media-fonts/takao-fonts
 media-libs/lcms
 media-libs/libpng:1.4
 media-libs/libbluray
@@ -397,7 +396,12 @@ x11-themes/qtcurve-qt4
 x11-themes/gtk-engines-qtcurve
 www-plugins/kpartsplugin
 <www-client/rekonq-9999 **
-=www-client/chromium-18.0.1025.39
+www-client/google-chrome
+www-client/icecat
+www-client/firefox
+www-client/opera-next
+www-plugins/lightspark
+
 
 ## GStreamer
 media-video/snappy **
@@ -501,10 +505,3 @@ app-emulation/emul-linux-x86-bjdeps
 <dev-lang/python-3.2
 
 net-dns/mydns
-
-<=www-client/firefox-9.9.0
-<=www-client/firefox-bin-9999
-www-client/icecat
-www-client/opera-next
-
-www-plugins/lightspark
