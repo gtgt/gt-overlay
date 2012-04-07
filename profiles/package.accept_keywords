@@ -302,6 +302,7 @@ media-libs/mlt
 media-libs/opengtl
 media-libs/phonon
 media-libs/phonon-gstreamer
+media-libs/phonon-vlc
 kde-base/phonon-kde
 media-libs/libdmtx
 =media-libs/prison-9999 **
@@ -558,7 +559,7 @@ x11-proto/inputproto
 x11-proto/xcb-proto
 
 
-x11-drivers/ati-drivers
+#x11-drivers/ati-drivers
 x11-drivers/nvidia-drivers
 media-video/nvidia-settings
 
