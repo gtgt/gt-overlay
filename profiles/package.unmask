@@ -21,7 +21,7 @@ kde-base/tqtinterface:3.5
 kde-misc/basket
 kde-misc/kobby
 kde-misc/kgtk
-kde-misc/knetworkmanager
+kde-misc/networkmanagement
 media-gfx/gimp
 =media-libs/phonon-9999
 =media-libs/phonon-xine-9999
@@ -36,7 +36,6 @@ net-libs/libqinfinity
 <net-misc/networkmanager-openvpn-9999
 <net-misc/networkmanager-pptp-9999
 <net-misc/networkmanager-vpnc-9999
-sys-apps/calculate-lib
 sys-apps/portage
 sys-fs/ntfs3g
 sys-fs/hfsplusutils

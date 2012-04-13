@@ -103,8 +103,8 @@ dev-libs/libxsltcrypt python
 dev-libs/openobex bluetooth usb
 dev-libs/opensslsse2 zlib3779
 dev-libs/popt static-libs
-dev-libs/redlandberkdb mysql ssl
-dev-libs/soprano clucene dbus redland virtuoso
+dev-libs/redland berkdb mysql ssl
+dev-libs/soprano -clucene dbus redland virtuoso
 dev-perl/IO-Socket-SSL idn
 dev-perl/libwww-perl ssl
 dev-python/PyQt4 X dbus kde opengl phonon svg webkit sql declarative assistant doc examples multimedia xmlpatterns
@@ -126,10 +126,10 @@ dev-vcs/subversion java
 gnome-base/librsvg gtk
 kde-base/akregator handbook kontact
 kde-base/arkarchive bzip2 handbook
-kde-base/dolphin handbook semantic-desktop
+kde-base/dolphin handbook
 kde-base/dolphin thumbnail
 kde-base/filelight handbook
-kde-base/gwenview handbook semantic-desktop
+kde-base/gwenview handbook
 kde-base/gwenview kipi
 kde-base/kabcclient handbook
 kde-base/kaddressbook handbook kontact
@@ -143,20 +143,20 @@ kde-base/kcron handbook
 kde-base/kde-l10n handbook
 kde-base/kdeartwork-kscreensaver eigen kexiv2 opengl
 kde-base/kdebase-kioslaves bzip2 exif handbook openexr samba sftp
-kde-base/kdebase-runtime-meta handbook semantic-desktop
+kde-base/kdebase-runtime-meta handbook
 kde-base/kdebugdialog handbook
-kde-base/kdelibs 3dnow acl alsa bzip2 fam handbook jpeg2k mmx nls openexr opengl policykit semantic-desktop spell sse sse2 ssl udev
+kde-base/kdelibs 3dnow acl alsa bzip2 fam handbook jpeg2k mmx nls openexr opengl policykit spell sse sse2 ssl udev
 kde-base/kdemultimedia-kioslaves encode flac handbook vorbis
 kde-base/kdepasswd handbook
-kde-base/kdepimlibs handbook semantic-desktop
-kde-base/kdeplasma-addons exif semantic-desktop
+kde-base/kdepimlibs handbook
+kde-base/kdeplasma-addons exif
 kde-base/kdesdk-misc extras
 kde-base/kdesu handbook
 kde-base/kdf handbook
 kde-base/kdm consolekit handbook pam
 kde-base/kfind handbook
 kde-base/kgamma handbook
-kde-base/kget bittorrent handbook semantic-desktop webkit
+kde-base/kget bittorrent handbook webkit
 kde-base/kgpg handbook
 kde-base/kinfocenter handbook ieee1394 opengl
 kde-base/kjots handbook kontact
@@ -202,9 +202,9 @@ kde-base/marble plasma
 kde-base/nepomuk handbook
 kde-base/okular chm crypt djvu ebook handbook jpeg pdf ps tiff
 kde-base/phonon-kde alsa xine
-kde-base/plasma-workspace google-gadgets handbook python semantic-desktop xinerama rss
+kde-base/plasma-workspace google-gadgets handbook python xinerama rss
 kde-base/printer-applet handbook
-kde-base/pykde4 semantic-desktop
+kde-base/pykde4
 kde-base/solid bluetooth networkmanager
 kde-base/sweeper handbook
 kde-base/systemsettings handbook opengl usb xinerama
@@ -220,7 +220,7 @@ media-fonts/font-misc-misc X nls
 media-fonts/terminus-font psf
 media-fonts/ttf-bitstream-vera X
 media-fonts/urw-fonts X
-media-gfx/digikam addressbook geolocation semantic-desktop themedesigner thumbnails video
+media-gfx/digikam addressbook geolocation themedesigner thumbnails video
 media-gfx/exiv2 nls unicode zlib
 media-gfx/gimp alsa dbus exif jpeg mmx mng pdf png smp sse svg tiff wmf
 media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openmp perl png raw svg tiff truetype wmf
@@ -287,7 +287,7 @@ media-libs/zbar -v4l
 media-plugins/kipi-plugins cdr crypt imagemagick scanner
 media-plugins/kipi-plugins calendar expoblending mjpeg opengl redeyes
 media-sound/alsa-utils nls
-media-sound/amarok player semantic-desktop
+media-sound/amarok player
 media-sound/amarok embedded ipod
 media-sound/amarok cdda daap lastfm mtp
 media-sound/bpmdetect debug realtime
@@ -305,7 +305,7 @@ media-video/dvdrip subtitles
 media-video/dvgrab jpeg quicktime
 media-video/ffmpeg 3dnow 3dnowext X alsa amr bzip2 encode hardcoded-tables ieee1394 jpeg2k mmx mmxext mp3 sdl speex ssse3 theora v4l v4l2 vorbis x264 xvid threads custom-cflags gsm network qt-faststart rtmp vpx
 media-video/ffmpegthumbnailer gtk jpeg png
-media-video/kdenlive semantic-desktop
+media-video/kdenlive
 media-video/mjpegtools dv gtk mmx png quicktime sdl
 media-video/mplayer dga dts dvdnav md5sum mmxext radio x264
 media-video/mplayer 3dnowext dvb pvr rtmp vpx win32codecs

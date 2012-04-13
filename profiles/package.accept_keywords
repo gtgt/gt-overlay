@@ -1,5 +1,5 @@
 # System
-app-shells/dash
+pp-shells/dash
 dev-cpp/gmock
 dev-cpp/gtest
 dev-libs/glib
@@ -34,6 +34,7 @@ sys-power/upower
 app-portage/flaggie
 sys-apps/baselayout-systemd
 sys-apps/systemd-units
+~sys-apps/portage-2.2.0_alpha100 **
 app-portage/elogviewer
 app-admin/eselect-qtgraphicssystem
 
@@ -42,6 +43,8 @@ virtual/jdk
 dev-java/cacao
 dev-java/gcj-jdk
 dev-java/icedtea-bin
+dev-java/icedtea
+dev-java/icedtea-web
 dev-java/netbeans-profiler
 dev-java/netbeans-javafx
 dev-java/netbeans-java
@@ -190,10 +193,13 @@ media-libs/libbluray
 media-libs/lv2core
 media-libs/lilv
 media-libs/libffado
+media-libs/libprojectm
+media-libs/libprojectm-qt
+media-sound/projectm-jack
 ## need for digikam
 sci-libs/clapack
 sys-fs/dmg2img
-
+media-video/mjpg-streamer
 
 # Avahi
 net-dns/avahi
@@ -225,48 +231,6 @@ net-wireless/wpa_supplicant
 # Kernels
 sys-kernel/mm-sources
 sys-kernel/gentoo-sources
-
-
-# XOrg X11
-<app-admin/eselect-opengl-9999
-dev-libs/wayland
-dev-python/xmpppy
-media-libs/mesa
-sys-libs/mtdev
-
-x11-libs/pixman
-x11-base/xorg-server
-x11-proto/dri2proto
-x11-proto/glproto
-x11-proto/inputproto
-x11-libs/libdrm
-x11-apps/mesa-progs
-
-x11-proto/xcb-proto
-x11-libs/xcb-util-wm
-x11-libs/xcb-util-renderutil
-x11-libs/xcb-util-keysyms
-x11-libs/xcb-util-image
-x11-libs/libxcb
-<x11-libs/xcb-util-9999
-x11-libs/libpciaccess
-
-
-<x11-base/xorg-drivers-9999
-<x11-drivers/xf86-video-fbdev-9999
-<x11-drivers/xf86-video-ati-9999
-<x11-drivers/xf86-video-nouveau-9999
-<x11-drivers/xf86-video-intel-9999
-<x11-drivers/xf86-video-openchrome-9999
-<x11-drivers/xf86-input-synaptics-9999
-<x11-drivers/xf86-input-evdev-9999
-<=x11-base/nouveau-drm-20111101
-
-x11-drivers/ati-drivers
-x11-drivers/nvidia-drivers
-media-video/nvidia-settings
-
-x11-libs/qscintilla
 
 ## KDE Stuff
 app-admin/keepassx2 **
@@ -309,7 +273,7 @@ dev-python/qscintilla-python
 dev-python/sip
 dev-util/quanta **
 dev-vcs/qgit
-dev-vcs/kdesvn **
+dev-vcs/kdesvn
 #kde-base/gwenview -~amd64 -~x86
 kde-base/tqtinterface:3.5
 kde-base/kate:3.5
@@ -321,7 +285,7 @@ kde-misc/kaption **
 kde-misc/kcaldav
 kde-misc/kim4
 kde-misc/kfilebox
-kde-misc/knetworkmanager **
+kde-misc/networkmanagement **
 kde-misc/kobby **
 kde-misc/kregexpeditor **
 kde-misc/kwin-button-applet
@@ -357,6 +321,7 @@ media-sound/traverso
 media-video/libav
 media-video/kamoso **
 media-video/recorditnow **
+media-video/loopy
 net-analyzer/ksniffer
 net-dialup/qtwvdialer
 =net-im/telepathy-kde-meta-9999 **
@@ -505,3 +470,104 @@ app-emulation/emul-linux-x86-bjdeps
 <dev-lang/python-3.2
 
 net-dns/mydns
+
+<=www-client/firefox-9.9.0
+<=www-client/firefox-bin-9999
+www-client/icecat
+www-client/opera-next
+
+www-plugins/lightspark
+media-fonts/corefonts
+media-fonts/dejavu
+media-fonts/droid
+
+<app-admin/eselect-opengl-9999
+dev-libs/wayland
+dev-python/xmpppy
+media-libs/mesa
+sys-libs/mtdev
+
+# XOrg X11
+
+x11-base/xorg-server
+x11-apps/appres
+x11-apps/bitmap
+x11-apps/iceauth
+x11-apps/luit
+x11-apps/mkfontdir
+x11-apps/mkfontscale
+x11-apps/sessreg
+x11-apps/setxkbmap
+x11-apps/smproxy
+x11-apps/x11perf
+x11-apps/xauth
+x11-apps/xbacklight
+x11-apps/xcmsdb
+x11-apps/xcursorgen
+x11-apps/xdpyinfo
+x11-apps/xdriinfo
+x11-apps/xev
+x11-apps/xf86dga
+x11-apps/xgamma
+x11-apps/xhost
+x11-apps/xinput
+x11-apps/xkbcomp
+x11-apps/xkbevd
+x11-apps/xkbutils
+x11-apps/xkill
+x11-apps/xlsatoms
+x11-apps/xlsclients
+x11-apps/xmodmap
+x11-apps/xpr
+x11-apps/xprop
+x11-apps/xrandr
+x11-apps/xrdb
+x11-apps/xrefresh
+x11-apps/xset
+x11-apps/xsetmode
+x11-apps/xsetroot
+x11-apps/xvinfo
+x11-apps/xwd
+x11-apps/xwininfo
+x11-apps/xwud
+x11-drivers/xf86-input-evdev
+x11-drivers/xf86-input-keyboard
+x11-drivers/xf86-input-mouse
+x11-drivers/xf86-input-synaptics
+x11-drivers/xf86-video-ati
+x11-drivers/xf86-video-intel
+x11-drivers/xf86-video-nouveau
+x11-libs/xosd
+x11-libs/libXxf86dga
+x11-libs/libXxf86vm
+x11-misc/makedepend
+x11-misc/mkxf86config
+x11-misc/util-macros
+x11-misc/xbitmaps
+x11-proto/xf86bigfontproto
+x11-proto/xf86dgaproto
+x11-proto/xf86driproto
+x11-proto/xf86miscproto
+x11-proto/xf86rushproto
+x11-proto/xf86vidmodeproto
+x11-themes/xcursor-themes
+
+
+x11-base/xorg-drivers
+x11-drivers/radeon-ucode
+x11-libs/libdrm
+x11-libs/libpciaccess 
+x11-libs/libxcb 
+x11-libs/pixman 
+x11-libs/qwt
+x11-misc/appmenu 
+x11-proto/glproto 
+x11-proto/inputproto 
+x11-proto/xcb-proto
+
+
+x11-drivers/ati-drivers
+x11-drivers/nvidia-drivers
+media-video/nvidia-settings
+
+x11-libs/qscintilla
