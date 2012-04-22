@@ -269,6 +269,7 @@ dev-libs/libdbusmenu-qt
 <dev-libs/libindicate-9999
 dev-libs/qjson
 dev-libs/soprano **
+dev-libs/libindicate-qt
 dev-python/PyQt4
 dev-python/qscintilla-python
 dev-python/sip
@@ -294,6 +295,7 @@ kde-misc/kustodian **
 kde-misc/kio-sysinfo **
 kde-misc/libmm-qt **
 kde-misc/libnm-qt **
+kde-misc/plasma-widget-message-indicator
 kde-misc/qtrans
 <kde-misc/quadkonsole-2.0.0
 mail-client/trojita
@@ -342,7 +344,6 @@ net-dialup/qtwvdialer
 =net-im/telepathy-kded-module-9999 **
 net-libs/farsight2
 net-libs/libqinfinity **
-net-libs/libgcal
 net-libs/libktorrent
 net-nds/luma
 net-p2p/ktorrent
@@ -367,6 +368,7 @@ www-client/google-chrome
 www-client/icecat
 www-client/firefox
 www-client/opera-next
+www-client/qupzilla
 www-plugins/lightspark
 
 
