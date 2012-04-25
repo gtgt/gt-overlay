@@ -234,7 +234,7 @@ net-wireless/bluez
 net-wireless/wpa_supplicant
 
 # Kernels
-sys-kernel/mm-sources
+sys-kernel/pf-sources
 sys-kernel/gentoo-sources
 
 ## KDE Stuff
