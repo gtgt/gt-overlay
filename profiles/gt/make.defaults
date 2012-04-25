@@ -19,7 +19,7 @@ PORTAGE_ELOG_SYSTEM="save:warn,error save_summary echo"
 GENTOO_MIRRORS="http://gentoo.inf.elte.hu http://www.mirrorservice.org/sites/www.ibiblio.org/gentoo"
 PKGDIR="/usr/portage/packages/`uname -m`"
 
-EMERGE_DEFAULT_OPTS="--verbose --quiet-build --keep-going --autounmask-write n --binpkg-respect-use y --fail-clean n"
+EMERGE_DEFAULT_OPTS="--verbose --quiet-build --keep-going --autounmask-write n --usepkg y --binpkg-respect-use y --fail-clean n"
 QUICKPKG_DEFAULT_OPTS="--include-config=y"
 #DISTCC_VERBOSE="1"
 CCACHE_SIZE="2G"

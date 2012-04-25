@@ -3,6 +3,7 @@ pp-shells/dash
 dev-cpp/gmock
 dev-cpp/gtest
 dev-libs/glib
+dev-libs/libnl
 =dev-util/valgrind-3.6.1-r2
 sys-apps/kmod
 sys-apps/openrc
@@ -192,10 +193,13 @@ media-libs/lcms
 media-libs/libpng:1.4
 media-libs/libbluray
 media-libs/lv2core
+media-libs/lv2
 media-libs/lilv
+media-libs/libnl
 media-libs/libffado
 media-libs/libprojectm
 media-libs/libprojectm-qt
+media-libs/sratom
 media-sound/projectm-jack
 ## need for digikam
 sci-libs/clapack
@@ -575,3 +579,7 @@ x11-drivers/nvidia-drivers
 media-video/nvidia-settings
 
 x11-libs/qscintilla
+
+=www-servers/apache-2.4* **
+=app-admin/apache-tools-2.4* **
+www-apache/mod_proxy_fcgi
