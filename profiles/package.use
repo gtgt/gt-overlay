@@ -255,6 +255,7 @@ media-libs/libggiwmh X
 media-libs/libgii X
 media-libs/libgphoto2 exif kernel_linux nls
 media-libs/libgpodgtk python udev-libs
+media-libs/libjpeg-turbo static-libs
 media-libs/libmpeg2 X sdl
 media-libs/libmng static-libs
 media-libs/libpng static-libs
@@ -474,7 +475,7 @@ virtual/ffmpeg X encode mp3 sdl theora x264
 virtual/ffmpeg threads
 virtual/jpeg static-libs
 virtual/mysql embedded
-www-client/firefox bindist pgo system-sqlite
+www-client/firefox bindist -pgo system-sqlite custom-cflags custom-optimization
 www-client/icecat custom-cflags custom-optimization pgo
 www-client/opera-next -gtk
 www-plugins/adobe-flash 32bit 64bit multilib

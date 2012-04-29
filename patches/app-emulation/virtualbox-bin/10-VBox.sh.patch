@@ -1,0 +1,11 @@
+--- VirtualBox.old/VBox.sh	2012-04-29 00:46:18.000000000 +0200
++++ VirtualBox/VBox.sh	2012-04-29 00:38:30.000000000 +0200
+@@ -76,7 +76,7 @@
+     exit 0
+ fi
+ 
+-APP=`which $0`
++APP=$0
+ APP=`basename $APP`
+ APP=${APP##/*/}
+ case "$APP" in

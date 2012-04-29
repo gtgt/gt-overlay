@@ -7,7 +7,7 @@ LINGUAS="hu en en_GB"
 PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
 PORTAGE_NICENESS="5"
 #digest...
-FEATURES="ccache -distcc fixlafiles unmerge-orphans userfetch -userpriv usersync metadata-transfer buildpkg splitdebug news candy prelink-checksums -sandbox preserve-libs -protect-owned split-elog split-log clean-logs"
+FEATURES="ccache -distcc fixlafiles unmerge-orphans userfetch -userpriv usersync metadata-transfer buildpkg splitdebug news candy prelink-checksums -sandbox -protect-owned split-elog split-log clean-logs"
 COLLISION_IGNORE="1"
 ACCEPT_LICENSE="*"
 
@@ -23,3 +23,34 @@ EMERGE_DEFAULT_OPTS="--verbose --quiet-build --keep-going --autounmask-write n -
 QUICKPKG_DEFAULT_OPTS="--include-config=y"
 #DISTCC_VERBOSE="1"
 CCACHE_SIZE="2G"
+
+# Icecream
+
+# If you have compiled binutils/gcc/glibc with processor-specific flags
+# (as normal using Gentoo), there is a greater chance that your compiler
+# won't work on other machines. The best would be to build gcc, glibc and
+# binutils without those flags and then copy the needed files into your
+# tarball for distribution to other machines. This tarball can be created
+# by running /usr/bin/icecc --build-native, and used by setting
+# ICECC_VERSION in /etc/conf.d/icecream
+#   ICECC_VERSION=<filename_of_archive_containing_your_environment>
+# 
+# To use icecream with portage add the following line to /etc/make.conf
+#   PREROOTPATH=/usr/lib/icecc/bin
+# 
+# To use icecream with normal make use (e.g. in /etc/profile)
+#   PATH=/usr/lib/icecc/bin:$PATH
+# 
+# N.B. To use icecream with ccache, the ccache PATH should come first:
+#   PATH=/usr/lib/ccache/bin:/usr/lib/icecc/bin:$PATH
+# 
+# Don't forget to open the following ports in your firewall(s):
+#  TCP/10245 on the daemon computers (required)
+#  TCP/8765 for the the scheduler computer (required)
+#  TCP/8766 for the telnet interface to the scheduler (optional)
+#  UDP/8765 for broadcast to find the scheduler (optional)
+# 
+# Further usage instructions: http://en.opensuse.org/Icecream
+
+PREROOTPATH=/usr/lib/icecc/bin
+PATH=/usr/lib/ccache/bin:/usr/lib/icecc/bin:$PATH
