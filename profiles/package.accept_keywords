@@ -16,13 +16,14 @@ sys-boot/plymouth-openrc-plugin
 sys-boot/unetbootin
 sys-devel/gcc
 sys-devel/kgcc64 **
+sys-devel/icecream
 sys-fs/udev
 sys-fs/udev-init-scripts
 sys-fs/hfsplusutils **
 sys-fs/multipath-tools
 sys-kernel/genkernel
 sys-kernel/dracut
-<sys-kernel/linux-headers-3.3
+sys-kernel/linux-headers
 sys-libs/lwp
 sys-libs/rvm
 sys-libs/talloc
@@ -69,6 +70,9 @@ dev-java/netbeans-platform
 =app-admin/apache-tools-2.4* **
 dev-lang/php
 dev-php/xhprof
+www-apps/xhprof-ui
+www-apps/webgrind
+dev-db/mysql
 dev-db/mysql-proxy
 dev-php/pecl-apc
 dev-php/pecl-oauth
@@ -83,6 +87,7 @@ www-apache/mod_proxy_fcgi
 www-apps/xhprof-ui
 www-apps/webgrind
 =www-servers/apache-2.4* **
+virtual/mysql
 virtual/httpd-php
 
 # Auth stuff
@@ -101,6 +106,7 @@ app-mobilephone/qtadb
 app-benchmarks/phoronix-test-suite
 <app-admin/testdisk-9999
 dev-php/pecl-ps
+net-firewall/iptables
 <net-print/foo2zjs-9999
 <net-print/foomatic-db-9999
 <net-print/foomatic-db-ppds-9999
@@ -114,6 +120,10 @@ net-wireless/zte-mf190
 sys-apps/hwids
 sys-apps/pciutils
 sys-apps/usbutils
+sys-apps/util-linux
+sys-apps/gptfdisk
+sys-fs/udisks
+sys-fs/udisks-glue
 
 
 # Picture and social
@@ -126,6 +136,7 @@ media-gfx/gimp
 net-fs/cifs-utils
 net-libs/glib-networking
 net-libs/libsoup
+net-libs/libsoup-gnome
 net-libs/pjsip
 media-libs/chromaprint
 media-libs/opencv
@@ -207,6 +218,7 @@ media-libs/libprojectm
 media-libs/libprojectm-qt
 media-libs/sratom
 media-sound/projectm-jack
+media-tv/linuxtv-dvb-firmware
 ## need for digikam
 sci-libs/clapack
 sys-fs/dmg2img
@@ -240,7 +252,7 @@ net-wireless/bluez
 net-wireless/wpa_supplicant
 
 # Kernels
-sys-kernel/mm-sources
+sys-kernel/pf-sources
 sys-kernel/gentoo-sources
 
 ## KDE Stuff
@@ -551,6 +563,7 @@ x11-drivers/xf86-input-synaptics
 x11-drivers/xf86-video-ati
 x11-drivers/xf86-video-intel
 x11-drivers/xf86-video-nouveau
+x11-libs/gdk-pixbuf
 x11-libs/xosd
 x11-libs/libXxf86dga
 x11-libs/libXxf86vm
@@ -580,7 +593,7 @@ x11-proto/inputproto
 x11-proto/xcb-proto
 
 
-#x11-drivers/ati-drivers
+x11-drivers/ati-drivers
 x11-drivers/nvidia-drivers
 media-video/nvidia-settings
 

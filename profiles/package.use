@@ -255,6 +255,7 @@ media-libs/libggiwmh X
 media-libs/libgii X
 media-libs/libgphoto2 exif kernel_linux nls
 media-libs/libgpodgtk python udev-libs
+media-libs/libjpeg-turbo static-libs
 media-libs/libmpeg2 X sdl
 media-libs/libmng static-libs
 media-libs/libpng static-libs
@@ -295,8 +296,7 @@ media-sound/clementine mtp projectm lastfm
 media-sound/kid3 mp4
 media-sound/lame mp3rtp static-libs
 media-sound/mangler celt alsa gsm speex
-media-sound/pulseaudio system-wide
-media-sound/pulseaudio realtime
+media-sound/pulseaudio system-wide realtime
 media-sound/qtractor dssi libsamplerate rubberband
 media-sound/sox alsa encode ffmpeg flac id3tag mad ogg png
 media-video/avidemux libsamplerate
@@ -307,14 +307,11 @@ media-video/ffmpeg 3dnow 3dnowext X alsa amr bzip2 encode hardcoded-tables ieee1
 media-video/ffmpegthumbnailer gtk jpeg png
 media-video/kdenlive
 media-video/mjpegtools dv gtk mmx png quicktime sdl
-media-video/mplayer dga dts dvdnav md5sum mmxext radio x264
-media-video/mplayer 3dnowext dvb pvr rtmp vpx win32codecs
+media-video/mplayer dga dts dvdnav md5sum mmxext radio x264 3dnowext dvb pvr rtmp vpx win32codecs
 media-video/recordmydesktop alsa
-media-video/transcode 3dnow X a52 aac alsa dv dvd iconv imagemagick jpeg lzo mmx mp3 mpeg ogg quicktime sdl sse sse2 theora truetype vorbis x264 xvid
-media-video/transcode mjpeg
+media-video/transcode 3dnow X a52 aac alsa dv dvd iconv imagemagick jpeg lzo mmx mp3 mpeg ogg quicktime sdl sse sse2 theora truetype vorbis x264 xvid mjpeg
 media-video/vdr -analogtv -atsc -cmdreccmdi18n -cmdsubmenu -cutterlimit -cutterqueue -cuttime -ddepgentry -deltimeshiftrec -dolbyinrec -dvbplayer -dvbsetup -dvdarchive -dvdchapjump -dvlfriendlyfnames -dvlrecscriptaddon -dvlvidprefer -dxr3 -em84xx -graphtft -hardlinkcutter -iptv -jumpplay -liemikuutio lircsettings -livebuffer -lnbshare -mainmenuhooks -menuorg -noepg -osdmaxitems -parentalrating -pinplugin -rotor -settime -setup -softosd -sortrecords -sourcecaps -syncearly -timercmd -timerinfo -ttxtsubs -validinput -vanilla volctrl -wareagleicon -yaepg
-media-video/vlc cdda dts dvb fontconfig gnutls httpd libass mtp projectm pvr rtsp shout sqlite stream upnp vlm wma-fixed xcb xv zvbi
-media-video/vlc vaapi win32codecs
+media-video/vlc cdda dts dvb fontconfig gnutls httpd libass nsplugin mtp projectm pvr rtsp shout sqlite stream upnp vlm wma-fixed xcb xv zvbi vaapi win32codecs
 media-video/xine-ui X lirc vdr
 net-analyzer/vnstat gd
 net-analyzer/wireshark adns geoip
@@ -478,7 +475,7 @@ virtual/ffmpeg X encode mp3 sdl theora x264
 virtual/ffmpeg threads
 virtual/jpeg static-libs
 virtual/mysql embedded
-www-client/firefox bindist pgo system-sqlite
+www-client/firefox bindist -pgo system-sqlite custom-cflags custom-optimization
 www-client/icecat custom-cflags custom-optimization pgo
 www-client/opera-next -gtk
 www-plugins/adobe-flash 32bit 64bit multilib
