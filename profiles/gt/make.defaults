@@ -7,7 +7,7 @@ LINGUAS="hu en en_GB"
 PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
 PORTAGE_NICENESS="5"
 #digest...
-FEATURES="ccache -distcc fixlafiles unmerge-orphans userfetch -userpriv usersync metadata-transfer buildpkg splitdebug news candy prelink-checksums -sandbox preserve-libs -protect-owned split-elog split-log clean-logs"
+FEATURES="ccache -distcc fixlafiles unmerge-orphans userfetch -userpriv usersync metadata-transfer buildpkg splitdebug news candy prelink-checksums -sandbox -protect-owned split-elog split-log clean-logs"
 COLLISION_IGNORE="1"
 ACCEPT_LICENSE="*"
 
