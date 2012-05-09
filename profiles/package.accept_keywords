@@ -67,18 +67,26 @@ dev-java/netbeans-ergonomics
 dev-java/netbeans-platform
 
 # PHP
+=app-admin/apache-tools-2.4* **
 dev-lang/php
 dev-php/xhprof
 www-apps/xhprof-ui
 www-apps/webgrind
 dev-db/mysql
 dev-db/mysql-proxy
-dev-php5/pecl-oauth
-dev-php5/pecl-svn
+dev-php/pecl-apc
+dev-php/pecl-oauth
+dev-php/pecl-svn
 dev-php/pecl-mysqlnd_qc **
+dev-php/pecl-memcached
 dev-php/pecl-v8js
+dev-php/xcache
 dev-php/xdebug
 dev-php/xdebug-client
+www-apache/mod_proxy_fcgi
+www-apps/xhprof-ui
+www-apps/webgrind
+=www-servers/apache-2.4* **
 virtual/mysql
 virtual/httpd-php
 
@@ -591,6 +599,3 @@ media-video/nvidia-settings
 
 x11-libs/qscintilla
 
-=www-servers/apache-2.4* **
-=app-admin/apache-tools-2.4* **
-www-apache/mod_proxy_fcgi
