@@ -260,6 +260,7 @@ app-admin/keepassx2 **
 app-arch/q7z
 app-backup/luckybackup
 app-cdr/k9copy
+app-cdr/qlscribe **
 app-emulation/q4wine **
 app-misc/strigi
 app-office/akonadi-server
@@ -292,6 +293,7 @@ dev-libs/libdbusmenu-qt
 dev-libs/qjson
 dev-libs/soprano **
 dev-libs/libindicate-qt
+dev-libs/liblightscribe
 dev-python/PyQt4
 dev-python/qscintilla-python
 dev-python/sip

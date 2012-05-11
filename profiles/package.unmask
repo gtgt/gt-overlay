@@ -1,4 +1,5 @@
 =app-admin/apache-tools-2.4*
+app-cdr/qlscribe
 app-misc/liveusb-creator
 app-misc/strigi
 =app-office/calligra-2.3.86
