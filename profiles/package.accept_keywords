@@ -17,6 +17,7 @@ sys-boot/unetbootin
 sys-devel/gcc
 sys-devel/kgcc64 **
 sys-devel/icecream
+sys-fs/cachefilesd
 sys-fs/udev
 sys-fs/udev-init-scripts
 sys-fs/hfsplusutils **
