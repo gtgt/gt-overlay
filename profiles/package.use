@@ -104,7 +104,7 @@ dev-libs/openobex bluetooth usb
 dev-libs/opensslsse2 zlib3779
 dev-libs/popt static-libs
 dev-libs/redland berkdb mysql ssl
-dev-libs/soprano -clucene dbus redland virtuoso
+dev-libs/soprano clucene dbus redland virtuoso
 dev-perl/IO-Socket-SSL idn
 dev-perl/libwww-perl ssl
 dev-python/PyQt4 X dbus kde opengl phonon svg webkit sql declarative assistant doc examples multimedia xmlpatterns
@@ -222,7 +222,7 @@ media-fonts/ttf-bitstream-vera X
 media-fonts/urw-fonts X
 media-gfx/digikam addressbook geolocation themedesigner thumbnails video
 media-gfx/exiv2 nls unicode zlib
-media-gfx/gimp alsa dbus exif jpeg mmx mng pdf png smp sse svg tiff wmf
+media-gfx/gimp alsa curl dbus gs exif jpeg mmx mng pdf png smp sse svg tiff wmf
 media-gfx/imagemagick X bzip2 corefonts cxx djvu jpeg jpeg2k openmp perl png raw svg tiff truetype wmf
 media-gfx/imagemagick openexr
 media-gfx/sane-backends ipv6
