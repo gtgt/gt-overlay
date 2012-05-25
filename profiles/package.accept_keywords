@@ -174,7 +174,6 @@ dev-db/virtuoso-odbc
 
 # Bad stuff
 <app-emulation/wine-9999
-<www-plugins/adobe-flash-9999
 
 # Desktop libs
 app-admin/eselect-opencl
