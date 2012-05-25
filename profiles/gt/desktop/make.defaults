@@ -41,7 +41,7 @@ USE="${USE} networkmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd"
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox"
 
 # Window manager and speciality
-USE="${USE} X gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gles1 gles2 gbm gallium glew openvg d3d g3dvl llvm kde qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu libnotify windeco"
+USE="${USE} X gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gles1 gles2 gbm gallium glew openvg d3d g3dvl llvm kde qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu ayatana indicator overlay libnotify windeco"
 
 # Print
 USE="${USE} foomaticdb cups"
