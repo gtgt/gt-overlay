@@ -74,12 +74,14 @@ dev-php/xhprof
 www-apps/xhprof-ui
 www-apps/webgrind
 dev-db/mysql
-dev-db/mysql-proxy
 dev-php/pecl-apc
-dev-php/pecl-oauth
-dev-php/pecl-svn
+dev-php/pecl-imagick
 dev-php/pecl-mysqlnd_qc **
 dev-php/pecl-memcached
+dev-php/pecl-oauth
+dev-db/mysql-proxy
+dev-db/mysql-proxy
+dev-php/pecl-svn
 dev-php/pecl-v8js
 dev-php/xcache
 dev-php/xdebug

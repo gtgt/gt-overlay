@@ -38,7 +38,7 @@ USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite"
 USE="${USE} networkmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd"
 
 # Web
-USE="${USE} bittorent webkit idn mozilla xulrunner firefox"
+USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu"
 
 # Window manager and speciality
 USE="${USE} X gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gles1 gles2 gbm gallium glew openvg d3d g3dvl llvm kde qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu ayatana indicator overlay libnotify windeco"
