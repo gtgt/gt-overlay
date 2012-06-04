@@ -17,8 +17,8 @@ DESCRIPTION="KDE Dropbox client"
 HOMEPAGE="http://kdropbox.deuteros.es"
 
 LICENSE="GPL-3"
-KEYWORDS="~amd64"
-SLOT="0"
+KEYWORDS=""
+SLOT="4"
 IUSE="debug "
 
 for name in ${LANGS} ; do IUSE+="linguas_$name " ; done

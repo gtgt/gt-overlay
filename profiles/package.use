@@ -299,6 +299,7 @@ media-sound/mangler celt alsa gsm speex
 media-sound/pulseaudio system-wide realtime
 media-sound/qtractor dssi libsamplerate rubberband
 media-sound/sox alsa encode ffmpeg flac id3tag mad ogg png
+media-tv/tvtime alsa
 media-video/avidemux libsamplerate
 media-video/dirac mmx
 media-video/dvdrip subtitles

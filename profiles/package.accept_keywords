@@ -74,12 +74,14 @@ dev-php/xhprof
 www-apps/xhprof-ui
 www-apps/webgrind
 dev-db/mysql
-dev-db/mysql-proxy
 dev-php/pecl-apc
-dev-php/pecl-oauth
-dev-php/pecl-svn
+dev-php/pecl-imagick
 dev-php/pecl-mysqlnd_qc **
 dev-php/pecl-memcached
+dev-php/pecl-oauth
+dev-db/mysql-proxy
+dev-db/mysql-proxy
+dev-php/pecl-svn
 dev-php/pecl-v8js
 dev-php/xcache
 dev-php/xdebug
@@ -175,7 +177,6 @@ dev-db/virtuoso-odbc
 
 # Bad stuff
 <app-emulation/wine-9999
-<www-plugins/adobe-flash-9999
 
 # Desktop libs
 app-admin/eselect-opencl
@@ -374,6 +375,7 @@ net-nds/luma
 net-p2p/ktorrent
 net-wireless/bluedevil
 sci-geosciences/qlandkartegt
+sci-geosciences/googleearth
 sys-block/partitionmanager **
 sys-devel/llvm
 sys-fs/trash-cli
