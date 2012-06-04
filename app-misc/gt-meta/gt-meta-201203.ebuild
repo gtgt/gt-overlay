@@ -32,6 +32,7 @@ system? (
 	dev-vcs/mercurial
 	media-gfx/splashutils
 	media-fonts/terminus-font
+	sys-apps/fakeroot
 	sys-apps/man-pages
 	sys-apps/man-pages-posix
 	!sys-apps/hotplug

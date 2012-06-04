@@ -7,9 +7,12 @@ LINGUAS="hu en en_GB"
 PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
 PORTAGE_NICENESS="5"
 #digest...
-FEATURES="ccache -distcc fixlafiles unmerge-orphans userfetch -userpriv usersync metadata-transfer buildpkg splitdebug news candy prelink-checksums -sandbox -protect-owned split-elog split-log clean-logs"
-COLLISION_IGNORE="1"
+FEATURES="ccache fixlafiles multilib-strict unmerge-orphans assume-digests userfetch userpriv sandbox -usersandbox fakeroot -metadata-transfer buildpkg splitdebug news candy prelink-checksums -collision-protect protect-owned split-elog split-log clean-logs unknown-features-warn unknown-features-filter -parse-eapi-ebuild-head"
+#COLLISION_IGNORE_MASK="*"
 ACCEPT_LICENSE="*"
+CONFIG_PROTECT="/opt/VirtualBox/VBox.sh"
+
+#USE_ORDER = "env:pkg:conf:repo:defaults:pkginternal:env.d"
 
 # Logging
 #PORTAGE_ELOG_CLASSES="warn error info log qa"
@@ -18,8 +21,10 @@ PORTAGE_ELOG_SYSTEM="save:warn,error save_summary echo"
 
 GENTOO_MIRRORS="http://gentoo.inf.elte.hu http://www.mirrorservice.org/sites/www.ibiblio.org/gentoo"
 PKGDIR="/usr/portage/packages/`uname -m`"
+PORT_LOGDIR="/var/log/portage/elog"
+PORT_LOGDIR_CLEAN="find ${PORT_LOGDIR} -type f -ctime +7 -delete"
 
-EMERGE_DEFAULT_OPTS="--verbose --quiet-build --keep-going --autounmask-write n --usepkg y --binpkg-respect-use y --fail-clean n"
+EMERGE_DEFAULT_OPTS="--verbose --columns --verbose-main-repo-display --quiet-build --keep-going --autounmask-write n --usepkg y --binpkg-respect-use y --fail-clean y --rebuild-if-new-ver"
 QUICKPKG_DEFAULT_OPTS="--include-config=y"
 #DISTCC_VERBOSE="1"
 CCACHE_SIZE="2G"
@@ -53,4 +58,4 @@ CCACHE_SIZE="2G"
 # Further usage instructions: http://en.opensuse.org/Icecream
 
 PREROOTPATH=/usr/lib/icecc/bin
-PATH=/usr/lib/ccache/bin:/usr/lib/icecc/bin:$PATH
+PATH=/usr/lib/icecc/bin:$PATH

@@ -292,7 +292,7 @@ dev-libs/libdbusmenu
 dev-libs/libdbusmenu-qt
 <dev-libs/libindicate-9999
 dev-libs/qjson
-dev-libs/soprano **
+dev-libs/soprano
 dev-libs/libindicate-qt
 dev-libs/liblightscribe
 dev-python/PyQt4

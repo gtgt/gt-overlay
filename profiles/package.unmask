@@ -15,7 +15,6 @@ net-libs/libinfinity
 dev-libs/json-glib
 dev-libs/nspr
 dev-libs/nss
-dev-libs/soprano
 dev-python/unipath
 kde-base/kate:3.5
 kde-base/tqtinterface:3.5
