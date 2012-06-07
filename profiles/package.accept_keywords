@@ -190,6 +190,8 @@ dev-python/py-smbpasswd
 media-libs/raptor
 media-libs/libpgf
 media-libs/libkface
+net-libs/telepathy-qt
+net-libs/libkgoogle
 <dev-libs/grantlee-9999
 <app-office/akonadi-server-9999
 <dev-libs/shared-desktop-ontologies-9999
