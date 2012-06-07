@@ -9,6 +9,7 @@ app-office/calligra freetds jpeg2k openctl word-perfect calligra_features_braind
 dev-java/swt xulrunner
 dev-libs/json-glib introspection
 dev-libs/libdbusmenu test
+dev-libs/rasqal xml pcre
 dev-util/kdevelop okteta qthelp
 dev-util/kdevelop-php kdevelop
 dev-util/kdevplatform cvs debug reviewboard
@@ -25,7 +26,7 @@ media-gfx/enblend doc
 =media-gfx/splashutils-1.5.4.3-r3 truetype
 media-libs/libggi 3dfx
 media-libs/libquicktime gtk
-media-libs/mesa
+media-libs/mesa d3d
 media-libs/opencv cuda
 media-sound/mangler xosd
 media-sound/jack-audio-connection-kit ieee1394

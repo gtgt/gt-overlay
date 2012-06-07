@@ -118,96 +118,52 @@ dev-tcltk/expect X threads
 dev-util/dialognls unicode
 dev-util/kdevelop-php quanta
 dev-util/kdevplatform git subversion
-dev-util/netbeans
 dev-util/qt-creator bineditor bookmarks cmake designer git inspector mercurial perforce qml qtscript subversion
 dev-util/valgrind qt4
 dev-vcs/git bash-completion blksha1 curl iconv perl threads
 dev-vcs/subversion java
 gnome-base/librsvg gtk
-kde-base/akregator handbook kontact
-kde-base/arkarchive bzip2 handbook
-kde-base/dolphin handbook
+kde-base/akregator kontact
+kde-base/arkarchive bzip2
 kde-base/dolphin thumbnail
-kde-base/filelight handbook
-kde-base/gwenview handbook
 kde-base/gwenview kipi
-kde-base/kabcclient handbook
-kde-base/kaddressbook handbook kontact
-kde-base/kalarm handbook
-kde-base/kamera handbook
-kde-base/kate handbook plasma
-kde-base/kcalc handbook
-kde-base/kcharselect handbook
-kde-base/kcontrol handbook
-kde-base/kcron handbook
-kde-base/kde-l10n handbook
+kde-base/kaddressbook kontact
+kde-base/kate plasma
 kde-base/kdeartwork-kscreensaver eigen kexiv2 opengl
-kde-base/kdebase-kioslaves bzip2 exif handbook openexr samba sftp
-kde-base/kdebase-runtime-meta handbook
-kde-base/kdebugdialog handbook
-kde-base/kdelibs 3dnow acl alsa bzip2 fam handbook jpeg2k mmx nls openexr opengl policykit spell sse sse2 ssl udev
-kde-base/kdemultimedia-kioslaves encode flac handbook vorbis
-kde-base/kdepasswd handbook
-kde-base/kdepimlibs handbook
+kde-base/kdebase-kioslaves bzip2 exif openexr samba sftp
+kde-base/kdelibs 3dnow acl alsa bzip2 fam jpeg2k mmx nls openexr opengl policykit spell sse sse2 ssl udev
+kde-base/kdemultimedia-kioslaves encode flac vorbis
+kde-base/kdepim-runtime google
 kde-base/kdeplasma-addons exif
 kde-base/kdesdk-misc extras
-kde-base/kdesu handbook
-kde-base/kdf handbook
-kde-base/kdm consolekit handbook pam
-kde-base/kfind handbook
-kde-base/kgamma handbook
-kde-base/kget bittorrent handbook webkit
-kde-base/kgpg handbook
-kde-base/kinfocenter handbook ieee1394 opengl
-kde-base/kjots handbook kontact
-kde-base/kleopatra handbook
-kde-base/klipper handbook
-kde-base/kmail handbook kontact
-kde-base/kmenuedit handbook
+kde-base/kdm consolekit pam
+kde-base/kget bittorrent webkit
+kde-base/kinfocenter ieee1394 opengl
+kde-base/kjots kontact
+kde-base/kmail kontact
 kde-base/kmime typefinder
-kde-base/kmixalsa handbook
-kde-base/knetattach handbook
-kde-base/knotes handbook kontact
-kde-base/kolourpaint handbook
+kde-base/knotes kontact
 kde-base/konq-plugins tidy
-kde-base/konquerorbookmarks handbook svg thumbnail
-kde-base/konsole handbook
-kde-base/konsolekalendar handbook
-kde-base/kontact handbook
+kde-base/konquerorbookmarks svg thumbnail
 kde-base/kopete history statistics webpresence
 kde-base/kopete -gadu groupwise -meanwhile msn -otr -qq skype sms -testbed winpopup zeroconf
-kde-base/kopeteaddbookmarks autoreplace contactnotes handbook highlight history jingle nowlistening oscar pipes privacy ssl statistics texteffect translator urlpicpreview v4l2 webpresence xmpp yahoo
-kde-base/korganizer handbook kontact
-kde-base/kppp handbook
-kde-base/krdc handbook jpeg rdesktop
+kde-base/kopeteaddbookmarks autoreplace contactnotes highlight history jingle nowlistening oscar pipes privacy ssl statistics texteffect translator urlpicpreview v4l2 webpresence xmpp yahoo
+kde-base/korganizer kontact
+kde-base/krdc jpeg rdesktop
 kde-base/krdc vnc -zeroconf
-kde-base/kremotecontrol handbook
-kde-base/krfb handbook
-kde-base/kruler handbook
 kde-base/krunner opengl
-kde-base/kscd handbook
 kde-base/kscreensaver opengl pam
-kde-base/ksnapshot handbook
 kde-base/ksplash 3dnow mmx sse sse2 xinerama
-kde-base/ksysguard handbook
 kde-base/ksysguard lm_sensors
-kde-base/ksystemlog handbook
-kde-base/kuser handbook
-kde-base/kwallet handbook
 kde-base/kwin opengl xcomposite xinerama
-kde-base/kwrite handbook
 kde-base/libkcompactdisc alsa
 kde-base/libplasmaclock holidays opengl
 kde-base/marble plasma
-kde-base/nepomuk handbook
-kde-base/okular chm crypt djvu ebook handbook jpeg pdf ps tiff
+kde-base/okular chm crypt djvu ebook jpeg pdf ps tiff
 kde-base/phonon-kde alsa xine
-kde-base/plasma-workspace google-gadgets handbook python xinerama rss
-kde-base/printer-applet handbook
-kde-base/pykde4
+kde-base/plasma-workspace python xinerama rss
 kde-base/solid bluetooth networkmanager
-kde-base/sweeper handbook
-kde-base/systemsettings handbook opengl usb xinerama
+kde-base/systemsettings opengl usb xinerama
 kde-base/tqtinterface qt4
 kde-misc/knetworkmanager consolekit
 kde-misc/konq-plugins tidy
@@ -328,16 +284,16 @@ net-fs/cifs-utils caps-ng
 net-fs/nfs-utils elibc_glibc ipv6 nfsv3 nfsv4 tcpd
 net-fs/samba acl aio client cups netapi pam quota readline server smbclient
 net-fs/samba smbsharemodes swat syslog winbind
-net-im/choqok handbook
+net-im/choqok
 net-im/emesene jabber webcam
 net-im/qutim icq
 net-im/telepathy-accounts-kcm-plugins jabber msn -purple
-net-irc/konversation crypt handbook
+net-irc/konversation crypt
 net-libs/farsight2 msn
 net-libs/gnutls cxx lzo nls zlib
 net-libs/gtk-vnc python
 net-libs/libinfinity -gtk server
-net-libs/libktorrent handbook
+net-libs/libktorrent
 net-libs/libnfs idmap
 net-libs/libnice gstreamer
 net-libs/libpcap bluetooth ipv6
@@ -433,7 +389,7 @@ sys-devel/bc readline
 sys-devel/binutils nls
 sys-devel/bison nls
 sys-devel/flex nls
-sys-devel/gcc fortran gtk mudflap multilib nls nptl objc objc++ objc-gc openmp
+sys-devel/gcc gtk mudflap multilib nls nptl objc objc++ objc-gc openmp
 sys-devel/gettext acl elibc_glibc git nls openmp
 sys-fs/e2fsprogs nls
 sys-fs/fuse kernel_linux

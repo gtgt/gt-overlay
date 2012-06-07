@@ -14,8 +14,6 @@ sys-auth/realtime-base
 sys-boot/plymouth
 sys-boot/plymouth-openrc-plugin
 sys-boot/unetbootin
-sys-devel/gcc
-sys-devel/kgcc64 **
 sys-devel/icecream
 sys-fs/cachefilesd
 sys-fs/udev
@@ -34,10 +32,10 @@ sys-power/pm-utils
 sys-power/upower
 
 ## Gentoo
+app-portage/elogv
 app-portage/flaggie
 sys-apps/baselayout-systemd
 sys-apps/systemd-units
-~sys-apps/portage-2.2.0_alpha100 **
 app-portage/elogviewer
 app-admin/eselect-qtgraphicssystem
 
@@ -180,7 +178,11 @@ dev-db/virtuoso-odbc
 
 # Desktop libs
 app-admin/eselect-opencl
+app-pda/libimobiledevice
 app-pda/libsyncml
+app-pda/libplist
+app-pda/usbmuxd
+app-shells/push
 dev-lang/v8
 dev-libs/rasqal
 dev-libs/redland
@@ -195,13 +197,17 @@ media-libs/libkface
 sys-auth/polkit
 sys-auth/polkit-qt
 
-#GTK libs
+
+#GTK & Gnome libs
+dev-libs/gobject-introspection-common
 dev-libs/json-glib
 dev-util/dbus-test-runner
+gnome-base/librsvg
 x11-libs/cairo
 x11-libs/gtk+
 x11-libs/pango
 dev-libs/glib
+dev-util/gdbus-codegen
 
 # Media libs
 dev-libs/serd
@@ -299,7 +305,6 @@ dev-libs/liblightscribe
 dev-python/PyQt4
 dev-python/qscintilla-python
 dev-python/sip
-dev-util/quanta **
 dev-vcs/qgit
 dev-vcs/kdesvn
 #kde-base/gwenview -~amd64 -~x86
@@ -568,6 +573,7 @@ x11-drivers/xf86-input-synaptics
 x11-drivers/xf86-video-ati
 x11-drivers/xf86-video-intel
 x11-drivers/xf86-video-nouveau
+x11-libs/libX11
 x11-libs/gdk-pixbuf
 x11-libs/xosd
 x11-libs/libXxf86dga
