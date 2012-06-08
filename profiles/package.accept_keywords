@@ -34,10 +34,11 @@ sys-power/upower
 ## Gentoo
 app-portage/elogv
 app-portage/flaggie
-sys-apps/baselayout-systemd
-sys-apps/systemd-units
 app-portage/elogviewer
 app-admin/eselect-qtgraphicssystem
+sys-apps/baselayout-systemd
+sys-apps/portage
+sys-apps/systemd-units
 
 ## Java stuff
 virtual/jdk
@@ -184,6 +185,8 @@ app-pda/libplist
 app-pda/usbmuxd
 app-shells/push
 dev-lang/v8
+dev-libs/nss
+dev-libs/nspr
 dev-libs/rasqal
 dev-libs/redland
 dev-python/py-smbpasswd
@@ -319,7 +322,7 @@ kde-misc/basket
 kde-misc/kaption **
 kde-misc/kcaldav
 kde-misc/kim4
-kde-misc/kfilebox
+kde-misc/kfilebox **
 kde-misc/networkmanagement **
 kde-misc/kobby **
 kde-misc/kregexpeditor **

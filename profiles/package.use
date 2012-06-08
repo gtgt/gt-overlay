@@ -107,7 +107,7 @@ dev-libs/redland berkdb mysql ssl
 dev-libs/soprano clucene dbus redland virtuoso
 dev-perl/IO-Socket-SSL idn
 dev-perl/libwww-perl ssl
-dev-python/PyQt4 X dbus kde opengl phonon svg webkit sql declarative assistant doc examples multimedia xmlpatterns
+dev-python/PyQt4 X dbus kde opengl phonon svg webkit sql multimedia xmlpatterns
 dev-python/imaging X scanner
 dev-python/ipython readline smp
 dev-python/pycairo svg
