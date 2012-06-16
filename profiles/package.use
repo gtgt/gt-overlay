@@ -287,7 +287,7 @@ net-fs/samba smbsharemodes swat syslog winbind
 net-im/choqok
 net-im/emesene jabber webcam
 net-im/qutim icq
-net-im/telepathy-accounts-kcm-plugins jabber msn -purple
+net-im/telepathy-connection-managers irc jabber yahoo zeroconf icq msn sip
 net-irc/konversation crypt
 net-libs/farsight2 msn
 net-libs/gnutls cxx lzo nls zlib

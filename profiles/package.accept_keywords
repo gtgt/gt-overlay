@@ -313,10 +313,7 @@ dev-python/sip
 dev-vcs/qgit
 dev-vcs/kdesvn
 #kde-base/gwenview -~amd64 -~x86
-kde-base/tqtinterface:3.5
-kde-base/kate:3.5
 kde-misc/oxygen-appmenu **
-kde-misc/akonadi-google **
 kde-misc/akonadi-facebook **
 kde-misc/basket
 kde-misc/kaption **
@@ -346,9 +343,9 @@ media-libs/phonon-gstreamer
 media-libs/phonon-vlc
 kde-base/phonon-kde
 media-libs/libdmtx
-=media-libs/prison-9999 **
-media-plugins/kipi-plugins **
-media-sound/amarok **
+media-libs/prison
+media-plugins/kipi-plugins
+media-sound/amarok
 media-sound/clementine
 media-sound/kmetronome
 media-sound/kid3
@@ -360,24 +357,10 @@ media-sound/qtractor
 media-sound/traverso
 media-video/libav
 media-video/kamoso **
-media-video/recorditnow **
+media-video/recorditnow
 media-video/loopy
 net-analyzer/ksniffer
 net-dialup/qtwvdialer
-=net-im/telepathy-kde-meta-9999 **
-=net-im/telepathy-contact-list-9999 **
-=net-im/telepathy-presence-applet-9999 **
-=net-im/telepathy-accounts-kcm-plugins-9999 **
-=net-im/telepathy-accounts-kcm-9999 **
-=net-im/telepathy-contact-applet-9999 **
-=net-im/telepathy-call-ui-9999 **
-=net-im/telepathy-text-ui-9999 **
-=net-im/telepathy-presence-dataengine-9999 **
-=net-im/telepathy-send-file-9999 **
-=net-im/telepathy-approver-9999 **
-=net-im/telepathy-filetransfer-handler-9999 **
-=net-im/telepathy-auth-handler-9999 **
-=net-im/telepathy-kded-module-9999 **
 net-libs/farsight2
 net-libs/libqinfinity **
 net-libs/libktorrent
@@ -395,6 +378,7 @@ dev-python/unipath
 x11-misc/appmenu-qt
 x11-misc/appmenu-gtk
 x11-misc/appmenu-firefox **
+app-misc/tomboy
 =x11-libs/qt-webkit-4.8.0_rc1 **
 x11-libs/libXi
 x11-themes/qtcurve-qt4
@@ -407,6 +391,23 @@ www-client/firefox
 www-client/opera-next
 www-client/qupzilla
 www-plugins/lightspark
+
+# KDE-Telepathy
+>=net-im/ktp-kded-module-0.4.0 ~amd64
+>=net-im/kde-telepathy-meta-0.4.0 ~amd64
+>=net-im/ktp-accounts-kcm-0.4.0 ~amd64
+>=net-im/ktp-common-internals-0.4.0 ~amd64
+>=net-im/ktp-send-file-0.4.0 ~amd64
+>=net-im/ktp-contact-list-0.4.0 ~amd64
+>=net-im/ktp-contact-applet-0.4.0 ~amd64
+>=net-im/ktp-contact-runner-0.4.0 ~amd64
+>=net-im/ktp-presence-applet-0.4.0 ~amd64
+>=net-im/ktp-text-ui-0.4.0 ~amd64
+>=net-libs/telepathy-logger-qt-0.4.0 ~amd64
+>=media-libs/qt-gstreamer-0.10.2 ~amd64
+>=net-im/ktp-auth-handler-0.4.0 ~amd64
+>=net-im/ktp-approver-0.4.0 ~amd64
+>=net-im/ktp-filetransfer-handler-0.4.0 ~amd64
 
 
 ## GStreamer
