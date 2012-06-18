@@ -26,7 +26,7 @@ USE="handbook"
 
 #System
 USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl custom-cflags custom-optimization optimization custom-cpuopts threads lib32 mmap mpi"
-USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify gstreamer -caps aio"
+USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk"
 
 #Lang support
 USE="${USE} python perl mono ithreads fortran gdbm cblas-external quanta subversion git cvs mercurial bazaar script -introspection"
