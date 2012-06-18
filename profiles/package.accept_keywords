@@ -235,6 +235,7 @@ dev-util/gdbus-codegen
 dev-libs/serd
 dev-libs/sord
 dev-libs/libf2c
+media-gfx/zbar
 media-fonts/takao-fonts
 media-libs/lcms
 media-libs/libpng:1.4
@@ -248,7 +249,6 @@ media-libs/libprojectm
 media-libs/libprojectm-qt
 media-libs/sratom
 media-libs/x264
-media-libs/zbar
 media-sound/projectm-jack
 media-tv/linuxtv-dvb-firmware
 ## need for digikam
