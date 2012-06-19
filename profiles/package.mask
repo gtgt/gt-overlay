@@ -12,8 +12,7 @@
 <net-libs/xulrunner-2.0
 net-nds/openldap
 <sys-kernel/pf-sources-3.2.0
->x11-base/xorg-server-1.11.4
->www-plugins/adobe-flash-11.2.202.228
+>=www-plugins/adobe-flash-11.2
 
 ## QT
 <x11-libs/qt-4.8.2
