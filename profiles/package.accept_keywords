@@ -1,10 +1,14 @@
 # System
+app-misc/reptyr
 pp-shells/dash
+dev-cpp/ctemplate
 dev-cpp/gmock
 dev-cpp/gtest
+dev-lang/spidermonkey
 dev-libs/glib
 dev-libs/libnl
 =dev-util/valgrind-3.6.1-r2
+dev-util/strace
 sys-apps/kmod
 sys-apps/openrc
 sys-apps/biosdevname
@@ -13,6 +17,7 @@ sys-apps/dbus
 sys-auth/realtime-base
 sys-boot/plymouth
 sys-boot/plymouth-openrc-plugin
+sys-boot/syslinux
 sys-boot/unetbootin
 sys-devel/icecream
 sys-fs/cachefilesd
@@ -32,9 +37,12 @@ sys-power/pm-utils
 sys-power/upower
 
 ## Gentoo
+app-portage/eix
 app-portage/elogv
 app-portage/flaggie
 app-portage/elogviewer
+app-portage/portage-utils
+app-admin/eselect
 app-admin/eselect-qtgraphicssystem
 sys-apps/baselayout-systemd
 sys-apps/portage
@@ -42,11 +50,15 @@ sys-apps/systemd-units
 
 ## Java stuff
 virtual/jdk
+dev-java/ant-core
 dev-java/cacao
+dev-java/cglib
 dev-java/gcj-jdk
 dev-java/icedtea-bin
 dev-java/icedtea
 dev-java/icedtea-web
+dev-java/jna
+dev-java/laf-plugin
 dev-java/netbeans-profiler
 dev-java/netbeans-javafx
 dev-java/netbeans-java
@@ -54,6 +66,7 @@ dev-java/maven-bin
 dev-java/oracle-jdk-bin
 dev-java/oracle-jre-bin
 dev-java/sun-jdk **
+dev-java/skinlf
 dev-java/ws-commons-util
 
 dev-util/netbeans
@@ -70,8 +83,6 @@ dev-java/netbeans-platform
 =app-admin/apache-tools-2.4* **
 dev-lang/php
 dev-php/xhprof
-www-apps/xhprof-ui
-www-apps/webgrind
 dev-db/mysql
 dev-php/pecl-apc
 dev-php/pecl-imagick
@@ -85,6 +96,7 @@ dev-php/pecl-v8js
 dev-php/xcache
 dev-php/xdebug
 dev-php/xdebug-client
+net-libs/nodejs
 www-apache/mod_proxy_fcgi
 www-apps/xhprof-ui
 www-apps/webgrind
@@ -108,22 +120,26 @@ app-mobilephone/qtadb
 app-benchmarks/phoronix-test-suite
 <app-admin/testdisk-9999
 dev-php/pecl-ps
+media-tv/dvb-usb-rtl2832u
+media-tv/linuxtv-dvb-apps
 net-firewall/iptables
+net-misc/modemmanager
+net-wireless/zte-mf190
 <net-print/foo2zjs-9999
 <net-print/foomatic-db-9999
 <net-print/foomatic-db-ppds-9999
 <net-print/foomatic-db-engine-9999
 <net-print/foomatic-filters-9999
+net-print/cups-pdf
 sys-apps/usb_modeswitch
-media-tv/dvb-usb-rtl2832u
-media-tv/linuxtv-dvb-apps
-net-misc/modemmanager
-net-wireless/zte-mf190
+sys-fs/dd-rescue
 sys-apps/hwids
+sys-apps/hwinfo
 sys-apps/pciutils
 sys-apps/usbutils
 sys-apps/util-linux
 sys-apps/gptfdisk
+sys-fs/vhba
 sys-fs/udisks
 sys-fs/udisks-glue
 
@@ -174,9 +190,6 @@ dev-db/virtuoso-server
 dev-db/virtuoso-odbc
 <dev-libs/liblinebreak-9999
 
-# Bad stuff
-<app-emulation/wine-9999
-
 # Desktop libs
 app-admin/eselect-opencl
 app-pda/libimobiledevice
@@ -184,14 +197,16 @@ app-pda/libsyncml
 app-pda/libplist
 app-pda/usbmuxd
 app-shells/push
-dev-lang/v8
+dev-libs/libmirage
 dev-libs/nss
 dev-libs/nspr
 dev-libs/rasqal
 dev-libs/redland
 dev-python/py-smbpasswd
+dev-python/pyndex
 media-libs/raptor
 media-libs/libpgf
+media-libs/libkgeomap
 media-libs/libkface
 net-libs/telepathy-qt
 net-libs/libkgoogle
@@ -204,7 +219,9 @@ sys-auth/polkit-qt
 
 
 #GTK & Gnome libs
+# "-common" suffix is obsolate
 dev-libs/gobject-introspection-common
+dev-libs/gobject-introspection
 dev-libs/json-glib
 dev-util/dbus-test-runner
 gnome-base/librsvg
@@ -218,6 +235,7 @@ dev-util/gdbus-codegen
 dev-libs/serd
 dev-libs/sord
 dev-libs/libf2c
+media-gfx/zbar
 media-fonts/takao-fonts
 media-libs/lcms
 media-libs/libpng:1.4
@@ -230,6 +248,7 @@ media-libs/libffado
 media-libs/libprojectm
 media-libs/libprojectm-qt
 media-libs/sratom
+media-libs/x264
 media-sound/projectm-jack
 media-tv/linuxtv-dvb-firmware
 ## need for digikam
@@ -252,6 +271,7 @@ dev-libs/libcaldav
 <net-dialup/ppp-9999
 net-fs/coda
 net-fs/davfs2
+net-fs/samba
 net-libs/rpc2
 <dev-libs/liblinebreak-9999
 <net-wireless/blueman-9999
@@ -268,13 +288,19 @@ net-wireless/wpa_supplicant
 sys-kernel/pf-sources
 sys-kernel/gentoo-sources
 
-## KDE Stuff
+## Desktop App
 app-admin/keepassx2 **
 app-arch/q7z
 app-backup/luckybackup
 app-cdr/k9copy
 app-cdr/qlscribe **
+app-cdr/cdemu
+app-cdr/cdemud
+app-cdr/kcdemu
+app-crypt/truecrypt
 app-emulation/q4wine **
+<app-emulation/wine-9999 **
+app-emulation/winetricks
 app-misc/strigi
 app-office/akonadi-server
 <app-pda/libopensync-9999
@@ -300,6 +326,7 @@ app-portage/kportagetray
 app-portage/smart-live-rebuild
 app-portage/gentoopm
 app-portage/kuroo4 **
+dev-db/mysql-workbench
 dev-libs/libdbusmenu
 dev-libs/libdbusmenu-qt
 <dev-libs/libindicate-9999
@@ -310,6 +337,8 @@ dev-libs/liblightscribe
 dev-python/PyQt4
 dev-python/qscintilla-python
 dev-python/sip
+dev-util/android-sdk-update-manager
+dev-util/qt-creator
 dev-vcs/qgit
 dev-vcs/kdesvn
 #kde-base/gwenview -~amd64 -~x86
@@ -391,6 +420,7 @@ www-client/firefox
 www-client/opera-next
 www-client/qupzilla
 www-plugins/lightspark
+www-plugins/kaffeine-mozilla-plugin
 
 # KDE-Telepathy
 >=net-im/ktp-kded-module-0.4.0 ~amd64
