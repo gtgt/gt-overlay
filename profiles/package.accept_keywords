@@ -232,6 +232,8 @@ dev-libs/glib
 dev-util/gdbus-codegen
 
 # Media libs
+app-pda/fusepod
+app-pda/ifuse
 dev-libs/serd
 dev-libs/sord
 dev-libs/libf2c
