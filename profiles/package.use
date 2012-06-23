@@ -145,7 +145,7 @@ kde-base/kmime typefinder
 kde-base/knotes kontact
 kde-base/konq-plugins tidy
 kde-base/konquerorbookmarks svg thumbnail
-kde-base/kopete -gadu -meanwhile -otr -qq -testbed -addbookmarks -autoreplace contactnotes groupwise highlight history jingle msn nowlistening -oscar pipes privacy skype -sms ssl statistics -texteffect translator urlpicpreview v4l webpresence winpopup xmpp yahoo zeroconf
+kde-base/kopete -gadu -meanwhile -otr -qq -testbed addbookmarks autoreplace contactnotes groupwise highlight history jingle msn nowlistening oscar pipes privacy skype sms ssl statistics texteffect translator urlpicpreview v4l webpresence winpopup xmpp yahoo zeroconf
 kde-base/kopeteaddbookmarks autoreplace contactnotes highlight history jingle nowlistening oscar pipes privacy ssl statistics texteffect translator urlpicpreview v4l2 webpresence xmpp yahoo
 kde-base/korganizer kontact
 kde-base/krdc jpeg rdesktop
