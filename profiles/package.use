@@ -393,9 +393,7 @@ sys-devel/gettext acl elibc_glibc git nls openmp
 sys-fs/e2fsprogs nls
 sys-fs/fuse kernel_linux
 sys-fs/lvm2 lvm1 readline static
-sys-fs/ntfs3g acl external-fuse ntfsprogs
-sys-fs/ntfs3g udev
-sys-fs/ntfs3g suid
+sys-fs/ntfs3g acl ntfsprogs udev suid extras
 sys-fs/ntfsprogs crypt
 sys-fs/progsreiserfs nls
 sys-fs/squashfs-tools gzip lzma lzo
