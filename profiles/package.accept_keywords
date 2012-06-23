@@ -252,6 +252,8 @@ media-libs/libprojectm-qt
 media-libs/sratom
 media-libs/x264
 media-sound/projectm-jack
+media-sound/fluid-soundfont
+media-sound/bpmdetect
 media-tv/linuxtv-dvb-firmware
 ## need for digikam
 sci-libs/clapack
@@ -305,6 +307,7 @@ app-crypt/truecrypt
 app-emulation/q4wine **
 <app-emulation/wine-9999 **
 app-emulation/winetricks
+app-misc/qcat
 app-misc/strigi
 app-office/akonadi-server
 <app-pda/libopensync-9999
@@ -380,6 +383,7 @@ media-libs/prison
 media-plugins/kipi-plugins
 media-sound/amarok
 media-sound/clementine
+media-video/kamerka
 media-sound/kmetronome
 media-sound/kid3
 media-sound/kstreamripper
@@ -400,6 +404,7 @@ net-libs/libktorrent
 net-nds/luma
 net-p2p/ktorrent
 net-wireless/bluedevil
+sci-geosciences/osmosis
 sci-geosciences/qlandkartegt
 sci-geosciences/googleearth
 sys-block/partitionmanager **
