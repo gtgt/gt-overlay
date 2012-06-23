@@ -35,6 +35,7 @@ media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc cdio
 media-video/vlc aalib libcaca sdl sdl-image
 net-misc/networkmanager sharing wimax
+net-misc/curl curl_ssl_openssl
 net-p2p/eiskaltdcpp spell lua gtk
 net-print/cups static-libs
 net-print/hplip X kde acl

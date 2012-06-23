@@ -28,7 +28,7 @@ app-emulation/emul-linux-x86-compat multilib
 app-emulation/emul-linux-x86-soundlibs alsa
 app-emulation/emul-linux-x86-xlibs opengl
 app-emulation/virtualbox-bin rdesktop-vrdp vboxwebsrv
-app-emulation/wine X alsa cups fontconfig gsm jpeg nls opengl png samba ssl truetype win32 win64 dbus gecko v4l xcomposite xml udisks gnutls gstreamer
+app-emulation/wine X alsa cups fontconfig gsm jpeg nls opengl png samba ssl truetype win32 win64 dbus gecko v4l xcomposite xml udisks gstreamer
 app-misc/lirc X kernel_linux
 app-misc/livecd-tools X opengl
 app-misc/mcX edit gpm nls samba
@@ -267,7 +267,7 @@ media-video/mplayer dga dts dvdnav md5sum mmxext radio x264 3dnowext dvb pvr rtm
 media-video/recordmydesktop alsa
 media-video/transcode 3dnow X a52 aac alsa dv dvd iconv imagemagick jpeg lzo mmx mp3 mpeg ogg quicktime sdl sse sse2 theora truetype vorbis x264 xvid mjpeg
 media-video/vdr -analogtv -atsc -cmdreccmdi18n -cmdsubmenu -cutterlimit -cutterqueue -cuttime -ddepgentry -deltimeshiftrec -dolbyinrec -dvbplayer -dvbsetup -dvdarchive -dvdchapjump -dvlfriendlyfnames -dvlrecscriptaddon -dvlvidprefer -dxr3 -em84xx -graphtft -hardlinkcutter -iptv -jumpplay -liemikuutio lircsettings -livebuffer -lnbshare -mainmenuhooks -menuorg -noepg -osdmaxitems -parentalrating -pinplugin -rotor -settime -setup -softosd -sortrecords -sourcecaps -syncearly -timercmd -timerinfo -ttxtsubs -validinput -vanilla volctrl -wareagleicon -yaepg
-media-video/vlc cdda dts dvb fontconfig gnutls httpd libass nsplugin mtp projectm pvr rtsp shout sqlite stream upnp vlm wma-fixed xcb xv zvbi vaapi win32codecs
+media-video/vlc cdda dts dvb fontconfig httpd libass nsplugin mtp projectm pvr rtsp shout sqlite stream upnp vlm wma-fixed xcb xv zvbi vaapi win32codecs
 media-video/xine-ui X lirc vdr
 net-analyzer/vnstat gd
 net-analyzer/wireshark adns geoip
@@ -305,7 +305,7 @@ net-libs/webkit-gtk jit
 net-libs/xulrunner alsa dbus ipc startup-notification
 net-libs/xulrunner
 net-mail/mailbase pam
-net-misc/curl ipv6 ssl
+net-misc/curl ipv6 ssl curl_ssl_gnutls ssh
 net-misc/dhcpcd elibc_glibc zeroconf
 net-misc/iputils idn ipv6
 net-misc/modemmanager policykit
@@ -318,14 +318,14 @@ net-misc/rdesktop alsa
 net-misc/rsync acl iconv ipv6
 net-misc/wget idn ipv6 nls ssl
 net-nds/luma samba
-net-nds/openberkdb crypt gnutls ipv6 perl samba ssl tcpd5passwd
+net-nds/openberkdb crypt ipv6 perl samba ssl tcpd5passwd
 net-nds/opengnutls
 net-p2p/eiskaltdcpp cli dbus emoticons qt4
 net-p2p/eiskaltdcpp sqlite upnp
 net-p2p/ktorrent webinterface
 net-print/cndrv cups-capt
 net-print/cnijfilteramd64 ip4700 mp250 mp270 mp490 mp550 mp560640
-net-print/cups X acl dbus jpeg pam perl png python samba ssl threads tiff usb gnutls php
+net-print/cups X acl dbus jpeg pam perl png python samba ssl threads tiff usb php
 net-print/foomatic-filters cups
 net-print/gutenprint gimp
 net-print/gutenprintcups foomaticdb gimp gtk readline

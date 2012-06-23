@@ -277,6 +277,7 @@ net-fs/davfs2
 net-fs/samba
 net-libs/rpc2
 <dev-libs/liblinebreak-9999
+net-misc/curl -~*
 <net-wireless/blueman-9999
 
 # Wireless
