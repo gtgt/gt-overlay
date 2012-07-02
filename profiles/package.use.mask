@@ -29,7 +29,7 @@ media-libs/libquicktime gtk
 media-libs/mesa d3d
 media-libs/opencv cuda
 media-sound/mangler xosd
-media-sound/jack-audio-connection-kit ieee1394
+media-sound/jack-audio-connection-kit ieee1394 dbus
 media-video/ffmpeg cpudetection-cflags
 media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc cdio
