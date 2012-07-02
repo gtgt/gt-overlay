@@ -1,6 +1,6 @@
 app-admin/packagekit gtk
 app-admin/puppet ldap
-app-emulation/wine custom-cflags gphoto2 openal oss
+app-emulation/wine gphoto2 openal oss
 app-misc/tomboy applet
 app-text/fbreader gtk
 dev-java/icedtea zero hs20
