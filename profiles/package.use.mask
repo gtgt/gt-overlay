@@ -20,7 +20,7 @@ dev-vcs/git tk gtk
 dev-vcs/subversion dso
 kde-base/kdesdk-kioslaves subversion
 kde-base/tqtinterface qt3
-media-gfx/gimp aalib lcms python webkit
+media-gfx/gimp aalib python webkit
 media-gfx/digikam mysql
 media-gfx/enblend doc
 =media-gfx/splashutils-1.5.4.3-r3 truetype
@@ -30,7 +30,7 @@ media-libs/mesa d3d
 media-libs/opencv cuda
 media-sound/mangler xosd
 media-sound/jack-audio-connection-kit ieee1394 dbus
-media-video/ffmpeg cpudetection-cflags
+media-video/ffmpeg cpudetection
 media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc cdio
 media-video/vlc aalib libcaca sdl sdl-image
