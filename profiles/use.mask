@@ -1,5 +1,5 @@
-cpudetection-cflags
+#cpudetection-cflags
 #cpudetection
-custom-cflags
+#custom-cflags
 #custom-optimization
 bindist

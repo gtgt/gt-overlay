@@ -49,6 +49,7 @@ x11-libs/cairo static-libs
 x11-libs/qt-meta openvg
 x11-libs/qt-gui 
 x11-libs/qt-opengl
+x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
 www-client/firefox dbus minimal system-sqlite wifi
 www-client/icecat crashreporter dbus system-sqlite wifi

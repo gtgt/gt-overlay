@@ -398,6 +398,7 @@ media-video/loopy
 net-analyzer/ksniffer
 net-dialup/qtwvdialer
 net-libs/farsight2
+net-libs/libkgapi
 net-libs/libqinfinity **
 net-libs/libktorrent
 net-nds/luma
