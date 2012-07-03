@@ -25,6 +25,7 @@ kde-misc/kobby
 kde-misc/kgtk
 kde-misc/networkmanagement
 media-gfx/gimp
+<media-plugins/kipi-plugins-9999
 =media-libs/phonon-9999
 =media-libs/phonon-xine-9999
 =media-libs/phonon-gstreamer-9999

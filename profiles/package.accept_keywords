@@ -249,6 +249,7 @@ media-libs/libprojectm
 media-libs/libprojectm-qt
 media-libs/sratom
 media-libs/x264
+media-plugins/kipi-plugins **
 media-sound/projectm-jack
 media-sound/fluid-soundfont
 media-sound/bpmdetect
@@ -640,14 +641,20 @@ x11-base/xorg-drivers
 x11-drivers/radeon-ucode
 x11-libs/libdrm
 x11-libs/libpciaccess 
-x11-libs/libxcb 
 x11-libs/pixman 
 x11-libs/qwt
 x11-misc/appmenu 
 x11-proto/glproto 
 x11-proto/inputproto 
-x11-proto/xcb-proto
 
+
+x11-libs/libxcb
+x11-libs/xcb-util
+x11-libs/xcb-util-image
+x11-libs/xcb-util-keysyms
+x11-libs/xcb-util-renderutil
+x11-libs/xcb-util-wm
+x11-proto/xcb-proto
 
 x11-drivers/ati-drivers
 x11-drivers/nvidia-drivers
