@@ -25,7 +25,7 @@ APACHE2_MPMS="event"
 USE="handbook"
 
 #System
-USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl custom-optimization optimization custom-cpuopts threads lib32 mmap mpi"
+USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl custom-optimization optimization custom-cpuopts custom-cflags threads lib32 mmap mpi"
 USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk"
 
 #Lang support
