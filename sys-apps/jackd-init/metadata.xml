@@ -3,7 +3,7 @@
 <pkgmetadata>
 	<herd>no-herd</herd>
 	<maintainer>
-		<email>proaudio@tuxfamily.org</email>
-		<name>pro-audio overlay team</name>
+		<email>gt@kani.hu</email>
+		<name>gt (based on script found in pro-audio overlay)</name>
 	</maintainer>
 </pkgmetadata>
