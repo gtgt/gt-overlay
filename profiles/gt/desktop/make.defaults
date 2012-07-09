@@ -83,7 +83,7 @@ USE="${USE} spell hunspell enchant truetype fontconfig unicode utf8 nls idn icon
 USE="${USE} mbox maildir calendar reports"
 
 # Video
-USE="${USE} a52 aac avi cddb cuda opencl dv dvb encode directfb dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
+USE="${USE} a52 aac avi cddb cuda opencl dv dvb encode directfb dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca live lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 vcdx video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
 
 # Web
 USE="${USE} libwww -vhosts nsplugin javascript"

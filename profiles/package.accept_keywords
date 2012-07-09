@@ -21,6 +21,8 @@ sys-boot/syslinux
 sys-boot/unetbootin
 sys-devel/icecream
 sys-fs/cachefilesd
+sys-fs/exfat-utils
+sys-fs/fuse-exfat
 sys-fs/udev
 sys-fs/udev-init-scripts
 sys-fs/hfsplusutils **

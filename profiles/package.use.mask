@@ -1,6 +1,6 @@
 app-admin/packagekit gtk
 app-admin/puppet ldap
-app-emulation/wine gphoto2 openal oss
+app-emulation/wine gphoto2 openal opencl
 app-misc/tomboy applet
 app-text/fbreader gtk
 dev-java/icedtea zero hs20
@@ -34,6 +34,7 @@ media-video/ffmpeg cpudetection
 media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc cdio
 media-video/vlc aalib libcaca sdl sdl-image
+net-mail/dovecot pam ldap
 net-misc/networkmanager sharing wimax
 net-misc/curl curl_ssl_openssl
 net-p2p/eiskaltdcpp spell lua gtk
