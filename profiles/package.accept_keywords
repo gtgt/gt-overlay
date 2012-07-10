@@ -249,6 +249,7 @@ media-libs/libnl
 media-libs/libffado
 media-libs/libprojectm
 media-libs/libprojectm-qt
+media-libs/liblastfm
 media-libs/sratom
 media-libs/x264
 media-plugins/kipi-plugins **
