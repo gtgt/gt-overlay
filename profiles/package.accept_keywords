@@ -61,9 +61,7 @@ dev-java/icedtea
 dev-java/icedtea-web
 dev-java/jna
 dev-java/laf-plugin
-dev-java/netbeans-profiler
-dev-java/netbeans-javafx
-dev-java/netbeans-java
+dev-java/lucene
 dev-java/maven-bin
 dev-java/oracle-jdk-bin
 dev-java/oracle-jre-bin
@@ -71,15 +69,29 @@ dev-java/sun-jdk **
 dev-java/skinlf
 dev-java/ws-commons-util
 
-dev-util/netbeans
-dev-java/netbeans-apisupport
-dev-java/netbeans-php
-dev-java/netbeans-ide 
-dev-java/netbeans-websvccommon
-dev-java/netbeans-harness
-dev-java/netbeans-nb
-dev-java/netbeans-ergonomics
-dev-java/netbeans-platform
+# Netbeans
+
+<dev-java/netbeans-apisupport-9999
+<dev-java/netbeans-cnd-9999
+<dev-java/netbeans-dlight-9999
+<dev-java/netbeans-enterprise-9999
+<dev-java/netbeans-ergonomics-9999
+<dev-java/netbeans-groovy-9999
+<dev-java/netbeans-harness-9999
+<dev-java/netbeans-ide-9999
+<dev-java/netbeans-java-9999
+<dev-java/netbeans-javacard-9999
+<dev-java/netbeans-javadoc-9999
+<dev-java/netbeans-javafx-9999
+<dev-java/netbeans-mobility-9999
+<dev-java/netbeans-nb-9999
+<dev-java/netbeans-php-9999
+<dev-java/netbeans-platform-9999
+<dev-java/netbeans-profiler-9999
+<dev-java/netbeans-websvccommon-9999
+<dev-java/netbeans-webcommon-9999
+<dev-util/netbeans-9999
+
 
 # PHP
 =app-admin/apache-tools-2.4* **
@@ -572,6 +584,7 @@ dev-libs/wayland
 dev-python/xmpppy
 media-libs/mesa
 sys-libs/mtdev
+
 
 # XOrg X11
 
