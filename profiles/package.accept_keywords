@@ -37,6 +37,7 @@ sys-libs/tdb
 sys-libs/zlib
 sys-power/pm-utils
 sys-power/upower
+sys-process/atop
 
 ## Gentoo
 app-portage/eix
