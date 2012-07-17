@@ -1,0 +1,1300 @@
+# ChangeLog for dev-java/netbeans-platform
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*netbeans-platform-9999_p20120716 (16 Jul 2012)
+
+  16 Jul 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120716.ebuild:
+  bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120714 (16 Jul 2012)
+
+  16 Jul 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120714.ebuild:
+  bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120711 (11 Jul 2012)
+
+  11 Jul 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120711.ebuild:
+  bumped to latest nightly sources
+
+  09 Jul 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120624.ebuild,
+  -netbeans-platform-9999_p20120628.ebuild:
+  removed old ebuilds
+
+*netbeans-platform-9999_p20120706 (06 Jul 2012)
+
+  06 Jul 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120706.ebuild:
+  bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120702 (03 Jul 2012)
+
+  03 Jul 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120702.ebuild:
+  bumped to latest nightly sources
+
+*netbeans-platform-7.2_rc1 (29 Jun 2012)
+
+  29 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.2_rc1.ebuild:
+  slot 7.2 bumped to rc1
+
+*netbeans-platform-9999_p20120628 (28 Jun 2012)
+
+  28 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120628.ebuild:
+  bumped to latest nightly sources
+
+  28 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120615.ebuild,
+  -netbeans-platform-9999_p20120620.ebuild:
+  removed obsolete ebuilds
+
+*netbeans-platform-9999_p20120624 (24 Jun 2012)
+
+  24 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120624.ebuild:
+  bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120620 (20 Jun 2012)
+
+  20 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120620.ebuild:
+  bumped to latest nightly sources
+
+  20 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120610.ebuild,
+  -netbeans-platform-9999_p20120612.ebuild,
+  -netbeans-platform-9999_p20120613.ebuild:
+  removed obsolete ebuilds
+
+*netbeans-platform-9999_p20120615 (15 Jun 2012)
+
+  15 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120615.ebuild:
+  bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120613 (13 Jun 2012)
+
+  13 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120613.ebuild:
+  bumped to latest nightly sources
+
+  13 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120530-r1.ebuild,
+  -netbeans-platform-9999_p20120604.ebuild,
+  -netbeans-platform-9999_p20120606.ebuild,
+  -netbeans-platform-9999_p20120608.ebuild:
+  removed obsolete ebuilds
+
+*netbeans-platform-9999_p20120612 (12 Jun 2012)
+
+  12 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120612.ebuild:
+  bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120610 (10 Jun 2012)
+
+  10 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120610.ebuild:
+  bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120608 (08 Jun 2012)
+
+  08 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120608.ebuild:
+  bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120606 (06 Jun 2012)
+
+  06 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120606.ebuild:
+  bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120604 (04 Jun 2012)
+
+  04 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120604.ebuild:
+  bumped to latest nightly sources
+
+  04 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120524.ebuild,
+  -netbeans-platform-9999_p20120527.ebuild:
+  removed obsolete ebuilds
+
+  02 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.2_beta.ebuild, -netbeans-platform-9999_p20120530.ebuild:
+  unbundled osgi core and cleanup
+
+  01 Jun 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120520.ebuild:
+  removed obsolete version
+
+*netbeans-platform-9999_p20120530 (30 May 2012)
+
+  30 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120530.ebuild:
+  bumped to the latest nightly sources
+
+  27 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120516.ebuild,
+  -netbeans-platform-9999_p20120517.ebuild:
+  removed obsolete versions
+
+  27 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.1.1.ebuild:
+  removed obsolete version
+
+*netbeans-platform-9999_p20120527 (27 May 2012)
+
+  27 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120527.ebuild:
+  bumped to the latest nightly sources
+
+*netbeans-platform-7.2_beta (24 May 2012)
+
+  24 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.2_beta.ebuild:
+  Netbeans 7.2 beta released
+
+*netbeans-platform-9999_p20120524 (24 May 2012)
+
+  24 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120524.ebuild:
+  Bumped to latest nightly sources
+
+  23 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120513.ebuild,
+  -netbeans-platform-9999_p20120515.ebuild:
+  Removed obsolete ebuilds
+
+*netbeans-platform-9999_p20120520 (20 May 2012)
+
+  20 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120520.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120517 (17 May 2012)
+
+  17 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120517.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120516 (17 May 2012)
+
+  17 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120516.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120515 (16 May 2012)
+
+  16 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120515.ebuild:
+  Bumped to latest nightly sources
+
+  15 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120425.ebuild,
+  -netbeans-platform-9999_p20120501.ebuild,
+  -netbeans-platform-9999_p20120504.ebuild,
+  -netbeans-platform-9999_p20120505.ebuild,
+  -netbeans-platform-9999_p20120509.ebuild:
+  Removed obsolete ebuilds
+
+*netbeans-platform-9999_p20120513 (13 May 2012)
+
+  13 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120513.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120509 (10 May 2012)
+
+  10 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120509.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120505 (05 May 2012)
+
+  05 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120505.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120504 (05 May 2012)
+
+  05 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120504.ebuild:
+  Bumped to latest nightly sources
+
+  05 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120420.ebuild,
+  -netbeans-platform-9999_p20120422.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20120501 (02 May 2012)
+
+  02 May 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120501.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.1.2 (26 Apr 2012)
+
+  26 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.1.2.ebuild:
+  Version bump in 7.1 slot
+
+*netbeans-platform-9999_p20120425 (25 Apr 2012)
+
+  25 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120425.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120422 (22 Apr 2012)
+
+  22 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120422.ebuild:
+  Bumped to latest nightly sources
+
+  21 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120406.ebuild,
+  -netbeans-platform-9999_p20120409.ebuild,
+  -netbeans-platform-9999_p20120413.ebuild,
+  -netbeans-platform-9999_p20120415.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20120420 (21 Apr 2012)
+
+  21 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120420.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120415 (16 Apr 2012)
+
+  16 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120415.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120413 (13 Apr 2012)
+
+  13 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120413.ebuild:
+  Bumped to latest nightly sources
+
+  13 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120328.ebuild,
+  -netbeans-platform-9999_p20120402.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20120409 (09 Apr 2012)
+
+  09 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120409.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120406 (06 Apr 2012)
+
+  06 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120406.ebuild:
+  Bumped to latest nightly sources
+
+  06 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120325.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20120402 (03 Apr 2012)
+
+  03 Apr 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120402.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120328 (29 Mar 2012)
+
+  29 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120328.ebuild:
+  Bumped to latest nightly sources
+
+  29 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120318.ebuild,
+  -netbeans-platform-9999_p20120321.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20120325 (26 Mar 2012)
+
+  26 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120325.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120321 (22 Mar 2012)
+
+  22 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120321.ebuild:
+  Bumped to latest nightly sources
+
+  22 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120304.ebuild,
+  -netbeans-platform-9999_p20120308.ebuild,
+  -netbeans-platform-9999_p20120315.ebuild:
+  Removed obsolete ebuilds
+
+*netbeans-platform-9999_p20120318 (19 Mar 2012)
+
+  19 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120318.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120315 (15 Mar 2012)
+
+  15 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120315.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120308 (09 Mar 2012)
+
+  09 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120308.ebuild:
+  Bumped to latest nightly sources
+
+  05 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.1.ebuild:
+  Removed NetBeans 7.1
+
+  05 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120219.ebuild,
+  -netbeans-platform-9999_p20120222.ebuild,
+  -netbeans-platform-9999_p20120227.ebuild,
+  -netbeans-platform-9999_p20120301.ebuild,
+  -netbeans-platform-9999_p20120303.ebuild:
+  Removed old versions
+
+*netbeans-platform-7.1.1 (05 Mar 2012)
+
+  05 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.1.1.ebuild:
+  Bumped to version 7.1.1
+
+*netbeans-platform-9999_p20120304 (04 Mar 2012)
+
+  04 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120304.ebuild:
+  Bumped to latest nightly module
+
+*netbeans-platform-9999_p20120303 (03 Mar 2012)
+
+  03 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120303.ebuild:
+  Bumped to latest nightly module
+
+*netbeans-platform-9999_p20120301 (02 Mar 2012)
+
+  02 Mar 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120301.ebuild:
+  Bumped to latest nightly module
+
+*netbeans-platform-9999_p20120227 (28 Feb 2012)
+
+  28 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120227.ebuild:
+  Bumped to latest nightly sources
+
+  28 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120216.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20120222 (22 Feb 2012)
+
+  22 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120222.ebuild:
+  Bumped to latest nightly sources
+
+  22 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120212.ebuild,
+  -netbeans-platform-9999_p20120214.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20120219 (19 Feb 2012)
+
+  19 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120219.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120216 (17 Feb 2012)
+
+  17 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120216.ebuild:
+  Bumped to latest nightly sources
+
+  17 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120208.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20120214 (15 Feb 2012)
+
+  15 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120214.ebuild:
+  Bumped to latest nightly sources
+
+  14 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120118.ebuild,
+  -netbeans-platform-9999_p20120125.ebuild,
+  -netbeans-platform-9999_p20120126.ebuild,
+  -netbeans-platform-9999_p20120202.ebuild,
+  -netbeans-platform-9999_p20120205.ebuild,
+  -netbeans-platform-9999_p20120206.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20120212 (12 Feb 2012)
+
+  12 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120212.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120208 (08 Feb 2012)
+
+  08 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120208.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120206 (07 Feb 2012)
+
+  07 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120206.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120205 (06 Feb 2012)
+
+  06 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120205.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120202 (03 Feb 2012)
+
+  03 Feb 2012; <fordfrog@gentoo.org> +netbeans-platform-9999_p20120202.ebuild:
+  Bumped to latest nightly sources
+
+  01 Feb 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120113.ebuild,
+  -netbeans-platform-9999_p20120115.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20120126 (27 Jan 2012)
+
+  27 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120126.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120125 (26 Jan 2012)
+
+  26 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120125.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120118 (19 Jan 2012)
+
+  19 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120118.ebuild:
+  Bumped to latest nightly sources
+
+  19 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120111.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20120115 (16 Jan 2012)
+
+  16 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120115.ebuild:
+  Bumped to latest nightly sources
+
+  16 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20120108.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20120113 (15 Jan 2012)
+
+  15 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120113.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20120111 (12 Jan 2012)
+
+  12 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120111.ebuild:
+  Bumped to latest nightly sources
+
+  12 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111225.ebuild,
+  -netbeans-platform-9999_p20120102.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20120108 (08 Jan 2012)
+
+  08 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120108.ebuild:
+  Bumped to latest nightly sources
+
+  08 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111223.ebuild:
+  Removed old version
+
+*netbeans-platform-7.1 (05 Jan 2012)
+
+  05 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.1_rc2.ebuild, +netbeans-platform-7.1.ebuild:
+  Bumped to 7.1 final
+
+*netbeans-platform-9999_p20120102 (02 Jan 2012)
+
+  02 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20120102.ebuild:
+  Bumped to latest nightly sources
+
+  02 Jan 2012; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111218.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20111225 (26 Dec 2011)
+
+  26 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111225.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111223 (24 Dec 2011)
+
+  24 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111223.ebuild:
+  Bumped to latest nightly sources
+
+  22 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111211.ebuild,
+  -netbeans-platform-9999_p20111213.ebuild:
+  Removed obsolete versions
+
+  19 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111205.ebuild,
+  -netbeans-platform-9999_p20111206.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20111218 (19 Dec 2011)
+
+  19 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111218.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111213 (13 Dec 2011)
+
+  13 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111213.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111211 (11 Dec 2011)
+
+  11 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111211.ebuild:
+  Bumped to latest nightly sources
+
+  11 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111129.ebuild,
+  -netbeans-platform-9999_p20111201.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20111206 (06 Dec 2011)
+
+  06 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111206.ebuild:
+  Bumped to latest nightly sources
+
+  06 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.1_rc1.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-7.1_rc2 (06 Dec 2011)
+
+  06 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.1_rc2.ebuild:
+  Version bump in 7.1 slot
+
+*netbeans-platform-9999_p20111205 (05 Dec 2011)
+
+  05 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111205.ebuild:
+  Bumped to latest nightly sources
+
+  05 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111125.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20111201 (02 Dec 2011)
+
+  02 Dec 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111201.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111129 (30 Nov 2011)
+
+  30 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111129.ebuild:
+  Bumped to latest nightly sources
+
+  28 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.1_beta.ebuild:
+  Removed obsolete ebuild from 7.1 branch
+
+*netbeans-platform-7.1_rc1 (28 Nov 2011)
+
+  28 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.1_rc1.ebuild:
+  Bumped 7.1 branch to rc1
+
+  26 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111113.ebuild,
+  -netbeans-platform-9999_p20111116.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20111125 (26 Nov 2011)
+
+  26 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111125.ebuild:
+  Bumped to latest nightly sources
+
+  18 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111109.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20111116 (18 Nov 2011)
+
+  18 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111116.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111113 (14 Nov 2011)
+
+  14 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111113.ebuild:
+  Bumped to latest nightly sources
+
+  10 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111025.ebuild,
+  -netbeans-platform-9999_p20111029.ebuild,
+  -netbeans-platform-9999_p20111102.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20111109 (10 Nov 2011)
+
+  10 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111109.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111102 (02 Nov 2011)
+
+  02 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111102.ebuild:
+  Bumped to latest nightly sources
+
+  01 Nov 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111019.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20111029 (29 Oct 2011)
+
+  29 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111029.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111025 (26 Oct 2011)
+
+  26 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111025.ebuild:
+  Bumped to latest nightly sources
+
+  24 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  netbeans-platform-7.0.1.ebuild, netbeans-platform-7.1_beta.ebuild,
+  netbeans-platform-9999_p20111019.ebuild:
+  Filtering ecj compilers as compilation does not work with them
+
+  24 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111016.ebuild,
+  -netbeans-platform-9999_p20111017.ebuild,
+  -netbeans-platform-9999_p20111018.ebuild:
+  Removed old versions
+
+*netbeans-platform-9999_p20111019 (20 Oct 2011)
+
+  20 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111019.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111018 (19 Oct 2011)
+
+  19 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111018.ebuild:
+  Bumped to latest nightly sources
+
+  19 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111005.ebuild,
+  -netbeans-platform-9999_p20111007.ebuild,
+  -netbeans-platform-9999_p20111010.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20111017 (18 Oct 2011)
+
+  18 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111017.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111016 (16 Oct 2011)
+
+  16 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111016.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111010 (11 Oct 2011)
+
+  11 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111010.ebuild:
+  Bumped to latest nightly sources
+
+  11 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20111002.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20111007 (08 Oct 2011)
+
+  08 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111007.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20111005 (06 Oct 2011)
+
+  06 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111005.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.1_beta (04 Oct 2011)
+
+  04 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.1_beta.ebuild:
+  Added ebuild for NetBeans 7.1 beta
+
+  03 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110925.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20111002 (03 Oct 2011)
+
+  03 Oct 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20111002.ebuild:
+  Bumped to latest nightly sources
+
+  29 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110920.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110925 (26 Sep 2011)
+
+  26 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110925.ebuild:
+  Bumped to latest nightly sources
+
+  21 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110911.ebuild,
+  -netbeans-platform-9999_p20110913.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20110920 (21 Sep 2011)
+
+  21 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110920.ebuild:
+  Bumped to latest nightly sources
+
+  16 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  netbeans-platform-7.0.1.ebuild, netbeans-platform-9999_p20110911.ebuild,
+  netbeans-platform-9999_p20110913.ebuild:
+  Fixed dependency on jdk
+
+  16 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  netbeans-platform-7.0.1.ebuild, netbeans-platform-9999_p20110911.ebuild,
+  netbeans-platform-9999_p20110913.ebuild:
+  NetBeans compilation is supported only with JDK 1.6
+
+*netbeans-platform-9999_p20110913 (13 Sep 2011)
+
+  13 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110913.ebuild:
+  Bumped to latest nightly sources
+
+  13 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110904.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110911 (12 Sep 2011)
+
+  12 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110911.ebuild:
+  Bumped to latest nightly sources
+
+  12 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110902.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110904 (05 Sep 2011)
+
+  05 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110904.ebuild:
+  Bumped to latest nightly sources
+
+  03 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110821.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110902 (03 Sep 2011)
+
+  03 Sep 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110902.ebuild:
+  Bumped to latest nightly sources
+
+  29 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110813.ebuild,
+  -netbeans-platform-9999_p20110814.ebuild,
+  -netbeans-platform-9999_p20110817.ebuild:
+  Removed obsolete versions
+
+  22 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110821 (22 Aug 2011)
+
+  22 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110821.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20110817 (18 Aug 2011)
+
+  18 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110817.ebuild:
+  Bumped to latest nightly sources
+
+  18 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110807.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110814 (16 Aug 2011)
+
+  16 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110814.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20110813 (13 Aug 2011)
+
+  13 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110813.ebuild:
+  Bumped to latest nightly sources
+
+  13 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110728.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110807 (08 Aug 2011)
+
+  08 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110807.ebuild:
+  Bumped to latest nightly sources
+
+  07 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110722.ebuild:
+  Removed obsolete version
+
+  07 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  netbeans-platform-7.0.ebuild, netbeans-platform-7.0.1.ebuild,
+  netbeans-platform-9999_p20110722.ebuild,
+  netbeans-platform-9999_p20110728.ebuild:
+  Fixed compilation on systems where it fails when DISPLAY is set
+
+*netbeans-platform-7.0.1 (02 Aug 2011)
+
+  02 Aug 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0.1.ebuild:
+  Bumped to version 7.0.1
+
+*netbeans-platform-9999_p20110728 (29 Jul 2011)
+
+  29 Jul 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110728.ebuild:
+  Bumped to latest nightly sources
+
+  29 Jul 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110717.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110722 (23 Jul 2011)
+
+  23 Jul 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110722.ebuild:
+  Bumped to latest nightly sources
+
+  23 Jul 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110710.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20110717 (18 Jul 2011)
+
+  18 Jul 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110717.ebuild:
+  Bumped to latest nightly sources
+
+  11 Jul 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110626.ebuild,
+  -netbeans-platform-9999_p20110701.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20110710 (11 Jul 2011)
+
+  11 Jul 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110710.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20110701 (01 Jul 2011)
+
+  01 Jul 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110701.ebuild:
+  Bumped to latest nightly sources
+
+  29 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110616.ebuild,
+  -netbeans-platform-9999_p20110620.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20110626 (27 Jun 2011)
+
+  27 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110626.ebuild:
+  Updated to latest nightly sources
+
+*netbeans-platform-9999_p20110620 (20 Jun 2011)
+
+  20 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110620.ebuild:
+  Bumped to latest nightly sources
+
+  20 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110612.ebuild:
+  Removed old versions
+
+*netbeans-platform-9999_p20110616 (17 Jun 2011)
+
+  17 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110616.ebuild:
+  Bumped to latest nightly sources
+
+  15 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110604.ebuild,
+  -netbeans-platform-9999_p20110608.ebuild:
+  Removed old versions
+
+*netbeans-platform-9999_p20110612 (13 Jun 2011)
+
+  13 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110612.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20110608 (09 Jun 2011)
+
+  09 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110608.ebuild:
+  Bumped to latest nightly sources
+
+  09 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110529.ebuild:
+  Removed old version
+
+*netbeans-platform-9999_p20110604 (06 Jun 2011)
+
+  06 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110604.ebuild:
+  Bumped to latest nightly sources
+
+  03 Jun 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110526.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110529 (30 May 2011)
+
+  30 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110529.ebuild:
+  Bumped to latest nightly sources
+
+  30 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110519.ebuild,
+  -netbeans-platform-9999_p20110522.ebuild:
+  Removed obsolete versions
+
+*netbeans-platform-9999_p20110526 (27 May 2011)
+
+  27 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110526.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20110522 (23 May 2011)
+
+  23 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110522.ebuild:
+  Bumped to latest nightly sources
+
+  23 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110516.ebuild:
+  Removed obsolete version
+
+  21 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110512.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110519 (20 May 2011)
+
+  20 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110519.ebuild:
+  Bumped to latest nightly sources
+
+  17 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110508.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110516 (17 May 2011)
+
+  17 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110516.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20110512 (13 May 2011)
+
+  13 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110512.ebuild:
+  Bumped to latest nightly sources
+
+  08 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-9999_p20110426.ebuild:
+  Removed obsolete version
+
+*netbeans-platform-9999_p20110508 (08 May 2011)
+
+  08 May 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110508.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-9999_p20110426 (27 Apr 2011)
+
+  27 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-9999_p20110426.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0 (21 Apr 2011)
+
+  21 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0.ebuild:
+  Removed old versions and added version 7.0
+
+  18 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_rc2_p20110409.ebuild,
+  -netbeans-platform-7.0_rc2_p20110411.ebuild:
+  Removed old versions
+
+*netbeans-platform-7.0_rc2_p20110417 (18 Apr 2011)
+
+  18 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_rc2_p20110417.ebuild:
+  Bumped to latest nightly sources
+
+  12 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_rc1_p20110406.ebuild:
+  Removed old version
+
+*netbeans-platform-7.0_rc2_p20110411 (12 Apr 2011)
+
+  12 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_rc2_p20110411.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0_rc2_p20110409 (10 Apr 2011)
+
+  10 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_rc2_p20110409.ebuild:
+  Bumped to latest nightly sources
+
+  08 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_rc1.ebuild:
+  Removed rc1
+
+*netbeans-platform-7.0_rc2 (08 Apr 2011)
+
+  08 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_rc2.ebuild:
+  Bumped to rc2
+
+  08 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_rc1_p20110401.ebuild:
+  Removed old version
+
+*netbeans-platform-7.0_rc1_p20110406 (07 Apr 2011)
+
+  07 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_rc1_p20110406.ebuild:
+  Bumped to latest nightly sources
+
+  01 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta2_p20110324.ebuild:
+  Removed old beta release
+
+*netbeans-platform-7.0_rc1_p20110401 (01 Apr 2011)
+
+  01 Apr 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_rc1_p20110401.ebuild:
+  Bumped to latest nightly sources
+
+  31 Mar 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  netbeans-platform-7.0_rc1.ebuild,
+  netbeans-platform-7.0_beta2_p20110324.ebuild:
+  Fixed bug #361439
+
+  30 Mar 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta2.ebuild:
+  Removed old beta release
+
+*netbeans-platform-7.0_rc1 (30 Mar 2011)
+
+  30 Mar 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_rc1.ebuild:
+  Added ebuild for rc1
+
+  28 Mar 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta2_p20110318.ebuild:
+  Removed old version
+
+*netbeans-platform-7.0_beta2_p20110324 (24 Mar 2011)
+
+  24 Mar 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_beta2_p20110324.ebuild:
+  Bumped to latest nightly sources
+
+  21 Mar 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta2_p20110314.ebuild:
+  Removed old version
+
+*netbeans-platform-7.0_beta2_p20110318 (18 Mar 2011)
+
+  18 Mar 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_beta2_p20110318.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0_beta2_p20110314 (14 Mar 2011)
+
+  14 Mar 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta2_p20110311.ebuild,
+  +netbeans-platform-7.0_beta2_p20110314.ebuild:
+  Bumped to latest nightly sources
+
+  14 Mar 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta2_p20110218.ebuild,
+  -netbeans-platform-7.0_beta2_p20110224.ebuild:
+  Removed old versions
+
+*netbeans-platform-7.0_beta2_p20110311 (12 Mar 2011)
+
+  12 Mar 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_beta2_p20110311.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0_beta2_p20110224 (24 Feb 2011)
+
+  24 Feb 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta_p20110202.ebuild,
+  -netbeans-platform-7.0_beta_p20110216.ebuild,
+  +netbeans-platform-7.0_beta2_p20110224.ebuild:
+  Bumped to latest nightly sources and removed old versions
+
+*netbeans-platform-7.0_beta2_p20110218 (18 Feb 2011)
+
+  18 Feb 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_beta2_p20110218.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0_beta2 (18 Feb 2011)
+
+  18 Feb 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_beta2.ebuild:
+  Bumped to beta2
+
+*netbeans-platform-7.0_beta_p20110216 (17 Feb 2011)
+
+  17 Feb 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta_p20110208.ebuild,
+  +netbeans-platform-7.0_beta_p20110216.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0_beta_p20110208 (08 Feb 2011)
+
+  08 Feb 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  +netbeans-platform-7.0_beta_p20110208.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0_beta_p20110202 (02 Feb 2011)
+
+  02 Feb 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta_p20110130.ebuild,
+  +netbeans-platform-7.0_beta_p20110202.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0_beta_p20110130 (30 Jan 2011)
+
+  30 Jan 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta_p20110129.ebuild,
+  +netbeans-platform-7.0_beta_p20110130.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0_beta_p20110129 (29 Jan 2011)
+
+  29 Jan 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta_p20110128.ebuild,
+  +netbeans-platform-7.0_beta_p20110129.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0_beta_p20110128 (28 Jan 2011)
+
+  28 Jan 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta_p20110125-r1.ebuild,
+  +netbeans-platform-7.0_beta_p20110128.ebuild:
+  Bumped to latest nightly sources
+
+*netbeans-platform-7.0_beta_p20110125-r1 (25 Jan 2011)
+
+  25 Jan 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta_p20110125.ebuild,
+  +netbeans-platform-7.0_beta_p20110125-r1.ebuild:
+  Switched to >=dev-java/jna-3.2.7 which provides also platform.jar
+
+*netbeans-platform-7.0_beta_p20110125 (25 Jan 2011)
+
+  25 Jan 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta_p20110123.ebuild,
+  +netbeans-platform-7.0_beta_p20110125.ebuild:
+  Bumped to latest nightly sources
+
+  24 Jan 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  netbeans-platform-7.0_beta_p20110123.ebuild:
+  Creating symlink to netbeans-nb dir as Netbeans needs all clusters in the
+  same directory, otherwise Netbeans Platform is not detected correctly
+
+*netbeans-platform-7.0_beta_p20110123 (23 Jan 2011)
+
+  23 Jan 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  -netbeans-platform-7.0_beta_p20110122.ebuild,
+  +netbeans-platform-7.0_beta_p20110123.ebuild:
+  Bumped to latest nightly sources
+
+  22 Jan 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  netbeans-platform-7.0_beta_p20110122.ebuild:
+  Added support for custom patches
+
+  22 Jan 2011; Miroslav Šulc <fordfrog@gentoo.org>
+  netbeans-platform-7.0_beta_p20110122.ebuild, +metadata.xml:
+  Switched to EAPI4
+
