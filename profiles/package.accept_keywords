@@ -19,6 +19,7 @@ sys-boot/plymouth
 sys-boot/plymouth-openrc-plugin
 sys-boot/syslinux
 sys-boot/unetbootin
+sys-block/thin-provisioning-tools
 sys-devel/icecream
 sys-fs/cachefilesd
 sys-fs/exfat-utils

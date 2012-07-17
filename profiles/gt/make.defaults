@@ -1,3 +1,5 @@
+CUSTOM_PROFILE="yes"
+
 CFLAGS="-Os -march=native -pipe -fomit-frame-pointer"
 CXXFLAGS="${CFLAGS}"
 MAKEOPTS="-j3"
