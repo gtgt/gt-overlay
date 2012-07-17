@@ -1,6 +1,7 @@
 # Copyright 1999-2008 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+EAPI=3
 
 PHP_EXT_NAME="xhprof"
 PHP_EXT_INI="yes"
@@ -8,7 +9,6 @@ PHP_EXT_ZENDEXT="no"
 
 WEBAPP_MANUAL_SLOT=yes
 
-EAPI=2
 inherit webapp
 
 KEYWORDS="~amd64 ~x86"
