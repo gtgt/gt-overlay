@@ -302,6 +302,7 @@ net-misc/curl -~*
 <net-wireless/blueman-9999
 
 # Wireless
+app-misc/lirc
 net-wireless/wimax
 net-wireless/wpa_supplicant
 net-wireless/wimax-tools
