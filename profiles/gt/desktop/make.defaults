@@ -26,7 +26,7 @@ USE="handbook"
 
 #System
 USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl custom-optimization optimization custom-cpuopts custom-cflags threads lib32 mmap mpi"
-USE="${USE} consolekit nsplugin policykit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk"
+USE="${USE} consolekit nsplugin policykit polkit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk"
 
 #Lang support
 USE="${USE} python perl mono ithreads fortran gdbm cblas-external quanta subversion git cvs mercurial bazaar script -introspection"
@@ -56,7 +56,7 @@ USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 mpeg na
 USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd blueray bluray"
 
 # Devices
-USE="${USE} ipod ios fax apm bluetooth ieee1394 remote mtp"
+USE="${USE} ipod ios fax apm bluetooth ieee1394 remote mtp udisks udisks2"
 
 # Documentation format
 USE="${USE} chm djvu ebook marble postscript ps"
