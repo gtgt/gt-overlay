@@ -49,6 +49,7 @@ app-portage/elogviewer
 app-portage/portage-utils
 app-admin/eselect
 app-admin/eselect-qtgraphicssystem
+media-gfx/splashutils
 sys-apps/baselayout-systemd
 sys-apps/portage
 sys-apps/systemd-units
@@ -301,7 +302,6 @@ net-misc/curl -~*
 <net-wireless/blueman-9999
 
 # Wireless
-~app-misc/lirc-0.9.0
 net-wireless/wimax
 net-wireless/wpa_supplicant
 net-wireless/wimax-tools
@@ -382,6 +382,7 @@ kde-misc/kustodian **
 kde-misc/kio-sysinfo **
 kde-misc/libmm-qt **
 kde-misc/libnm-qt **
+kde-misc/polkit-kde-kcmodules **
 kde-misc/plasma-widget-message-indicator
 kde-misc/qtrans
 <kde-misc/quadkonsole-2.0.0
