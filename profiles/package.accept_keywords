@@ -225,6 +225,7 @@ media-libs/libpgf
 media-libs/libkgeomap
 media-libs/libkface
 net-libs/telepathy-qt
+net-libs/telepathy-glib
 net-libs/libkgoogle
 <dev-libs/grantlee-9999
 <app-office/akonadi-server-9999
@@ -386,6 +387,11 @@ kde-misc/libnm-qt **
 kde-misc/polkit-kde-kcmodules **
 kde-misc/plasma-widget-message-indicator
 kde-misc/qtrans
+kde-misc/translatoid
+kde-misc/todo-list
+kde-misc/eyesaver
+kde-misc/devicemanager
+kde-misc/drop2ftp
 <kde-misc/quadkonsole-2.0.0
 mail-client/trojita
 media-gfx/digikam
@@ -444,6 +450,7 @@ app-misc/tomboy
 x11-libs/libXi
 x11-themes/qtcurve-qt4
 x11-themes/gtk-engines-qtcurve
+www-plugins/oxygenkde
 www-plugins/kpartsplugin
 <www-client/rekonq-9999 **
 www-client/google-chrome

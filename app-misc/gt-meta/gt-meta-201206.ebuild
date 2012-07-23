@@ -69,10 +69,8 @@ desktop? (
 	kde-base/kdepasswd
 	kde-base/kdeplasma-addons
 	kde-base/kget
-	kde-misc/kgtk
 	kde-base/kmix
 	kde-base/kdnssd
-	kde-misc/kio-ftps
 	kde-base/kopete
 	kde-base/krdc
 	kde-base/krfb
@@ -82,6 +80,13 @@ desktop? (
 	kde-base/libkcompactdisc
 	kde-base/system-config-printer-kde
 	kde-base/thumbnailers
+	kde-misc/eyesaver
+	kde-misc/devicemanager
+	kde-misc/drop2ftp
+	kde-misc/kgtk
+	kde-misc/kio-ftps
+	kde-misc/todo-list
+	kde-misc/translatoid
   media-fonts/arphicfonts
   media-fonts/bitstream-cyberbit
   media-fonts/corefonts
@@ -113,7 +118,6 @@ desktop? (
 	media-sound/qjackctl
 	net-dialup/qtwvdialer
 	net-im/choqok
-	net-im/skype
 	net-irc/konversation
 	net-misc/networkmanager
 	net-misc/networkmanager-openvpn
@@ -133,6 +137,7 @@ desktop? (
 	www-client/chromium
 	www-client/firefox
 	www-client/rekonq
+	www-plugins/oxygenkde
 )
 "
 #x11
