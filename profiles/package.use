@@ -317,7 +317,7 @@ sys-auth/consolekit kernel_linux policykit
 sys-auth/pambase consolekit cracklib
 sys-auth/polkit kde
 sys-block/parted debug device-mapper readline
-sys-cluster/openmpi romio
+sys-cluster/openmpi romio mpi-threads
 sys-devel/bc readline
 sys-devel/gcc gtk mudflap multilib nptl objc objc++ objc-gc openmp
 sys-devel/gettext acl elibc_glibc git openmp

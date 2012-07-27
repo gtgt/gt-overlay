@@ -384,6 +384,7 @@ kde-misc/kustodian **
 kde-misc/kio-sysinfo **
 kde-misc/libmm-qt **
 kde-misc/libnm-qt **
+kde-misc/oxygen-appmenu
 kde-misc/polkit-kde-kcmodules **
 kde-misc/plasma-widget-message-indicator
 kde-misc/qtrans
@@ -450,6 +451,7 @@ app-misc/tomboy
 x11-libs/libXi
 x11-themes/qtcurve-qt4
 x11-themes/gtk-engines-qtcurve
+x11-themes/oxygen-gtk
 www-plugins/oxygenkde
 www-plugins/kpartsplugin
 <www-client/rekonq-9999 **
@@ -658,6 +660,8 @@ x11-misc/makedepend
 x11-misc/mkxf86config
 x11-misc/util-macros
 x11-misc/xbitmaps
+x11-proto/dri2proto
+x11-proto/randrproto
 x11-proto/xf86bigfontproto
 x11-proto/xf86dgaproto
 x11-proto/xf86driproto
