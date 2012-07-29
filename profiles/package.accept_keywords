@@ -149,6 +149,7 @@ net-wireless/zte-mf190
 <net-print/foomatic-db-engine-9999
 <net-print/foomatic-filters-9999
 net-print/cups-pdf
+net-wireless/bluez-firmware
 sys-apps/usb_modeswitch
 sys-fs/dd-rescue
 sys-apps/hwids
@@ -303,6 +304,7 @@ net-misc/curl -~*
 
 # Wireless
 app-misc/lirc
+net-wireless/bluedevil **
 net-wireless/wimax
 net-wireless/wpa_supplicant
 net-wireless/wimax-tools

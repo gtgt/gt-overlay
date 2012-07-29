@@ -1,6 +1,6 @@
 CUSTOM_PROFILE="yes"
 
-CFLAGS="-Os -march=native -pipe -fomit-frame-pointer"
+CFLAGS="-O2 -fno-reorder-blocks -fno-reorder-functions -pipe -fno-omit-frame-pointer -march=native"
 CXXFLAGS="${CFLAGS}"
 MAKEOPTS="-j3"
 
