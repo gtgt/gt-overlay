@@ -189,7 +189,7 @@ media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
 media-libs/libwmf gtk
 media-libs/mediastreamer amr portaudio sdl speex theora v4l2 x264
 media-libs/mediastreamer video
-media-libs/mesa llvm nptl shared-dricore shared-glapi wayland xa osmesa gles1 gles2
+media-libs/mesa llvm nptl shared-dricore shared-glapi xa osmesa gles1 gles2
 media-libs/mlt dv ffmpeg gtk kde python qt4 quicktime sdl sse sse2 vorbis melt xml frei0r
 media-libs/openal portaudio
 media-libs/phonon xine gstreamer -vlc
@@ -317,7 +317,7 @@ sys-auth/consolekit kernel_linux policykit
 sys-auth/pambase consolekit cracklib
 sys-auth/polkit kde
 sys-block/parted debug device-mapper readline
-sys-cluster/openmpi romio
+sys-cluster/openmpi romio mpi-threads
 sys-devel/bc readline
 sys-devel/gcc gtk mudflap multilib nptl objc objc++ objc-gc openmp
 sys-devel/gettext acl elibc_glibc git openmp

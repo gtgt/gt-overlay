@@ -226,6 +226,7 @@ media-libs/libpgf
 media-libs/libkgeomap
 media-libs/libkface
 net-libs/telepathy-qt
+net-libs/telepathy-glib
 net-libs/libkgoogle
 <dev-libs/grantlee-9999
 <app-office/akonadi-server-9999
@@ -385,9 +386,15 @@ kde-misc/kustodian **
 kde-misc/kio-sysinfo **
 kde-misc/libmm-qt **
 kde-misc/libnm-qt **
+kde-misc/oxygen-appmenu
 kde-misc/polkit-kde-kcmodules **
 kde-misc/plasma-widget-message-indicator
 kde-misc/qtrans
+kde-misc/translatoid
+kde-misc/todo-list
+kde-misc/eyesaver
+kde-misc/devicemanager
+kde-misc/drop2ftp
 <kde-misc/quadkonsole-2.0.0
 mail-client/trojita
 media-gfx/digikam
@@ -425,6 +432,7 @@ net-libs/libkgapi
 net-libs/libqinfinity **
 net-libs/libktorrent
 net-libs/xulrunner
+net-im/kde-telepathy-meta
 net-nds/luma
 net-p2p/ktorrent
 net-wireless/bluedevil
@@ -445,6 +453,8 @@ app-misc/tomboy
 x11-libs/libXi
 x11-themes/qtcurve-qt4
 x11-themes/gtk-engines-qtcurve
+x11-themes/oxygen-gtk
+www-plugins/oxygenkde
 www-plugins/kpartsplugin
 <www-client/rekonq-9999 **
 www-client/google-chrome
@@ -652,6 +662,8 @@ x11-misc/makedepend
 x11-misc/mkxf86config
 x11-misc/util-macros
 x11-misc/xbitmaps
+x11-proto/dri2proto
+x11-proto/randrproto
 x11-proto/xf86bigfontproto
 x11-proto/xf86dgaproto
 x11-proto/xf86driproto
