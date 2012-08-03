@@ -327,6 +327,7 @@ app-cdr/cdemud
 app-cdr/kcdemu
 app-crypt/truecrypt
 app-emulation/q4wine **
+app-emulation/playonlinux
 <app-emulation/wine-9999 **
 app-emulation/winetricks
 app-misc/qcat
