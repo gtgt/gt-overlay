@@ -213,6 +213,7 @@ app-pda/libimobiledevice
 app-pda/libsyncml
 app-pda/libplist
 app-pda/usbmuxd
+app-text/poppler
 app-shells/push
 dev-libs/libmirage
 dev-libs/nss
