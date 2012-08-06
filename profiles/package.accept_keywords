@@ -372,6 +372,7 @@ dev-util/qt-creator
 dev-vcs/qgit
 dev-vcs/kdesvn
 #kde-base/gwenview -~amd64 -~x86
+kde-base/dolphin-box-plugin **
 kde-misc/oxygen-appmenu **
 kde-misc/akonadi-facebook **
 kde-misc/basket

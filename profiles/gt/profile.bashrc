@@ -35,10 +35,10 @@ autopatch() {
 			patched=0
 			for level in 1 0 2 3 4; do
 				if [[ $patched == 0 ]]; then
-					patch -g0 -F 100 --dry -p${level} >/dev/null < $diff
+					patch -g0 -F 200 --dry -p${level} >/dev/null < $diff
 					if [ $? = 0 ]; then
 						einfo "Applying auto patch: (-p${level}) ${p}"
-						patch -g0 -F 100 -p${level} < $diff > /dev/null && patched=1
+						patch -g0 -F 200 -p${level} < $diff > /dev/null && patched=1
 						touch ${S}/.${p}
 					fi
 				fi
