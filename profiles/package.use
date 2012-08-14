@@ -303,6 +303,7 @@ sys-apps/less unicode
 sys-apps/lm_sensors sensord
 sys-apps/man-db berkdb gdbm
 sys-apps/openrc elibc_glibc kernel_linux ncurses unicode
+sys-apps/paludis portage search-index pbins visibility prebuilt-documentation
 sys-apps/portage ipc
 sci-geosciences/qlandkartegt gps
 sys-apps/sandbox multilib

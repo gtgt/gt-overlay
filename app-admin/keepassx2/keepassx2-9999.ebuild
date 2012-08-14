@@ -9,7 +9,7 @@ inherit kde4-base git
 
 DESCRIPTION="Qt password manager compatible with its Win32 and Pocket PC versions."
 HOMEPAGE="http://keepassx.sourceforge.net/"
-EGIT_REPO_URI="git://gitorious.org/keepassx/keepassx.git"
+EGIT_REPO_URI="https://git.gitorious.org/keepassx/keepassx.git"
 
 LICENSE="GPL-2"
 SLOT="0"

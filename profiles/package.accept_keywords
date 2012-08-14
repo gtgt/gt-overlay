@@ -1,4 +1,5 @@
 # System
+app-arch/libarchive
 app-misc/reptyr
 pp-shells/dash
 dev-cpp/ctemplate
@@ -50,6 +51,7 @@ app-portage/portage-utils
 app-admin/eselect
 app-admin/eselect-qtgraphicssystem
 media-gfx/splashutils
+sys-apps/paludis
 sys-apps/baselayout-systemd
 sys-apps/portage
 sys-apps/systemd-units
@@ -269,6 +271,7 @@ media-libs/libffado
 media-libs/libprojectm
 media-libs/libprojectm-qt
 media-libs/liblastfm
+media-libs/musicbrainz
 media-libs/sratom
 media-libs/x264
 media-plugins/kipi-plugins **
@@ -375,7 +378,7 @@ dev-vcs/kdesvn
 #kde-base/gwenview -~amd64 -~x86
 kde-base/dolphin-box-plugin **
 kde-misc/oxygen-appmenu **
-kde-misc/akonadi-facebook **
+kde-misc/akonadi-facebook
 kde-misc/basket
 kde-misc/kaption **
 kde-misc/kcaldav
