@@ -6,6 +6,7 @@ EAPI="3"
 
 KMNAME="kdesdk"
 inherit kde4-meta git
+KDE_SCM="-"
 
 DESCRIPTION="Provides Dropbox integration in Dolphin."
 EGIT_REPO_URI="git://anongit.kde.org/scratch/trichard/dolphin-box-plugin"

@@ -10,6 +10,8 @@ DESCRIPTION="A KDE utility similar to Jing or Skitch not yet as powerful as them
 HOMEPAGE="http://kde-apps.org/content/show.php/Kaption?content=139302"
 SRC_URI=""
 
+KDE_SCM="-"
+
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS=""

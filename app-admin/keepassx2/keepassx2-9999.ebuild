@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="4"
+EAPI="3"
 
 LANGS=""
 inherit kde4-base git
@@ -15,6 +15,8 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS=""
 IUSE="debug pch"
+
+KDE_SCM="-"
 
 DEPEND="x11-libs/qt-core:4[qt3support]
 	x11-libs/qt-gui:4[qt3support]
