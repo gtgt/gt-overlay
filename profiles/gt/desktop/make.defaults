@@ -6,7 +6,8 @@ VIDEO_CARDS="radeon nouveau"
 
 INPUT_DEVICES="evdev synaptics lirc"
 
-LIRC_DEVICES="devinput leadtek_0010"
+# leadtek_0010"
+LIRC_DEVICES="devinput"
 #LIRC_DEVICES="alsa_usb audio audio_alsa bte commandir creative creative_infracd devinput dsp hauppauge hauppauge_dvb i2cuser leadtek_0007 leadtek_0010 leadtek_pvr2000 logitech macmini mouseremote parallel pixelview_bt878 pixelview_pak pixelview_pro serial"
 CAMERAS=""
 
