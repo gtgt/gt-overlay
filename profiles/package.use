@@ -269,8 +269,7 @@ net-misc/rsync acl iconv
 net-misc/wget idn
 net-nds/luma samba
 net-nds/openberkdb crypt perl samba tcpd5passwd
-net-p2p/eiskaltdcpp cli dbus emoticons qt4
-net-p2p/eiskaltdcpp upnp
+net-p2p/eiskaltdcpp cli dbus json emoticons qt4 upnp
 net-p2p/ktorrent webinterface
 net-print/cndrv cups-capt
 net-print/cnijfilteramd64 ip4700 mp250 mp270 mp490 mp550 mp560640
@@ -320,7 +319,7 @@ sys-auth/polkit kde
 sys-block/parted debug device-mapper readline
 sys-cluster/openmpi romio mpi-threads
 sys-devel/bc readline
-sys-devel/gcc gtk mudflap multilib nptl objc objc++ objc-gc openmp
+sys-devel/gcc gtk mudflap multilib nptl objc objc++ objc-gc openmp gcj graphite
 sys-devel/gettext acl elibc_glibc git openmp
 sys-fs/fuse kernel_linux
 sys-fs/lvm2 lvm1 readline static

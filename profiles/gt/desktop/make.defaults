@@ -35,7 +35,7 @@ USE="${USE} python perl mono ithreads gdbm cblas-external quanta subversion git 
 USE="${USE} ftp network -ldap rdesktop samba upnp resolvconf zeroconf avahi wifi"
 
 # Sql & data support
-USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite odbc"
+USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite odbc json"
 
 # Network
 USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd telepathy"

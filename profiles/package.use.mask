@@ -37,7 +37,7 @@ media-video/vlc aalib libcaca sdl sdl-image
 net-mail/dovecot pam ldap
 net-misc/networkmanager sharing wimax
 net-misc/curl curl_ssl_openssl
-net-p2p/eiskaltdcpp spell lua gtk
+net-p2p/eiskaltdcpp spell lua gtk gtk3 libnotify
 net-print/cups static-libs
 net-print/hplip X kde acl
 net-voip/telepathy-connection-managers icq yahoo
