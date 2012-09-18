@@ -39,7 +39,7 @@ USE="${USE} ftp network -ldap rdesktop samba upnp resolvconf zeroconf avahi wifi
 USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite odbc json"
 
 # Network
-USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd telepathy"
+USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd telepathy curl_ssl_gnutls -curl_ssl_openssl"
 
 # Web
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu webgl"
