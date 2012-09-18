@@ -67,6 +67,7 @@ dev-java/icedtea-bin
 dev-java/icedtea
 dev-java/icedtea-web
 dev-java/jna
+dev-java/icu4j
 dev-java/laf-plugin
 dev-java/lucene
 dev-java/maven-bin
@@ -224,6 +225,7 @@ dev-libs/nss
 dev-libs/nspr
 dev-libs/rasqal
 dev-libs/redland
+dev-libs/vala-common
 dev-python/py-smbpasswd
 dev-python/pyndex
 media-libs/raptor
@@ -306,7 +308,8 @@ net-fs/davfs2
 net-fs/samba
 net-libs/rpc2
 <dev-libs/liblinebreak-9999
-net-misc/curl -~*
+net-misc/curl
+#net-misc/curl -~*
 <net-wireless/blueman-9999
 
 # Wireless
