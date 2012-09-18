@@ -15,6 +15,7 @@ sys-apps/openrc
 sys-apps/biosdevname
 sys-apps/systemd
 sys-apps/dbus
+sys-apps/sysvinit
 sys-auth/realtime-base
 sys-boot/plymouth
 sys-boot/plymouth-openrc-plugin
@@ -105,6 +106,7 @@ dev-db/mysql
 dev-db/mysql-proxy
 dev-lang/php
 dev-lang/v8
+dev-libs/libmemcached
 dev-php/pecl-apc
 dev-php/pecl-imagick
 dev-php/pecl-mysqlnd_qc **
@@ -379,6 +381,7 @@ dev-vcs/kdesvn
 kde-base/dolphin-box-plugin **
 kde-misc/oxygen-appmenu **
 kde-misc/akonadi-facebook
+kde-misc/akonadi-social-utils
 kde-misc/basket
 kde-misc/kaption **
 kde-misc/kcaldav

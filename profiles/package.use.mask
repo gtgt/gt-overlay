@@ -34,13 +34,14 @@ media-video/ffmpeg cpudetection
 media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc cdio
 media-video/vlc aalib libcaca sdl sdl-image
+net-libs/telepathy-glib vala
 net-mail/dovecot pam ldap
 net-misc/networkmanager sharing wimax
 net-misc/curl curl_ssl_openssl
 net-p2p/eiskaltdcpp spell lua gtk gtk3 libnotify
 net-print/cups static-libs
 net-print/hplip X kde acl
-net-voip/telepathy-connection-managers icq yahoo
+#net-voip/telepathy-connection-managers icq yahoo
 net-wireless/bluez maemo6 old-daemons
 net-wireless/wpa_supplicant wimax
 sys-auth/polkit gtk introspection

@@ -2,7 +2,7 @@
 DRACUT_MODULES="plymouth biosdevname dmraid gensplash lvm mdraid nfs syslog"
 
 #VIDEO_CARDS="fglrx nvidia"
-VIDEO_CARDS="radeon nouveau"
+VIDEO_CARDS="radeon r300 r600 radeonsi nouveau"
 
 INPUT_DEVICES="evdev synaptics lirc"
 
