@@ -228,6 +228,7 @@ dev-libs/redland
 dev-libs/vala-common
 dev-python/py-smbpasswd
 dev-python/pyndex
+dev-python/python-exec
 media-libs/raptor
 media-libs/libpgf
 media-libs/libkgeomap
@@ -379,6 +380,8 @@ dev-util/android-sdk-update-manager
 dev-util/qt-creator
 dev-vcs/qgit
 dev-vcs/kdesvn
+=kde-base/libkdcraw-9999 **
+=kde-base/libkipi-9999 **
 #kde-base/gwenview -~amd64 -~x86
 kde-base/dolphin-box-plugin **
 kde-misc/oxygen-appmenu **
@@ -477,21 +480,22 @@ www-plugins/lightspark
 www-plugins/kaffeine-mozilla-plugin
 
 # KDE-Telepathy
->=net-im/ktp-kded-module-0.4.0 ~amd64
->=net-im/kde-telepathy-meta-0.4.0 ~amd64
->=net-im/ktp-accounts-kcm-0.4.0 ~amd64
->=net-im/ktp-common-internals-0.4.0 ~amd64
->=net-im/ktp-send-file-0.4.0 ~amd64
->=net-im/ktp-contact-list-0.4.0 ~amd64
->=net-im/ktp-contact-applet-0.4.0 ~amd64
->=net-im/ktp-contact-runner-0.4.0 ~amd64
->=net-im/ktp-presence-applet-0.4.0 ~amd64
->=net-im/ktp-text-ui-0.4.0 ~amd64
->=net-libs/telepathy-logger-qt-0.4.0 ~amd64
->=media-libs/qt-gstreamer-0.10.2 ~amd64
->=net-im/ktp-auth-handler-0.4.0 ~amd64
->=net-im/ktp-approver-0.4.0 ~amd64
->=net-im/ktp-filetransfer-handler-0.4.0 ~amd64
+>=net-im/ktp-kded-module-0.4.0
+>=net-im/kde-telepathy-meta-0.4.0
+>=net-im/ktp-accounts-kcm-0.4.0
+>=net-im/ktp-common-internals-0.4.0
+>=net-im/ktp-send-file-0.4.0
+>=net-im/ktp-contact-list-0.4.0
+>=net-im/ktp-contact-applet-0.4.0
+>=net-im/ktp-contact-runner-0.4.0
+>=net-im/ktp-presence-applet-0.4.0
+>=net-im/ktp-text-ui-0.4.0
+>=net-libs/telepathy-logger-qt-0.4.0
+>=media-libs/qt-gstreamer-0.10.2
+>=net-im/ktp-auth-handler-0.4.0
+>=net-im/ktp-call-ui-0.4.0
+>=net-im/ktp-approver-0.4.0
+>=net-im/ktp-filetransfer-handler-0.4.0
 
 
 ## GStreamer
