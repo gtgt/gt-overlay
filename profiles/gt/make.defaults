@@ -14,6 +14,8 @@ COLLISION_IGNORE="/*"
 ACCEPT_LICENSE="*"
 CONFIG_PROTECT="${CONFIG_PROTECT} /opt/VirtualBox/VBox.sh /etc/splash"
 
+CURL_SSL="gnutls"
+
 #USE_ORDER = "env:pkg:conf:repo:defaults:pkginternal:env.d"
 
 # Logging

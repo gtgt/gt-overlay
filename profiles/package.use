@@ -61,7 +61,6 @@ dev-java/antlr script
 dev-java/icedtea6-bin nsplugin
 dev-java/icedtea:6 cacao xrender
 dev-java/icedtea:7 cacao xrender
-dev-java/netbeans-nb keychain
 dev-java/sun-jdk nsplugin
 dev-java/swing-layout source
 dev-java/swt xulrunner
@@ -254,7 +253,7 @@ net-libs/libnice gstreamer
 net-libs/libpcap bluetooth
 net-libs/libsshsftp zlib1-libs
 net-libs/libvncserver jpeg threads
-net-libs/telepathy-qt4 farsight
+net-libs/telepathy-qt farstream
 net-libs/webkit-gtk jit
 net-libs/xulrunner dbus ipc startup-notification
 net-mail/dovecot sieve managesieve mdbox sdbox

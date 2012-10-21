@@ -129,13 +129,14 @@ desktop? (
 	sys-power/powernowd
 	sys-power/powertop
 	x11-apps/mesa-progs
+	x11-misc/appmenu-firefox
 	x11-misc/xclip
 	x11-misc/xautomation
 	x11-themes/gtk-engines-qtcurve
 	x11-themes/qtcurve-qt4
 	x11-themes/oxygen-gtk
-	www-client/chromium
-	www-client/firefox
+	www-client/google-chrome
+	www-client/firefox-bin
 	www-client/rekonq
 	www-plugins/oxygenkde
 )
