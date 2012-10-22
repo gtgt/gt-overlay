@@ -614,9 +614,10 @@ media-fonts/droid
 <app-admin/eselect-opengl-9999
 dev-libs/wayland
 dev-python/xmpppy
+medta-libs/glu
 media-libs/mesa
 sys-libs/mtdev
-
+virtual/glu
 
 # XOrg X11
 
