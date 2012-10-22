@@ -276,6 +276,7 @@ media-libs/libffado
 media-libs/libprojectm
 media-libs/libprojectm-qt
 media-libs/liblastfm
+media-libs/taglib
 media-libs/musicbrainz
 media-libs/sratom
 media-libs/x264
