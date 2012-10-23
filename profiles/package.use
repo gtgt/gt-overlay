@@ -244,7 +244,7 @@ net-im/emesene jabber webcam
 net-im/qutim icq
 net-im/telepathy-connection-managers irc jabber yahoo zeroconf icq msn sip
 net-irc/konversation crypt
-net-libs/farsight2 msn
+net-libs/farstream msn
 net-libs/gnutls cxx lzo zlib
 net-libs/gtk-vnc python
 net-libs/libinfinity -gtk server
