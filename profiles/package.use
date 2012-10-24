@@ -226,7 +226,7 @@ media-video/mplayer dga dts dvdnav md5sum mmxext radio x264 3dnowext dvb pvr rtm
 media-video/recordmydesktop
 media-video/transcode 3dnow a52 aac dv dvd iconv imagemagick jpeg lzo mmx mp3 mpeg ogg quicktime sdl sse sse2 theora truetype vorbis x264 xvid mjpeg
 media-video/vdr -analogtv -atsc -cmdreccmdi18n -cmdsubmenu -cutterlimit -cutterqueue -cuttime -ddepgentry -deltimeshiftrec -dolbyinrec -dvbplayer -dvbsetup -dvdarchive -dvdchapjump -dvlfriendlyfnames -dvlrecscriptaddon -dvlvidprefer -dxr3 -em84xx -graphtft -hardlinkcutter -iptv -jumpplay -liemikuutio lircsettings -livebuffer -lnbshare -mainmenuhooks -menuorg -noepg -osdmaxitems -parentalrating -pinplugin -rotor -settime -setup -softosd -sortrecords -sourcecaps -syncearly -timercmd -timerinfo -ttxtsubs -validinput -vanilla volctrl -wareagleicon -yaepg
-media-video/vlc cdda dts dvb fontconfig fbosd httpd libass live nsplugin mtp projectm pvr rtsp shout stream switcher upnp vlm wma-fixed xcb xv zvbi vaapi win32codecs
+media-video/vlc cdda dts dvb fontconfig fbosd httpd lua libass live nsplugin mtp projectm pvr rtsp shout stream switcher upnp vlm wma-fixed xcb xv zvbi vaapi win32codecs
 media-video/xine-ui lirc vdr
 net-analyzer/vnstat gd
 net-analyzer/wireshark adns geoip
@@ -243,7 +243,7 @@ net-im/emesene jabber webcam
 net-im/qutim icq
 net-im/telepathy-connection-managers irc jabber yahoo zeroconf icq msn sip
 net-irc/konversation crypt
-net-libs/farsight2 msn
+net-libs/farstream msn
 net-libs/gnutls cxx lzo zlib
 net-libs/gtk-vnc python
 net-libs/libinfinity -gtk server

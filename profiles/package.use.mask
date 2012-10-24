@@ -53,8 +53,8 @@ x11-libs/qt-gui
 x11-libs/qt-opengl
 x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
-www-client/firefox dbus minimal system-sqlite wifi
-www-client/icecat crashreporter dbus system-sqlite wifi
+www-client/firefox minimal custom-cflags custom-optimization
+www-client/icecat custom-cflags custom-optimization crashreporter dbus system-sqlite wifi
 www-plugins/google-talkplugin system-libCg libnotify
 www-servers/apache apache2_modules_cgi apache2_modules_cgid
 x11-terms/rxvt-unicode vanilla

@@ -276,6 +276,7 @@ media-libs/libffado
 media-libs/libprojectm
 media-libs/libprojectm-qt
 media-libs/liblastfm
+media-libs/taglib
 media-libs/musicbrainz
 media-libs/sratom
 media-libs/x264
@@ -614,9 +615,10 @@ media-fonts/droid
 <app-admin/eselect-opengl-9999
 dev-libs/wayland
 dev-python/xmpppy
+medta-libs/glu
 media-libs/mesa
 sys-libs/mtdev
-
+virtual/glu
 
 # XOrg X11
 

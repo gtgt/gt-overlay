@@ -39,10 +39,10 @@ USE="${USE} ftp network -ldap rdesktop samba upnp resolvconf zeroconf avahi wifi
 USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite odbc json"
 
 # Network
-USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd telepathy curl_ssl_gnutls -curl_ssl_openssl"
+USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd telepathy curl_ssl_gnutls -curl_ssl_openssl googledrive"
 
 # Web
-USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu webgl"
+USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu webgl oauth"
 
 # Window manager and speciality
 USE="${USE} X wayland gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gles1 gles2 gbm gallium glew openvg d3d g3dvl llvm kde qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu ayatana indicator overlay libnotify windeco ayatana"
@@ -51,7 +51,7 @@ USE="${USE} X wayland gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl
 USE="${USE} foomaticdb cups"
 
 # Audio
-USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms phonon sndfile musicbrainz gsm projectm libsamplerate"
+USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 moodbar mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms phonon sndfile musicbrainz gsm projectm libsamplerate"
 
 # CD and DVD
 USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd blueray bluray"
