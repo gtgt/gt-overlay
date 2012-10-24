@@ -231,8 +231,7 @@ media-video/xine-ui lirc vdr
 net-analyzer/vnstat gd
 net-analyzer/wireshark adns geoip
 net-dialup/ppp gtk
-net-dns/avahi howl-compat mdnsresponder-compat
-net-dns/avahi autoipd
+net-dns/avahi howl-compat mdnsresponder-compat autoipd utils
 net-dns/bind-tools idn
 net-dns/mydns alias status
 net-fs/coda client server
