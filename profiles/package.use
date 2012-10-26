@@ -272,7 +272,7 @@ net-p2p/eiskaltdcpp cli dbus json emoticons qt4 upnp
 net-p2p/ktorrent webinterface
 net-print/cndrv cups-capt
 net-print/cnijfilteramd64 ip4700 mp250 mp270 mp490 mp550 mp560640
-net-print/cups acl dbus jpeg perl png python samba threads tiff usb php
+net-print/cups acl dbus jpeg perl png python samba threads tiff usb php 
 net-print/foomatic-filters cups
 net-print/gutenprint gimp
 net-print/gutenprintcups foomaticdb gimp gtk readline

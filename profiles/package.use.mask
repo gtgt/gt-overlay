@@ -17,7 +17,7 @@ dev-util/netbeans netbeans_modules_java netbeans_modules_apisupport
 dev-util/qt-creator bazaar debug doc examples fakevim
 dev-util/netbeans
 dev-vcs/git tk gtk
-dev-vcs/subversion dso
+dev-vcs/subversion dso python
 kde-base/kdesdk-kioslaves subversion
 kde-base/tqtinterface qt3
 media-gfx/gimp aalib python webkit
