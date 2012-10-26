@@ -386,7 +386,6 @@ dev-util/android-sdk-update-manager
 dev-util/qt-creator
 dev-vcs/qgit
 dev-vcs/kdesvn
-dev-vcs/subversion
 <kde-base/libkdcraw-9999
 <kde-base/libkipi-9999
 #kde-base/gwenview -~amd64 -~x86
