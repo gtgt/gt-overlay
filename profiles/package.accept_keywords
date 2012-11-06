@@ -22,6 +22,7 @@ sys-boot/plymouth-openrc-plugin
 sys-boot/syslinux
 sys-boot/unetbootin
 sys-block/thin-provisioning-tools
+=sys-devel/gcc-4.6.3
 sys-devel/icecream
 sys-fs/cachefilesd
 sys-fs/exfat-utils
@@ -139,6 +140,7 @@ sys-auth/consolekit
 <sys-auth/thinkfinger-9999
 
 # Hardware & Drivers
+app-admin/usbview
 app-mobilephone/qtadb
 app-benchmarks/phoronix-test-suite
 <app-admin/testdisk-9999
@@ -148,12 +150,14 @@ media-tv/linuxtv-dvb-apps
 net-firewall/iptables
 net-misc/modemmanager
 net-wireless/zte-mf190
-<net-print/foo2zjs-9999
+<net-print/foo2zjs-99999999
 <net-print/foomatic-db-9999
 <net-print/foomatic-db-ppds-9999
 <net-print/foomatic-db-engine-9999
 <net-print/foomatic-filters-9999
+net-print/cnijfilter
 net-print/cups-pdf
+net-print/cups **
 net-wireless/bluez-firmware
 sys-apps/usb_modeswitch
 sys-fs/dd-rescue
@@ -229,6 +233,7 @@ dev-libs/vala-common
 dev-python/py-smbpasswd
 dev-python/pyndex
 dev-python/python-exec
+dev-python/pysvn
 media-libs/raptor
 media-libs/libpgf
 media-libs/libkgeomap
@@ -280,7 +285,7 @@ media-libs/taglib
 media-libs/musicbrainz
 media-libs/sratom
 media-libs/x264
-media-plugins/kipi-plugins **
+<media-plugins/kipi-plugins-9999
 media-sound/projectm-jack
 media-sound/fluid-soundfont
 media-sound/bpmdetect
@@ -381,8 +386,8 @@ dev-util/android-sdk-update-manager
 dev-util/qt-creator
 dev-vcs/qgit
 dev-vcs/kdesvn
-=kde-base/libkdcraw-9999 **
-=kde-base/libkipi-9999 **
+<kde-base/libkdcraw-9999
+<kde-base/libkipi-9999
 #kde-base/gwenview -~amd64 -~x86
 kde-base/dolphin-box-plugin **
 kde-misc/oxygen-appmenu **
@@ -424,7 +429,7 @@ media-libs/phonon-vlc
 kde-base/phonon-kde
 media-libs/libdmtx
 media-libs/prison
-media-plugins/kipi-plugins
+<media-plugins/kipi-plugins-9999
 media-sound/amarok
 media-sound/clementine
 media-video/kamerka
@@ -668,6 +673,7 @@ x11-drivers/xf86-input-keyboard
 x11-drivers/xf86-input-mouse
 x11-drivers/xf86-input-synaptics
 x11-drivers/xf86-video-ati
+x11-drivers/xf86-video-fbdev
 x11-drivers/xf86-video-intel
 x11-drivers/xf86-video-nouveau
 x11-libs/libX11
