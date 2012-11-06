@@ -8,18 +8,18 @@ MY_PV="${PVR/_pre/.dev-r}"
 MY_PF="${PN}-${MY_PV}"
 DESCRIPTION="Manipulate trash cans via the command line"
 HOMEPAGE="http://pypi.python.org/pypi/trash-cli/"
-EGIT_REPO_URI="git://github.com/andreafrancia/trash-cli.git"
+SRC_URI="http://pypi.python.org/packages/source/t/trash-cli/${MY_PF}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/unipath"
 
-inherit distutils git-2
+inherit distutils
 
-#S="${WORKDIR}/${MY_PF}"
+S="${WORKDIR}/andreafrancia-trash-cli-c9ef553"
 
-DOCS="CREDITS.txt HISTORY.txt README.txt TEST.txt TODO.txt COPYING"
+#DOCS="AUTHORS HISTORY.txt README.txt THANKS"

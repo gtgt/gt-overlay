@@ -348,8 +348,8 @@ virtual/ffmpeg encode mp3 sdl theora x264
 virtual/ffmpeg threads
 virtual/jpeg static-libs
 virtual/mysql embedded
-www-client/firefox bindist pgo custom-cflags custom-optimization
-www-client/icecat custom-cflags custom-optimization pgo
+www-client/firefox bindist custom-cflags custom-optimization
+www-client/icecat custom-cflags custom-optimization
 www-client/opera-next -gtk
 www-plugins/adobe-flash 32bit 64bit multilib
 x11-base/xorg-server nptl udev
