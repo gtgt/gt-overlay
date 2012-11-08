@@ -157,6 +157,7 @@ net-wireless/zte-mf190
 <net-print/foomatic-filters-9999
 net-print/cnijfilter
 net-print/cups-pdf
+net-print/cups-filters
 net-print/cups **
 net-wireless/bluez-firmware
 sys-apps/usb_modeswitch
@@ -204,6 +205,7 @@ www-plugins/google-talkplugin
 <media-libs/libvpx-9999
 
 # Office
+app-text/qpdf
 app-editors/gobby
 <app-office/krita-9999
 <app-dicts/ispell-pt-br-9999
