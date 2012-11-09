@@ -1,0 +1,10 @@
+--- style/shadowhelper.c.orig 2012-09-08 16:29:10.000000000 +0100
++++ style/shadowhelper.c      2012-09-08 16:28:36.000000000 +0100
+@@ -58,6 +58,7 @@
+         cairo_rectangle(cr, 0, 0, shadowSize, shadowSize);
+         cairo_fill(cr);
+         cairo_destroy(cr);
++       cairo_surface_destroy(dest);
+         g_object_unref(pixbuf);
+         return pixmap;
+     }
