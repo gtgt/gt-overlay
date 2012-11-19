@@ -100,6 +100,7 @@ dev-java/ws-commons-util
 <dev-java/netbeans-websvccommon-9999
 <dev-java/netbeans-webcommon-9999
 <dev-util/netbeans-9999
+dev-java/osgi-core-api
 
 
 # PHP
@@ -291,6 +292,7 @@ media-libs/x264
 media-sound/projectm-jack
 media-sound/fluid-soundfont
 media-sound/bpmdetect
+media-sound/jackmix
 media-tv/linuxtv-dvb-firmware
 sys-apps/jackd-init
 ## need for digikam
