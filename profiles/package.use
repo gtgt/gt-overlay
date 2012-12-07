@@ -310,7 +310,7 @@ sys-apps/systemd plymouth
 sys-apps/tcp-wrappers
 sys-apps/util-linux cramfs crypt ncurses perl static-libs
 sys-apps/v86d x86emu
-sys-apps/xinetd perl tcpd
+sys-apps/xinetd perl tcpd rpc
 sys-auth/consolekit kernel_linux policykit
 sys-auth/pambase consolekit cracklib
 sys-auth/polkit kde
@@ -324,7 +324,7 @@ sys-fs/lvm2 lvm1 readline static
 sys-fs/ntfs3g acl ntfsprogs udev suid extras
 sys-fs/ntfsprogs crypt
 sys-fs/squashfs-tools gzip lzma lzo
-sys-fs/udev extras hwdb keymap rule_generator static-libs
+sys-fs/udev extras hwdb keymap rule_generator static-libs 
 sys-kernel/calckernel video_cards_radeon
 sys-kernel/calculate-sources symlink
 sys-kernel/dracut net device-mapper
@@ -348,6 +348,7 @@ virtual/ffmpeg encode mp3 sdl theora x264
 virtual/ffmpeg threads
 virtual/jpeg static-libs
 virtual/mysql embedded
+virtual/udev static-libs
 www-client/firefox bindist custom-cflags custom-optimization
 www-client/icecat custom-cflags custom-optimization
 www-client/opera-next -gtk
