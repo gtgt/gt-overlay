@@ -123,6 +123,7 @@ dev-php/xcache
 dev-php/xdebug
 dev-php/xdebug-client
 dev-php/xhprof
+dev-vcs/subversion
 net-libs/nodejs
 www-apache/mod_proxy_fcgi
 www-apps/xhprof-ui
@@ -239,6 +240,7 @@ dev-python/py-smbpasswd
 dev-python/pyndex
 dev-python/python-exec
 dev-python/pysvn
+dev-util/adobe-air-sdk-bin
 media-libs/raptor
 media-libs/libpgf
 media-libs/libkgeomap
