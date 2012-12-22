@@ -1,3 +1,4 @@
+=x11-libs/gtk+-2.24.14
 =app-office/akonadi-server-9999
 =dev-libs/soprano-9999
 =dev-libs/libcaldav-0.6.5

@@ -54,7 +54,7 @@ USE="${USE} foomaticdb cups"
 USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 moodbar mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms phonon sndfile musicbrainz gsm projectm libsamplerate"
 
 # CD and DVD
-USE="${USE} cdparanoia cdr css dvd dvdr dvdread vcd blueray bluray"
+USE="${USE} cdparanoia cddb cdio cdr css dvd dvdr dvdread vcd blueray bluray"
 
 # Devices
 USE="${USE} ipod ios fax apm bluetooth ieee1394 remote mtp udisks udisks2"
@@ -84,7 +84,7 @@ USE="${USE} spell hunspell enchant truetype fontconfig unicode utf8 nls idn icon
 USE="${USE} mbox maildir calendar reports"
 
 # Video
-USE="${USE} a52 aac avi cddb cuda opencl dv dvb encode directfb dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca live lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 vcdx video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
+USE="${USE} a52 aac avi cuda opencl dv dvb encode directfb dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca live lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 vcdx video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
 
 # Web
 USE="${USE} libwww -vhosts nsplugin javascript"

@@ -32,7 +32,7 @@ media-sound/mangler xosd
 media-sound/jack-audio-connection-kit ieee1394 dbus
 media-video/ffmpeg cpudetection
 media-video/mplayer cpudetection
-media-video/mplayer2 cpudetection xvmc cdio
+media-video/mplayer2 cpudetection xvmc
 media-video/vlc aalib libcaca sdl sdl-image
 net-libs/telepathy-glib vala
 net-mail/dovecot pam ldap

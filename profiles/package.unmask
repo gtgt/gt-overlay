@@ -21,6 +21,7 @@ kde-misc/kobby
 kde-misc/kgtk
 kde-misc/networkmanagement
 <media-gfx/gimp-9999
+<media-gfx/digikam-9999
 <media-plugins/kipi-plugins-9999
 <net-im/emesene-9999
 net-libs/libgcal

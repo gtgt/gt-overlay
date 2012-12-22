@@ -292,6 +292,7 @@ media-libs/taglib
 media-libs/musicbrainz
 media-libs/sratom
 media-libs/x264
+media-plugins/kipi-plugins
 media-sound/projectm-jack
 media-sound/fluid-soundfont
 media-sound/bpmdetect
@@ -438,7 +439,7 @@ media-libs/libdmtx
 media-libs/prison
 #<media-plugins/kipi-plugins-9999
 media-sound/amarok
-#media-sound/clementine
+<media-sound/clementine-1.1.0
 media-video/kamerka
 media-sound/kmetronome
 media-sound/kid3
@@ -466,8 +467,13 @@ net-wireless/bluedevil
 sci-geosciences/osmosis
 sci-geosciences/qlandkartegt
 sci-geosciences/googleearth
+sci-libs/inchi
+sci-chemistry/openbabel-perl
+sci-chemistry/avogadro
+sci-chemistry/openbabel
+sci-chemistry/openbabel-python
 sys-block/partitionmanager **
-sys-devel/llvm
+#sys-devel/llvm
 sys-fs/trash-cli
 dev-python/unipath
 
