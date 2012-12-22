@@ -435,7 +435,7 @@ media-libs/libdmtx
 media-libs/prison
 <media-plugins/kipi-plugins-9999
 media-sound/amarok
-media-sound/clementine
+#media-sound/clementine
 media-video/kamerka
 media-sound/kmetronome
 media-sound/kid3
