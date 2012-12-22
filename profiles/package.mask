@@ -12,7 +12,7 @@
 <net-libs/xulrunner-2.0
 net-nds/openldap
 <sys-kernel/pf-sources-3.2.0
->=www-plugins/adobe-flash-11.2
+#>=www-plugins/adobe-flash-11.2
 #x11-libs/cairo-1.12.6
 
 ## QT

@@ -1,5 +1,6 @@
 # System
 app-arch/libarchive
+app-arch/xz-utils
 app-misc/reptyr
 pp-shells/dash
 dev-cpp/ctemplate
@@ -43,6 +44,7 @@ sys-libs/zlib
 sys-power/pm-utils
 sys-power/upower
 sys-process/atop
+virtual/udev
 
 ## Gentoo
 app-portage/eix
@@ -121,6 +123,7 @@ dev-php/xcache
 dev-php/xdebug
 dev-php/xdebug-client
 dev-php/xhprof
+dev-vcs/subversion
 net-libs/nodejs
 www-apache/mod_proxy_fcgi
 www-apps/xhprof-ui
@@ -237,6 +240,7 @@ dev-python/py-smbpasswd
 dev-python/pyndex
 dev-python/python-exec
 dev-python/pysvn
+dev-util/adobe-air-sdk-bin
 media-libs/raptor
 media-libs/libpgf
 media-libs/libkgeomap
@@ -288,7 +292,6 @@ media-libs/taglib
 media-libs/musicbrainz
 media-libs/sratom
 media-libs/x264
-<media-plugins/kipi-plugins-9999
 media-sound/projectm-jack
 media-sound/fluid-soundfont
 media-sound/bpmdetect
@@ -433,7 +436,7 @@ media-libs/phonon-vlc
 kde-base/phonon-kde
 media-libs/libdmtx
 media-libs/prison
-<media-plugins/kipi-plugins-9999
+#<media-plugins/kipi-plugins-9999
 media-sound/amarok
 #media-sound/clementine
 media-video/kamerka
@@ -511,7 +514,7 @@ www-plugins/kaffeine-mozilla-plugin
 ## GStreamer
 media-video/snappy **
 
-<media-plugins/gstreamer-9999
+<media-libs/gstreamer-9999
 media-libs/clutter-gst
 media-libs/gst-plugins-bad
 media-libs/gst-plugins-base
