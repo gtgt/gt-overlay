@@ -41,3 +41,5 @@ www-plugins/google-talkplugin
 www-client/opera-next
 =www-servers/apache-2.4*
 x11-misc/appmenu-firefox
+=x11-proto/inputproto-2.2.99.1
+

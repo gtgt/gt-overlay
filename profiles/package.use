@@ -81,7 +81,7 @@ dev-libs/libgcrypt static-libs
 dev-libs/libgpg common-lisp static-libs
 dev-libs/libgpg-error static-libs
 dev-libs/libnatspec python
-dev-libs/libpcre bzip2 cxx recursion-limit unicode
+dev-libs/libpcre bzip2 cxx recursion-limit unicode pcre16
 dev-libs/libxml2 python readline icu
 dev-libs/libxsltcrypt python
 dev-libs/openobe1x bluetooth usb
