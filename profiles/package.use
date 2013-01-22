@@ -189,7 +189,7 @@ media-libs/libwmf gtk
 media-libs/mediastreamer amr portaudio sdl speex theora v4l2 x264
 media-libs/mediastreamer video
 media-libs/mesa llvm nptl shared-dricore shared-glapi xa osmesa gles1 gles2 r600-llvm-compiler
-media-libs/mlt dv ffmpeg gtk kde python qt4 quicktime sdl sse sse2 vorbis melt xml frei0r
+media-libs/mlt dv ffmpeg gtk kde python qt4 quicktime sdl sse sse2 vorbis melt xml frei0r kdenlive
 media-libs/openal portaudio
 media-libs/phonon xine gstreamer -vlc
 media-libs/phonon-xine xcb

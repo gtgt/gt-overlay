@@ -18,7 +18,7 @@ net-nds/openldap
 
 ## QT
 >=x11-libs/qt-5.0.0
->=x11-libs/qt-meta-4.8
+>=x11-libs/qt-meta-5.0
 >=x11-libs/qt-assistant-5.0.0
 >=x11-libs/qt-core-5.0.0
 >=x11-libs/qt-dbus-5.0.0

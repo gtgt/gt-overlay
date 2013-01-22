@@ -15,11 +15,12 @@ dev-libs/json-glib
 dev-libs/nspr
 dev-libs/nss
 dev-python/unipath
+=kde-misc/akonadi-facebook-0_p20121207
 kde-misc/basket
 kde-misc/kfilebox
 kde-misc/kobby
 kde-misc/kgtk
-kde-misc/networkmanagement
+<kde-misc/networkmanagement-9999
 <media-gfx/gimp-9999
 <media-gfx/digikam-9999
 <media-plugins/kipi-plugins-9999
