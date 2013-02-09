@@ -1,6 +1,7 @@
 # System
 app-arch/libarchive
 app-arch/xz-utils
+=app-cdr/cdemu-daemon-2.0.0 ~amd64
 app-misc/reptyr
 pp-shells/dash
 dev-cpp/ctemplate
@@ -9,8 +10,10 @@ dev-cpp/gtest
 dev-lang/spidermonkey
 dev-libs/glib
 dev-libs/libnl
+=dev-python/dbus-python-1.1.1-r1
 =dev-util/valgrind-3.6.1-r2
 dev-util/strace
+=net-libs/libqmi-1.0.0 ~amd64
 sys-apps/kmod
 sys-apps/openrc
 sys-apps/biosdevname
