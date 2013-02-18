@@ -176,8 +176,6 @@ sys-apps/usbutils
 sys-apps/util-linux
 sys-apps/gptfdisk
 sys-fs/vhba
-sys-fs/udisks
-sys-fs/udisks-glue
 
 
 # Picture and social

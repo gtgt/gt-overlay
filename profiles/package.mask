@@ -16,6 +16,8 @@ net-nds/openldap
 >=media-sound/jack-audio-connection-kit-1.9.9.5
 #>=www-plugins/adobe-flash-11.2
 #x11-libs/cairo-1.12.6
+=sys-fs/udisks-2.0.91
+=sys-fs/udisks-1.0.4-r4
 
 ## QT
 >=x11-libs/qt-5.0.0
