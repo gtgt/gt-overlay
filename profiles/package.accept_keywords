@@ -524,7 +524,7 @@ www-plugins/kaffeine-mozilla-plugin
 >=net-im/ktp-call-ui-0.4.0
 >=net-im/ktp-approver-0.4.0
 >=net-im/ktp-filetransfer-handler-0.4.0
-
+net-irc/telepathy-idle
 
 ## GStreamer
 media-video/snappy **
