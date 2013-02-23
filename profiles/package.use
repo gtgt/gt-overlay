@@ -33,7 +33,7 @@ app-office/abiword cups math ots spell collab openxml plugins
 app-office/calligra crypt eigen exif gif glew gsf gsl iconv jpeg kdcraw kdepim mso okular threads tiff wmf xml
 app-office/koffice-l10n doc
 app-office/koffice-libs reports
-app-office/libreoffice cups custom-cflags dbus gtk kde nsplugin
+app-office/libreoffice cups dbus gtk kde nsplugin
 app-pda/libplist python
 app-pda/libopensync-plugin-syncml http
 app-pda/libsyncml http
@@ -42,7 +42,7 @@ app-shells/bash net
 app-text/enchant hunspell
 app-text/fbreader qt4
 app-text/fbreader3 qt4
-app-text/ghostscript cairo cups djvu gtk jpeg2k
+app-text/ghostscript cairo cups djvu gtk jpeg2k qt4
 app-text/goldendict kde
 app-text/hunspell ncurses readline
 app-text/poppler cairo cxx jpeg jpeg2k png qt4 utils xpdf-headers
@@ -188,7 +188,7 @@ media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
 media-libs/libwmf gtk
 media-libs/mediastreamer amr portaudio sdl speex theora v4l2 x264
 media-libs/mediastreamer video
-media-libs/mesa llvm nptl shared-dricore shared-glapi xa osmesa gles1 gles2 r600-llvm-compiler
+media-libs/mesa nptl shared-dricore shared-glapi xa osmesa gles1 gles2 
 media-libs/mlt dv ffmpeg gtk kde python qt4 quicktime sdl sse sse2 vorbis melt xml frei0r kdenlive
 media-libs/openal portaudio
 media-libs/phonon xine gstreamer -vlc
@@ -206,6 +206,7 @@ media-libs/xine-lib a52 aac aalib css dts fbcon flac gtk imagemagick libcaca mad
 media-libs/xine-lib xcb
 media-libs/zbar -v4l
 media-plugins/kipi-plugins cdr crypt imagemagick scanner calendar expoblending mjpeg redeyes
+media-plugins/gst-plugins-meta http taglib 
 media-sound/amarok player embedded ipod cdda daap lastfm mtp
 media-sound/bpmdetect debug realtime
 media-sound/clementine mtp projectm
@@ -219,7 +220,7 @@ media-video/avidemux libsamplerate
 media-video/dirac mmx
 media-video/dvdrip subtitles
 media-video/dvgrab jpeg quicktime
-media-video/ffmpeg 3dnow 3dnowext amr bzip2 encode hardcoded-tables ieee1394 jpeg2k mmx mmxext mp3 sdl speex ssse3 theora v4l v4l2 vorbis x264 xvid threads custom-cflags gsm network qt-faststart rtmp vpx
+media-video/ffmpeg 3dnow 3dnowext amr bzip2 encode hardcoded-tables ieee1394 jpeg2k mmx mmxext mp3 sdl speex ssse3 theora v4l v4l2 vorbis x264 xvid threads gsm network qt-faststart rtmp vpx
 media-video/ffmpegthumbnailer gtk jpeg png
 media-video/mjpegtools dv gtk mmx png quicktime sdl
 media-video/mplayer dga dts dvdnav md5sum mmxext radio x264 3dnowext dvb pvr rtmp vpx win32codecs
@@ -349,13 +350,13 @@ virtual/ffmpeg threads
 virtual/jpeg static-libs
 virtual/mysql embedded
 virtual/udev static-libs
-www-client/firefox bindist custom-cflags custom-optimization
-www-client/icecat custom-cflags custom-optimization
+www-client/firefox bindist
+www-client/icecat
 www-client/opera-next -gtk
 www-plugins/adobe-flash 32bit 64bit multilib
 x11-base/xorg-server nptl udev
 x11-base/xorg-server dmx xnest
-x11-drivers/nvidia-drivers custom-cflags gtk rt
+x11-drivers/nvidia-drivers gtk rt
 x11-drivers/xf86-video-glint dri
 x11-drivers/xf86-video-intel dri
 x11-drivers/xf86-video-mach64 dri

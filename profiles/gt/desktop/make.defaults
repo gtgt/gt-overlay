@@ -22,11 +22,13 @@ APACHE2_MODULES=""
 APACHE2_MODULES="access_compat actions alias auth_basic auth_digest authn_alias authn_anon authn_default authn_dbd authn_file authz_default authz_groupfile authz_host authz_user autoindex cache charset_lite dbd deflate dir disk_cache env expires file_cache filter headers include info lbmethod_bybusyness log_config logio mem_cache mime mime_magic proxy proxy_balancer proxy_connect proxy_http proxy_ftp proxy_scgi reqtimeout rewrite setenvif slotmem_shm speling status unique_id usertrack vhost_alias"
 APACHE2_MPMS="event"
 
+RUBY_TARGETS="ruby19"
+
 
 USE="handbook"
 
 #System
-USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl custom-optimization optimization custom-cpuopts custom-cflags threads lib32 mmap mpi"
+USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl optimization threads lib32 mmap mpi"
 USE="${USE} consolekit nsplugin policykit polkit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk"
 
 #Lang support
@@ -45,19 +47,19 @@ USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd 
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu webgl oauth"
 
 # Window manager and speciality
-USE="${USE} X wayland gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl gles gles1 gles2 gbm gallium glew openvg d3d g3dvl llvm kde qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu ayatana indicator overlay libnotify windeco ayatana"
+USE="${USE} X wayland gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl glx gles gles2 gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu ayatana indicator overlay libnotify windeco ayatana"
 
 # Print
 USE="${USE} foomaticdb cups"
 
 # Audio
-USE="${USE} audio alsa amr -arts audiofile cdda id3tag flac jack mad mp3 moodbar mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms phonon sndfile musicbrainz gsm projectm libsamplerate"
+USE="${USE} audio alsa oss amr -arts audiofile cdda id3tag taglib flac jack mad mp3 moodbar mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms phonon sndfile musicbrainz gsm projectm libsamplerate"
 
 # CD and DVD
 USE="${USE} cdparanoia cddb cdio cdr css dvd dvdr dvdread vcd blueray bluray"
 
 # Devices
-USE="${USE} ipod ios fax apm bluetooth ieee1394 remote mtp udisks udisks2"
+USE="${USE} ipod ios fax apm bluetooth ieee1394 remote mtp udisks udisks2 gallium"
 
 # Documentation format
 USE="${USE} chm djvu ebook marble postscript ps"
@@ -75,7 +77,7 @@ USE="${USE} gphoto2 kipi"
 USE="${USE} irc jabber jingle oscar yahoo"
 
 # Image support
-USE="${USE} exif fdftk gd gif imagemagick jpeg jpeg2k lcms mng openexr pdf png raw svg tiff wmf wxwindows xpm qwt lcms"
+USE="${USE} exif fdftk gd gif imagemagick jpeg jpeg2k lcms mng openexr pdf png raw svg tiff wmf wxwindows xpm qwt lcms system-jpeg"
 
 # Locale and Fonts
 USE="${USE} spell hunspell enchant truetype fontconfig unicode utf8 nls idn iconv"
@@ -84,7 +86,7 @@ USE="${USE} spell hunspell enchant truetype fontconfig unicode utf8 nls idn icon
 USE="${USE} mbox maildir calendar reports"
 
 # Video
-USE="${USE} a52 aac avi cuda opencl dv dvb encode directfb dri faac ffmpeg flash ggi glx aiglx gstreamer libcaca live lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 vcdx video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
+USE="${USE} a52 aac avi cuda opencl dv dvb encode directfb dri faac ffmpeg flash ggi gstreamer libcaca live lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 vcdx video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
 
 # Web
 USE="${USE} libwww -vhosts nsplugin javascript"

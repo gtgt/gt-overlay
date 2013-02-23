@@ -26,7 +26,7 @@ media-gfx/enblend doc
 =media-gfx/splashutils-1.5.4.3-r3 truetype
 media-libs/libggi 3dfx
 media-libs/libquicktime gtk
-media-libs/mesa d3d wayland
+media-libs/mesa d3d wayland llvm
 media-libs/opencv cuda
 media-sound/mangler xosd
 media-sound/jack-audio-connection-kit ieee1394 dbus
@@ -53,8 +53,8 @@ x11-libs/qt-gui
 x11-libs/qt-opengl
 x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
-www-client/firefox minimal custom-cflags custom-optimization
-www-client/icecat custom-cflags custom-optimization crashreporter dbus system-sqlite wifi
+www-client/firefox minimal gstreamer
+www-client/icecat crashreporter dbus system-sqlite wifi
 www-plugins/google-talkplugin system-libCg libnotify
 www-servers/apache apache2_modules_cgi apache2_modules_cgid
 x11-terms/rxvt-unicode vanilla

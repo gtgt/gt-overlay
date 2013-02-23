@@ -1,34 +1,3 @@
-From ea952aef0760671b656a971f0716c0aa9c918b19 Mon Sep 17 00:00:00 2001
-From: Alexey Shvetsov <alexxy@gentoo.org>
-Date: Mon, 2 Apr 2012 16:54:49 +0400
-Subject: [PATCH] fbcondecor
-
-Signed-off-by: Alexey Shvetsov <alexxy@gentoo.org>
----
- Documentation/fb/00-INDEX           |    2 +
- Documentation/fb/fbcondecor.txt     |  207 +++++++++++++
- drivers/Makefile                    |    9 +-
- drivers/video/Kconfig               |    1 -
- drivers/video/console/Kconfig       |   13 +
- drivers/video/console/Makefile      |    1 +
- drivers/video/console/bitblit.c     |   20 +-
- drivers/video/console/cfbcondecor.c |  471 +++++++++++++++++++++++++++++
- drivers/video/console/fbcon.c       |  213 +++++++++++---
- drivers/video/console/fbcondecor.c  |  555 +++++++++++++++++++++++++++++++++++
- drivers/video/console/fbcondecor.h  |   78 +++++
- drivers/video/fbcmap.c              |   11 +-
- drivers/video/fbmem.c               |    9 -
- include/linux/console_decor.h       |   46 +++
- include/linux/console_struct.h      |    3 +
- include/linux/fb.h                  |   90 ++++++
- kernel/sysctl.c                     |   33 ++-
- 17 files changed, 1687 insertions(+), 75 deletions(-)
- create mode 100644 Documentation/fb/fbcondecor.txt
- create mode 100644 drivers/video/console/cfbcondecor.c
- create mode 100644 drivers/video/console/fbcondecor.c
- create mode 100644 drivers/video/console/fbcondecor.h
- create mode 100644 include/linux/console_decor.h
-
 diff --git a/Documentation/fb/00-INDEX b/Documentation/fb/00-INDEX
 index 30a7054..9b6a733 100644
 --- a/Documentation/fb/00-INDEX
@@ -901,15 +870,6 @@ index 2e471c2..b9679a7e 100644
  	      u16 c, int is_fg)
  {
  	int depth = fb_get_color_depth(&info->var, &info->fix);
-@@ -443,7 +444,7 @@ static int __init fb_console_setup(char *this_opt)
- 	while ((options = strsep(&this_opt, ",")) != NULL) {
- 		if (!strncmp(options, "font:", 5))
- 			strcpy(fontname, options + 5);
--		
-+
- 		if (!strncmp(options, "scrollback:", 11)) {
- 			options += 11;
- 			if (*options) {
 @@ -458,7 +459,7 @@ static int __init fb_console_setup(char *this_opt)
  			} else
  				return 1;
@@ -2143,10 +2103,10 @@ index 7f0c329..98f5d60 100644
  	/* additional information is in vt_kern.h */
  };
  
-diff --git a/include/linux/fb.h b/include/linux/fb.h
+diff --git a/include/uapi/linux/fb.h b/include/uapi/linux/fb.h
 index d31cb68..ad161bb 100644
---- a/include/linux/fb.h
-+++ b/include/linux/fb.h
+--- a/include/uapi/linux/fb.h
++++ b/include/uapi/linux/fb.h
 @@ -11,6 +11,25 @@
  
  #define FB_MAX			32	/* sufficient for now */
@@ -2227,6 +2187,10 @@ index d31cb68..ad161bb 100644
  struct fb_con2fbmap {
  	__u32 console;
  	__u32 framebuffer;
+diff --git a/include/linux/fb.h b/include/linux/fb.h
+index d31cb68..ad161bb 100644
+--- a/include/linux/fb.h
++++ b/include/linux/fb.h
 @@ -372,6 +431,34 @@ struct fb_image {
  	struct fb_cmap cmap;	/* color map info */
  };
