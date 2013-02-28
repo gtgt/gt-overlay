@@ -19,6 +19,10 @@ net-nds/openldap
 =sys-fs/udisks-2.0.91
 =sys-fs/udisks-1.0.4-r4
 
+media-libs/jpeg:0
+
+=x11-terms/rxvt-unicode-9.16
+
 ## QT
 >=x11-libs/qt-5.0.0
 >=x11-libs/qt-meta-5.0
