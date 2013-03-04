@@ -431,6 +431,10 @@ kde-misc/todo-list
 kde-misc/eyesaver
 kde-misc/devicemanager
 kde-misc/drop2ftp
+kde-misc/libkappmenu
+kde-misc/kded-appmenu
+kde-misc/plasma-widget-kappmenubar
+
 <kde-misc/quadkonsole-2.0.0
 mail-client/trojita
 <media-gfx/digikam-9999
