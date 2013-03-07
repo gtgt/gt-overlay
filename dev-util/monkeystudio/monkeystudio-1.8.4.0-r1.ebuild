@@ -18,8 +18,8 @@ LICENSE="|| ( GPL-2 GPL-3 LGPL-3 )"
 SLOT="0"
 IUSE="doc"
 
-RDEPEND="x11-libs/qt-gui:4
-	x11-libs/qt-sql:4
+RDEPEND="dev-qt/qtgui:4
+	dev-qt/qtsql:4
 	x11-libs/qscintilla
 	dev-python/PyQt4[assistant]"
 DEPEND="${RDEPEND}"

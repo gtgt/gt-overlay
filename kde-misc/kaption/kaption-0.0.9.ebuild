@@ -17,6 +17,6 @@ IUSE=""
 
 DEPEND=""
 RDEPEND=">=kde-base/kdelibs-4.4.0
-		>=x11-libs/qt-core-4.6.2"
+		>=dev-qt/qtcore-4.6.2"
 
 S="${WORKDIR}/${P}"

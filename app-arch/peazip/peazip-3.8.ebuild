@@ -29,8 +29,8 @@ x86? ( dev-libs/atk
 	gtk? ( x11-libs/cairo
 	x11-libs/gdk-pixbuf
 	x11-libs/gtk+ )
-	qt4? ( x11-libs/qt-core
-	x11-libs/qt-gui ) )"
+	qt4? ( dev-qt/qtcore
+	dev-qt/qtgui ) )"
 DEPEND=$RDEPEND
 
 src_unpack()

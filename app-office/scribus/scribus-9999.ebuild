@@ -31,7 +31,7 @@ COMMON_DEPEND="
 	media-libs/tiff
 	net-print/cups
 	sys-libs/zlib
-	x11-libs/qt-gui:4
+	dev-qt/qtgui:4
 	spell? ( app-text/aspell )
 	pdf? ( app-text/podofo )
 	cairo? ( x11-libs/cairo[X,svg] )

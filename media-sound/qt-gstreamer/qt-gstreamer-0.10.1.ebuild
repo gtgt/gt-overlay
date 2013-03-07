@@ -19,7 +19,7 @@ RDEPEND="
 	dev-libs/glib
 	>=media-libs/gstreamer-0.10.31
 	>=media-libs/gst-plugins-base-0.10.31
-	>=x11-libs/qt-core-4.6
+	>=dev-qt/qtcore-4.6
 	>=dev-util/automoc-0.9
 	>=dev-util/boost-build-1.40
 	sys-devel/flex

@@ -1,6 +1,6 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-libs/qt-meta/qt-meta-4.7.ebuild,v 1.1 2011/04/06 21:01:35 wired Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-qt/qtmeta/qt-meta-4.7.ebuild,v 1.1 2011/04/06 21:01:35 wired Exp $
 
 EAPI=2
 DESCRIPTION="Silly dependency for QT. It allows to use qt above 4.7.2 with those ebuilds where devs was lazy."
@@ -13,7 +13,7 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="
-	=x11-libs/qt-meta-4.7
+	=dev-qt/qtmeta-4.7
 "
 pkg_postinst() {
 	echo
