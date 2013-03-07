@@ -389,6 +389,7 @@ x11-libs/gdk-pixbuf jpeg jpeg2k tiff
 x11-libs/gtk+ cups
 x11-libs/libdrm libkms video_cards_intel video_cards_nouveau video_cards_radeon
 x11-libs/pixman mmx
+x11-libs/pangox-compat
 x11-libs/qt:3 immqt-bc
 x11-libs/qtscriptgenerator kde
 x11-libs/xosd xinerama
