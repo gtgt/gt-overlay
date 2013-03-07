@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit eutils qt4 cmake-utils subversion
+inherit eutils qt4-r2 cmake-utils subversion
 
 DESCRIPTION="A graphical user interface for QEMU written in Qt4"
 HOMEPAGE="http://qtemu.sourceforge.net/"

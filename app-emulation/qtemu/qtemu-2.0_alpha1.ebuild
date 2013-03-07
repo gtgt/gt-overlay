@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit eutils qt4 cmake-utils
+inherit eutils qt4-r2 cmake-utils
 
 MY_P="${P/_/}"
 
