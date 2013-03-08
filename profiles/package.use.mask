@@ -18,6 +18,7 @@ dev-util/qt-creator bazaar debug doc examples fakevim
 dev-util/netbeans
 dev-vcs/git tk gtk
 dev-vcs/subversion dso
+kde-base/kdelibs udisks
 kde-base/kdesdk-kioslaves subversion
 kde-base/tqtinterface qt3
 media-gfx/gimp aalib python webkit
