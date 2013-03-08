@@ -17,7 +17,7 @@ IUSE="debug realtime"
 RDEPEND="media-libs/taglib
 	media-libs/id3lib
 	>=media-libs/fmod-4.25.07-r1:1
-	x11-libs/qt-gui:4"
+	dev-qt/qtgui:4"
 DEPEND="${RDEPEND}
 	sys-apps/sed
 	dev-util/scons

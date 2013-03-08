@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit eutils qt4 cmake-utils subversion
+inherit eutils qt4-r2 cmake-utils subversion
 
 DESCRIPTION="A graphical user interface for QEMU written in Qt4"
 HOMEPAGE="http://qtemu.sourceforge.net/"
@@ -16,8 +16,8 @@ KEYWORDS=""
 IUSE="kvm"
 
 DEPEND="net-libs/libvncserver
-	x11-libs/qt-gui:4
-	x11-libs/qt-webkit:4"
+	dev-qt/qtgui:4
+	dev-qt/qtwebkit:4"
 RDEPEND="${DEPEND}
 	!kvm? ( app-emulation/qemu )
 	kvm? ( app-emulation/qemu-kvm )"

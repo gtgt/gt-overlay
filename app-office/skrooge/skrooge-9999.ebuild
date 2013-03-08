@@ -21,7 +21,7 @@ IUSE="debug test"
 DEPEND="
 	app-crypt/qca:2
 	dev-libs/libofx
-	x11-libs/qt-sql[sqlite]
+	dev-qt/qtsql[sqlite]
 "
 RDEPEND="${DEPEND}"
 

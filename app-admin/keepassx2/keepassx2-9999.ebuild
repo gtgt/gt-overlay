@@ -18,9 +18,9 @@ IUSE="debug pch"
 
 KDE_SCM="-"
 
-DEPEND="x11-libs/qt-core:4[qt3support]
-	x11-libs/qt-gui:4[qt3support]
-	x11-libs/qt-xmlpatterns:4"
+DEPEND="dev-qt/qtcore:4[qt3support]
+	dev-qt/qtgui:4[qt3support]
+	dev-qt/qtxmlpatterns:4"
 RDEPEND="${DEPEND}"
 
 #src_configure() {

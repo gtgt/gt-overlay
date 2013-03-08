@@ -96,6 +96,23 @@ dev-python/ipython readline smp
 dev-python/pycairo svg
 dev-python/pygobject cairo threads
 dev-python/twisted crypt gtk
+dev-qt/qtcore exceptions glib iconv jit
+dev-qt/qtcore private-headers
+dev-qt/qtdbus exceptions
+dev-qt/qtdeclarative exceptions webkit
+dev-qt/qtdeclarative private-headers
+dev-qt/qtgui cups dbus exceptions glib gtkstyle mng nas tiff xinerama
+dev-qt/qtgui private-headers
+dev-qt/qtmultimedia exceptions iconv
+dev-qt/qtopengl exceptions
+dev-qt/qtqt3support exceptions kde phonon
+dev-qt/qtscript exceptions iconv jit
+dev-qt/qtscript private-headers
+dev-qt/qtsql exceptions iconv
+dev-qt/qtsvg exceptions iconv
+dev-qt/qttest exceptions iconv
+dev-qt/qtwebkit dbus exceptions jit kde
+dev-qt/qtxml patterns
 dev-tcltk/expect threads
 dev-util/dialognls unicode
 dev-util/kdevelop-php quanta
@@ -372,23 +389,7 @@ x11-libs/gdk-pixbuf jpeg jpeg2k tiff
 x11-libs/gtk+ cups
 x11-libs/libdrm libkms video_cards_intel video_cards_nouveau video_cards_radeon
 x11-libs/pixman mmx
-x11-libs/qt-core exceptions glib iconv jit
-x11-libs/qt-core private-headers
-x11-libs/qt-dbus exceptions
-x11-libs/qt-declarative exceptions webkit
-x11-libs/qt-declarative private-headers
-x11-libs/qt-gui cups dbus exceptions glib gtkstyle mng nas tiff xinerama
-x11-libs/qt-gui private-headers
-x11-libs/qt-multimedia exceptions iconv
-x11-libs/qt-opengl exceptions
-x11-libs/qt-qt3support exceptions kde phonon
-x11-libs/qt-script exceptions iconv jit
-x11-libs/qt-script private-headers
-x11-libs/qt-sql exceptions iconv
-x11-libs/qt-svg exceptions iconv
-x11-libs/qt-test exceptions iconv
-x11-libs/qt-webkit dbus exceptions jit kde
-x11-libs/qt-xml patterns
+x11-libs/pangox-compat
 x11-libs/qt:3 immqt-bc
 x11-libs/qtscriptgenerator kde
 x11-libs/xosd xinerama

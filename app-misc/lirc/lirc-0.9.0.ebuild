@@ -114,8 +114,8 @@ add_device() {
 
 	local dev="${1}"
 	local desc="device ${dev}"
-	if [[ -n "${2}" ]]; then
-		desc="${2}"
+	if [[ -n "${3}" ]]; then
+		desc="${3}"
 	fi
 
 	elog "Compiling support for ${desc}"

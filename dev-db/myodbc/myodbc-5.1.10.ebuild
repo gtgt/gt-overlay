@@ -18,7 +18,7 @@ KEYWORDS="amd64 ppc x86"
 IUSE="debug doc static qt4"
 RDEPEND=">=virtual/mysql-4.0
 		 dev-db/unixODBC
-		 qt4? ( >=x11-libs/qt-gui-4 )"
+		 qt4? ( >=dev-qt/qtgui-4 )"
 # perl is required for building docs
 DEPEND="${RDEPEND}
 		doc? ( dev-lang/perl )"

@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit eutils qt4 cmake-utils
+inherit eutils qt4-r2 cmake-utils
 
 MY_P="${P/_/}"
 
@@ -18,8 +18,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="qemu"
 
 DEPEND="net-libs/libvncserver
-	x11-libs/qt-gui:4
-	x11-libs/qt-webkit:4"
+	dev-qt/qtgui:4
+	dev-qt/qtwebkit:4"
 RDEPEND="${DEPEND}
 	qemu? ( app-emulation/qemu )"
 

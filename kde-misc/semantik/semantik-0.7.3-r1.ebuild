@@ -20,9 +20,9 @@ DEPEND="
 	dev-lang/python
 "
 RDEPEND="
-	x11-libs/qt-core
-	x11-libs/qt-gui
-	x11-libs/qt-xmlpatterns
+	dev-qt/qtcore
+	dev-qt/qtgui
+	dev-qt/qtxmlpatterns
 	dev-lang/python[xml]
 "
 

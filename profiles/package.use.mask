@@ -49,9 +49,9 @@ sys-auth/polkit gtk introspection
 sys-apps/pciutils zlib
 sys-fs/ntfs3g external-fuse
 x11-libs/cairo static-libs
-x11-libs/qt-meta openvg
-x11-libs/qt-gui 
-x11-libs/qt-opengl
+dev-qt/qtmeta openvg
+dev-qt/qtgui 
+dev-qt/qtopengl
 x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
 www-client/firefox minimal gstreamer
