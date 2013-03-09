@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install nofetch postinst setup unpack
+DEPEND=app-text/ghostscript-gpl >=net-print/cups-1.1.14 !amd64? ( sys-libs/glibc >=dev-libs/popt-1.6 >=media-libs/tiff-3.4 >=media-libs/libpng-1.0.9 ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-baselibs ) servicetools? ( !amd64? ( >=gnome-base/libglade-0.6 >=dev-libs/libxml-1.8 =x11-libs/gtk+-1.2* ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-gtklibs ) ) >=app-arch/rpm2targz-9.0.0.3g
+DESCRIPTION=Canon InkJet Printer Driver for Linux (Pixus/Pixma-Series).
+IUSE=amd64 servicetools nocupsdetection mp160 mp510 mp600 ip90 ip1800 ip2500 ip3300 ip4300
+KEYWORDS=~x86 ~amd64
+LICENSE=UNKNOWN
+RDEPEND=app-text/ghostscript-gpl >=net-print/cups-1.1.14 !amd64? ( sys-libs/glibc >=dev-libs/popt-1.6 >=media-libs/tiff-3.4 >=media-libs/libpng-1.0.9 ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-baselibs ) servicetools? ( !amd64? ( >=gnome-base/libglade-0.6 >=dev-libs/libxml-1.8 =x11-libs/gtk+-1.2* ) amd64? ( >=app-emulation/emul-linux-x86-bjdeps-0.1 app-emulation/emul-linux-x86-gtklibs ) )
+RESTRICT=fetch nomirror confcache
+SLOT=2
+SRC_URI=cnijfilter-common-2.70-2.src.rpm
+_eclasses_=eutils	2824df7f5dc9f47aee293af8a6b517ed	flag-o-matic	d900015de4e092f26d8c0a18b6bd60de	multilib	ded93e450747134a079e647d888aa80b	rpm	b94b54b44f14d6bee3e966c8f5c86fba	toolchain-funcs	69a2016af67775a812f4c03ba4b0e03e	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=ebbbe018829310d774f83826caa737ca

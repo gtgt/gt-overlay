@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=kde-base/kdelibs dev-vcs/git
+DESCRIPTION=KDE Dropbox client
+EAPI=4
+HOMEPAGE=http://kdropbox.deuteros.es
+IUSE=debug linguas_ar linguas_br linguas_cs linguas_de linguas_es linguas_fr linguas_gl linguas_it linguas_lt linguas_nl linguas_pl linguas_pt linguas_ru linguas_si linguas_tr linguas_zh linguas_zh_CN linguas_ar linguas_br linguas_cs linguas_de linguas_es linguas_fr linguas_gl linguas_it linguas_lt linguas_nl linguas_pl linguas_pt linguas_ru linguas_si linguas_tr linguas_zh linguas_zh_CN
+LICENSE=GPL-3
+RDEPEND=kde-base/kdelibs
+SLOT=4
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	2824df7f5dc9f47aee293af8a6b517ed	git-2	e92e09651292b1bef5656592364550f7	multilib	ded93e450747134a079e647d888aa80b	qt4-r2	f735f67b3de93a007dbdec708b481831	toolchain-funcs	69a2016af67775a812f4c03ba4b0e03e	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=17fb413078fa02e77ae5d7dd2015e136

@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=media-libs/jpeg
+DESCRIPTION=MJPG-Streamer - Grabs images from a v4l and v4l2 webcam devices.
+HOMEPAGE=http://sourceforge.net/projects/mjpg-streamer
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/jpeg
+SLOT=0
+SRC_URI=mirror://sourceforge/mjpg-streamer/mjpg-streamer-r63.tar.bz2
+_md5_=62a531350c6cbb6e99bc4e80859e4d34
