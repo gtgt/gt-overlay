@@ -18,7 +18,7 @@ KEYWORDS=""
 IUSE="+debug"
 
 DEPEND="kde-base/kdesu
-		dev-db/sqlite 
+		dev-db/sqlite
 		app-portage/gentoolkit
 		kde-base/kompare"
 RDEPEND="${DEPEND}"
