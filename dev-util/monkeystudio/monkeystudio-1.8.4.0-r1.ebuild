@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI="2"
-inherit qt4
+inherit qt4-r2
 
 MY_PN="mks"
 MY_PV="${PV/_beta/b}-1-svn3727"
