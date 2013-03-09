@@ -185,6 +185,7 @@ media-gfx/gimp
 =media-gfx/imagemagick-6.7.5.0
 <media-video/mplayer-9999
 <net-im/skype-9999
+net-im/ktp-desktop-applets
 net-fs/cifs-utils
 net-libs/glib-networking
 net-libs/libsoup
@@ -256,7 +257,7 @@ net-libs/libkgoogle
 <dev-cpp/clucene-9999
 sys-auth/polkit
 sys-auth/polkit-qt
-
+virtual/python-json
 
 #GTK & Gnome libs
 # "-common" suffix is obsolate
@@ -733,6 +734,7 @@ x11-proto/inputproto
 
 
 x11-libs/libxcb
+x11-libs/pangox-compat
 x11-libs/xcb-util
 x11-libs/xcb-util-image
 x11-libs/xcb-util-keysyms

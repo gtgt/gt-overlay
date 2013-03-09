@@ -9,7 +9,8 @@ LINGUAS="en en_GB gb hu hu_HU"
 PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
 PORTAGE_NICENESS="5"
 #digest multilib-strict
-FEATURES="preserve-libs ccache fixlafiles unmerge-orphans assume-digests userfetch -userpriv sandbox -usersandbox fakeroot -metadata-transfer downgrade-backup unmerge-backup -buildpkg splitdebug compressdebug news candy prelink-checksums -collision-protect protect-owned split-elog split-log clean-logs unknown-features-warn unknown-features-filter -parse-eapi-ebuild-head"
+#downgrade-backup unmerge-backup -buildpk
+FEATURES="metadata-transfer preserve-libs ccache fixlafiles unmerge-orphans assume-digests userfetch -userpriv sandbox -usersandbox fakeroot splitdebug compressdebug news candy prelink-checksums -collision-protect protect-owned split-elog split-log clean-logs -parse-eapi-ebuild-head"
 COLLISION_IGNORE="/*"
 ACCEPT_LICENSE="*"
 CONFIG_PROTECT="${CONFIG_PROTECT} /opt/VirtualBox/VBox.sh /etc/splash"

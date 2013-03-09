@@ -23,7 +23,7 @@ APACHE2_MODULES="access_compat actions alias auth_basic auth_digest authn_alias 
 APACHE2_MPMS="event"
 
 RUBY_TARGETS="ruby19"
-
+#PYTHON_TARGETS="python2_7 python3_2"
 
 USE="handbook"
 

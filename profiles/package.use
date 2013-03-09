@@ -38,6 +38,7 @@ app-pda/libplist python
 app-pda/libopensync-plugin-syncml http
 app-pda/libsyncml http
 app-portage/eix bzip2
+app-portage/portage python3
 app-shells/bash net
 app-text/enchant hunspell
 app-text/fbreader qt4
