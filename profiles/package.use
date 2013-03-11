@@ -99,6 +99,7 @@ dev-python/pygobject cairo threads
 dev-python/twisted crypt gtk
 dev-qt/qtcore exceptions glib iconv jit
 dev-qt/qtcore private-headers
+dev-qt/qt-creator bineditor bookmarks cmake designer git inspector mercurial perforce qml qtscript subversion
 dev-qt/qtdbus exceptions
 dev-qt/qtdeclarative exceptions webkit
 dev-qt/qtdeclarative private-headers
@@ -118,7 +119,7 @@ dev-tcltk/expect threads
 dev-util/dialognls unicode
 dev-util/kdevelop-php quanta
 dev-util/kdevplatform git subversion
-dev-util/qt-creator bineditor bookmarks cmake designer git inspector mercurial perforce qml qtscript subversion
+dev-util/jay java
 dev-util/valgrind qt4
 dev-vcs/git blksha1 curl iconv perl threads
 dev-vcs/subversion java

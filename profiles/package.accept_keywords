@@ -733,7 +733,7 @@ x11-misc/appmenu
 x11-proto/glproto 
 x11-proto/inputproto 
 
-
+x11-libs/libXext
 x11-libs/libxcb
 x11-libs/pangox-compat
 x11-libs/xcb-util
