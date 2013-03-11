@@ -720,6 +720,7 @@ x11-proto/xf86miscproto
 x11-proto/xf86rushproto
 x11-proto/xf86vidmodeproto
 x11-themes/xcursor-themes
+x11-proto/xextproto
 
 
 x11-base/xorg-drivers
