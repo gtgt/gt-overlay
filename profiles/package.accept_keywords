@@ -182,6 +182,7 @@ sys-fs/vhba
 <app-text/fbreader-9999
 media-gfx/exiv2
 media-gfx/gimp
+media-gfx/freewrl
 =media-gfx/imagemagick-6.7.5.0
 <media-video/mplayer-9999
 <net-im/skype-9999
@@ -324,6 +325,7 @@ dev-libs/libcaldav
 <net-misc/networkmanager-pptp-9999
 <net-misc/networkmanager-vpnc-9999
 <net-dialup/ppp-9999
+net-fs/afpfs-ng **
 net-fs/coda
 net-fs/davfs2
 net-fs/samba
@@ -349,6 +351,7 @@ sys-kernel/gentoo-sources
 app-admin/keepassx2 **
 app-arch/q7z
 app-backup/luckybackup
+app-cdr/acetoneiso
 app-cdr/k9copy
 app-cdr/qlscribe **
 app-cdr/cdemu
