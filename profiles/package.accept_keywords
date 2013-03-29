@@ -10,6 +10,7 @@ dev-cpp/gtest
 dev-lang/spidermonkey
 dev-libs/glib
 dev-libs/libnl
+dev-libs/libpcre
 =dev-python/dbus-python-1.1.1-r1
 =dev-util/valgrind-3.6.1-r2
 dev-util/strace
@@ -109,6 +110,7 @@ dev-java/osgi-core-api
 
 
 # PHP
+app-admin/eselect-php
 =app-admin/apache-tools-2.4* **
 dev-db/mysql
 dev-db/mysql-proxy
@@ -285,6 +287,7 @@ dev-libs/sord
 dev-libs/libf2c
 media-gfx/zbar
 media-fonts/takao-fonts
+media-libs/suil
 media-libs/lcms
 media-libs/libpng:1.4
 media-libs/libbluray

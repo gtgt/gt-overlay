@@ -1,4 +1,5 @@
 >=app-office/openoffice-3.2.0 kde
+app-admin/eselect-php fpm apache2
 app-admin/puppet diff
 app-admin/syslog-ng pcre
 app-admin/system-config-printer-common policykit
@@ -76,6 +77,7 @@ dev-libs/boost eselect
 dev-libs/cyrus-sasl berkdb crypt gdbm
 dev-libs/dbus-libs
 dev-libs/elfutils bzip2 zlib
+dev-libs/geoip city
 dev-libs/glibstatic fam
 dev-libs/libcdio cddb cxx
 dev-libs/libgcrypt static-libs
@@ -122,7 +124,7 @@ dev-util/kdevplatform git subversion
 dev-util/jay java
 dev-util/valgrind qt4
 dev-vcs/git blksha1 curl iconv perl threads
-dev-vcs/subversion java
+dev-vcs/subversion java sasl extras
 gnome-base/librsvg gtk
 kde-base/akregator kontact
 kde-base/arkarchive bzip2

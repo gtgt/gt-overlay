@@ -1,0 +1,14 @@
+--- auxprop.c.orig      2012-01-11 12:34:03.948477379 -0800
++++ auxprop.c   2012-01-11 12:34:45.878474663 -0800
+@@ -917,7 +917,10 @@
+                        (sasl_callback_ft *)&getopt,
+                        &context) == SASL_OK) {
+       ret = getopt(context, NULL, "auxprop_plugin", &plist, NULL);
+-       if(ret != SASL_OK) plist = NULL;
++       if(ret != SASL_OK) {
++               plist = NULL;
++               result = SASL_OK;
++       }
+    }
+
+    if(!plist) {

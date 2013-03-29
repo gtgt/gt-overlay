@@ -1,3 +1,5 @@
+CFLAGS="-march=native -O2 -fno-reorder-blocks -fno-reorder-functions -pipe -ggdb"
+
 ## plymouth biosdevname btrfs caps crypt crypt-gpg dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs syslog xen
 DRACUT_MODULES="plymouth biosdevname dmraid gensplash lvm mdraid nfs syslog"
 
@@ -47,7 +49,7 @@ USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd 
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu webgl oauth"
 
 # Window manager and speciality
-USE="${USE} X wayland gtk2 gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl glx gles gles2 gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver google-gadgets attica appmenu ayatana indicator overlay libnotify windeco ayatana"
+USE="${USE} X wayland gtk2 gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl glx gles gles2 gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver attica appmenu ayatana indicator overlay libnotify windeco ayatana"
 
 # Print
 USE="${USE} foomaticdb cups"
