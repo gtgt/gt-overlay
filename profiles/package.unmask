@@ -9,8 +9,8 @@ app-pda/libopensync-plugin-google-calendar
 app-pda/libopensync-plugin-file
 app-portage/udept
 <dev-db/mysql-9999
+~dev-lang/spidermonkey-1.8.7-r3
 =dev-libs/glib-2.32.0
-net-libs/libinfinity
 dev-libs/json-glib
 dev-libs/nspr
 dev-libs/nss
@@ -28,6 +28,7 @@ kde-misc/kgtk
 net-libs/libgcal
 net-libs/xulrunner
 net-misc/modemmanager
+net-libs/libinfinity
 net-libs/libqinfinity
 <net-misc/networkmanager-9999
 <net-misc/networkmanager-openvpn-9999

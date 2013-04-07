@@ -194,7 +194,7 @@ media-libs/libcaca cxx ncurses truetype
 media-libs/libdvd css
 media-libs/libdvdread css
 media-libs/libdvsdl xv
-media-libs/libggi aalib fbcon mmx
+media-libs/libggi fbcon mmx
 media-libs/libgphoto2 exif kernel_linux
 media-libs/libgpodgtk python udev-libs
 media-libs/libjpeg-turbo static-libs
@@ -203,7 +203,7 @@ media-libs/libmng static-libs
 media-libs/libpng static-libs
 media-libs/libpng apng
 media-libs/libquicktime aac dv encode ffmpeg jpeg mmx png vorbis x264
-media-libs/libsdl aalib fbcon ggi joystick libcaca nas video xinerama
+media-libs/libsdl fbcon ggi joystick nas video xinerama
 media-libs/libsndfile
 media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
 media-libs/libwmf gtk
@@ -223,7 +223,7 @@ media-libs/taglib asf mp4
 media-libs/tiff cxx jpeg
 media-libs/vigra jpeg png tiff zlib
 media-libs/x264 threads
-media-libs/xine-lib a52 aac aalib css dts fbcon flac gtk imagemagick libcaca mad mng modplug musepack samba sdl speex theora truetype v4l vcd vorbis xinerama xv
+media-libs/xine-lib a52 aac css dts fbcon flac gtk imagemagick mad mng modplug musepack samba sdl speex theora truetype v4l vcd vorbis xinerama xv
 media-libs/xine-lib xcb
 media-libs/zbar -v4l
 media-plugins/kipi-plugins cdr crypt imagemagick scanner calendar expoblending mjpeg redeyes
@@ -307,7 +307,6 @@ net-wireless/broadcom-sta kernel_linux
 net-wireless/madwifi-ng kernel_linux
 net-wireless/rtl8192se kernel_linux
 net-wireless/wpa_supplicant dbus eap-sim kernel_linux readline
-sci-libs/hdf5 mpi
 sys-apps/busybox elibc_glibc mdev
 sys-apps/calculate-utilities cl_assemble
 sys-apps/coreutils acl unicode
@@ -337,7 +336,7 @@ sys-auth/consolekit kernel_linux policykit
 sys-auth/pambase consolekit cracklib
 sys-auth/polkit kde
 sys-block/parted debug device-mapper readline
-sys-cluster/openmpi romio mpi-threads
+sys-cluster/openmpi mpi-threads
 sys-devel/bc readline
 sys-devel/gcc gtk mudflap multilib nptl objc objc++ objc-gc openmp gcj graphite
 sys-devel/gettext acl elibc_glibc git openmp
