@@ -25,12 +25,12 @@ APACHE2_MODULES="access_compat actions alias auth_basic auth_digest authn_alias 
 APACHE2_MPMS="event"
 
 RUBY_TARGETS="ruby19"
-#PYTHON_TARGETS="python2_7 python3_2"
+PYTHON_TARGETS="python2_7 python3_2"
 
 USE="handbook"
 
 #System
-USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl optimization threads lib32 mmap mpi"
+USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl optimization threads lib32 mmap"
 USE="${USE} consolekit nsplugin policykit polkit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk"
 
 #Lang support
@@ -70,7 +70,7 @@ USE="${USE} chm djvu ebook marble postscript ps"
 USE="${USE} clamav crypt ssl"
 
 # Hardware
-USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 joystick lirc lircd lm_sensors mmx mmxext radio scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vaapi xcomposite romio"
+USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 joystick lirc lircd lm_sensors mmx mmxext radio scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vaapi xcomposite"
 
 #Photo
 USE="${USE} gphoto2 kipi"
@@ -88,7 +88,7 @@ USE="${USE} spell hunspell enchant truetype fontconfig unicode utf8 nls idn icon
 USE="${USE} mbox maildir calendar reports"
 
 # Video
-USE="${USE} a52 aac avi cuda opencl dv dvb encode directfb dri faac ffmpeg flash ggi gstreamer libcaca live lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 vcdx video vidix win32codecs xanim x264 xine xinerama vpx xv xvid xvmc"
+USE="${USE} a52 aac avi cuda opencl dv dvb encode directfb dri faac ffmpeg flash ggi gstreamer ggi libass live lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 vcdx video vidix win32codecs x264 xine xinerama vpx xv xvid xvmc"
 
 # Web
 USE="${USE} libwww -vhosts nsplugin javascript"

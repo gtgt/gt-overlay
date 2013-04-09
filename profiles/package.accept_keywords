@@ -143,7 +143,6 @@ app-admin/keepassx2 **
 sys-auth/polkit
 sys-auth/polkit-qt
 app-crypt/chntpw
-sys-auth/consolekit
 <sys-apps/keyexec-9999
 <sys-auth/pam_keystore-9999
 <sys-auth/thinkfinger-9999
@@ -308,6 +307,8 @@ media-sound/fluid-soundfont
 media-sound/bpmdetect
 media-sound/jackmix
 media-tv/linuxtv-dvb-firmware
+media-tv/me-tv
+media-tv/mythtv
 sys-apps/jackd-init
 ## need for digikam
 sci-libs/clapack
