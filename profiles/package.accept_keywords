@@ -8,12 +8,14 @@ dev-cpp/ctemplate
 dev-cpp/gmock
 dev-cpp/gtest
 dev-lang/spidermonkey
+dev-libs/boost
 dev-libs/glib
 dev-libs/libnl
 dev-libs/libpcre
 =dev-python/dbus-python-1.1.1-r1
 =dev-util/valgrind-3.6.1-r2
 dev-util/strace
+dev-util/boost-build
 =net-libs/libqmi-1.0.0 ~amd64
 sys-apps/kmod
 sys-apps/openrc
