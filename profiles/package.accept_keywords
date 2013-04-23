@@ -35,8 +35,6 @@ sys-fs/cachefilesd
 sys-fs/exfat-utils
 sys-fs/fuse-exfat
 sys-fs/lvm2
-sys-fs/udev
-sys-fs/udev-init-scripts
 sys-fs/hfsplusutils **
 sys-fs/multipath-tools
 sys-kernel/genkernel
@@ -50,7 +48,6 @@ sys-libs/zlib
 sys-power/pm-utils
 sys-power/upower
 sys-process/atop
-virtual/udev
 
 ## Gentoo
 app-portage/eix
@@ -190,7 +187,6 @@ media-gfx/freewrl
 <media-video/mplayer-9999
 <net-im/skype-9999
 net-im/ktp-desktop-applets
-net-fs/cifs-utils
 net-libs/glib-networking
 net-libs/libsoup
 net-libs/libsoup-gnome
@@ -336,8 +332,10 @@ dev-libs/libcaldav
 <net-misc/networkmanager-vpnc-9999
 <net-dialup/ppp-9999
 net-fs/afpfs-ng **
+net-fs/cifs-utils
 net-fs/coda
 net-fs/davfs2
+net-fs/nfs-utils
 net-fs/samba
 net-libs/rpc2
 <dev-libs/liblinebreak-9999

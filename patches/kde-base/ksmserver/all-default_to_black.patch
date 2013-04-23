@@ -1,0 +1,36 @@
+diff --git a/ksmserver/screenlocker/greeter/greeterapp.cpp b/ksmserver/screenlocker/greeter/greeterapp.cpp
+index ae78130..666d933 100644
+--- a/ksmserver/screenlocker/greeter/greeterapp.cpp
++++ b/ksmserver/screenlocker/greeter/greeterapp.cpp
+@@ -98,7 +98,7 @@ void UnlockApp::initialize()
+     KCrash::setDrKonqiEnabled(false);
+ 
+     KScreenSaverSettings::self()->readConfig();
+-    m_showScreenSaver = KScreenSaverSettings::legacySaverEnabled();
++    m_showScreenSaver = true; //KScreenSaverSettings::legacySaverEnabled();
+ 
+     m_structure = Plasma::PackageStructure::load("Plasma/Generic");
+     m_package = new Plasma::Package(KStandardDirs::locate("data", "ksmserver/screenlocker/"), KScreenSaverSettings::greeterQML(), m_structure);
+@@ -193,6 +193,10 @@ void UnlockApp::desktopResized()
+         if (m_showScreenSaver) {
+             ScreenSaverWindow *screensaverWindow = new ScreenSaverWindow;
+             screensaverWindow->setWindowFlags(Qt::X11BypassWindowManagerHint);
++            screensaverWindow->setAutoFillBackground(true);
++            QPalette pal(screensaverWindow->palette());
++            pal.setColor(screensaverWindow->backgroundRole(), Qt::black);
++            screensaverWindow->setPalette(pal);
+             m_screensaverWindows << screensaverWindow;
+         }
+     }
+@@ -209,11 +213,6 @@ void UnlockApp::desktopResized()
+             ScreenSaverWindow *screensaverWindow = m_screensaverWindows.at(i);
+             screensaverWindow->setGeometry(view->geometry());
+ 
+-            QPixmap backgroundPix(screensaverWindow->size());
+-            QPainter p(&backgroundPix);
+-            view->render(&p);
+-            p.end();
+-            screensaverWindow->setBackground(backgroundPix);
+             screensaverWindow->show();
+             screensaverWindow->activateWindow();
+             connect(screensaverWindow, SIGNAL(hidden()), this, SLOT(getFocus()));

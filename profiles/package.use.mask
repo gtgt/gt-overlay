@@ -35,11 +35,12 @@ media-video/ffmpeg cpudetection
 media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc
 media-video/vlc aalib libcaca sdl sdl-image
-net-nds/openldap odbc samba syslog tcpd
+net-fs/cifs-utils
 net-libs/telepathy-glib vala
 net-mail/dovecot pam ldap
 net-misc/networkmanager sharing wimax
 net-misc/curl curl_ssl_openssl
+net-nds/openldap odbc samba syslog tcpd
 net-p2p/eiskaltdcpp spell lua gtk gtk3 libnotify
 net-print/cups static-libs
 net-print/hplip X kde acl
@@ -55,7 +56,7 @@ dev-qt/qtgui
 dev-qt/qtopengl
 x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
-www-client/firefox minimal gstreamer
+www-client/firefox minimal
 www-client/icecat crashreporter dbus system-sqlite wifi
 www-plugins/google-talkplugin system-libCg libnotify
 www-servers/apache apache2_modules_cgi apache2_modules_cgid

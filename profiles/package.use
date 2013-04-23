@@ -257,8 +257,8 @@ net-dns/avahi howl-compat mdnsresponder-compat autoipd utils
 net-dns/bind-tools idn
 net-dns/mydns alias status
 net-fs/coda client server
-net-fs/cifs-utils caps-ng
-net-fs/nfs-utils elibc_glibc nfsv3 nfsv4 tcpd
+net-fs/cifs-utils upcall
+net-fs/nfs-utils elibc_glibc nfsv3 nfsv4 nfsv41 nfsdcld nfsidmap tcpd
 net-fs/samba acl aio client cups netapi quota readline server smbclient
 net-fs/samba smbsharemodes swat syslog winbind
 net-im/emesene jabber webcam
