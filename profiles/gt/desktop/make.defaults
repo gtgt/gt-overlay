@@ -14,6 +14,8 @@ LIRC_DEVICES="devinput"
 CAMERAS=""
 
 CALLIGRA_FEATURES="flow karbon kexi kpresenter krita sheets words"
+LIBREOFFICE_EXTENSIONS="presenter-minimizer scripting-javascript wiki-publisher"
+
 
 CONFIG_PROTECT="${CONFIG_PROTECT} /usr/share/kde4/services/ServiceMenus"
 

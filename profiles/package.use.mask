@@ -1,5 +1,6 @@
 app-admin/packagekit gtk
 app-admin/puppet ldap
+app-office/libreoffice branding
 app-emulation/wine gphoto2 openal opencl
 app-misc/tomboy applet
 app-text/fbreader gtk
@@ -34,6 +35,7 @@ media-video/ffmpeg cpudetection
 media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc
 media-video/vlc aalib libcaca sdl sdl-image
+net-nds/openldap odbc samba syslog tcpd
 net-libs/telepathy-glib vala
 net-mail/dovecot pam ldap
 net-misc/networkmanager sharing wimax
