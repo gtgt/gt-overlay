@@ -1,3 +1,4 @@
+>app-office/libreoffice-4.0.2.2
 =x11-libs/gtk+-2.24.14
 =app-office/akonadi-server-9999
 =dev-libs/soprano-9999
@@ -11,7 +12,6 @@
 <media-gfx/gimp-2.7.0
 =net-im/emesene-9999
 <net-libs/xulrunner-2.0
-net-nds/openldap
 <sys-kernel/pf-sources-3.2.0
 >=media-sound/jack-audio-connection-kit-1.9.9.5
 #>=www-plugins/adobe-flash-11.2

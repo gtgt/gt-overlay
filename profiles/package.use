@@ -34,7 +34,7 @@ app-office/abiword cups math ots spell collab openxml plugins
 app-office/calligra crypt eigen exif gif glew gsf gsl iconv jpeg kdcraw kdepim mso okular threads tiff wmf xml
 app-office/koffice-l10n doc
 app-office/koffice-libs reports
-app-office/libreoffice cups dbus gtk kde nsplugin
+app-office/libreoffice cups dbus gtk kde nsplugin java
 app-pda/libplist python
 app-pda/libopensync-plugin-syncml http
 app-pda/libsyncml http
@@ -289,6 +289,7 @@ net-misc/rsync acl iconv
 net-misc/wget idn
 net-nds/luma samba
 net-nds/openberkdb crypt perl samba tcpd5passwd
+net-nds/openldap minimal
 net-p2p/eiskaltdcpp cli dbus json emoticons qt4 upnp
 net-p2p/ktorrent webinterface
 net-print/cndrv cups-capt

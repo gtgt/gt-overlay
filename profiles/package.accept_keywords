@@ -212,10 +212,13 @@ www-plugins/google-talkplugin
 
 # Office
 app-text/qpdf
+app-text/libmspub
 app-editors/gobby
 <app-office/krita-9999
 <app-dicts/ispell-pt-br-9999
 <app-office/libreoffice-bin-9999
+<app-office/libreoffice-9999
+<app-office/libreoffice-l10n-9999
 app-dicts/goldendict
 app-dicts/mdic
 app-dicts/mdicconv
@@ -223,6 +226,7 @@ dev-db/sqlite
 dev-db/virtuoso-server
 dev-db/virtuoso-odbc
 <dev-libs/liblinebreak-9999
+dev-libs/liborcus
 
 # Desktop libs
 app-admin/eselect-opencl
