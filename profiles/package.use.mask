@@ -45,6 +45,7 @@ net-print/hplip X kde acl
 #net-voip/telepathy-connection-managers icq yahoo
 net-wireless/bluez maemo6 old-daemons
 net-wireless/wpa_supplicant wimax
+sci-libs/hdf5 fortran cxx mpi
 sys-auth/polkit gtk introspection
 sys-apps/pciutils zlib
 sys-fs/ntfs3g external-fuse

@@ -654,13 +654,13 @@ media-fonts/droid
 dev-libs/wayland
 dev-python/xmpppy
 medta-libs/glu
-media-libs/mesa
+#media-libs/mesa
 sys-libs/mtdev
 virtual/glu
 
 # XOrg X11
 
-x11-base/xorg-server
+#x11-base/xorg-server
 x11-apps/appres
 x11-apps/bitmap
 x11-apps/iceauth
