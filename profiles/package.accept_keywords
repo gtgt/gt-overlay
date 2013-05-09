@@ -227,6 +227,7 @@ dev-db/virtuoso-server
 dev-db/virtuoso-odbc
 <dev-libs/liblinebreak-9999
 dev-libs/liborcus
+dev-libs/libixion
 
 # Desktop libs
 app-admin/eselect-opencl
