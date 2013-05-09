@@ -40,7 +40,7 @@ net-libs/telepathy-glib vala
 net-mail/dovecot pam ldap
 net-misc/networkmanager sharing wimax
 net-misc/curl curl_ssl_openssl
-net-nds/openldap odbc samba syslog tcpd
+net-nds/openldap odbc samba syslog tcpd cxx
 net-p2p/eiskaltdcpp spell lua gtk gtk3 libnotify
 net-print/cups static-libs
 net-print/hplip X kde acl

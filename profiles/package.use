@@ -32,6 +32,7 @@ app-mobilephone/obex-data-server gtk imagemagick usb
 app-mobilephone/obexd usb
 app-office/abiword cups math ots spell collab openxml plugins
 app-office/calligra crypt eigen exif gif glew gsf gsl iconv jpeg kdcraw kdepim mso okular threads tiff wmf xml
+app-office/kmymoney hbci ofx
 app-office/koffice-l10n doc
 app-office/koffice-libs reports
 app-office/libreoffice cups dbus gtk kde nsplugin java
