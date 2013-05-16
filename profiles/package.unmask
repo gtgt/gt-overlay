@@ -2,6 +2,9 @@
 app-cdr/qlscribe
 app-misc/liveusb-creator
 =app-office/calligra-2.3.86
+<app-office/libreoffice-4.0.9999
+<app-office/libreoffice-l10n-4.0.99999
+<app-office/libreoffice-bin-4.0.9999
 app-pda/libopensync
 app-pda/libopensync-plugin-vformat
 app-pda/libopensync-plugin-syncml

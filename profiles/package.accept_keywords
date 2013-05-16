@@ -216,9 +216,9 @@ app-text/libmspub
 app-editors/gobby
 <app-office/krita-9999
 <app-dicts/ispell-pt-br-9999
-<app-office/libreoffice-bin-9999
-<app-office/libreoffice-9999
-<app-office/libreoffice-l10n-9999
+<app-office/libreoffice-bin-4.0.9999 **
+<app-office/libreoffice-4.0.9999 **
+<app-office/libreoffice-l10n-4.0.9999 **
 app-dicts/goldendict
 app-dicts/mdic
 app-dicts/mdicconv
@@ -475,6 +475,7 @@ media-sound/qjackctl
 media-sound/qtractor
 media-sound/traverso
 media-video/libav
+media-video/kaffeine **
 media-video/kamoso **
 media-video/recorditnow
 media-video/loopy
@@ -665,7 +666,7 @@ virtual/glu
 
 # XOrg X11
 
-#x11-base/xorg-server
+x11-base/xorg-server
 x11-apps/appres
 x11-apps/bitmap
 x11-apps/iceauth
