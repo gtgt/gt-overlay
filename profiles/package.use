@@ -74,6 +74,7 @@ dev-lang/swig pcre
 dev-lang/tcl threads
 dev-lang/tk threads truetype
 dev-lang/yasm python
+dev-lang/php opcache
 dev-libs/boost eselect
 dev-libs/cyrus-sasl berkdb crypt gdbm
 dev-libs/dbus-libs
