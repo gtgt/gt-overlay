@@ -8,6 +8,7 @@ dev-java/icedtea zero hs20
 app-office/calligra freetds jpeg2k openctl word-perfect calligra_features_braindump calligra_features_stage
 =dev-java/icedtea-7.1.14 xrender
 dev-java/swt xulrunner
+=dev-lang/php-5.5.0_rc1 opcache
 dev-libs/json-glib introspection
 dev-libs/libdbusmenu test
 dev-libs/rasqal xml pcre

@@ -19,6 +19,8 @@
 =sys-fs/udisks-2.0.91
 =sys-fs/udisks-1.0.4-r4
 
+=net-libs/telepathy-farstream-0.6.0
+
 media-libs/jpeg:0
 
 =x11-terms/rxvt-unicode-9.16
