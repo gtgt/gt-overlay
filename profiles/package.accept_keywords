@@ -434,8 +434,8 @@ kde-misc/kregexpeditor **
 kde-misc/kwin-button-applet
 kde-misc/kustodian **
 kde-misc/kio-sysinfo **
-kde-misc/libmm-qt **
-kde-misc/libnm-qt **
+net-libs/libmm-qt **
+net-libs/libnm-qt **
 kde-misc/oxygen-appmenu
 kde-misc/polkit-kde-kcmodules **
 kde-misc/plasma-widget-message-indicator
