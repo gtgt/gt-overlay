@@ -140,7 +140,6 @@ kde-base/kdemultimedia-kioslaves encode flac vorbis
 kde-base/kdepim-runtime google
 kde-base/kdeplasma-addons exif
 kde-base/kdesdk-misc extras
-kde-base/kdm consolekit
 kde-base/kget bittorrent webkit
 kde-base/kinfocenter ieee1394
 kde-base/kjots kontact
@@ -165,7 +164,6 @@ kde-base/plasma-workspace python xinerama rss
 kde-base/solid bluetooth networkmanager
 kde-base/systemsettings usb xinerama
 kde-base/tqtinterface qt4
-kde-misc/knetworkmanager consolekit
 kde-misc/konq-plugins tidy
 kde-misc/krename taglib
 media-fonts/terminus-font psf
@@ -231,7 +229,7 @@ media-plugins/kipi-plugins cdr crypt imagemagick scanner calendar expoblending m
 media-plugins/gst-plugins-meta http taglib 
 media-sound/amarok player embedded ipod cdda daap lastfm mtp
 media-sound/bpmdetect debug realtime
-media-sound/clementine mtp projectm lastfm
+media-sound/clementine projectm lastfm
 media-sound/kid3 mp4
 media-sound/lame mp3rtp static-libs
 media-sound/mangler celt gsm speex
@@ -288,6 +286,7 @@ net-misc/networkmanager bluetooth -dhclient nss resolvconf
 net-misc/networkmanager dhcpcd
 net-misc/openssh hpn
 net-misc/rsync acl iconv
+net-misc/tigervnc server java
 net-misc/wget idn
 net-nds/luma samba
 net-nds/openberkdb crypt perl samba tcpd5passwd
@@ -304,7 +303,7 @@ net-print/hplip fax hpcups policykit scanner
 net-print/hplip hpijs static-ppds
 net-voip/telepathy-connection-managers irc jabber msn zeroconf sip
 net-wireless/blueman network
-net-wireless/bluez consolekit cups test-programs usb
+net-wireless/bluez cups test-programs usb
 net-wireless/bluez health pnat
 net-wireless/broadcom-sta kernel_linux
 net-wireless/madwifi-ng kernel_linux
@@ -336,7 +335,7 @@ sys-apps/util-linux cramfs crypt ncurses perl static-libs
 sys-apps/v86d x86emu
 sys-apps/xinetd perl tcpd rpc
 sys-auth/consolekit kernel_linux policykit
-sys-auth/pambase consolekit cracklib
+sys-auth/pambase cracklib
 sys-auth/polkit kde
 sys-block/parted debug device-mapper readline
 sys-cluster/openmpi mpi-threads
@@ -376,9 +375,9 @@ virtual/udev static-libs
 www-client/firefox bindist
 www-client/icecat
 www-client/opera-next -gtk
+www-client/rekonq opera
 www-plugins/adobe-flash 32bit 64bit multilib
-x11-base/xorg-server nptl udev
-x11-base/xorg-server dmx xnest
+x11-base/xorg-server nptl udev kdrive xdmx xnest
 x11-drivers/nvidia-drivers gtk rt
 x11-drivers/xf86-video-glint dri
 x11-drivers/xf86-video-intel dri

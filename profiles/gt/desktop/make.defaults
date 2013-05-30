@@ -26,6 +26,9 @@ APACHE2_MODULES=""
 APACHE2_MODULES="access_compat actions alias auth_basic auth_digest authn_alias authn_anon authn_default authn_dbd authn_file authz_default authz_groupfile authz_host authz_user autoindex cache charset_lite dbd deflate dir disk_cache env expires file_cache filter headers include info lbmethod_bybusyness log_config logio mem_cache mime mime_magic proxy proxy_balancer proxy_connect proxy_http proxy_ftp proxy_scgi reqtimeout rewrite setenvif slotmem_shm speling status unique_id usertrack vhost_alias"
 APACHE2_MPMS="event"
 
+LIGHTDM_GREETER="lightdm-kde-greeter"
+LIGHTDM_SESSION="KDE-4"
+
 RUBY_TARGETS="ruby19"
 PYTHON_TARGETS="python2_7 python3_2"
 
@@ -33,7 +36,7 @@ USE="handbook"
 
 #System
 USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl optimization threads lib32 mmap"
-USE="${USE} consolekit nsplugin policykit polkit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk"
+USE="${USE} nsplugin policykit polkit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk"
 
 #Lang support (python perl mono)
 USE="${USE} python perl mono ithreads gdbm quanta subversion git cvs mercurial bazaar script -introspection"

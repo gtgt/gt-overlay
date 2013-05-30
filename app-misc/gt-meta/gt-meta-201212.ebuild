@@ -270,7 +270,6 @@ packers? (
 RDEPEND="${RDEPEND}
 print? (
 	net-print/cups-pdf
-	net-print/cndrvcups-capt
 	net-print/cups
 	net-print/foo2zjs
 	net-print/gutenprint

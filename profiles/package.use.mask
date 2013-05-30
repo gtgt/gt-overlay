@@ -58,6 +58,7 @@ dev-qt/qtgui
 dev-qt/qtopengl
 x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
+x11-misc/lightdm gtk
 www-client/firefox minimal
 www-client/icecat crashreporter dbus system-sqlite wifi
 www-plugins/google-talkplugin system-libCg libnotify
