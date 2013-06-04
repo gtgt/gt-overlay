@@ -253,6 +253,8 @@ media-libs/raptor
 media-libs/libpgf
 media-libs/libkgeomap
 media-libs/libkface
+net-misc/mirall
+net-misc/csync
 net-libs/telepathy-qt
 net-libs/telepathy-glib
 net-libs/libkgoogle
@@ -600,7 +602,6 @@ media-libs/alsa-lib
 media-plugins/alsa-plugins 
 <media-sound/alsa-headers-9999
 media-sound/alsa-utils
-media-sound/jack-audio-connection-kit
 
 ## QT
 x11-libs/qt
