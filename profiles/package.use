@@ -226,7 +226,7 @@ media-libs/xine-lib a52 aac css dts fbcon flac gtk imagemagick mad mng modplug m
 media-libs/xine-lib xcb
 media-libs/zbar -v4l
 media-plugins/kipi-plugins cdr crypt imagemagick scanner calendar expoblending mjpeg redeyes
-media-plugins/gst-plugins-meta http taglib 
+media-plugins/gst-plugins-meta http taglib
 media-sound/amarok player embedded ipod cdda daap lastfm mtp
 media-sound/bpmdetect debug realtime
 media-sound/clementine projectm lastfm
