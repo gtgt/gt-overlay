@@ -310,6 +310,7 @@ media-libs/musicbrainz
 media-libs/libmtp
 media-libs/sratom
 media-libs/x264
+media-gfx/gimp-cmyk-plugin
 media-sound/projectm-jack
 media-sound/fluid-soundfont
 media-sound/bpmdetect
