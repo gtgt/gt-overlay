@@ -493,6 +493,7 @@ net-libs/libqinfinity **
 net-libs/libktorrent
 net-libs/xulrunner
 net-im/kde-telepathy-meta
+net-misc/insync
 net-nds/luma
 net-p2p/ktorrent
 net-wireless/bluedevil
