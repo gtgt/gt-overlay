@@ -24,6 +24,7 @@ sys-apps/openrc
 sys-apps/biosdevname
 sys-apps/systemd
 sys-apps/dbus
+sys-apps/shadow
 sys-apps/sysvinit
 sys-auth/realtime-base
 sys-boot/plymouth
