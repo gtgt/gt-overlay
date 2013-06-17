@@ -61,8 +61,8 @@ dev-qt/qtopengl
 x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
 x11-misc/lightdm gtk
-www-client/firefox minimal gstreamer
-www-client/icecat crashreporter dbus system-sqlite wifi
+www-client/firefox minimal gstreamer dbus wifi
+www-client/icecat crashreporter dbus system-sqlite wifi gstreamer
 www-plugins/google-talkplugin system-libCg libnotify
 www-servers/apache apache2_modules_cgi apache2_modules_cgid
 x11-terms/rxvt-unicode vanilla
