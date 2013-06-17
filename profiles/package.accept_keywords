@@ -427,6 +427,7 @@ kde-base/dolphin-box-plugin **
 kde-base/nepomuk-widgets
 kde-base/poxml
 kde-base/print-manager
+kde-misc/ark2
 kde-misc/oxygen-appmenu **
 kde-misc/akonadi-facebook
 kde-misc/akonadi-social-utils
