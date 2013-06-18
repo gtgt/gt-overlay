@@ -472,6 +472,7 @@ media-libs/qt-gstreamer **
 <media-plugins/kipi-plugins-9999
 media-sound/amarok
 <media-sound/clementine-1.1.0
+media-sound/mumble
 media-video/kamerka
 media-sound/kmetronome
 media-sound/kid3

@@ -20,6 +20,8 @@ CONFIG_PROTECT="${CONFIG_PROTECT}
 
 CURL_SSL="gnutls"
 
+PHP_TARGETS="php5-5"
+
 #USE_ORDER = "env:pkg:conf:repo:defaults:pkginternal:env.d"
 
 # Logging
@@ -36,6 +38,7 @@ PORT_LOGDIR_CLEAN="find \${PORT_LOGDIR}/build -type f -ctime +7 -delete"
 
 EMERGE_DEFAULT_OPTS="--verbose --columns --verbose-main-repo-display --quiet-build --keep-going --autounmask-write n --usepkg y --binpkg-respect-use y --fail-clean y --rebuild-if-new-ver"
 QUICKPKG_DEFAULT_OPTS="--include-config=y"
+EGENCACHE_DEFAULT_OPTS="--update --jobs=3 --use-local-desc-output=-"
 #DISTCC_VERBOSE="1"
 CCACHE_SIZE="2G"
 

@@ -30,7 +30,7 @@ LIGHTDM_GREETER="lightdm-kde-greeter"
 LIGHTDM_SESSION="KDE-4"
 
 RUBY_TARGETS="ruby19"
-PYTHON_TARGETS="python2_7 python3_2"
+PYTHON_TARGETS="python2_7 python3_3"
 
 USE="handbook"
 
@@ -54,7 +54,7 @@ USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd 
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu webgl oauth"
 
 # Window manager and speciality
-USE="${USE} X wayland gtk2 gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl glx gles gles2 gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver attica appmenu ayatana indicator overlay libnotify windeco ayatana"
+USE="${USE} X wayland gtk2 gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl -egl -openvg glx gles gles2 gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver attica appmenu ayatana indicator overlay libnotify windeco ayatana"
 
 # Print
 USE="${USE} foomaticdb cups"
