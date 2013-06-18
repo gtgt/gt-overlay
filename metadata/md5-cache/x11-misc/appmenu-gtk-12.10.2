@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=gtk3? ( || ( >=dev-libs/libdbusmenu-0.6.1[gtk] >=dev-libs/libdbusmenu-0.6.1[gtk3] ) x11-libs/gtk+:3[appmenu] ) gtk2? ( >=dev-libs/libdbusmenu-0.6.1[gtk2] x11-libs/gtk+:2[appmenu] )
+DESCRIPTION=Application menu module for GTK
+EAPI=4
+HOMEPAGE=https://launchpad.net/appmenu-gtk
+IUSE=+gtk2 gtk3
+KEYWORDS=-alpha ~amd64 -ppc64 -sparc ~x86
+LICENSE=GPL-2 LGPL-2
+RDEPEND=gtk3? ( || ( >=dev-libs/libdbusmenu-0.6.1[gtk] >=dev-libs/libdbusmenu-0.6.1[gtk3] ) x11-libs/gtk+:3[appmenu] ) gtk2? ( >=dev-libs/libdbusmenu-0.6.1[gtk2] x11-libs/gtk+:2[appmenu] )
+SLOT=0
+SRC_URI=http://launchpad.net/appmenu-gtk/12.10/12.10.2/+download/appmenu-gtk-12.10.2.tar.gz
+_eclasses_=eutils	f31a0ec0d081047cbf9c0bbb4822d831	multilib	892e597faee02a5b94eb02ab512e7622	toolchain-funcs	7ffd28a8c7eea27218865352bfd3ab2f	user	d0a4d0735a6c0183d707ca919bd72f28	versionator	6601b4c5b3f019a993db59a50e1854e4
+_md5_=ad3614bad3f3a338a7d19ae1f4334cf3

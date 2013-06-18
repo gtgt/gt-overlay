@@ -75,7 +75,7 @@ USE="${USE} chm djvu ebook marble postscript ps ofx"
 USE="${USE} clamav crypt ssl"
 
 # Hardware
-USE="${USE} 3dnow acpi cairo cpudetection dbus dri drm ieee1394 joystick lirc lircd lm_sensors mmx mmxext radio scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vaapi xcomposite"
+USE="${USE} 3dnow acpi cairo system-cairo cpudetection dbus dri drm ieee1394 joystick lirc lircd lm_sensors mmx mmxext radio scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vaapi xcomposite"
 
 #Photo
 USE="${USE} gphoto2 kipi"

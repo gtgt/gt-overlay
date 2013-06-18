@@ -18,11 +18,13 @@ dev-python/cython
 dev-util/strace
 dev-util/boost-build
 =net-libs/libqmi-1.0.0 ~amd64
+sys-auth/pambase
 sys-apps/kmod
 sys-apps/openrc
 sys-apps/biosdevname
 sys-apps/systemd
 sys-apps/dbus
+sys-apps/shadow
 sys-apps/sysvinit
 sys-auth/realtime-base
 sys-boot/plymouth
@@ -420,11 +422,13 @@ dev-util/plasmate **
 dev-vcs/qgit
 dev-vcs/kdesvn
 <kde-base/libkipi-9999
+kde-base/kdebase-pam
 #kde-base/gwenview -~amd64 -~x86
 kde-base/dolphin-box-plugin **
 kde-base/nepomuk-widgets
 kde-base/poxml
 kde-base/print-manager
+kde-misc/ark2
 kde-misc/oxygen-appmenu **
 kde-misc/akonadi-facebook
 kde-misc/akonadi-social-utils

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-php5/php-gtk/Attic/php-gtk-2.0.1-r4.ebuild,v 1.5 2011/12/14 22:53:44 mabi dead $
 
-EAPI="2"
+EAPI="4"
 
 PHP_EXT_NAME="php_gtk2"
 PHP_EXT_INI="yes"

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: gt-overlay/dev-v8js/pecl-http/pecl-v8js-0.1.2.ebuild,v 1.0 2011/09/14 13:19:30 gt Exp $
 
-EAPI="3"
+EAPI="4"
 
 PHP_EXT_NAME="v8js"
 PHP_EXT_PECL_PKG="pecl_v8js"

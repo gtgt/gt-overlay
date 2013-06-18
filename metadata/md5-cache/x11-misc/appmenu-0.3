@@ -1,0 +1,11 @@
+DEFINED_PHASES=-
+DEPEND=gtk? ( x11-misc/appmenu-gtk ) qt4? ( x11-misc/appmenu-qt ) kde? ( || ( kde-misc/plasma-widget-menubar kde-misc/plasma-widget-kappmenubar kde-misc/kded-appmenu ) ) gnome? ( x11-misc/indicator-appmenu )
+DESCRIPTION=Metapackage for appmenu
+EAPI=3
+HOMEPAGE=none
+IUSE=gtk qt4 kde gnome
+KEYWORDS=-alpha ~amd64 -ppc64 -sparc ~x86
+LICENSE=GPL-2
+RDEPEND=gtk? ( x11-misc/appmenu-gtk ) qt4? ( x11-misc/appmenu-qt ) kde? ( || ( kde-misc/plasma-widget-menubar kde-misc/plasma-widget-kappmenubar kde-misc/kded-appmenu ) ) gnome? ( x11-misc/indicator-appmenu )
+SLOT=0
+_md5_=be2fdd4a49cf98718f723ba8ed88bef8
