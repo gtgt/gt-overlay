@@ -30,7 +30,7 @@ LIGHTDM_GREETER="lightdm-kde-greeter"
 LIGHTDM_SESSION="KDE-4"
 
 RUBY_TARGETS="ruby19"
-PYTHON_TARGETS="python2_7 python3_3"
+PYTHON_TARGETS="python2_7 python3_2"
 
 USE="handbook"
 
@@ -54,7 +54,7 @@ USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd 
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu webgl oauth"
 
 # Window manager and speciality
-USE="${USE} X wayland gtk2 gtk3 xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl -egl -openvg glx gles gles2 gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver attica appmenu ayatana indicator overlay libnotify windeco ayatana"
+USE="${USE} X wayland gtk2 gtk3 cairo system-cairo xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl -openvg glx gles gles1 gles2 gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver attica appmenu ayatana indicator overlay libnotify windeco ayatana"
 
 # Print
 USE="${USE} foomaticdb cups"
@@ -75,7 +75,7 @@ USE="${USE} chm djvu ebook marble postscript ps ofx"
 USE="${USE} clamav crypt ssl"
 
 # Hardware
-USE="${USE} 3dnow acpi cairo system-cairo cpudetection dbus dri drm ieee1394 joystick lirc lircd lm_sensors mmx mmxext radio scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vaapi xcomposite"
+USE="${USE} 3dnow acpi vdpau cpudetection dbus dri drm ieee1394 joystick lirc lircd lm_sensors mmx mmxext radio scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vaapi xcomposite"
 
 #Photo
 USE="${USE} gphoto2 kipi"

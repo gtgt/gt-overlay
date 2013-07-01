@@ -242,6 +242,7 @@ app-pda/usbmuxd
 app-text/poppler
 app-shells/push
 =dev-lang/perl-5.16.1
+<dev-lang/python-3.4
 dev-libs/libmirage
 dev-libs/nss
 dev-libs/nspr
@@ -488,6 +489,7 @@ media-sound/traverso
 media-video/libav
 media-video/kaffeine **
 media-video/kamoso **
+media-video/minitube
 media-video/recorditnow
 media-video/loopy
 net-analyzer/ksniffer
