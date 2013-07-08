@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI="4"
 
 MY_PV="${PV/_pre/.dev-r}"
 MY_PF="${PN}-${MY_PV}"

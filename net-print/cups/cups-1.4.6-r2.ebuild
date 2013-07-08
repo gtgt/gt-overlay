@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/net-print/cups/cups-1.4.6-r1.ebuild,v 1.4 2011/05/01 15:15:04 scarabeus Exp $
 
-EAPI=3
+EAPI="4"
 
 PYTHON_DEPEND="python? 2:2.5"
 
