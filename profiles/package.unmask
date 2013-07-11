@@ -26,6 +26,7 @@ kde-misc/kgtk
 <media-gfx/gimp-9999
 <media-gfx/digikam-9999
 <media-plugins/kipi-plugins-9999
+>media-libs/mesa-9.0
 <net-im/emesene-9999
 net-libs/libgcal
 net-libs/xulrunner
@@ -46,4 +47,3 @@ www-client/opera-next
 =www-servers/apache-2.4*
 x11-misc/appmenu-firefox
 =x11-proto/inputproto-2.2.99.1
-

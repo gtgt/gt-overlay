@@ -30,7 +30,7 @@ media-gfx/enblend doc
 media-plugins/gst-plugins-meta ffmpeg
 media-libs/libggi 3dfx
 media-libs/libquicktime gtk
-media-libs/mesa d3d wayland llvm
+media-libs/mesa d3d llvm
 media-libs/opencv cuda
 media-sound/mangler xosd
 media-sound/jack-audio-connection-kit ieee1394 dbus

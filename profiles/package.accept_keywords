@@ -9,6 +9,7 @@ dev-cpp/gmock
 dev-cpp/gtest
 dev-lang/spidermonkey
 =dev-libs/boost-1.52.0-r6
+dev-libs/libclc
 dev-libs/glib
 dev-libs/libnl
 dev-libs/libpcre
@@ -31,6 +32,8 @@ sys-boot/plymouth-openrc-plugin
 sys-boot/syslinux
 sys-boot/unetbootin
 sys-block/thin-provisioning-tools
+sys-devel/llvm
+sys-devel/clang
 =sys-devel/gcc-4.6.3
 sys-devel/icecream
 sys-fs/cachefilesd
@@ -255,10 +258,13 @@ dev-python/pyndex
 dev-python/python-exec
 dev-python/pysvn
 dev-util/adobe-air-sdk-bin
+dev-libs/libattica
+sys-libs/tevent
 media-libs/raptor
 media-libs/libpgf
 media-libs/libkgeomap
 media-libs/libkface
+net-misc/freerdp
 net-misc/mirall
 net-misc/csync
 net-libs/telepathy-qt
@@ -370,6 +376,7 @@ sys-kernel/gentoo-sources
 app-admin/keepassx2 **
 app-arch/q7z
 app-backup/luckybackup
+app-cdr/cdemu-daemon
 app-cdr/acetoneiso
 app-cdr/k9copy
 app-cdr/qlscribe **
@@ -487,7 +494,6 @@ media-sound/kwave
 media-sound/qjackctl
 media-sound/qtractor
 media-sound/traverso
-media-video/libav
 media-video/kaffeine **
 media-video/kamoso **
 media-video/minitube
@@ -776,6 +782,7 @@ x11-drivers/ati-drivers
 #media-video/nvidia-settings
 
 media-libs/mesa
+=media-libs/mesa-9.2_pre20130528 **
 x11-apps/mesa-progs
 
 x11-libs/qscintilla
