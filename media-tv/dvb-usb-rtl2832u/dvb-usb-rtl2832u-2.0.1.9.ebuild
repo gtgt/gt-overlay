@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: gt-overlay/media-video/dvb-usb-rtl2832u.ebuild,v 1.0 2011/09/22 19:01:45 gt Exp $
 
-EAPI="3"
+EAPI="4"
 
 inherit linux-mod eutils
 

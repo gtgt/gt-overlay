@@ -378,6 +378,7 @@ www-client/opera-next -gtk
 www-client/rekonq opera
 www-plugins/adobe-flash 32bit 64bit multilib
 x11-base/xorg-server nptl udev kdrive xdmx xnest wayland
+x11-drivers/ati-drivers disable-watermark
 x11-drivers/nvidia-drivers gtk rt
 x11-drivers/xf86-video-glint dri
 x11-drivers/xf86-video-intel dri

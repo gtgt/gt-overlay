@@ -1,0 +1,13 @@
+diff --git a/linux/include/linux/hid.h b/linux.b/include/linux/hid.h
+index e14b465..e99994c 100644
+--- a/linux/include/linux/hid.h
++++ b/linux.b/include/linux/hid.h
+@@ -318,7 +318,7 @@ struct hid_global {
+  * This is the local environment. It is persistent up the next main-item.
+  */
+ 
+-#define HID_MAX_USAGES			12288
++#define HID_MAX_USAGES			32768
+ #define HID_DEFAULT_NUM_COLLECTIONS	16
+ 
+ struct hid_local {
