@@ -1,14 +1,14 @@
 # System
 app-arch/libarchive
 app-arch/xz-utils
-=app-cdr/cdemu-daemon-2.0.0 ~amd64
+=app-cdr/cdemu-daemon-2.0.0
 app-misc/reptyr
 pp-shells/dash
 dev-cpp/ctemplate
 dev-cpp/gmock
 dev-cpp/gtest
 dev-lang/spidermonkey
-dev-libs/boost
+=dev-libs/boost-1.52.0-r6
 dev-libs/glib
 dev-libs/libnl
 dev-libs/libpcre
@@ -16,7 +16,6 @@ dev-libs/libpcre
 dev-python/cython
 =dev-util/valgrind-3.6.1-r2
 dev-util/strace
-dev-util/boost-build
 =net-libs/libqmi-1.0.0 ~amd64
 sys-auth/pambase
 sys-apps/kmod
@@ -60,6 +59,8 @@ app-portage/elogviewer
 app-portage/portage-utils
 app-admin/eselect
 app-admin/eselect-qtgraphicssystem
+app-admin/eclean-kernel
+dev-python/pymountboot
 media-gfx/splashutils
 sys-apps/paludis
 sys-apps/baselayout-systemd
