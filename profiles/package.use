@@ -208,7 +208,7 @@ media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
 media-libs/libwmf gtk
 media-libs/mediastreamer amr portaudio sdl speex theora v4l2 x264
 media-libs/mediastreamer video
-media-libs/mesa nptl shared-dricore shared-glapi xa osmesa gles1 gles2 
+media-libs/mesa nptl shared-dricore shared-glapi xa osmesa gles1 gles2 r600-llvm-compiler wayland
 media-libs/mlt dv ffmpeg gtk kde python qt4 quicktime sdl sse sse2 vorbis melt xml frei0r kdenlive
 media-libs/openal portaudio
 media-libs/phonon xine gstreamer -vlc
@@ -377,7 +377,7 @@ www-client/icecat
 www-client/opera-next -gtk
 www-client/rekonq opera
 www-plugins/adobe-flash 32bit 64bit multilib
-x11-base/xorg-server nptl udev kdrive xdmx xnest
+x11-base/xorg-server nptl udev kdrive xdmx xnest wayland
 x11-drivers/nvidia-drivers gtk rt
 x11-drivers/xf86-video-glint dri
 x11-drivers/xf86-video-intel dri
