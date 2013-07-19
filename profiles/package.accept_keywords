@@ -64,6 +64,7 @@ app-admin/eselect
 app-admin/eselect-qtgraphicssystem
 app-admin/eclean-kernel
 dev-python/pymountboot
+dev-python/setuptools
 media-gfx/splashutils
 sys-apps/paludis
 sys-apps/baselayout-systemd
@@ -201,6 +202,7 @@ net-libs/pjsip
 media-libs/chromaprint
 media-libs/opencv
 media-libs/xine-lib
+media-libs/libraw
 <net-news/liferea-9999
 www-plugins/google-talkplugin
 net-misc/fuse-google-drive **
@@ -374,6 +376,7 @@ sys-kernel/gentoo-sources
 
 ## Desktop App
 app-admin/keepassx2 **
+app-admin/lsyncd
 app-arch/q7z
 app-backup/luckybackup
 app-cdr/cdemu-daemon
@@ -641,6 +644,8 @@ dev-qt/qtsvg
 dev-qt/qttest
 dev-qt/qtwebkit
 dev-qt/qtxmlpatterns
+
+dev-qt/qt3support
 
 ## x86 emul
 app-emulation/emul-linux-x86-baselibs
