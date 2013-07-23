@@ -73,7 +73,6 @@ sys-apps/systemd-units
 
 ## Java stuff
 virtual/jdk
-dev-java/ant-core
 dev-java/cacao
 dev-java/cglib
 dev-java/gcj-jdk
@@ -625,27 +624,27 @@ media-plugins/alsa-plugins
 media-sound/alsa-utils
 
 ## QT
-x11-libs/qt
-dev-qt/qtmeta
-dev-qt/qtassistant
-dev-qt/qtcore
-dev-qt/qtdbus
-dev-qt/qtdeclarative
-dev-qt/qtdemo
-dev-qt/qtgui
-dev-qt/qtmultimedia
-dev-qt/qtopengl
-dev-qt/qtopenvg
-dev-qt/qtphonon
-dev-qt/qtqt3support
-dev-qt/qtscript
-dev-qt/qtsql
-dev-qt/qtsvg
-dev-qt/qttest
-dev-qt/qtwebkit
-dev-qt/qtxmlpatterns
+#x11-libs/qt
+#dev-qt/qtmeta
+#dev-qt/qtassistant
+#dev-qt/qtcore
+#dev-qt/qtdbus
+#dev-qt/qtdeclarative
+#dev-qt/qtdemo
+#dev-qt/qtgui
+#dev-qt/qtmultimedia
+#dev-qt/qtopengl
+#dev-qt/qtopenvg
+#dev-qt/qtphonon
+#dev-qt/qtqt3support
+#dev-qt/qtscript
+#dev-qt/qtsql
+#dev-qt/qtsvg
+#dev-qt/qttest
+#dev-qt/qtwebkit
+#dev-qt/qtxmlpatterns
 
-dev-qt/qt3support
+#dev-qt/qt3support
 
 ## x86 emul
 app-emulation/emul-linux-x86-baselibs
@@ -665,8 +664,6 @@ app-emulation/emul-linux-x86-sdl
 app-emulation/emul-linux-x86-soundlibs
 app-emulation/emul-linux-x86-xlibs
 app-emulation/emul-linux-x86-bjdeps
-
-<dev-lang/python-3.2
 
 net-dns/mydns
 
