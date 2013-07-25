@@ -31,7 +31,9 @@ PORTAGE_ELOG_CLASSES="warn error info log"
 #PORTAGE_ELOG_SYSTEM="save:warn,error save_summary echo"
 PORTAGE_ELOG_SYSTEM="save"
 
-GENTOO_MIRRORS="http://gentoo.inf.elte.hu http://www.mirrorservice.org/sites/www.ibiblio.org/gentoo"
+GENTOO_MIRRORS="http://www.mirrorservice.org/sites/www.ibiblio.org/gentoo"
+#GENTOO_MIRRORS="http://gentoo.inf.elte.hu http://www.mirrorservice.org/sites/www.ibiblio.org/gentoo"
+
 PKGDIR="/usr/portage/packages/`uname -m`"
 PORT_LOGDIR="/var/log/portage/elog"
 PORT_LOGDIR_CLEAN="find \${PORT_LOGDIR}/build -type f -ctime +7 -delete"

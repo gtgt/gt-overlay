@@ -64,6 +64,7 @@ app-admin/eselect
 app-admin/eselect-qtgraphicssystem
 app-admin/eclean-kernel
 dev-python/pymountboot
+dev-python/setuptools
 media-gfx/splashutils
 sys-apps/paludis
 sys-apps/baselayout-systemd
@@ -72,7 +73,6 @@ sys-apps/systemd-units
 
 ## Java stuff
 virtual/jdk
-dev-java/ant-core
 dev-java/cacao
 dev-java/cglib
 dev-java/gcj-jdk
@@ -201,6 +201,7 @@ net-libs/pjsip
 media-libs/chromaprint
 media-libs/opencv
 media-libs/xine-lib
+media-libs/libraw
 <net-news/liferea-9999
 www-plugins/google-talkplugin
 net-misc/fuse-google-drive **
@@ -375,6 +376,7 @@ sys-kernel/gentoo-sources
 
 ## Desktop App
 app-admin/keepassx2 **
+app-admin/lsyncd
 app-arch/q7z
 app-backup/luckybackup
 app-cdr/cdemu-daemon
@@ -623,25 +625,27 @@ media-plugins/alsa-plugins
 media-sound/alsa-utils
 
 ## QT
-x11-libs/qt
-dev-qt/qtmeta
-dev-qt/qtassistant
-dev-qt/qtcore
-dev-qt/qtdbus
-dev-qt/qtdeclarative
-dev-qt/qtdemo
-dev-qt/qtgui
-dev-qt/qtmultimedia
-dev-qt/qtopengl
-dev-qt/qtopenvg
-dev-qt/qtphonon
-dev-qt/qtqt3support
-dev-qt/qtscript
-dev-qt/qtsql
-dev-qt/qtsvg
-dev-qt/qttest
-dev-qt/qtwebkit
-dev-qt/qtxmlpatterns
+#x11-libs/qt
+#dev-qt/qtmeta
+#dev-qt/qtassistant
+#dev-qt/qtcore
+#dev-qt/qtdbus
+#dev-qt/qtdeclarative
+#dev-qt/qtdemo
+#dev-qt/qtgui
+#dev-qt/qtmultimedia
+#dev-qt/qtopengl
+#dev-qt/qtopenvg
+#dev-qt/qtphonon
+#dev-qt/qtqt3support
+#dev-qt/qtscript
+#dev-qt/qtsql
+#dev-qt/qtsvg
+#dev-qt/qttest
+#dev-qt/qtwebkit
+#dev-qt/qtxmlpatterns
+
+#dev-qt/qt3support
 
 ## x86 emul
 app-emulation/emul-linux-x86-baselibs
@@ -661,8 +665,6 @@ app-emulation/emul-linux-x86-sdl
 app-emulation/emul-linux-x86-soundlibs
 app-emulation/emul-linux-x86-xlibs
 app-emulation/emul-linux-x86-bjdeps
-
-<dev-lang/python-3.2
 
 net-dns/mydns
 
