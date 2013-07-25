@@ -10,7 +10,7 @@ PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
 PORTAGE_NICENESS="5"
 #digest multilib-strict
 #downgrade-backup unmerge-backup -buildpk
-FEATURES="metadata-transfer preserve-libs ccache fixlafiles unmerge-orphans assume-digests userfetch -userpriv sandbox -usersandbox fakeroot splitdebug compressdebug news candy prelink-checksums -collision-protect protect-owned split-elog split-log clean-logs -parse-eapi-ebuild-head"
+FEATURES="metadata-transfer preserve-libs ccache fixlafiles unmerge-orphans assume-digests userfetch -userpriv sandbox -usersandbox fakeroot news candy prelink-checksums -collision-protect protect-owned split-elog split-log clean-logs -parse-eapi-ebuild-head"
 COLLISION_IGNORE="/*"
 ACCEPT_LICENSE="*"
 CONFIG_PROTECT="${CONFIG_PROTECT} 

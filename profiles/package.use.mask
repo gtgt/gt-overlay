@@ -30,7 +30,7 @@ media-gfx/enblend doc
 media-plugins/gst-plugins-meta ffmpeg
 media-libs/libggi 3dfx
 media-libs/libquicktime gtk
-media-libs/mesa d3d llvm
+media-libs/mesa d3d 
 media-libs/opencv cuda
 media-sound/mangler xosd
 media-sound/jack-audio-connection-kit ieee1394 dbus
@@ -51,6 +51,7 @@ net-print/hplip X kde acl
 net-wireless/bluez maemo6 old-daemons
 net-wireless/wpa_supplicant wimax
 sci-libs/hdf5 fortran cxx mpi
+sys-block/gparted gtk
 sys-auth/polkit gtk introspection
 sys-apps/pciutils zlib
 sys-fs/ntfs3g external-fuse
@@ -58,6 +59,7 @@ x11-libs/cairo static-libs
 dev-qt/qtmeta openvg
 dev-qt/qtgui 
 dev-qt/qtopengl
+x11-libs/cairo opengl
 x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
 x11-misc/lightdm gtk

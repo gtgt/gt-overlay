@@ -42,7 +42,7 @@ USE="${USE} nsplugin policykit polkit bash-completion fbsplash fbcon inotify gst
 USE="${USE} python perl mono ithreads gdbm quanta subversion git cvs mercurial bazaar script -introspection"
 
 # Network protocols
-USE="${USE} ftp network -ldap rdesktop samba upnp resolvconf zeroconf avahi wifi"
+USE="${USE} ftp network -ldap rdesktop samba upnp resolvconf zeroconf avahi wifi rdp"
 
 # Sql & data support
 USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite odbc json"
