@@ -39,6 +39,7 @@ media-video/ffmpeg cpudetection
 media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc
 media-video/vlc aalib libcaca sdl sdl-image ffmpeg postproc
+net-analyzer/wireshark gtk
 net-fs/cifs-utils
 net-libs/telepathy-glib vala
 net-mail/dovecot pam ldap

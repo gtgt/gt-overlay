@@ -304,6 +304,7 @@ dev-libs/sord
 dev-libs/libf2c
 media-gfx/zbar
 media-fonts/takao-fonts
+media-libs/fontconfig
 media-libs/suil
 media-libs/lcms
 media-libs/libpng:1.4
