@@ -338,7 +338,9 @@ sys-apps/jackd-init
 ## need for digikam
 sci-libs/clapack
 sys-fs/dmg2img
+media-video/ffmpeg
 media-video/mjpg-streamer
+virtual/ffmpeg
 
 # Avahi
 net-dns/avahi
