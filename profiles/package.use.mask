@@ -11,7 +11,6 @@ app-portage/elogviewer python_targets_python3_3
 =dev-java/icedtea-7.1.14 xrender
 dev-java/swt xulrunner
 =dev-lang/php-5.5.0_rc1 opcache
-dev-libs/json-glib introspection
 dev-libs/libdbusmenu test
 dev-libs/rasqal xml pcre
 dev-util/kdevelop okteta qthelp
@@ -53,7 +52,7 @@ net-wireless/bluez maemo6 old-daemons
 net-wireless/wpa_supplicant wimax
 sci-libs/hdf5 fortran cxx mpi
 sys-block/gparted gtk
-sys-auth/polkit gtk introspection
+sys-auth/polkit gtk
 sys-apps/pciutils zlib
 sys-fs/ntfs3g external-fuse
 x11-libs/cairo static-libs

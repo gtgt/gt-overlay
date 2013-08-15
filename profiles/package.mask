@@ -23,6 +23,10 @@
 
 media-libs/jpeg:0
 
+
+=sys-apps/hwids-20130717-r1
+
+
 =x11-terms/rxvt-unicode-9.16
 
 ## QT

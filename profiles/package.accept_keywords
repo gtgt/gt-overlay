@@ -10,7 +10,6 @@ dev-cpp/gtest
 dev-lang/spidermonkey
 =dev-libs/boost-1.52.0-r6
 dev-libs/libclc
-dev-libs/glib
 dev-libs/libnl
 dev-libs/libpcre
 =dev-python/dbus-python-1.1.1-r1
@@ -63,6 +62,7 @@ app-portage/portage-utils
 app-admin/eselect
 app-admin/eselect-qtgraphicssystem
 app-admin/eclean-kernel
+app-shells/bash-completion
 dev-python/pymountboot
 dev-python/setuptools
 media-gfx/splashutils
@@ -184,7 +184,6 @@ sys-apps/util-linux
 sys-apps/gptfdisk
 sys-fs/vhba
 
-
 # Picture and social
 <app-text/fbreader-9999
 media-gfx/exiv2
@@ -194,9 +193,9 @@ media-gfx/freewrl
 <media-video/mplayer-9999
 <net-im/skype-9999
 net-im/ktp-desktop-applets
-net-libs/glib-networking
-net-libs/libsoup
-net-libs/libsoup-gnome
+#net-libs/glib-networking
+#net-libs/libsoup
+#net-libs/libsoup-gnome
 net-libs/pjsip
 media-libs/chromaprint
 media-libs/opencv
@@ -248,6 +247,7 @@ app-text/poppler
 app-shells/push
 =dev-lang/perl-5.16.1
 <dev-lang/python-3.4
+dev-lang/vala
 dev-libs/libmirage
 dev-libs/nss
 dev-libs/nspr
@@ -283,9 +283,12 @@ virtual/python-json
 #GTK & Gnome libs
 # "-common" suffix is obsolate
 app-accessibility/at-spi2-core
+dev-cpp/glibmm
 dev-libs/gobject-introspection-common
 dev-libs/gobject-introspection
 dev-libs/json-glib
+dev-python/pygobject
+dev-python/pycairo
 dev-util/dbus-test-runner
 gnome-base/librsvg
 x11-libs/cairo
@@ -305,6 +308,7 @@ dev-libs/sord
 dev-libs/libf2c
 media-gfx/zbar
 media-fonts/takao-fonts
+media-libs/fontconfig
 media-libs/suil
 media-libs/lcms
 media-libs/libpng:1.4
@@ -356,7 +360,9 @@ net-fs/coda
 net-fs/davfs2
 net-fs/nfs-utils
 net-fs/samba
+net-libs/gssdp
 net-libs/rpc2
+net-libs/libqmi
 <dev-libs/liblinebreak-9999
 net-misc/curl -~*
 <net-wireless/blueman-9999

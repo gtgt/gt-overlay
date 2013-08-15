@@ -336,7 +336,8 @@ sys-apps/v86d x86emu
 sys-apps/xinetd perl tcpd rpc
 sys-auth/consolekit kernel_linux policykit
 sys-auth/pambase cracklib
-sys-auth/polkit kde
+sys-auth/polkit kde introspection
+sys-auth/polkit introspection
 sys-block/gparted btrfs dmraid f2fs fat hfs jfs kde mdadm ntfs reiser4 reiserfs
 sys-block/parted debug device-mapper readline
 sys-cluster/openmpi mpi-threads
@@ -348,7 +349,7 @@ sys-fs/lvm2 lvm1 readline static
 sys-fs/ntfs3g acl ntfsprogs udev suid extras
 sys-fs/ntfsprogs crypt
 sys-fs/squashfs-tools gzip lzma lzo
-sys-fs/udev extras hwdb keymap rule_generator static-libs 
+sys-fs/udev extras hwdb keymap rule_generator static-libs
 sys-kernel/calckernel video_cards_radeon
 sys-kernel/calculate-sources symlink
 sys-kernel/dracut net device-mapper
