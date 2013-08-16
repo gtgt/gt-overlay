@@ -39,10 +39,10 @@ USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl optimization th
 USE="${USE} nsplugin policykit polkit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk"
 
 #Lang support (python perl mono)
-USE="${USE} python perl mono ithreads gdbm quanta subversion git cvs mercurial bazaar script -introspection"
+USE="${USE} python perl mono ithreads gdbm quanta subversion git cvs mercurial bazaar script"
 
 # Network protocols
-USE="${USE} ftp network -ldap rdesktop samba upnp resolvconf zeroconf avahi wifi"
+USE="${USE} ftp network -ldap rdesktop samba upnp resolvconf zeroconf avahi wifi rdp"
 
 # Sql & data support
 USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite odbc json"

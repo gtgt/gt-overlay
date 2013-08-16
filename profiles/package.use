@@ -137,7 +137,7 @@ kde-base/kdeartwork-kscreensaver eigen kexiv2
 kde-base/kdebase-kioslaves bzip2 exif openexr samba sftp
 kde-base/kdelibs acl fam policykit upnp
 kde-base/kdemultimedia-kioslaves encode flac vorbis
-kde-base/kdepim-runtime google
+kde-base/kdepim-runtime google facebook kolab
 kde-base/kdeplasma-addons exif
 kde-base/kdesdk-misc extras
 kde-base/kget bittorrent webkit
@@ -208,7 +208,7 @@ media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
 media-libs/libwmf gtk
 media-libs/mediastreamer amr portaudio sdl speex theora v4l2 x264
 media-libs/mediastreamer video
-media-libs/mesa nptl shared-dricore shared-glapi xa osmesa gles1 gles2 r600-llvm-compiler wayland
+media-libs/mesa nptl shared-dricore shared-glapi xa osmesa gles1 gles2 wayland opencl llvm r600-llvm-compiler
 media-libs/mlt dv ffmpeg gtk kde python qt4 quicktime sdl sse sse2 vorbis melt xml frei0r kdenlive
 media-libs/openal portaudio
 media-libs/phonon xine gstreamer -vlc
@@ -337,18 +337,21 @@ sys-apps/v86d x86emu
 sys-apps/xinetd perl tcpd rpc
 sys-auth/consolekit kernel_linux policykit
 sys-auth/pambase cracklib
-sys-auth/polkit kde
+sys-auth/polkit kde introspection
+sys-auth/polkit introspection
+sys-block/gparted btrfs dmraid f2fs fat hfs jfs kde mdadm ntfs reiser4 reiserfs
 sys-block/parted debug device-mapper readline
 sys-cluster/openmpi mpi-threads
 sys-devel/bc readline
 sys-devel/gcc gtk mudflap multilib nptl objc objc++ objc-gc openmp gcj graphite
 sys-devel/gettext acl elibc_glibc git openmp
+sys-devel/llvm clang
 sys-fs/fuse kernel_linux
 sys-fs/lvm2 lvm1 readline static
 sys-fs/ntfs3g acl ntfsprogs udev suid extras
 sys-fs/ntfsprogs crypt
 sys-fs/squashfs-tools gzip lzma lzo
-sys-fs/udev extras hwdb keymap rule_generator static-libs 
+sys-fs/udev extras hwdb keymap rule_generator static-libs
 sys-kernel/calckernel video_cards_radeon
 sys-kernel/calculate-sources symlink
 sys-kernel/dracut net device-mapper
