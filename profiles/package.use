@@ -306,6 +306,7 @@ net-wireless/blueman network
 net-wireless/bluez cups test-programs usb
 net-wireless/bluez health pnat
 net-wireless/broadcom-sta kernel_linux
+net-wireless/gnuradio utils uhd grc filter fcd doc examples wavelet
 net-wireless/madwifi-ng kernel_linux
 net-wireless/rtl8192se kernel_linux
 net-wireless/wpa_supplicant dbus eap-sim kernel_linux readline

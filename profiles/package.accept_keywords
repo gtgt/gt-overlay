@@ -54,6 +54,10 @@ sys-power/pm-utils
 sys-power/upower
 sys-process/atop
 
+=dev-util/boost-build-1.53.0
+=dev-libs/boost-1.53.0
+
+
 ## Gentoo
 app-portage/eix
 app-portage/elogv
@@ -330,6 +334,10 @@ media-sound/jackmix
 media-tv/linuxtv-dvb-firmware
 media-tv/me-tv
 media-tv/mythtv
+dev-python/pyqwt
+net-wireless/gnuradio
+net-wireless/uhd
+net-wireless/cutesdr **
 sys-apps/jackd-init
 ## need for digikam
 sci-libs/clapack
