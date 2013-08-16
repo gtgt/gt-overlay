@@ -367,6 +367,9 @@ net-libs/rpc2
 net-libs/libqmi
 <dev-libs/liblinebreak-9999
 net-misc/curl -~*
+net-nds/rpcbind
+net-misc/netifrc
+
 <net-wireless/blueman-9999
 
 # Wireless

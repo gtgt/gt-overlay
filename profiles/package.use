@@ -137,7 +137,7 @@ kde-base/kdeartwork-kscreensaver eigen kexiv2
 kde-base/kdebase-kioslaves bzip2 exif openexr samba sftp
 kde-base/kdelibs acl fam policykit upnp
 kde-base/kdemultimedia-kioslaves encode flac vorbis
-kde-base/kdepim-runtime google
+kde-base/kdepim-runtime google facebook kolab
 kde-base/kdeplasma-addons exif
 kde-base/kdesdk-misc extras
 kde-base/kget bittorrent webkit
@@ -344,6 +344,7 @@ sys-cluster/openmpi mpi-threads
 sys-devel/bc readline
 sys-devel/gcc gtk mudflap multilib nptl objc objc++ objc-gc openmp gcj graphite
 sys-devel/gettext acl elibc_glibc git openmp
+sys-devel/llvm clang
 sys-fs/fuse kernel_linux
 sys-fs/lvm2 lvm1 readline static
 sys-fs/ntfs3g acl ntfsprogs udev suid extras
