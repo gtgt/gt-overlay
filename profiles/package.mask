@@ -25,6 +25,8 @@
 
 media-libs/jpeg:0
 
+<dev-lang/vala-0.20.1
+<dev-lang/vala-common-0.20.1
 
 =sys-apps/hwids-20130717-r1
 

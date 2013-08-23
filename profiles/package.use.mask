@@ -11,7 +11,8 @@ app-portage/elogviewer python_targets_python3_3
 =dev-java/icedtea-7.1.14 xrender
 dev-java/swt xulrunner
 =dev-lang/php-5.5.0_rc1 opcache
-dev-libs/libdbusmenu test
+dev-libs/libindicate introspection
+dev-libs/libdbusmenu introspection
 dev-libs/rasqal xml pcre
 dev-util/kdevelop okteta qthelp
 dev-util/kdevelop-php kdevelop
@@ -40,6 +41,8 @@ media-video/mplayer2 cpudetection xvmc
 media-video/vlc aalib libcaca sdl sdl-image ffmpeg postproc
 net-analyzer/wireshark gtk
 net-fs/cifs-utils
+net-libs/gssdp introspection
+net-libs/libsoup introspection
 net-libs/telepathy-glib vala
 net-mail/dovecot pam ldap
 net-misc/networkmanager sharing wimax

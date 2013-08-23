@@ -3,3 +3,5 @@
 #custom-cflags
 #custom-optimization
 bindist
+vala
+vapigen
