@@ -370,6 +370,7 @@ net-fs/coda
 net-fs/davfs2
 net-fs/nfs-utils
 net-fs/samba
+net-libs/libkfbapi
 net-libs/gssdp
 net-libs/rpc2
 net-libs/libqmi
@@ -459,6 +460,9 @@ kde-base/dolphin-box-plugin **
 kde-base/nepomuk-widgets
 kde-base/poxml
 kde-base/print-manager
+kde-base/kde-dev-scripts
+kde-base/solid-actions-kcm
+kde-base/kimgio
 kde-misc/ark2
 kde-misc/oxygen-appmenu **
 kde-misc/akonadi-facebook

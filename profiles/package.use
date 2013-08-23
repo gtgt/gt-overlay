@@ -228,6 +228,7 @@ media-libs/zbar -v4l
 media-plugins/kipi-plugins cdr crypt imagemagick scanner calendar expoblending mjpeg redeyes
 media-plugins/gst-plugins-meta http taglib
 media-sound/amarok player embedded ipod cdda daap lastfm mtp
+media-sound/audacity mpsms twolame vamp ladspa
 media-sound/bpmdetect debug realtime
 media-sound/clementine projectm lastfm
 media-sound/kid3 mp4
@@ -245,6 +246,7 @@ media-video/ffmpegthumbnailer gtk jpeg png
 media-video/mjpegtools dv gtk mmx png quicktime sdl
 media-video/mjpg-streamer output_http output_udp output_rtsp output_autofocus input_uvc input_control www
 media-video/mplayer dga dts dvdnav md5sum mmxext radio x264 3dnowext dvb pvr rtmp vpx win32codecs
+media-video/mplayer2 ladspa quvi
 media-video/recordmydesktop
 media-video/transcode 3dnow a52 aac dv dvd iconv imagemagick jpeg lzo mmx mp3 mpeg ogg quicktime sdl sse sse2 theora truetype vorbis x264 xvid mjpeg
 media-video/vdr -analogtv -atsc -cmdreccmdi18n -cmdsubmenu -cutterlimit -cutterqueue -cuttime -ddepgentry -deltimeshiftrec -dolbyinrec -dvbplayer -dvbsetup -dvdarchive -dvdchapjump -dvlfriendlyfnames -dvlrecscriptaddon -dvlvidprefer -dxr3 -em84xx -graphtft -hardlinkcutter -iptv -jumpplay -liemikuutio lircsettings -livebuffer -lnbshare -mainmenuhooks -menuorg -noepg -osdmaxitems -parentalrating -pinplugin -rotor -settime -setup -softosd -sortrecords -sourcecaps -syncearly -timercmd -timerinfo -ttxtsubs -validinput -vanilla volctrl -wareagleicon -yaepg
@@ -384,6 +386,7 @@ www-plugins/adobe-flash 32bit 64bit multilib
 x11-base/xorg-server nptl udev kdrive xdmx xnest wayland
 x11-drivers/ati-drivers disable-watermark
 x11-drivers/nvidia-drivers gtk rt
+x11-drivers/xf86-video-ati glamor
 x11-drivers/xf86-video-glint dri
 x11-drivers/xf86-video-intel dri
 x11-drivers/xf86-video-mach64 dri
