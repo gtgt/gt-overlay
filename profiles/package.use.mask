@@ -41,8 +41,6 @@ media-video/mplayer2 cpudetection xvmc
 media-video/vlc aalib libcaca sdl sdl-image ffmpeg postproc
 net-analyzer/wireshark gtk
 net-fs/cifs-utils
-net-libs/gssdp introspection
-net-libs/libsoup introspection
 net-libs/telepathy-glib vala
 net-mail/dovecot pam ldap
 net-misc/networkmanager sharing wimax
@@ -58,6 +56,7 @@ sci-libs/hdf5 fortran cxx mpi
 sys-block/gparted gtk
 sys-auth/polkit gtk
 sys-apps/pciutils zlib
+#sys-devel/llvm debug
 sys-fs/ntfs3g external-fuse
 x11-libs/cairo static-libs
 dev-qt/qtmeta openvg

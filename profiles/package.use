@@ -208,7 +208,7 @@ media-libs/libvpx mmx sse sse2 sse3 ssse3 threads
 media-libs/libwmf gtk
 media-libs/mediastreamer amr portaudio sdl speex theora v4l2 x264
 media-libs/mediastreamer video
-media-libs/mesa nptl shared-dricore shared-glapi xa osmesa gles1 gles2 wayland opencl llvm r600-llvm-compiler
+media-libs/amesa nptl shared-dricore shared-glapi xa osmesa gles1 gles2 wayland
 media-libs/mlt dv ffmpeg gtk kde python qt4 quicktime sdl sse sse2 vorbis melt xml frei0r kdenlive
 media-libs/openal portaudio
 media-libs/phonon xine gstreamer -vlc
@@ -225,12 +225,12 @@ media-libs/x264 threads
 media-libs/xine-lib a52 aac css dts fbcon flac gtk imagemagick mad mng modplug musepack samba sdl speex theora truetype v4l vcd vorbis xinerama xv
 media-libs/xine-lib xcb
 media-libs/zbar -v4l
-media-plugins/kipi-plugins cdr crypt imagemagick scanner calendar expoblending mjpeg redeyes
+media-plugins/kipi-plugins cdr crypt imagemagick scanner calendar mjpeg redeyes
 media-plugins/gst-plugins-meta http taglib
 media-sound/amarok player embedded ipod cdda daap lastfm mtp
 media-sound/audacity mpsms twolame vamp ladspa
 media-sound/bpmdetect debug realtime
-media-sound/clementine projectm lastfm
+media-sound/clementine projectm lastfm ios ipod
 media-sound/kid3 mp4
 media-sound/lame mp3rtp static-libs
 media-sound/mangler celt gsm speex
@@ -274,6 +274,8 @@ net-libs/libinfinity -gtk server
 net-libs/libnfs idmap
 net-libs/libnice gstreamer
 net-libs/libpcap bluetooth
+net-libs/libsoup introspection
+net-libs/libsoup-gnome introspection
 net-libs/libsshsftp zlib1-libs
 net-libs/libvncserver jpeg threads
 net-libs/telepathy-qt farstream

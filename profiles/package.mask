@@ -21,6 +21,10 @@
 =sys-fs/udisks-2.0.91
 =sys-fs/udisks-1.0.4-r4
 
+>net-libs/libsoup-2.40.3
+
+=dev-libs/libclc-9999
+
 =net-libs/telepathy-farstream-0.6.0
 
 media-libs/jpeg:0

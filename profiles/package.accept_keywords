@@ -30,7 +30,6 @@ sys-boot/plymouth
 sys-boot/plymouth-openrc-plugin
 sys-boot/syslinux
 sys-boot/unetbootin
-sys-block/thin-provisioning-tools
 sys-devel/llvm
 sys-devel/clang
 =sys-devel/gcc-4.6.3
@@ -198,8 +197,8 @@ media-gfx/freewrl
 <net-im/skype-9999
 net-im/ktp-desktop-applets
 #net-libs/glib-networking
-#net-libs/libsoup
-#net-libs/libsoup-gnome
+net-libs/libsoup
+net-libs/libsoup-gnome
 net-libs/pjsip
 media-libs/chromaprint
 media-libs/opencv
@@ -329,6 +328,7 @@ media-libs/taglib
 media-libs/musicbrainz
 media-libs/libmtp
 media-libs/sratom
+media-libs/tiff
 media-libs/x264
 media-gfx/gimp-cmyk-plugin
 media-sound/projectm-jack
@@ -384,7 +384,7 @@ net-misc/netifrc
 
 # Wireless
 app-misc/lirc
-net-wireless/bluedevil **
+net-wireless/bluedevil
 net-wireless/wimax
 net-wireless/wpa_supplicant
 net-wireless/wimax-tools
