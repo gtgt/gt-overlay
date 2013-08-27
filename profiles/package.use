@@ -160,6 +160,7 @@ kde-base/libplasmaclock holidays
 kde-base/marble plasma
 kde-base/okular chm crypt djvu ebook jpeg pdf ps tiff
 kde-base/phonon-kde xine
+kde-base/poxml extras
 kde-base/plasma-workspace python xinerama rss
 kde-base/solid bluetooth networkmanager
 kde-base/systemsettings usb xinerama

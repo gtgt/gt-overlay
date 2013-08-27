@@ -9,7 +9,7 @@ inherit subversion kde4-base eutils
 DESCRIPTION="Kuroo is a Qt 4 based portage GUI"
 HOMEPAGE="http://kuroo.sourceforge.net/"
 SRC_URI=""
-KDE_SCM=""
+KDE_SCM="svn"
 ESVN_REPO_URI="http://kuroo.svn.sourceforge.net/svnroot/kuroo/kuroo4/trunk"
 ESVN_PROJECT="kuroo4"
 
