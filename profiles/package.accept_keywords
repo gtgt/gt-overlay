@@ -7,6 +7,7 @@ pp-shells/dash
 dev-cpp/ctemplate
 dev-cpp/gmock
 dev-cpp/gtest
+dev-cpp/libxsd-frontend
 dev-lang/spidermonkey
 =dev-libs/boost-1.52.0-r6
 dev-libs/libclc
@@ -310,6 +311,7 @@ dev-libs/serd
 dev-libs/sord
 dev-libs/libf2c
 media-gfx/zbar
+media-gfx/inkscape
 media-fonts/takao-fonts
 media-libs/fontconfig
 media-libs/suil

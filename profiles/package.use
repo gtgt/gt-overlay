@@ -137,7 +137,7 @@ kde-base/kdeartwork-kscreensaver eigen kexiv2
 kde-base/kdebase-kioslaves bzip2 exif openexr samba sftp
 kde-base/kdelibs acl fam policykit upnp
 kde-base/kdemultimedia-kioslaves encode flac vorbis
-kde-base/kdepim-runtime google facebook kolab
+kde-base/kdepim-runtime google facebook
 kde-base/kdeplasma-addons exif
 kde-base/kdesdk-misc extras
 kde-base/kget bittorrent webkit
