@@ -60,7 +60,7 @@ USE="${USE} X wayland gtk2 gtk3 cairo system-cairo xvfb akonadi -eds -gnome -gdu
 USE="${USE} foomaticdb cups"
 
 # Audio
-USE="${USE} audio alsa oss amr -arts audiofile cdda id3tag taglib flac jack mad mp3 moodbar mpeg nas ogg oggvorbis openal opencore-amr portaudio vorbis mikmod mms phonon sndfile musicbrainz gsm projectm libsamplerate sox"
+USE="${USE} audio alsa oss amr -arts audiofile cdda id3tag taglib flac jack mad mp3 moodbar mpeg nas ogg oggvorbis opus openal opencore-amr portaudio vorbis mikmod mms phonon sndfile musicbrainz gsm projectm libsamplerate sox"
 
 # CD and DVD
 USE="${USE} cdparanoia cddb cdio cdr css dvd dvdr dvdread vcd blueray bluray"
