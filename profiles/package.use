@@ -287,8 +287,7 @@ net-misc/curl curl_ssl_gnutls ssh
 net-misc/dhcpcd elibc_glibc zeroconf
 net-misc/iputils idn
 net-misc/modemmanager policykit
-net-misc/networkmanager bluetooth -dhclient nss resolvconf
-net-misc/networkmanager dhcpcd
+net-misc/networkmanager bluetooth -dhclient nss resolvconf dhcpcd
 net-misc/openssh hpn
 net-misc/rsync acl iconv
 net-misc/tigervnc server java
