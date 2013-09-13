@@ -69,7 +69,6 @@ x11-libs/cairo static-libs
 dev-qt/qtmeta openvg
 dev-qt/qtgui 
 dev-qt/qtopengl
-x11-libs/cairo opengl
 x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
 x11-misc/lightdm gtk

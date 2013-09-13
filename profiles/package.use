@@ -93,6 +93,7 @@ dev-libs/opensslsse2 zlib3779
 dev-libs/popt static-libs
 dev-libs/redland berkdb
 dev-libs/soprano clucene dbus redland virtuoso
+dev-libs/weston wayland-compositor xwayland
 dev-perl/IO-Socket-SSL idn
 dev-python/PyQt4 dbus kde phonon svg webkit sql multimedia xmlpatterns
 dev-python/imaging scanner
@@ -398,8 +399,7 @@ x11-drivers/xf86-video-r128 dri
 x11-drivers/xf86-video-savage dri
 x11-drivers/xf86-video-sis dri
 x11-drivers/xf86-video-tdfx dri
-x11-libs/cairo glib qt4
-x11-libs/cairo cleartype svg
+x11-libs/cairo glib qt4 cleartype svg qt4 drm gallium
 x11-libs/gdk-pixbuf jpeg jpeg2k tiff
 x11-libs/gtk+ cups
 x11-libs/libdrm libkms video_cards_intel video_cards_nouveau video_cards_radeon
