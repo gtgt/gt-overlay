@@ -265,7 +265,6 @@ RDEPEND="${RDEPEND}
 print? (
 	net-print/cups-pdf
 	net-print/cups
-	net-print/foo2zjs
 	net-print/gutenprint
 )
 "

@@ -39,7 +39,7 @@ media-video/ffmpeg cpudetection
 media-video/mplayer cpudetection
 media-video/mplayer2 cpudetection xvmc
 media-video/vlc aalib libcaca sdl sdl-image ffmpeg postproc
-net-analyzer/wireshark gtk
+net-analyzer/wireshark gtk gtk2 gtk3
 net-fs/cifs-utils
 net-libs/telepathy-glib vala
 net-mail/dovecot pam ldap
@@ -53,10 +53,11 @@ net-print/hplip X kde acl
 net-wireless/bluez maemo6 old-daemons
 net-wireless/wpa_supplicant wimax
 sci-libs/hdf5 fortran cxx mpi
-sys-block/gparted gtk
-sys-auth/polkit gtk
 sys-apps/pciutils zlib
+sys-auth/polkit gtk
+sys-block/gparted gtk
 #sys-devel/llvm debug
+sys-fs/udev systemd gudev introspection
 sys-fs/ntfs3g external-fuse
 x11-libs/cairo static-libs
 dev-qt/qtmeta openvg

@@ -228,7 +228,7 @@ media-libs/xine-lib xcb
 media-libs/zbar -v4l
 media-plugins/kipi-plugins cdr crypt imagemagick scanner calendar mjpeg redeyes
 media-plugins/gst-plugins-meta http taglib
-media-sound/amarok player embedded ipod cdda daap lastfm mtp
+media-sound/amarok player embedded ipod cdda daap lastfm
 media-sound/audacity mpsms twolame vamp ladspa
 media-sound/bpmdetect debug realtime
 media-sound/clementine projectm lastfm ios ipod
@@ -251,7 +251,7 @@ media-video/mplayer2 ladspa quvi
 media-video/recordmydesktop
 media-video/transcode 3dnow a52 aac dv dvd iconv imagemagick jpeg lzo mmx mp3 mpeg ogg quicktime sdl sse sse2 theora truetype vorbis x264 xvid mjpeg
 media-video/vdr -analogtv -atsc -cmdreccmdi18n -cmdsubmenu -cutterlimit -cutterqueue -cuttime -ddepgentry -deltimeshiftrec -dolbyinrec -dvbplayer -dvbsetup -dvdarchive -dvdchapjump -dvlfriendlyfnames -dvlrecscriptaddon -dvlvidprefer -dxr3 -em84xx -graphtft -hardlinkcutter -iptv -jumpplay -liemikuutio lircsettings -livebuffer -lnbshare -mainmenuhooks -menuorg -noepg -osdmaxitems -parentalrating -pinplugin -rotor -settime -setup -softosd -sortrecords -sourcecaps -syncearly -timercmd -timerinfo -ttxtsubs -validinput -vanilla volctrl -wareagleicon -yaepg
-media-video/vlc cdda dts dvb fontconfig fbosd httpd lua libass live nsplugin media-library mtp projectm pvr rtsp shout stream switcher upnp vlm wma-fixed xcb xv zvbi vaapi win32codecs
+media-video/vlc cdda dts dvb fontconfig fbosd httpd lua libass live nsplugin media-library projectm pvr rtsp shout stream switcher upnp vlm wma-fixed xcb xv zvbi vaapi win32codecs
 media-video/xine-ui lirc vdr
 net-analyzer/vnstat gd
 net-analyzer/wireshark adns geoip
@@ -351,12 +351,12 @@ sys-devel/bc readline
 sys-devel/gcc gtk mudflap multilib nptl objc objc++ objc-gc openmp gcj graphite
 sys-devel/gettext acl elibc_glibc git openmp
 sys-devel/llvm clang
+sys-fs/eudev extras hwdb rule_generator
 sys-fs/fuse kernel_linux
 sys-fs/lvm2 lvm1 readline static
 sys-fs/ntfs3g acl ntfsprogs udev suid extras
 sys-fs/ntfsprogs crypt
 sys-fs/squashfs-tools gzip lzma lzo
-sys-fs/udev extras hwdb keymap rule_generator static-libs
 sys-kernel/calckernel video_cards_radeon
 sys-kernel/calculate-sources symlink
 sys-kernel/dracut net device-mapper
@@ -364,6 +364,7 @@ sys-libs/cracklibnls python
 sys-libs/e2fsprogs-libs elibc_glibc
 sys-libs/gdbm berkdb
 sys-libs/glibc gd glibc-omitfp multilib
+sys-libs/gpm static-libs
 sys-libs/libieee1284 python
 sys-libs/libkudzu zlib
 sys-libs/libstdc++-v3 multilib
@@ -380,7 +381,6 @@ virtual/ffmpeg encode mp3 sdl theora x264
 virtual/ffmpeg threads
 virtual/jpeg static-libs
 virtual/mysql embedded
-virtual/udev static-libs
 www-client/firefox bindist
 www-client/icecat
 www-client/opera-next -gtk

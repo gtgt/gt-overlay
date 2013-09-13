@@ -36,7 +36,7 @@ USE="handbook"
 
 #System
 USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl optimization threads lib32 mmap"
-USE="${USE} nsplugin policykit polkit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk"
+USE="${USE} nsplugin policykit polkit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk kmod"
 
 #Lang support (python perl mono)
 USE="${USE} python perl mono ithreads gdbm quanta subversion git cvs mercurial bazaar script"

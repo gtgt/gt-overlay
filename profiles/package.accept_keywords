@@ -9,6 +9,8 @@ dev-cpp/gmock
 dev-cpp/gtest
 dev-cpp/libxsd-frontend
 dev-lang/spidermonkey
+dev-libs/antlr
+dev-libs/antlr-c
 =dev-libs/boost-1.52.0-r6
 dev-libs/libclc
 dev-libs/libnl
@@ -41,6 +43,7 @@ sys-fs/fuse-exfat
 sys-fs/lvm2
 sys-fs/hfsplusutils **
 sys-fs/multipath-tools
+sys-fs/eudev
 sys-kernel/genkernel
 sys-kernel/dracut
 sys-kernel/linux-headers
@@ -52,12 +55,14 @@ sys-libs/zlib
 sys-power/pm-utils
 sys-power/upower
 sys-process/atop
+virtual/udev
 
 =dev-util/boost-build-1.53.0
 =dev-libs/boost-1.53.0
 
 
 ## Gentoo
+app-admin/eselect-bashcomp
 app-portage/eix
 app-portage/elogv
 app-portage/flaggie
@@ -68,6 +73,7 @@ app-admin/eselect-qtgraphicssystem
 app-admin/eclean-kernel
 app-shells/bash-completion
 dev-python/pymountboot
+dev-python/pycxx
 dev-python/setuptools
 media-gfx/splashutils
 sys-apps/paludis
@@ -180,6 +186,7 @@ net-print/cups **
 net-wireless/bluez-firmware
 sys-apps/usb_modeswitch
 sys-fs/dd-rescue
+=sys-apps/hwids-99999999 **
 sys-apps/hwids
 sys-apps/hwinfo
 sys-apps/pciutils
@@ -258,6 +265,7 @@ dev-libs/nspr
 dev-libs/rasqal
 dev-libs/redland
 dev-libs/vala-common
+dev-python/pybluez
 dev-python/py-smbpasswd
 dev-python/pyndex
 dev-python/python-exec
@@ -307,6 +315,7 @@ media-libs/harfbuzz
 # Media libs
 app-pda/fusepod
 app-pda/ifuse
+app-text/ghostscript-gpl
 dev-libs/serd
 dev-libs/sord
 dev-libs/libf2c
@@ -317,6 +326,7 @@ media-libs/fontconfig
 media-libs/suil
 media-libs/lcms
 media-libs/libpng:1.4
+=media-libs/libpng-1.6.3-r1
 media-libs/libbluray
 media-libs/lv2core
 media-libs/lv2
@@ -813,7 +823,6 @@ x11-drivers/ati-drivers
 dev-libs/wayland
 dev-libs/weston
 media-libs/mesa
-=media-libs/mesa-9.2_pre20130528 **
 x11-apps/mesa-progs
 
 x11-libs/qscintilla

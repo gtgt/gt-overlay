@@ -1,5 +1,4 @@
-=x11-drivers/ati-drivers-13.6_beta2
-=x11-drivers/ati-drivers-13.8_beta
+>x11-drivers/ati-drivers-13.6_beta
 
 >app-office/libreoffice-4.0.2.2
 =x11-libs/gtk+-2.24.14
@@ -22,8 +21,6 @@
 =sys-fs/udisks-2.0.91
 =sys-fs/udisks-1.0.4-r4
 
->net-libs/libsoup-2.40.3
-
 =dev-libs/libclc-9999
 
 =net-libs/telepathy-farstream-0.6.0
@@ -35,6 +32,8 @@ media-libs/jpeg:0
 
 =sys-apps/hwids-20130717-r1
 
+#use sys-fs/eudev instad
+sys-fs/udev
 
 =x11-terms/rxvt-unicode-9.16
 
