@@ -1,3 +1,5 @@
+-python_targets_python3_3
+python_targets_python3_2
 #cpudetection-cflags
 #cpudetection
 #custom-cflags

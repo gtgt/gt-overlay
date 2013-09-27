@@ -84,7 +84,6 @@ desktop? (
 	kde-misc/drop2ftp
 	kde-misc/kgtk
 	kde-misc/kio-ftps
-	kde-misc/todo-list
 	kde-misc/translatoid
   media-fonts/bitstream-cyberbit
   media-fonts/corefonts

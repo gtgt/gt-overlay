@@ -30,7 +30,13 @@ LIGHTDM_GREETER="lightdm-kde-greeter"
 LIGHTDM_SESSION="KDE-4"
 
 RUBY_TARGETS="ruby19"
-PYTHON_TARGETS="python2_7 python3_3"
+
+
+BOOTSTRAP_USE="cxx unicode python_targets_python3_3 python_targets_python2_7 multilib"
+PYTHON_TARGETS="python3_3 python2_7"
+# Legacy compat
+USE_PYTHON="2.7"
+PYTHON_SINGLE_TARGET="python2_7"
 
 USE="handbook"
 
