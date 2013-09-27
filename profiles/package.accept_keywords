@@ -37,6 +37,7 @@ sys-boot/unetbootin
 sys-devel/llvm
 sys-devel/clang
 =sys-devel/gcc-4.6.3
+=sys-devel/gcc-4.7.3-r1
 sys-devel/icecream
 sys-fs/cachefilesd
 sys-fs/exfat-utils
