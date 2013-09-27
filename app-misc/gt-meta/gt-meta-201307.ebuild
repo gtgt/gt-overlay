@@ -81,7 +81,6 @@ desktop? (
 	kde-base/print-manager
 	kde-base/thumbnailers
 	kde-misc/eyesaver
-	kde-misc/devicemanager
 	kde-misc/drop2ftp
 	kde-misc/kgtk
 	kde-misc/kio-ftps

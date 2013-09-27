@@ -30,7 +30,7 @@ LIGHTDM_GREETER="lightdm-kde-greeter"
 LIGHTDM_SESSION="KDE-4"
 
 RUBY_TARGETS="ruby19"
-PYTHON_TARGETS="python2_7 python3_3"
+PYTHON_TARGETS="python2_7 python3_2"
 
 USE="handbook"
 
