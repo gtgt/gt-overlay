@@ -33,6 +33,7 @@ RUBY_TARGETS="ruby19"
 
 
 BOOTSTRAP_USE="cxx unicode python_targets_python3_3 python_targets_python2_7 multilib"
+#BOOTSTRAP_USE="${BOOTSTRAP_USE} python_targets_python3_3"
 PYTHON_TARGETS="python3_3 python2_7"
 # Legacy compat
 USE_PYTHON="2.7"

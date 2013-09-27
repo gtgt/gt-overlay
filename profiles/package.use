@@ -351,7 +351,7 @@ sys-devel/bc readline
 sys-devel/gcc gtk mudflap multilib nptl objc objc++ objc-gc openmp gcj graphite
 sys-devel/gettext acl elibc_glibc git openmp
 sys-devel/llvm clang
-sys-fs/eudev extras hwdb rule_generator
+sys-fs/eudev extras hwdb rule_generator static-libs
 sys-fs/fuse kernel_linux
 sys-fs/lvm2 lvm1 readline static
 sys-fs/ntfs3g acl ntfsprogs udev suid extras
@@ -381,6 +381,7 @@ virtual/ffmpeg encode mp3 sdl theora x264
 virtual/ffmpeg threads
 virtual/jpeg static-libs
 virtual/mysql embedded
+virtual/udev static-libs
 www-client/firefox bindist
 www-client/icecat
 www-client/opera-next -gtk

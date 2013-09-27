@@ -45,6 +45,7 @@ system? (
 	sys-fs/squashfs-tools
 	sys-kernel/genkernel
 	sys-kernel/module-rebuild
+	sys-fs/eudev
 	sys-power/cpufrequtils
 	sys-process/vixie-cron
 )

@@ -380,6 +380,7 @@ net-fs/coda
 net-fs/davfs2
 net-fs/nfs-utils
 net-fs/samba
+net-libs/libkpeople
 net-libs/libkfbapi
 net-libs/libsoup
 net-libs/gssdp
