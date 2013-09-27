@@ -92,7 +92,7 @@ dev-libs/openobe1x bluetooth usb
 dev-libs/opensslsse2 zlib3779
 dev-libs/popt static-libs
 dev-libs/redland berkdb
-dev-libs/soprano clucene dbus redland virtuoso
+dev-libs/soprano clucene dbus virtuoso
 dev-libs/weston wayland-compositor xwayland
 dev-perl/IO-Socket-SSL idn
 dev-python/PyQt4 dbus kde phonon svg webkit sql multimedia xmlpatterns

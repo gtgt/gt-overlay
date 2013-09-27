@@ -33,6 +33,7 @@ sys-boot/plymouth
 sys-boot/plymouth-openrc-plugin
 sys-boot/syslinux
 sys-boot/unetbootin
+=sys-block/thin-provisioning-tools-0.2.1
 sys-devel/llvm
 sys-devel/clang
 =sys-devel/gcc-4.6.3
@@ -182,7 +183,6 @@ net-wireless/zte-mf190
 net-print/cnijfilter
 net-print/cups-pdf
 net-print/cups-filters
-net-print/cups **
 net-wireless/bluez-firmware
 sys-apps/usb_modeswitch
 sys-fs/dd-rescue
@@ -236,15 +236,13 @@ app-text/qgoogletranslator
 app-editors/gobby
 <app-office/krita-9999
 <app-dicts/ispell-pt-br-9999
-<app-office/libreoffice-bin-4.0.9999 **
-<app-office/libreoffice-4.0.9999 **
-<app-office/libreoffice-l10n-4.0.9999 **
 app-dicts/goldendict
 app-dicts/mdic
 app-dicts/mdicconv
 dev-db/sqlite
 dev-db/virtuoso-server
 dev-db/virtuoso-odbc
+dev-libs/soprano
 <dev-libs/liblinebreak-9999
 dev-libs/liborcus
 dev-libs/libixion
@@ -411,6 +409,7 @@ sys-kernel/gentoo-sources
 app-admin/keepassx2 **
 app-admin/lsyncd
 app-arch/q7z
+app-arch/p7zip
 app-backup/luckybackup
 app-cdr/cdemu-daemon
 app-cdr/acetoneiso
@@ -455,7 +454,6 @@ dev-libs/libdbusmenu
 dev-libs/libdbusmenu-qt
 <dev-libs/libindicate-9999
 dev-libs/qjson
-dev-libs/soprano
 dev-libs/libindicate-qt
 dev-libs/liblightscribe
 dev-python/PyQt4
@@ -559,7 +557,7 @@ sci-chemistry/openbabel-perl
 sci-chemistry/avogadro
 sci-chemistry/openbabel
 sci-chemistry/openbabel-python
-sys-block/partitionmanager **
+sys-block/partitionmanager
 #sys-devel/llvm
 sys-fs/trash-cli
 dev-python/unipath
