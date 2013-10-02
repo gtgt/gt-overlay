@@ -29,12 +29,11 @@ APACHE2_MPMS="event"
 LIGHTDM_GREETER="lightdm-kde-greeter"
 LIGHTDM_SESSION="KDE-4"
 
-RUBY_TARGETS="ruby19"
-
+RUBY_TARGETS="ruby20"
 
 #BOOTSTRAP_USE="cxx unicode python_targets_python3_3 python_targets_python2_7 multilib"
 BOOTSTRAP_USE="${BOOTSTRAP_USE} python_targets_python3_3"
-PYTHON_TARGETS="python3_3 python2_7"
+PYTHON_TARGETS="python3_3 python2_7 jython2_5"
 # Legacy compat
 USE_PYTHON="2.7"
 PYTHON_SINGLE_TARGET="python2_7"

@@ -8,6 +8,7 @@ dev-cpp/ctemplate
 dev-cpp/gmock
 dev-cpp/gtest
 dev-cpp/libxsd-frontend
+dev-lang/orc
 dev-lang/spidermonkey
 dev-libs/antlr
 dev-libs/antlr-c
@@ -171,6 +172,7 @@ app-mobilephone/qtadb
 app-benchmarks/phoronix-test-suite
 <app-admin/testdisk-9999
 dev-php/pecl-ps
+dev-util/android-tools
 media-tv/dvb-usb-rtl2832u
 media-tv/linuxtv-dvb-apps
 net-firewall/iptables
@@ -325,7 +327,7 @@ media-libs/fontconfig
 media-libs/suil
 media-libs/lcms
 media-libs/libpng:1.4
-=media-libs/libpng-1.6.3-r1
+=media-libs/libpng-1.6.6
 media-libs/libbluray
 media-libs/lv2core
 media-libs/lv2
