@@ -13,7 +13,7 @@ fi
 KDE_LINGUAS="pt_BR"
 PYTHON_DEPEND="2:2.6"
 
-inherit ${SCM} kde4-base python
+inherit git-2 kde4-base python
 
 DESCRIPTION="Graphical application for Portage's daily tasks"
 HOMEPAGE="http://gitorious.org/kportagetray"

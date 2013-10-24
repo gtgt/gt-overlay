@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/nvidia-drivers-270.41.03.ebuild,v 1.3 2011/04/24 18:48:24 ulm Exp $
 
-EAPI="2"
+EAPI="4"
 
 inherit eutils multilib versionator linux-mod flag-o-matic nvidia-driver
 

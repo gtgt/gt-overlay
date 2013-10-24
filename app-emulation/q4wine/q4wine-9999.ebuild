@@ -4,7 +4,7 @@
 
 EAPI="4"
 
-inherit git cmake-utils
+inherit git-2 cmake-utils
 
 LANGS="cs de en es he it ru uk pl pt"
 DESCRIPTION="Qt4 utility for Wine applications and prefixes management."

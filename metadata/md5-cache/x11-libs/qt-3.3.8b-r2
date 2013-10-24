@@ -9,5 +9,5 @@ PDEPEND=odbc? ( ~dev-db/qt-unixODBC-3.3.8b )
 RDEPEND=virtual/jpeg >=media-libs/freetype-2 >=media-libs/libmng-1.0.9 media-libs/libpng sys-libs/zlib x11-libs/libXft x11-libs/libXcursor x11-libs/libXi x11-libs/libXrandr x11-libs/libSM cups? ( net-print/cups ) firebird? ( dev-db/firebird ) mysql? ( virtual/mysql ) nas? ( >=media-libs/nas-1.5 ) opengl? ( virtual/opengl virtual/glu ) postgres? ( dev-db/postgresql-base ) xinerama? ( x11-libs/libXinerama )
 SLOT=3
 SRC_URI=ftp://ftp.trolltech.com/qt/source/qt-x11-free-3.3.8b.tar.gz immqt? ( mirror://gentoo/qt-x11-immodule-unified-qt3.3.8-20070321-gentoo.diff.bz2 ) immqt-bc? ( mirror://gentoo/qt-x11-immodule-unified-qt3.3.8-20070321-gentoo.diff.bz2 )
-_eclasses_=eutils	f31a0ec0d081047cbf9c0bbb4822d831	flag-o-matic	d900015de4e092f26d8c0a18b6bd60de	multilib	892e597faee02a5b94eb02ab512e7622	toolchain-funcs	7ffd28a8c7eea27218865352bfd3ab2f	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=eutils	4878e7f88afc0ba0866ac112190b0fd4	flag-o-matic	08a40a43c401c96d16477c02e56d9a64	multilib	892e597faee02a5b94eb02ab512e7622	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=4d0f34935853480b564e7b0c35170361

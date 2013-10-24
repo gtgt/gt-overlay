@@ -228,7 +228,7 @@ media-libs/xine-lib a52 aac css dts fbcon flac gtk imagemagick mad mng modplug m
 media-libs/xine-lib xcb
 media-libs/zbar -v4l
 media-plugins/kipi-plugins cdr crypt imagemagick scanner calendar mjpeg redeyes
-media-plugins/gst-plugins-meta http taglib
+media-plugins/gst-plugins-meta http taglib ffmpeg lame libvisual wavpack
 media-sound/amarok player embedded ipod cdda daap lastfm
 media-sound/audacity mpsms twolame vamp ladspa
 media-sound/bpmdetect debug realtime
@@ -261,7 +261,7 @@ net-dns/avahi howl-compat mdnsresponder-compat autoipd utils
 net-dns/bind-tools idn
 net-dns/mydns alias status
 net-fs/coda client server
-net-fs/cifs-utils upcall
+net-fs/cifs-utils upcall ads
 net-fs/nfs-utils elibc_glibc nfsv3 nfsv4 nfsv41 nfsdcld nfsidmap tcpd
 net-fs/samba acl aio client cups netapi quota readline server smbclient
 net-fs/samba smbsharemodes swat syslog winbind

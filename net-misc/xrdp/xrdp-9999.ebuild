@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id $
 
-EAPI="2"
+EAPI="4"
 
-inherit eutils multilib git
+inherit eutils multilib git-2
 
 DESCRIPTION="An open source remote desktop protocol(rdp) server."
 HOMEPAGE="http://xrdp.sourceforge.net/"

@@ -238,7 +238,7 @@ app-text/libmspub
 app-text/qgoogletranslator
 app-editors/gobby
 <app-office/krita-9999
-<app-dicts/ispell-pt-br-9999
+app-dicts/aspell-hu
 app-dicts/goldendict
 app-dicts/mdic
 app-dicts/mdicconv
@@ -249,6 +249,9 @@ dev-libs/soprano
 <dev-libs/liblinebreak-9999
 dev-libs/liborcus
 dev-libs/libixion
+dev-libs/vanessa-adt
+net-libs/vanessa-socket
+net-mail/perdition
 
 # Desktop libs
 app-admin/eselect-opencl
@@ -285,7 +288,6 @@ net-libs/telepathy-qt
 net-libs/telepathy-glib
 net-libs/libkgoogle
 <dev-libs/grantlee-9999
-<app-office/akonadi-server-9999
 <dev-libs/shared-desktop-ontologies-9999
 <dev-cpp/clucene-9999
 sys-auth/polkit
@@ -344,6 +346,7 @@ media-libs/sratom
 media-libs/tiff
 media-libs/x264
 media-gfx/gimp-cmyk-plugin
+media-sound/amarok
 media-sound/projectm-jack
 media-sound/fluid-soundfont
 media-sound/bpmdetect
@@ -429,7 +432,6 @@ app-emulation/playonlinux
 app-emulation/winetricks
 app-misc/qcat
 app-misc/strigi
-app-office/akonadi-server
 <app-pda/libopensync-9999
 <app-pda/libopensync-plugin-akonadi-9999
 <app-pda/libopensync-plugin-vformat-9999
@@ -438,7 +440,6 @@ app-office/akonadi-server
 <app-pda/libopensync-plugin-google-calendar-9999
 app-pda/kitchensync
 <app-office/koffice-meta-9999
-app-office/akonadi-server
 <app-office/karbon-9999
 <app-office/kexi-99999
 <app-office/koffice-data-9999
@@ -524,7 +525,6 @@ media-libs/libdmtx
 media-libs/prison
 media-libs/qt-gstreamer **
 <media-plugins/kipi-plugins-9999
-media-sound/amarok
 <media-sound/clementine-1.1.0
 media-sound/mumble
 media-video/kamerka

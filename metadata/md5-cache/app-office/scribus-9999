@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
 DEPEND=dev-libs/hyphen dev-libs/libxml2 media-libs/fontconfig >=media-libs/freetype-2 media-libs/jpeg:0 media-libs/lcms:0 media-libs/libpng media-libs/tiff net-print/cups sys-libs/zlib dev-qt/qtgui:4 spell? ( app-text/aspell ) pdf? ( app-text/podofo ) cairo? ( x11-libs/cairo[X,svg] ) dev-libs/boost sys-devel/make >=dev-util/cmake-2.8.9 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) || ( =dev-lang/python-2.7* =dev-lang/python-2.6* ) || ( dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
 DESCRIPTION=Desktop Publishing (DTP) and Layout program for Linux.
-EAPI=3
+EAPI=4
 HOMEPAGE=http://www.scribus.net/
 IUSE=cairo cups debug +pdf spell
 LICENSE=GPL-2
 RDEPEND=dev-libs/hyphen dev-libs/libxml2 media-libs/fontconfig >=media-libs/freetype-2 media-libs/jpeg:0 media-libs/lcms:0 media-libs/libpng media-libs/tiff net-print/cups sys-libs/zlib dev-qt/qtgui:4 spell? ( app-text/aspell ) pdf? ( app-text/podofo ) cairo? ( x11-libs/cairo[X,svg] ) app-text/ghostscript-gpl || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
 SLOT=0
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	cmake-utils	bc8bbf26de246f74e2901a3696ad96d6	eutils	f31a0ec0d081047cbf9c0bbb4822d831	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	flag-o-matic	d900015de4e092f26d8c0a18b6bd60de	multilib	892e597faee02a5b94eb02ab512e7622	python	dd56675d8e9f7e85d815a28c87383141	subversion	869118194bbbecaa8f935e185befcdb7	toolchain-funcs	7ffd28a8c7eea27218865352bfd3ab2f	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=f9fb86ed88685b64f1da4a0107941175
+_eclasses_=cmake-utils	92319f03251f1235bc887cc84e5aef21	eutils	4878e7f88afc0ba0866ac112190b0fd4	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	flag-o-matic	08a40a43c401c96d16477c02e56d9a64	multilib	892e597faee02a5b94eb02ab512e7622	python	305197b0aa1194fa3ef67ca21f6faa7e	subversion	de38ef8c5baf84d80e695a4d6ad26554	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=26bae3a04a3c4524a5bd3b3189e86f1d

@@ -5,7 +5,7 @@
 EAPI="4"
 
 LANGS=""
-inherit kde4-base git
+inherit kde4-base git-2
 
 DESCRIPTION="Qt password manager compatible with its Win32 and Pocket PC versions."
 HOMEPAGE="http://keepassx.sourceforge.net/"

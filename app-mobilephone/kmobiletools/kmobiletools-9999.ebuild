@@ -4,7 +4,7 @@
 
 EAPI="4"
 
-inherit kde4-base git
+inherit kde4-base git-2
 
 DESCRIPTION="KMobiletools"
 HOMEPAGE="http://kde-apps.org/content/show.php/Kaption?content=139302"

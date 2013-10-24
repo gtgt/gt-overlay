@@ -51,7 +51,7 @@ USE="${USE} python perl mono ithreads gdbm quanta subversion git cvs mercurial b
 USE="${USE} ftp network -ldap rdesktop samba upnp resolvconf zeroconf avahi wifi rdp"
 
 # Sql & data support
-USE="${USE} mysql berkdb sqlite sqlite3 xml system-sqlite odbc json"
+USE="${USE} mysql sqlite sqlite3 xml system-sqlite odbc json cdb"
 
 # Network
 USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd telepathy curl_ssl_gnutls -curl_ssl_openssl googledrive"
@@ -93,7 +93,7 @@ USE="${USE} irc jabber jingle oscar yahoo"
 USE="${USE} exif fdftk gd gif imagemagick jpeg jpeg2k lcms mng openexr pdf png raw svg tiff wmf wxwindows xpm qwt lcms system-jpeg"
 
 # Locale and Fonts
-USE="${USE} spell hunspell enchant truetype fontconfig unicode utf8 nls idn iconv"
+USE="${USE} hunspell enchant truetype fontconfig unicode utf8 nls idn iconv"
 
 # PIM
 USE="${USE} mbox maildir calendar reports"

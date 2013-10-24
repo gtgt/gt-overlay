@@ -6,7 +6,7 @@ EAPI=5
 PLOCALES="ar ca ca_ES da de_DE el en es es_AR es_ES fi fi_FI fr he_IL hr hu
 ia it jv nl pl pl_PL pt_BR ro ru sk sl tr zh_CN"
 
-inherit l10n qt4-r2 git
+inherit l10n qt4-r2 git-2
 
 DESCRIPTION="Qt4 YouTube Client"
 HOMEPAGE="http://flavio.tordini.org/minitube"

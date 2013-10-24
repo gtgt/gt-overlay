@@ -4,7 +4,7 @@
 
 EAPI="4"
 
-inherit kde4-base git
+inherit kde4-base git-2
 
 KMNAME="kregexpeditor"
 KMMODULE="${PN}"

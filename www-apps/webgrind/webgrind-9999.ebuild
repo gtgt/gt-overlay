@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
-inherit webapp git
+EAPI=3
+inherit webapp git-2
 
 KEYWORDS="~amd64 ~x86"
 
