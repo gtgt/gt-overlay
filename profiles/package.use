@@ -6,7 +6,7 @@ app-admin/system-config-printer-common policykit
 app-admin/testdisk jpeg ntfs reiserfs
 app-arch/bzip2 static-libs
 app-arch/dump readline
-app-arch/libarchiv bzip2 eacl kernel_linux lzma zlib-libs
+app-arch/libarchive bzip2 eacl kernel_linux lzma zlib-libs xattr
 app-arch/p7zip pch kde rar
 app-arch/tar userland_GNU
 app-arch/unzipbzip2 natspec unicode

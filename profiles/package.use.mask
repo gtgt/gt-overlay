@@ -2,15 +2,18 @@ app-admin/packagekit gtk
 app-admin/puppet ldap
 app-office/libreoffice branding
 app-emulation/wine gphoto2 openal opencl
+app-misc/mc spell
 app-misc/tomboy applet
 app-text/fbreader gtk
 dev-db/sqlite icu
 dev-java/icedtea zero hs20
 app-office/calligra freetds jpeg2k openctl word-perfect calligra_features_braindump calligra_features_stage
+app-office/scribus spell
 app-portage/elogviewer python_targets_python3_3
 =dev-java/icedtea-7.1.14 xrender
 dev-java/swt xulrunner
 =dev-lang/php-5.5.0_rc1 opcache
+dev-lang/php spell
 dev-libs/libindicate introspection
 dev-libs/libdbusmenu introspection
 dev-libs/rasqal xml pcre
@@ -27,6 +30,7 @@ kde-base/tqtinterface qt3
 media-gfx/gimp aalib python webkit
 media-gfx/digikam mysql
 media-gfx/enblend doc
+media-gfx/inkscape spell
 =media-gfx/splashutils-1.5.4.3-r3 truetype
 media-plugins/gst-plugins-meta ffmpeg
 media-libs/libggi 3dfx

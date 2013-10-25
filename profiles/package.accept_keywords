@@ -468,6 +468,7 @@ dev-util/android-sdk-update-manager
 dev-util/qt-creator
 dev-util/plasmate **
 dev-vcs/qgit
+dev-vcs/git
 dev-vcs/kdesvn
 <kde-base/libkipi-9999
 kde-base/kdebase-pam
@@ -664,27 +665,35 @@ media-plugins/alsa-plugins
 media-sound/alsa-utils
 
 ## QT
-#x11-libs/qt
-#dev-qt/qtmeta
-#dev-qt/qtassistant
-#dev-qt/qtcore
-#dev-qt/qtdbus
-#dev-qt/qtdeclarative
-#dev-qt/qtdemo
-#dev-qt/qtgui
-#dev-qt/qtmultimedia
-#dev-qt/qtopengl
-#dev-qt/qtopenvg
-#dev-qt/qtphonon
-#dev-qt/qtqt3support
-#dev-qt/qtscript
-#dev-qt/qtsql
-#dev-qt/qtsvg
-#dev-qt/qttest
-#dev-qt/qtwebkit
-#dev-qt/qtxmlpatterns
+x11-libs/qt
+dev-qt/qt-meta
+dev-qt/qtassistant
+dev-qt/qtcore
+dev-qt/qtdbus
+dev-qt/qtdeclarative
+dev-qt/qtdemo
+dev-qt/qtgui
+dev-qt/qthelp
+dev-qt/qtmultimedia
+dev-qt/qtopengl
+dev-qt/qtopenvg
+dev-qt/qtphonon
+dev-qt/qtqt3support
+dev-qt/qtscript
+dev-qt/qtsql
+dev-qt/qtsvg
+dev-qt/qttest
+dev-qt/qtwebkit
+dev-qt/qtxmlpatterns
+dev-qt/qdbusviewer
+dev-qt/linguist
+dev-qt/qtbearer
+dev-qt/assistant
+dev-qt/pixeltool
+dev-qt/designer
 
-#dev-qt/qt3support
+
+dev-qt/qt3support
 
 ## x86 emul
 app-emulation/emul-linux-x86-baselibs
