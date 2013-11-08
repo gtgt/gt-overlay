@@ -17,6 +17,7 @@ dev-libs/libclc
 dev-libs/libnl
 dev-libs/libpcre
 =dev-python/dbus-python-1.1.1-r1
+dev-lang/python-exec
 dev-python/cython
 =dev-util/valgrind-3.6.1-r2
 dev-util/strace

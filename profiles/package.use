@@ -382,7 +382,7 @@ virtual/ffmpeg threads
 virtual/jpeg static-libs
 virtual/mysql embedded
 virtual/udev static-libs
-www-client/firefox bindist
+www-client/firefox bindist custom-cflags pgo
 www-client/icecat
 www-client/opera-next -gtk
 www-client/rekonq opera
