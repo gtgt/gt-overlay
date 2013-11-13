@@ -490,7 +490,7 @@ kde-misc/kaption **
 kde-misc/kcaldav
 kde-misc/kim4
 kde-misc/kfilebox **
-kde-misc/networkmanagement **
+<kde-misc/networkmanagement-9999
 kde-misc/kobby **
 kde-misc/kregexpeditor **
 kde-misc/kwin-button-applet

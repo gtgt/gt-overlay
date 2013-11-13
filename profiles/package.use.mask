@@ -32,7 +32,7 @@ media-gfx/digikam mysql
 media-gfx/enblend doc
 media-gfx/inkscape spell
 =media-gfx/splashutils-1.5.4.3-r3 truetype
-media-plugins/gst-plugins-meta ffmpeg
+#media-plugins/gst-plugins-meta ffmpeg
 media-libs/libggi 3dfx
 media-libs/libquicktime gtk
 media-libs/mesa d3d 
@@ -80,7 +80,7 @@ x11-misc/google-gadgets xulrunner webkit gtk dbus
 x11-misc/lightdm gtk
 x11-terms/rxvt-unicode vanilla
 virtual/python-argparse python_targets_python3_3
-www-client/firefox minimal gstreamer wifi dbus
+www-client/firefox minimal wifi
 www-client/icecat crashreporter dbus system-sqlite wifi
 www-plugins/google-talkplugin system-libCg libnotify
 www-servers/apache apache2_modules_cgi apache2_modules_cgid
