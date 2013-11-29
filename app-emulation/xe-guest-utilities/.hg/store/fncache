@@ -1,0 +1,8 @@
+data/.hgignore.i
+data/COPYING.i
+data/files/5.6.100/xe-guest-utilities-xe-linux-distribution.patch.i
+data/files/xe-daemon.conf.i
+data/files/xe-daemon.initscript.i
+data/files/xe-linux-distribution-5.6.100.patch.i
+data/metadata.xml.i
+data/xe-guest-utilities-5.6.100.ebuild.i

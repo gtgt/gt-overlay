@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>pandu@poluan.info</email>
+		<name>Pandu E Poluan</name>
+		<description>Proxy maintainer. CC him on bugs</description>
+	</maintainer>
+	<longdescription>
+		xe-guest-utilities is the actual name for Citrix's XenServer Tools,
+		a set of scripts (and one binary) that enables XenServer to detect
+		the status of the Guest OS and manage it.
+	</longdescription>
+</pkgmetadata>
