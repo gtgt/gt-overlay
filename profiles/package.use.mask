@@ -9,7 +9,6 @@ dev-db/sqlite icu
 dev-java/icedtea zero hs20
 app-office/calligra freetds jpeg2k openctl word-perfect calligra_features_braindump calligra_features_stage
 app-office/scribus spell
-app-portage/elogviewer python_targets_python3_3
 =dev-java/icedtea-7.1.14 xrender
 dev-java/swt xulrunner
 =dev-lang/php-5.5.0_rc1 opcache
@@ -79,7 +78,6 @@ x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
 x11-misc/lightdm gtk
 x11-terms/rxvt-unicode vanilla
-virtual/python-argparse python_targets_python3_3
 www-client/firefox minimal wifi
 www-client/icecat crashreporter dbus system-sqlite wifi
 www-plugins/google-talkplugin system-libCg libnotify

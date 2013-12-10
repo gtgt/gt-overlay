@@ -31,8 +31,8 @@ LIGHTDM_SESSION="KDE-4"
 
 RUBY_TARGETS="ruby20"
 
-#BOOTSTRAP_USE="cxx unicode python_targets_python3_3 python_targets_python2_7 multilib"
-BOOTSTRAP_USE="${BOOTSTRAP_USE} cxx unicode multilib"
+BOOTSTRAP_USE="cxx unicode multilib"
+#BOOTSTRAP_USE="${BOOTSTRAP_USE} python_targets_python3_3"
 
 #PYTHON_TARGETS="python3_3 python2_7 jython2_7"
 # Legacy compat

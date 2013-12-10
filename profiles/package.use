@@ -382,7 +382,7 @@ virtual/ffmpeg threads
 virtual/jpeg static-libs
 virtual/mysql embedded
 virtual/udev static-libs
-www-client/firefox bindist custom-cflags pgo
+www-client/firefox bindist custom-cflags pgo system-icu
 www-client/icecat
 www-client/opera-next -gtk
 www-client/rekonq opera
@@ -404,6 +404,7 @@ x11-libs/cairo glib qt4 cleartype svg qt4 drm gallium
 x11-libs/gdk-pixbuf jpeg jpeg2k tiff
 x11-libs/gtk+ cups
 x11-libs/libdrm libkms video_cards_intel video_cards_nouveau video_cards_radeon
+x11-libs/libxcb xkb
 x11-libs/pixman mmx
 x11-libs/pangox-compat
 x11-libs/qt:3 immqt-bc

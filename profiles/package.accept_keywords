@@ -35,7 +35,7 @@ sys-boot/plymouth
 sys-boot/plymouth-openrc-plugin
 sys-boot/syslinux
 sys-boot/unetbootin
-=sys-block/thin-provisioning-tools-0.2.1
+sys-block/thin-provisioning-tools
 sys-devel/llvm
 sys-devel/clang
 =sys-devel/gcc-4.6.3
@@ -43,6 +43,7 @@ sys-devel/clang
 sys-devel/icecream
 sys-fs/cachefilesd
 sys-fs/exfat-utils
+sys-fs/extundelete
 sys-fs/fuse-exfat
 sys-fs/lvm2
 sys-fs/hfsplusutils **
@@ -103,6 +104,7 @@ dev-java/oracle-jre-bin
 dev-java/sun-jdk **
 dev-java/skinlf
 dev-java/ws-commons-util
+app-admin/eselect-java
 
 # Netbeans
 
@@ -131,11 +133,12 @@ dev-java/osgi-core-api
 
 # PHP
 app-admin/eselect-php
-=app-admin/apache-tools-2.4* **
+app-admin/apache-tools
 dev-db/mysql
 dev-db/mysql-proxy
 dev-lang/php
 dev-lang/v8
+dev-libs/apr
 dev-libs/libmemcached
 dev-php/pecl-apc
 dev-php/pecl-imagick
@@ -153,7 +156,7 @@ net-libs/nodejs
 www-apache/mod_proxy_fcgi
 www-apps/xhprof-ui
 www-apps/webgrind
-=www-servers/apache-2.4* **
+www-servers/apache
 virtual/mysql
 virtual/httpd-php
 
@@ -381,6 +384,7 @@ dev-libs/libcaldav
 <net-misc/networkmanager-pptp-9999
 <net-misc/networkmanager-vpnc-9999
 <net-dialup/ppp-9999
+net-dialup/freeradius-client
 net-fs/afpfs-ng **
 net-fs/cifs-utils
 net-fs/coda
@@ -806,6 +810,11 @@ x11-proto/xf86vidmodeproto
 x11-themes/xcursor-themes
 x11-proto/xextproto
 
+x11-libs/xtrans
+x11-libs/libxshmfence
+x11-proto/dri3proto
+x11-proto/presentproto
+
 
 x11-base/xorg-drivers
 x11-drivers/radeon-ucode
@@ -828,6 +837,7 @@ x11-libs/xcb-util-keysyms
 x11-libs/xcb-util-renderutil
 x11-libs/xcb-util-wm
 x11-proto/xcb-proto
+x11-libs/xpyb
 
 x11-drivers/ati-drivers
 #x11-drivers/nvidia-drivers
