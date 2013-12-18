@@ -1,6 +1,8 @@
 >x11-base/xorg-server-1.14.4
 =dev-java/icedtea-bin-7.2.4.3
 
+=x11-drivers/ati-drivers-13.11_beta6
+
 #>app-office/libreoffice-4.0.2.2
 =x11-libs/gtk+-2.24.14
 =app-office/akonadi-server-9999

@@ -1,7 +1,7 @@
 #cpudetection-cflags
 #cpudetection
 #custom-cflags
-#custom-optimization
+custom-optimization
 bindist
 vala
 vapigen
