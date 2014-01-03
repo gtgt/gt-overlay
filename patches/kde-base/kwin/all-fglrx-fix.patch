@@ -1,0 +1,12 @@
+diff --git a/kwin/libkwineffects/kwinglutils.cpp b/kwin/libkwineffects/kwinglutils.cpp
+index a6cd8c3..4639a10 100644
+--- a/kwin/libkwineffects/kwinglutils.cpp
++++ b/kwin/libkwineffects/kwinglutils.cpp
+@@ -1963,6 +1963,7 @@ bool GLVertexBuffer::isSupported()
+ 
+ bool GLVertexBuffer::supportsIndexedQuads()
+ {
++    return false; //to fig fglrx issues
+     return GLVertexBufferPrivate::supportsIndexedQuads;
+ }
+ 

@@ -179,7 +179,7 @@ dev-php/pecl-ps
 dev-util/android-tools
 media-tv/dvb-usb-rtl2832u
 media-tv/linuxtv-dvb-apps
-media-video/v4l2loopback
+media-video/v4l2loopback **
 net-firewall/iptables
 net-misc/modemmanager
 net-wireless/zte-mf190

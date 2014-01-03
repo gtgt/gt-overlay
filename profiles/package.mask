@@ -62,3 +62,4 @@ sys-fs/udev
 >=dev-qt/designer-5.0.0
 >=dev-qt/pixeltool-5.0.0
 >=dev-qt/qdbosviewer-5.0.0
+>=dev-qt/qtprintsupport-5.0.0
