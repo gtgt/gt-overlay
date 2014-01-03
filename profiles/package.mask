@@ -59,3 +59,6 @@ sys-fs/udev
 >=dev-qt/qttest-5.0.0
 >=dev-qt/qtwebkit-5.0.0
 >=dev-qt/qtxmlpatterns-5.0.0
+>=dev-qt/designer-5.0.0
+>=dev-qt/pixeltool-5.0.0
+>=dev-qt/qdbosviewer-5.0.0
