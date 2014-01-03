@@ -42,7 +42,7 @@ BOOTSTRAP_USE="${BOOTSTRAP_USE} cxx unicode multilib"
 USE="handbook"
 
 #System
-USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl optimization threads lib32 mmap"
+USE="${USE} pch pam lzma bzip2 zlib readline ncurses pcre openmp acl optimization threads lib32 mmap"
 USE="${USE} nsplugin policykit polkit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk kmod"
 
 #Lang support (python perl mono)
@@ -61,7 +61,7 @@ USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd 
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu webgl oauth"
 
 # Window manager and speciality
-USE="${USE} X wayland gtk2 gtk3 cairo system-cairo xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl -openvg glx gles gles1 gles2 osmesa gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver attica appmenu ayatana indicator overlay libnotify windeco ayatana"
+USE="${USE} llvm-shared-libs r600-llvm-compiler openvg xa xlib-xcb X wayland gtk2 gtk3 cairo system-cairo xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl glx gles gles1 gles2 osmesa gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver attica appmenu ayatana indicator overlay libnotify windeco ayatana"
 
 # Print
 USE="${USE} foomaticdb cups"
@@ -103,7 +103,7 @@ USE="${USE} mbox maildir calendar reports"
 USE="${USE} a52 aac avi cuda dv dvb encode directfb dri faac ffmpeg flash ggi gstreamer ggi libass live lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 vcdx video vidix win32codecs x264 xinerama vpx xv xvid xvmc"
 
 # Web
-USE="${USE} libwww -vhosts nsplugin javascript"
+USE="${USE} libwww -vhosts nsplugin javascript dolphin"
 
 # Wireless
 USE="${USE} bluetooth wimax"

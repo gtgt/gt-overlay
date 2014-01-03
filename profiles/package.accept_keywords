@@ -12,7 +12,7 @@ dev-lang/orc
 dev-lang/spidermonkey
 dev-libs/antlr
 dev-libs/antlr-c
-=dev-libs/boost-1.52.0-r6
+=dev-libs/boost-1.53.0-r1
 dev-libs/libclc
 dev-libs/libnl
 dev-libs/libpcre
@@ -179,6 +179,7 @@ dev-php/pecl-ps
 dev-util/android-tools
 media-tv/dvb-usb-rtl2832u
 media-tv/linuxtv-dvb-apps
+media-video/v4l2loopback
 net-firewall/iptables
 net-misc/modemmanager
 net-wireless/zte-mf190
@@ -379,6 +380,7 @@ net-dns/avahi-base
 # Network
 app-misc/ca-certificates
 dev-libs/libcaldav
+net-misc/grive
 <net-misc/networkmanager-9999
 <net-misc/networkmanager-openvpn-9999
 <net-misc/networkmanager-pptp-9999
@@ -839,7 +841,7 @@ x11-libs/xcb-util-wm
 x11-proto/xcb-proto
 x11-libs/xpyb
 
-#x11-drivers/ati-drivers
+x11-drivers/ati-drivers
 #x11-drivers/nvidia-drivers
 #media-video/nvidia-settings
 
