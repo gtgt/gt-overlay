@@ -79,7 +79,7 @@ x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
 x11-misc/lightdm gtk
 x11-terms/rxvt-unicode vanilla
-www-client/firefox minimal wifi
+www-client/firefox minimal wifi appmenu
 www-client/icecat crashreporter dbus system-sqlite wifi
 www-plugins/google-talkplugin system-libCg libnotify
 www-servers/apache apache2_modules_cgi apache2_modules_cgid

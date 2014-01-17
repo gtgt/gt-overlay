@@ -189,6 +189,7 @@ net-wireless/zte-mf190
 <net-print/foomatic-db-engine-9999
 <net-print/foomatic-filters-9999
 net-print/cnijfilter
+net-print/cups
 net-print/cups-pdf
 net-print/cups-filters
 net-wireless/bluez-firmware
@@ -487,6 +488,9 @@ kde-base/print-manager
 kde-base/kde-dev-scripts
 kde-base/solid-actions-kcm
 kde-base/kimgio
+kde-base/contactthemeeditor
+kde-base/calendarjanitor
+kde-base/kdesdk-strigi-analyzer
 kde-misc/ark2
 kde-misc/oxygen-appmenu **
 kde-misc/akonadi-facebook
@@ -586,6 +590,7 @@ x11-themes/oxygen-gtk
 www-plugins/oxygenkde
 www-plugins/kpartsplugin
 <www-client/rekonq-9999 **
+www-client/conkeror
 www-client/google-chrome
 www-client/icecat
 www-client/firefox
