@@ -57,6 +57,7 @@ sys-libs/rvm
 sys-libs/talloc
 sys-libs/tdb
 sys-libs/zlib
+sys-power/cpupower
 sys-power/pm-utils
 sys-power/upower
 sys-process/atop
@@ -151,7 +152,6 @@ dev-php/xcache
 dev-php/xdebug
 dev-php/xdebug-client
 dev-php/xhprof
-dev-vcs/subversion
 net-libs/nodejs
 www-apache/mod_proxy_fcgi
 www-apps/xhprof-ui
