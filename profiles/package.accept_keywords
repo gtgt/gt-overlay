@@ -492,6 +492,7 @@ kde-base/contactthemeeditor
 kde-base/calendarjanitor
 kde-base/kdesdk-strigi-analyzer
 kde-misc/ark2
+kde-misc/bekwinfx **
 kde-misc/oxygen-appmenu **
 kde-misc/akonadi-facebook
 kde-misc/akonadi-social-utils

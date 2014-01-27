@@ -168,7 +168,7 @@ kde-base/systemsettings usb xinerama
 kde-base/tqtinterface qt4
 kde-misc/konq-plugins tidy
 kde-misc/krename taglib
-media-fonts/terminus-font psf
+media-fonts/terminus-font psf distinct-l
 media-gfx/digikam addressbook geolocation themedesigner thumbnails video
 media-gfx/exiv2 unicode zlib
 media-gfx/gimp curl dbus gs exif jpeg mmx mng pdf png smp sse svg tiff wmf

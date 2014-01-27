@@ -26,6 +26,7 @@ dev-vcs/git tk gtk
 dev-vcs/subversion dso
 kde-base/kdesdk-kioslaves subversion
 kde-base/tqtinterface qt3
+media-fonts/terminus-font ru-g
 media-gfx/gimp aalib python webkit
 media-gfx/digikam mysql
 media-gfx/enblend doc
