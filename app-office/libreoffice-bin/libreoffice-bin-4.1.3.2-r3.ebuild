@@ -66,7 +66,7 @@ BIN_COMMON_DEPEND="
 	media-libs/libpng:0/16
 	>=sys-libs/glibc-2.17
 	kde? ( >=kde-base/kdelibs-4.11.2-r1:4 >=dev-qt/qtcore-4.8.5-r1:4 )
-	|| ( <media-libs/libjpeg-turbo-1.3.0-r2 =media-libs/jpeg-8* )
+	|| ( <media-libs/libjpeg-turbo-1.4.0 =media-libs/jpeg-8* )
 "
 
 # PLEASE place any restrictions that are specific to the binary builds

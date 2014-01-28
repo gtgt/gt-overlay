@@ -45,7 +45,6 @@ sys-fs/cachefilesd
 sys-fs/exfat-utils
 sys-fs/extundelete
 sys-fs/fuse-exfat
-sys-fs/lvm2
 sys-fs/hfsplusutils **
 sys-fs/multipath-tools
 sys-fs/eudev
@@ -298,6 +297,7 @@ net-libs/libkgoogle
 <dev-cpp/clucene-9999
 sys-auth/polkit
 sys-auth/polkit-qt
+x11-libs/glamor
 virtual/python-json
 
 
