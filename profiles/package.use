@@ -22,7 +22,7 @@ app-editors/vim -X acl gpm perl python-pager
 app-emulation/emul-linux-x86-compat multilib
 app-emulation/emul-linux-x86-soundlibs
 app-emulation/virtualbox-bin rdesktop-vrdp vboxwebsrv
-app-emulation/wine cups fontconfig gsm jpeg png samba truetype win32 win64 dbus gecko v4l xcomposite xml udisks gstreamer
+app-emulation/wine cups fontconfig gsm jpeg png samba truetype win32 win64 dbus gecko v4l xcomposite xml udisks gstreamer netapi dos
 app-misc/lirc kernel_linux
 app-misc/mc -X edit gpm samba
 app-misc/screen multiuser nethack
