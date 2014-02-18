@@ -1,14 +1,18 @@
 app-admin/packagekit gtk
 app-admin/puppet ldap
 app-office/libreoffice branding
+app-office/calligra freetds jpeg2k openctl word-perfect calligra_features_braindump calligra_features_stage
+app-office/scribus spell
 app-emulation/wine gphoto2 openal opencl
+app-emulation/winetricks gtk
 app-misc/mc spell
 app-misc/tomboy applet
 app-text/fbreader gtk
 dev-db/sqlite icu
 dev-java/icedtea zero hs20
-app-office/calligra freetds jpeg2k openctl word-perfect calligra_features_braindump calligra_features_stage
-app-office/scribus spell
+dev-qt/qtmeta openvg
+dev-qt/qtgui 
+dev-qt/qtopengl
 =dev-java/icedtea-7.1.14 xrender
 dev-java/swt xulrunner
 =dev-lang/php-5.5.0_rc1 opcache
@@ -16,6 +20,7 @@ dev-lang/php spell
 dev-libs/libindicate introspection
 dev-libs/libdbusmenu introspection
 dev-libs/rasqal xml pcre
+dev-libs/weston 
 dev-util/kdevelop okteta qthelp
 dev-util/kdevelop-php kdevelop
 dev-util/kdevplatform cvs debug reviewboard
@@ -24,6 +29,7 @@ dev-util/qt-creator bazaar debug doc examples fakevim
 dev-util/netbeans
 dev-vcs/git tk gtk
 dev-vcs/subversion dso
+gnome-extra/zenity webkit
 kde-base/kdesdk-kioslaves subversion
 kde-base/tqtinterface qt3
 media-fonts/terminus-font ru-g
@@ -48,6 +54,7 @@ net-analyzer/wireshark gtk gtk2 gtk3
 net-dns/avahi gtk
 net-fs/cifs-utils
 net-libs/telepathy-glib vala
+net-libs/libproxy webkit
 net-mail/dovecot pam ldap
 net-misc/networkmanager sharing wimax
 net-misc/networkmanager-openswan gtk
@@ -72,9 +79,6 @@ sys-block/gparted gtk
 sys-fs/udev systemd gudev introspection
 sys-fs/ntfs3g external-fuse
 x11-libs/cairo static-libs
-dev-qt/qtmeta openvg
-dev-qt/qtgui 
-dev-qt/qtopengl
 x11-libs/glamor gles
 x11-libs/wxGTK odbc
 x11-misc/google-gadgets xulrunner webkit gtk dbus
