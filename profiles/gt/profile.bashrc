@@ -4,20 +4,24 @@
 
 # /etc/portage/bashrc.autopatch
 # echo '((0${BASH_VERSION:0:1} > 2)) && . /etc/portage/bashrc.autopatch' >> /etc/portage/bashrc
-# echo 'PATCH_OVERLAY=/usr/portage/local/patches/' >> /etc/make.conf
-# mkdir -p /usr/portage/local/patches/
+# echo 'PATCH_OVERLAY_LOCAL=/usr/portage/local/patches' >> /etc/make.conf
+# mkdir -p /usr/portage/local/patches
+
+source /etc/init.d/functions.sh
+einfo "Autopatch: $EBUILD_PHASE phase..."
 
 autopatch() {
 	local diff level p patches patched 
-	
-	source /etc/init.d/functions.sh	
 
 	[[ ! -d "$PATCH_OVERLAY_LOCAL" ]] && PATCH_OVERLAY_LOCAL="`echo ${PORTAGE_OVERLAY}|sed s/\ //`/patches"
-	[[ ! -d "$PATCH_OVERLAY_LOCAL" ]] && return 0
+	if [[ ! -d "$PATCH_OVERLAY_LOCAL" ]]; then 
+		ewarn "Directory $PATCH_OVERLAY_LOCAL (PATCH_OVERLAY_LOCAL) not found. Autopatch disabled."
+		return 0
+	fi
 
-	ebegin "Local autopatch enabled. Searching for ${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/{$PV,all}-*.{patch,diff}"
+	ebegin "Local autopatch enabled. Searching for ${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/{$PV,$PVR,:$SLOT,all}-*.{patch,diff}"
 	
-	patches=$(ls -1 ${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/{$PV,all}-*.{patch,diff} 2>/dev/null)
+	patches=$(ls -1 ${PATCH_OVERLAY_LOCAL}/${CATEGORY}/${PN}/{$PV,$PVR,:$SLOT,all}-*.{patch,diff} 2>/dev/null)
 	[[ $patches == "" ]] && einfo "No autopatch found" && return 0
 
 	if ! cd ${S}; then
@@ -52,7 +56,10 @@ autopatch() {
 	cd $OLDPWD
 }
 
-if [[ $EBUILD_PHASE == prepare ]]; then
-	PATH=$PATH:/usr/sbin:/usr/bin:/bin:/sbin
-	autopatch || exit
+if [[ $EBUILD_PHASE == prepare || $EBUILD_PHASE == compile ]]; then
+	if [[ ! -f ${T}/.autopatched ]]; then
+		touch ${T}/.autopatched
+		PATH=$PATH:/usr/sbin:/usr/bin:/bin:/sbin
+		autopatch || exit
+	fi
 fi

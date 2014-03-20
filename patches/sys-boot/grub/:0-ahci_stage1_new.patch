@@ -1,0 +1,73 @@
+diff -ru grub-0.97_orig/stage1/stage1.S grub-0.97/stage1/stage1.S
+--- grub-0.97_orig/stage1/stage1.S	2005-02-15 22:54:31.000000000 +0100
++++ grub-0.97/stage1/stage1.S	2009-03-24 21:12:57.000000000 +0100
+@@ -162,24 +162,37 @@
+ 	movw	$0x55aa, %bx
+ 	int	$0x13
+ 
++  /* mac pro hack */
++  /* cannot disturb %bx or carry flag until `sbbw' below */
++  mov    $0x8000fa90, %eax
++  mov    $0xcf8, %dx
++  out    %eax, (%dx)
++  mov    $0x40, %al
++  mov    $0xfc, %dl	/* %edx = 0xcfc */
++  out    %al, (%dx)
++
+ 	/* 
+ 	 *  %dl may have been clobbered by INT 13, AH=41H.
+ 	 *  This happens, for example, with AST BIOS 1.04.
++	 *  Plus it's definitely clobbered by mac pro hack.
+ 	 */
+ 	popw	%dx
+ 	pushw	%dx
+ 
+ 	/* use CHS if fails */
+-	jc	chs_mode
+-	cmpw	$0xaa55, %bx
++#	jc	chs_mode	/* `sbbw' and a single jump saves two bytes. */
++#	cmpw	$0xaa55, %bx	/* It's wrong if int 13(ah=41) returns carry */
++	sbbw	$0xaa55, %bx	/* && bx == 0xaa54... but that won't happen. */
+ 	jne	chs_mode
+ 
+ 	/* check if AH=0x42 is supported if FORCE_LBA is zero */
+ 	MOV_MEM_TO_AL(ABS(force_lba))	/* movb	ABS(force_lba), %al */
+ 	testb	%al, %al
+ 	jnz	lba_mode
+-	andw	$1, %cx
+-	jz	chs_mode
++#	andw    $1, %cx
++#	jz      chs_mode
++	rorb	$1, %cl		/* int 13(ah=41): extended disk access fns supported? */
++	jnc	chs_mode	/* rorb saves 1 byte, needs different condition code. */
+ 	
+ lba_mode:
+ 	/* save the total number of sectors */
+@@ -194,10 +207,12 @@
+ 	movl	ABS(stage2_sector), %ebx
+ 
+ 	/* the size and the reserved byte */
+-	movw	$0x0010, (%si)
++#	movw	$0x0010, (%si)		/* see below... */
+ 
+ 	/* the blocks */
+-	movw	$1, 2(%si)
++#	movw	$1, 2(%si)		/* see below... */
++
++	movl	$0x00010010,(%si)	/* ... combining these saves 2 code bytes */
+ 	
+ 	/* the absolute address (low 32 bits) */
+ 	movl	%ebx, 8(%si)
+@@ -250,10 +265,11 @@
+ 	movw	$ABS(sectors), %si
+ 
+ 	/* set the mode to zero */
+-	movb	$0, -1(%si)
++#	movb	$0, -1(%si)		/* see below... */
+ 	
+ 	/* save number of heads */
+ 	xorl	%eax, %eax
++	movb	%al, -1(%si)		/* ... mode = 0, saving 1 byte */
+ 	movb	%dh, %al
+ 	incw	%ax
+ 	movl	%eax, 4(%si)
