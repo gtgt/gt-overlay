@@ -8,7 +8,7 @@
 # mkdir -p /usr/portage/local/patches
 
 source /etc/init.d/functions.sh
-einfo "Autopatch: $EBUILD_PHASE phase..."
+#einfo "Autopatch: $EBUILD_PHASE phase..."
 
 autopatch() {
 	local diff level p patches patched 
