@@ -2,11 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/media-libs/pdflib/pdflib-7.0.4_p4-r1.ebuild,v 1.1 2010/04/02 20:40:17 mabi Exp $
 
-EAPI="1"
+EAPI="3"
 
 PYTHON_DEPEND="*"
 RUBY_OPTIONAL="yes"
-inherit autotools libtool versionator flag-o-matic toolchain-funcs multilib perl-module java-pkg-opt-2 python ruby
+inherit autotools libtool versionator flag-o-matic toolchain-funcs multilib perl-module java-pkg-opt-2 python ruby-ng
 
 MY_PN="${PN/pdf/PDF}-Lite"
 MY_P="${MY_PN}-${PV/_/}"

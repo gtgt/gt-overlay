@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/media-libs/pdflib/pdflib-7.0.2_p8.ebuild,v 1.12 2010/05/28 18:05:21 arfrever Exp $
 
-EAPI="1"
+EAPI="3"
 
 # RUBY_OPTIONAL="yes"
 inherit autotools libtool versionator flag-o-matic toolchain-funcs multilib perl-module java-pkg-opt-2 python # ruby
