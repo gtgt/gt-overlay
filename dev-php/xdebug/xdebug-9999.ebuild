@@ -7,7 +7,7 @@ PHP_EXT_NAME="xdebug"
 PHP_EXT_INI="yes"
 PHP_EXT_ZENDEXT="yes"
 
-USE_PHP="php5-5 php5-3 php5-4"
+USE_PHP="php5-6 php5-5 php5-4"
 
 MY_PV="${PV/_/}"
 MY_PV="${MY_PV/rc/RC}"
