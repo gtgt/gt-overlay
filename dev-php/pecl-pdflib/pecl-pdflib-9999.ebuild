@@ -18,7 +18,7 @@ MY_PV="${MY_PV/rc/RC}"
 S="${WORKDIR}/${P}"
 PHP_EXT_S=${S}
 
-USE_PHP="php5-3 php5-4"
+USE_PHP="php5-3 php5-4 php5-5 php5-6"
 
 #inherit php-ext-pecl-r2 subversion
 inherit php-ext-source-r2 subversion
