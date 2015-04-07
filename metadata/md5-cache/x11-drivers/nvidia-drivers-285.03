@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile install postinst postrm preinst prepare setup unpack
 DEPEND=<x11-base/xorg-server-1.10.99 kernel_linux? ( >=sys-libs/glibc-2.6.1 ) multilib? ( app-emulation/emul-linux-x86-xlibs ) >=app-admin/eselect-opengl-1.0.9 !<media-video/nvidia-settings-256.52 kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed kernel_linux? ( virtual/linux-sources ) sys-apps/pciutils
 DESCRIPTION=NVIDIA X11 driver and GLX libraries
-EAPI=4
+EAPI=5
 HOMEPAGE=http://www.nvidia.com/
 IUSE=acpi custom-cflags gtk multilib kernel_linux rt kernel_linux
 KEYWORDS=-* ~amd64 ~x86 ~x86-fbsd
@@ -11,5 +11,5 @@ RDEPEND=<x11-base/xorg-server-1.10.99 kernel_linux? ( >=sys-libs/glibc-2.6.1 ) m
 RESTRICT=strip
 SLOT=0
 SRC_URI=x86? ( http://us.download.nvidia.com/XFree86/Linux-x86/285.03/NVIDIA-Linux-x86-285.03.run ) amd64? ( http://us.download.nvidia.com/XFree86/Linux-x86_64/285.03/NVIDIA-Linux-x86_64-285.03.run ) x86-fbsd? ( http://us.download.nvidia.com/XFree86/FreeBSD-x86/285.03/NVIDIA-FreeBSD-x86-285.03.tar.gz )
-_eclasses_=eutils	4878e7f88afc0ba0866ac112190b0fd4	flag-o-matic	08a40a43c401c96d16477c02e56d9a64	linux-info	a9cbd6bbe2b28166e403321882f3c73c	linux-mod	708d6a92c561743e612fca9d8fde5309	multilib	892e597faee02a5b94eb02ab512e7622	nvidia-driver	92e88a2e33d056779baa88f1061c662e	readme.gentoo	2466b2f6a77a9600954c6b99ebca6e02	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28	versionator	6601b4c5b3f019a993db59a50e1854e4
-_md5_=996bc8fcdba1cfec59586a21670f5446
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c263990f1b677b0f0be0a3299f179762	linux-info	2b8c53f6065bdee2d757472215a3088f	linux-mod	101302d4b7b694ea9622bbffb187d0de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	nvidia-driver	800f567ff607d5d5171a8149456e294e	readme.gentoo	106edea5533517715013de909a333abd	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=92135b618bd62070418adb373030540b

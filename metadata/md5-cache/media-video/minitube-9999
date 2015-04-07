@@ -8,5 +8,5 @@ KEYWORDS=amd64 x86
 LICENSE=GPL-3
 RDEPEND=>=dev-qt/qtgui-4.6:4[accessibility,gtkstyle] >=dev-qt/qtdbus-4.6:4 kde? ( || ( media-libs/phonon[gstreamer?] >=dev-qt/qtphonon-4.6:4 ) ) !kde? ( || ( >=dev-qt/qtphonon-4.6:4 media-libs/phonon[gstreamer?] ) ) gstreamer? ( media-plugins/gst-plugins-soup:0.10 media-plugins/gst-plugins-ffmpeg:0.10 media-plugins/gst-plugins-faac:0.10 media-plugins/gst-plugins-faad:0.10 media-plugins/gst-plugins-theora )
 SLOT=0
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	4878e7f88afc0ba0866ac112190b0fd4	git-2	2027b81a576527fa16bece425941e094	git-r3	f870f5be7eb6435bdd5968f9f4df68c2	l10n	33bde4fb0cfd3a21a277b66bfd837e19	multilib	892e597faee02a5b94eb02ab512e7622	qt4-r2	ce0c9abfee272185e03ab73f09f5fd69	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	9fb270e417e0e83d64ca52586c4a79de	git-2	e28f0d8a9b321431b1e699782851b827	l10n	33bde4fb0cfd3a21a277b66bfd837e19	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	qmake-utils	ea709b525d28e3087eddedb2f884dbbe	qt4-r2	7199e3db5b5908325487d379c6f67cf0	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4
 _md5_=2a4db1ed0e1377b1a3115114a0c18c8b

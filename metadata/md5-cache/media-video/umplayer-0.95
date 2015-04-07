@@ -1,10 +1,10 @@
 DEFINED_PHASES=compile configure install preinst prepare unpack
-DEPEND=|| ( dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DEPEND=|| ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
 DESCRIPTION=UMPlayer is cross-platform and installer packages are available for the Windows, Mac and GNU / Linux operating systems. It is completely free to use and distribute so feel free to share UMPlayer with all your friends.
 EAPI=3
 HOMEPAGE=http://www.umplayer.com
 KEYWORDS=~amd64 ~86 ~mingw32
 LICENSE=GPL-3
 SLOT=0
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	4878e7f88afc0ba0866ac112190b0fd4	multilib	892e597faee02a5b94eb02ab512e7622	qt4-r2	ce0c9abfee272185e03ab73f09f5fd69	subversion	de38ef8c5baf84d80e695a4d6ad26554	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	qmake-utils	ea709b525d28e3087eddedb2f884dbbe	qt4-r2	7199e3db5b5908325487d379c6f67cf0	subversion	c12bdf4fcc82f86ad89b14c8f76c4026	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4
 _md5_=2d22b89956726b1c5a78e1448ac05e0d

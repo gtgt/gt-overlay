@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/kde-misc/smooth-tasks/smooth-tasks-20101106.ebuild,v 1.4 2011/10/29 00:07:54 abcd Exp $
 
-EAPI="4"
+EAPI="5"
 
 KDE_LINGUAS="cs de fr hu pl ru zh_CN"
 KDE_MINIMAL="4.5"

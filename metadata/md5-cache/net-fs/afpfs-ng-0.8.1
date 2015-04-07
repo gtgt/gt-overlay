@@ -1,7 +1,7 @@
 DEFINED_PHASES=configure install prepare
-DEPEND=sys-libs/readline dev-libs/gmp dev-libs/libgcrypt fuse? ( sys-fs/fuse ) || ( >=sys-devel/automake-1.12:1.12 >=sys-devel/automake-1.13:1.13 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DEPEND=sys-libs/readline dev-libs/gmp dev-libs/libgcrypt fuse? ( sys-fs/fuse ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=Apple Filing Protocol client and library implemented in FUSE
-EAPI=4
+EAPI=5
 HOMEPAGE=http://sourceforge.net/projects/afpfs-ng/
 IUSE=+fuse static-libs
 KEYWORDS=~amd64 ~x86
@@ -9,5 +9,5 @@ LICENSE=LGPL-2
 RDEPEND=sys-libs/readline dev-libs/gmp dev-libs/libgcrypt fuse? ( sys-fs/fuse )
 SLOT=0
 SRC_URI=mirror://sourceforge/afpfs-ng/afpfs-ng-0.8.1.tar.bz2
-_eclasses_=autotools	16761a2f972abd686713e5967ff3c754	eutils	4878e7f88afc0ba0866ac112190b0fd4	libtool	b1c8688e60f9580bcb9bb46e08737eb1	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	89580da5ec17ad687fcde876c542b91e	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=362233a11252fedb8233c9d884e7a105
+_eclasses_=autotools	999c8f6cf5d91495cb0779588f20716c	eutils	9fb270e417e0e83d64ca52586c4a79de	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4
+_md5_=39b11ba7a949a398a36f8c24535b9062

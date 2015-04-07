@@ -4,7 +4,7 @@
 
 # xe-guest-utilities-5.6.100.ebuild
 
-EAPI="4"
+EAPI="5"
 inherit eutils rpm
 
 MERGE_TYPE="binary"

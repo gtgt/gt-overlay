@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-lang/php-5.3.3 || ( >=sys-devel/automake-1.12:1.12 >=sys-devel/automake-1.13:1.13 ) >=sys-devel/autoconf-2.68 sys-devel/libtool >=sys-devel/m4-1.4.3 >=sys-devel/libtool-1.5.18 php_targets_php5-3? ( dev-lang/php:5.3 ) >=sys-devel/m4-1.4.3 >=sys-devel/libtool-1.5.18 php_targets_php5-3? ( dev-lang/php:5.3 ) php_targets_php5-3? ( dev-lang/php:5.3 )
+DEPEND=>=dev-lang/php-5.3.3 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=sys-devel/m4-1.4.3 >=sys-devel/libtool-1.5.18 php_targets_php5-3? ( dev-lang/php:5.3 ) >=sys-devel/m4-1.4.3 >=sys-devel/libtool-1.5.18 php_targets_php5-3? ( dev-lang/php:5.3 ) php_targets_php5-3? ( dev-lang/php:5.3 )
 DESCRIPTION=This extension embeds the Google's V8 Javascript Engine into PHP.
-EAPI=4
+EAPI=5
 HOMEPAGE=http://pecl.php.net/pecl_v8js
 IUSE=php_targets_php5-3 php_targets_php5-3
 KEYWORDS=~amd64 ~x86
@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/php-5.3.3 php_targets_php5-3? ( dev-lang/php:5.3 ) php_target
 REQUIRED_USE=|| ( php_targets_php5-3 ) || ( php_targets_php5-3 )
 SLOT=0
 SRC_URI=http://pecl.php.net/get/v8js
-_eclasses_=autotools	16761a2f972abd686713e5967ff3c754	eutils	4878e7f88afc0ba0866ac112190b0fd4	flag-o-matic	08a40a43c401c96d16477c02e56d9a64	libtool	b1c8688e60f9580bcb9bb46e08737eb1	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	89580da5ec17ad687fcde876c542b91e	php-ext-pecl-r2	de1308bcf4fef59a8ee8793efc7c3051	php-ext-source-r2	39437168059a2166e012420b3ba12815	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=195b6619a9c63d29c53c68828050b4b4
+_eclasses_=autotools	999c8f6cf5d91495cb0779588f20716c	eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c263990f1b677b0f0be0a3299f179762	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	php-ext-pecl-r2	de1308bcf4fef59a8ee8793efc7c3051	php-ext-source-r2	3cb75f17fa8e54d144e2834021e1df5c	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4
+_md5_=772edea6e2cd91ce6a1024bef8ea7e43

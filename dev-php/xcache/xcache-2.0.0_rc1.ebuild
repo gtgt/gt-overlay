@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-php/xcache/xcache-1.3.2.ebuild,v 1.3 2012/01/21 16:21:24 phajdan.jr Exp $
 
-EAPI="4"
+EAPI="5"
 
 PHP_EXT_NAME="xcache"
 PHP_EXT_INI="yes"

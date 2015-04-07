@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sys-libs/pam dev-vcs/git
 DESCRIPTION=An open source remote desktop protocol(rdp) server.
-EAPI=4
+EAPI=5
 HOMEPAGE=http://xrdp.sourceforge.net/
 KEYWORDS=~amd64 ~ppc ~sparc ~x86
 LICENSE=GPL-2
 RDEPEND=sys-libs/pam || ( x11-misc/x11vnc net-misc/vnc[server] net-misc/tightvnc )
 SLOT=0
-_eclasses_=eutils	4878e7f88afc0ba0866ac112190b0fd4	git-2	2027b81a576527fa16bece425941e094	git-r3	f870f5be7eb6435bdd5968f9f4df68c2	multilib	892e597faee02a5b94eb02ab512e7622	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=3841a0af80df83a042c599cb3f05a7cd
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	git-2	e28f0d8a9b321431b1e699782851b827	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4
+_md5_=5cd0387006ab3c24189093b88c1d4bbd

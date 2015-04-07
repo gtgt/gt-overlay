@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile install postinst postrm preinst prepare prerm pretend setup unpack
 DEPEND=<=x11-base/xorg-server-1.11.99 !x11-drivers/ati-drivers:0 !x11-apps/ati-drivers-extra >=app-admin/eselect-opengl-1.0.7 sys-power/acpid x11-apps/xauth x11-libs/libX11 x11-libs/libXext x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXrender multilib? ( app-emulation/emul-linux-x86-opengl ) qt4? ( x11-libs/libICE x11-libs/libSM x11-libs/libXcursor x11-libs/libXfixes x11-libs/libXxf86vm dev-qt/qtcore dev-qt/qtgui ) app-portage/portage-utils x11-proto/inputproto x11-proto/xf86miscproto x11-proto/xf86vidmodeproto x11-proto/xineramaproto x11-libs/libXtst sys-apps/findutils app-misc/pax-utils kernel_linux? ( virtual/modutils ) sys-apps/sed kernel_linux? ( virtual/linux-sources )
 DESCRIPTION=Ati precompiled drivers for r600 (HD Series) and newer chipsets
-EAPI=4
+EAPI=5
 HOMEPAGE=http://www.ati.com
 IUSE=debug +modules multilib qt4 kernel_linux
 KEYWORDS=amd64 x86
@@ -9,5 +9,5 @@ LICENSE=AMD GPL-2 QPL-1.0 as-is
 RDEPEND=<=x11-base/xorg-server-1.11.99 !x11-drivers/ati-drivers:0 !x11-apps/ati-drivers-extra >=app-admin/eselect-opengl-1.0.7 sys-power/acpid x11-apps/xauth x11-libs/libX11 x11-libs/libXext x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXrender multilib? ( app-emulation/emul-linux-x86-opengl ) qt4? ( x11-libs/libICE x11-libs/libSM x11-libs/libXcursor x11-libs/libXfixes x11-libs/libXxf86vm dev-qt/qtcore dev-qt/qtgui ) kernel_linux? ( virtual/modutils )
 SLOT=1
 SRC_URI=http://www2.ati.com/drivers/linux//ati-driver-installer-11-8-x86.x86_64.run
-_eclasses_=eutils	4878e7f88afc0ba0866ac112190b0fd4	linux-info	a9cbd6bbe2b28166e403321882f3c73c	linux-mod	708d6a92c561743e612fca9d8fde5309	multilib	892e597faee02a5b94eb02ab512e7622	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28	versionator	6601b4c5b3f019a993db59a50e1854e4
-_md5_=be1b9a4a072834ba36bda3a17a74b3a1
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	linux-info	2b8c53f6065bdee2d757472215a3088f	linux-mod	101302d4b7b694ea9622bbffb187d0de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=3b50a2a8efad89dd0339f15486d93b5a

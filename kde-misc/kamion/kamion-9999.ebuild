@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 #LANGS="ar br cs de es fr gl it lt nl pl pt ru si tr zh zh_CN"
 

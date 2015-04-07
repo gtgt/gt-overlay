@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-qt/qtdbus:4 dev-qt/qtsql:4[sqlite] dev-util/cmake dev-vcs/git sys-devel/make >=dev-util/cmake-2.8.9 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DEPEND=dev-qt/qtdbus:4 dev-qt/qtsql:4[sqlite] dev-util/cmake dev-vcs/git sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
 DESCRIPTION=Qt4 utility for Wine applications and prefixes management.
-EAPI=4
+EAPI=5
 HOMEPAGE=http://q4wine.brezblock.org.ua/
 IUSE=debug +icoutils +wineappdb +dbus gnome kde linguas_cs linguas_de linguas_en linguas_es linguas_he linguas_it linguas_ru linguas_uk linguas_pl linguas_pt
 LICENSE=GPL-3
 RDEPEND=dev-qt/qtgui:4 dev-qt/qtsql:4[sqlite] app-admin/sudo app-emulation/wine >=sys-apps/which-2.19 icoutils? ( >=media-gfx/icoutils-0.26.0 ) sys-fs/fuseiso kde? ( kde-base/kdesu ) gnome? ( x11-libs/gksu ) dbus? ( dev-qt/qtdbus:4 )
 SLOT=0
-_eclasses_=cmake-utils	92319f03251f1235bc887cc84e5aef21	eutils	4878e7f88afc0ba0866ac112190b0fd4	flag-o-matic	08a40a43c401c96d16477c02e56d9a64	git-2	2027b81a576527fa16bece425941e094	git-r3	f870f5be7eb6435bdd5968f9f4df68c2	multilib	892e597faee02a5b94eb02ab512e7622	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=72d92cff12e46ff00ee938c4c7f65eb3
+_eclasses_=cmake-utils	0430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c263990f1b677b0f0be0a3299f179762	git-2	e28f0d8a9b321431b1e699782851b827	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4
+_md5_=fd74b87c68a6fa005941b2623876cdec

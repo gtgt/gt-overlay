@@ -1,7 +1,7 @@
 # Copyright 1999-2006 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI="4"
+EAPI="5"
 inherit multilib eutils rpm versionator
 MY_PF=${PF/-r/-}
 DESCRIPTION="Common files for the Canon CUPS Capt driver"
