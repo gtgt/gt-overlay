@@ -11,5 +11,5 @@ RDEPEND=<x11-base/xorg-server-1.10.99 kernel_linux? ( >=sys-libs/glibc-2.6.1 ) m
 RESTRICT=strip
 SLOT=0
 SRC_URI=x86? ( http://us.download.nvidia.com/XFree86/Linux-x86/285.03/NVIDIA-Linux-x86-285.03.run ) amd64? ( http://us.download.nvidia.com/XFree86/Linux-x86_64/285.03/NVIDIA-Linux-x86_64-285.03.run ) x86-fbsd? ( http://us.download.nvidia.com/XFree86/FreeBSD-x86/285.03/NVIDIA-FreeBSD-x86-285.03.tar.gz )
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c263990f1b677b0f0be0a3299f179762	linux-info	2b8c53f6065bdee2d757472215a3088f	linux-mod	101302d4b7b694ea9622bbffb187d0de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	nvidia-driver	800f567ff607d5d5171a8149456e294e	readme.gentoo	106edea5533517715013de909a333abd	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c263990f1b677b0f0be0a3299f179762	linux-info	2b8c53f6065bdee2d757472215a3088f	linux-mod	101302d4b7b694ea9622bbffb187d0de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	nvidia-driver	800f567ff607d5d5171a8149456e294e	readme.gentoo	106edea5533517715013de909a333abd	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	versionator	cd0bcdb170807e4a1984115e9d53a26f
 _md5_=92135b618bd62070418adb373030540b

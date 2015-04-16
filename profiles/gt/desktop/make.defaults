@@ -61,7 +61,7 @@ USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd 
 USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu webgl oauth"
 
 # Window manager and speciality
-USE="${USE} llvm-shared-libs r600-llvm-compiler openvg xa xlib-xcb X wayland gtk2 gtk3 cairo system-cairo xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl glx gles gles1 gles2 osmesa gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver attica appmenu ayatana indicator overlay libnotify windeco ayatana"
+USE="${USE} llvm-shared-libs r600-llvm-compiler openvg xa xlib-xcb X wayland gtk2 gtk3 cairo system-cairo xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl evdev egl eglfs glx gles gles1 gles2 osmesa gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver attica appmenu ayatana indicator overlay libnotify windeco ayatana"
 
 # Print
 USE="${USE} foomaticdb cups"

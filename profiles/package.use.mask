@@ -39,6 +39,7 @@ media-gfx/enblend doc
 media-gfx/inkscape spell
 =media-gfx/splashutils-1.5.4.3-r3 truetype
 #media-plugins/gst-plugins-meta ffmpeg
+media-libs/gst-plugins-bad gles2 opengl
 media-libs/libggi 3dfx
 media-libs/libquicktime gtk
 media-libs/mesa d3d 
