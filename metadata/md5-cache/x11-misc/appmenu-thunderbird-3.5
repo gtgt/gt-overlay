@@ -1,11 +1,11 @@
 DEFINED_PHASES=configure install prepare unpack
-DEPEND=|| ( mail-client/thunderbird mail-client/thunderbird-bin ) wifi? ( net-wireless/wireless-tools ) || ( >=sys-devel/automake-1.12:1.12 >=sys-devel/automake-1.13:1.13 ) =sys-devel/autoconf-2.1* sys-devel/libtool >=dev-vcs/bzr-2.0.1 app-arch/unzip
+DEPEND=|| ( mail-client/thunderbird mail-client/thunderbird-bin ) wifi? ( net-wireless/wireless-tools ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.15:1.15 ) =sys-devel/autoconf-2.1* >=sys-devel/libtool-2.4 >=dev-vcs/bzr-2.0.1 app-arch/unzip
 DESCRIPTION=Appmenu support for Thunderbird
-EAPI=4
+EAPI=5
 HOMEPAGE=https://code.launchpad.net/~extension-hackers/globalmenu-extension/3.5
 IUSE=wifi
 LICENSE=|| ( MPL-1.1 GPL-2 LGPL-2.1 )
 RDEPEND=|| ( mail-client/thunderbird mail-client/thunderbird-bin ) wifi? ( net-wireless/wireless-tools )
 SLOT=0
-_eclasses_=autotools	16761a2f972abd686713e5967ff3c754	bzr	8b59c16d7183cb93649d7abe70dc4c85	eutils	4878e7f88afc0ba0866ac112190b0fd4	libtool	b1c8688e60f9580bcb9bb46e08737eb1	mozextension	ba6829881080a663d68531424a3dfbc6	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	89580da5ec17ad687fcde876c542b91e	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=6006a90bdb12570eca48d86e89377d40
+_eclasses_=autotools	999c8f6cf5d91495cb0779588f20716c	bzr	87fd9041fcbe23dbc8f0e65ce0df6c28	eutils	9fb270e417e0e83d64ca52586c4a79de	libtool	52d0e17251d04645ffaa61bfdd858944	mozextension	ba6829881080a663d68531424a3dfbc6	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92
+_md5_=45271b26bdd48583fbf1bc1bf20be268

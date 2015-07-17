@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile configure install prepare unpack
 DEPEND=kde-base/kdelibs dev-vcs/git
 DESCRIPTION=KDE Dropbox client
-EAPI=4
+EAPI=5
 HOMEPAGE=http://kdropbox.deuteros.es
 IUSE=debug linguas_ar linguas_br linguas_cs linguas_de linguas_es linguas_fr linguas_gl linguas_it linguas_lt linguas_nl linguas_pl linguas_pt linguas_ru linguas_si linguas_tr linguas_zh linguas_zh_CN linguas_ar linguas_br linguas_cs linguas_de linguas_es linguas_fr linguas_gl linguas_it linguas_lt linguas_nl linguas_pl linguas_pt linguas_ru linguas_si linguas_tr linguas_zh linguas_zh_CN
 LICENSE=GPL-3
 RDEPEND=kde-base/kdelibs
 SLOT=4
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	4878e7f88afc0ba0866ac112190b0fd4	git-2	2027b81a576527fa16bece425941e094	git-r3	f870f5be7eb6435bdd5968f9f4df68c2	multilib	892e597faee02a5b94eb02ab512e7622	qt4-r2	ce0c9abfee272185e03ab73f09f5fd69	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=17fb413078fa02e77ae5d7dd2015e136
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	9fb270e417e0e83d64ca52586c4a79de	git-2	e28f0d8a9b321431b1e699782851b827	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	qmake-utils	ea709b525d28e3087eddedb2f884dbbe	qt4-r2	7199e3db5b5908325487d379c6f67cf0	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92
+_md5_=26cf5765dae89f4bc1bbbb577e79a7fb

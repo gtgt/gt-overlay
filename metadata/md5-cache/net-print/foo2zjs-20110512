@@ -1,12 +1,12 @@
 DEFINED_PHASES=install prepare
 DEPEND=net-print/cups net-print/foomatic-db-engine net-print/foomatic-filters sys-fs/udev app-arch/unzip net-misc/wget sys-devel/bc
 DESCRIPTION=Support for printing to ZjStream-based printers
-EAPI=4
+EAPI=5
 HOMEPAGE=http://foo2zjs.rkkda.com/
 KEYWORDS=~x86 ~amd64
 LICENSE=GPL-2
 RDEPEND=net-print/cups net-print/foomatic-db-engine net-print/foomatic-filters sys-fs/udev
 SLOT=0
 SRC_URI=ftp://ftp.calculate.ru/pub/calculate/foo2zjs/foo2zjs-20110512.tar.bz2
-_eclasses_=eutils	4878e7f88afc0ba0866ac112190b0fd4	multilib	892e597faee02a5b94eb02ab512e7622	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=e7b1877ab71a44425cea53219ef90811
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92
+_md5_=119a662ee72060d0f21a40dadc4abf5c

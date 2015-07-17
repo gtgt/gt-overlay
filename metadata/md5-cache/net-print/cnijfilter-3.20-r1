@@ -9,5 +9,5 @@ RDEPEND=app-text/ghostscript-gpl >=net-print/cups-1.1.14 !amd64? ( sys-libs/glib
 RESTRICT=nomirror confcache
 SLOT=2
 SRC_URI=http://gdlp01.c-wss.com/gds/7/0100002367/01/cnijfilter-source-3.20-1.tar.gz
-_eclasses_=eutils	4878e7f88afc0ba0866ac112190b0fd4	flag-o-matic	08a40a43c401c96d16477c02e56d9a64	multilib	892e597faee02a5b94eb02ab512e7622	rpm	b94b54b44f14d6bee3e966c8f5c86fba	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	rpm	b94b54b44f14d6bee3e966c8f5c86fba	toolchain-funcs	42408102d713fbad60ca21349865edb4
 _md5_=59fc22e34cfaa7e6d96b2f9a427f3b38

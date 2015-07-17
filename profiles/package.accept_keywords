@@ -807,6 +807,7 @@ x11-libs/libXxf86dga
 x11-libs/libXxf86vm
 x11-misc/makedepend
 x11-misc/mkxf86config
+x11-misc/sddm
 x11-misc/util-macros
 x11-misc/xbitmaps
 x11-proto/dri2proto

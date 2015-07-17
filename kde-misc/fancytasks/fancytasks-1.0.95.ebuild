@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/kde-misc/fancytasks/fancytasks-1.0.94.ebuild,v 1.1 2011/01/06 18:18:35 dilfridge Exp $
 
-EAPI="4"
+EAPI="5"
 KDE_LINGUAS="da de en_GB es et fr km nds pl pt ru sv tr uk"
 KDE_LINGUAS_DIR="applet/po"
 # KDE_LINGUAS_DIR doesn't have support for multiple directories: containment/po

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/www-apache/passenger/passenger-3.0.13.ebuild,v 1.1 2012/06/15 05:54:33 graaff Exp $
 
-EAPI=4
+EAPI=5
 USE_RUBY="ruby18 ruby19"
 
 inherit apache-module flag-o-matic ruby-ng toolchain-funcs

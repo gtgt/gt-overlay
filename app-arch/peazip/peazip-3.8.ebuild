@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="4"
+EAPI="5"
 
 DESCRIPTION="Open Source file and archive manager: flexible, portable, secure, and free as in freedom"
 HOMEPAGE="http://www.peazip.org"

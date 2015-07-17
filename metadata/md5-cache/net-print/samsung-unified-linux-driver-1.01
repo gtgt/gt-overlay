@@ -9,5 +9,5 @@ LICENSE=SAMSUNG-ELECTRONICS-software
 RDEPEND=net-print/cups sys-libs/libstdc++-v3
 SLOT=0
 SRC_URI=http://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?VPath=DR/200911/20091118142757906/UnifiedLinuxDriver_1.01.tar.gz -> samsung-unified-linux-driver-1.01.tar.gz
-_eclasses_=multilib	892e597faee02a5b94eb02ab512e7622	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953
+_eclasses_=multilib	62927b3db3a589b0806255f3a002d5d3	toolchain-funcs	42408102d713fbad60ca21349865edb4
 _md5_=f4316e50d447a176d0a3f254a2ecbcbc

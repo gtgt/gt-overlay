@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install preinst prepare unpack
-DEPEND=x11-libs/qt-gui:4 >=dev-libs/quazip-0.4.3-r1 || ( dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DEPEND=x11-libs/qt-gui:4 >=dev-libs/quazip-0.4.3-r1 || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
 DESCRIPTION=UMPlayer is the multimedia player that fills all your needs
 EAPI=3
 HOMEPAGE=http://www.umplayer.com/
@@ -7,5 +7,5 @@ IUSE=debug
 LICENSE=GPL-3
 RDEPEND=x11-libs/qt-gui:4 >=dev-libs/quazip-0.4.3-r1 media-video/mplayer[libass,png]
 SLOT=0
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	4878e7f88afc0ba0866ac112190b0fd4	multilib	892e597faee02a5b94eb02ab512e7622	qt4-r2	ce0c9abfee272185e03ab73f09f5fd69	subversion	de38ef8c5baf84d80e695a4d6ad26554	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	qmake-utils	4ce40e37ef0e28425a7159b0353be026	qt4-r2	7199e3db5b5908325487d379c6f67cf0	subversion	c12bdf4fcc82f86ad89b14c8f76c4026	toolchain-funcs	42408102d713fbad60ca21349865edb4
 _md5_=48586ac3771cc959336ae145b5dcccd7

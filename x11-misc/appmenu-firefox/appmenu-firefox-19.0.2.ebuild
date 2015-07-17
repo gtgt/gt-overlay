@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="4"
+EAPI="5"
 
 DESCRIPTION="Appmenu support for Firefox"
 HOMEPAGE="https://code.launchpad.net/~extension-hackers/globalmenu-extension"

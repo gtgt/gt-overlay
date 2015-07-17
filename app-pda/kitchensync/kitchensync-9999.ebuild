@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="4"
+EAPI="5"
 inherit kde4-base eutils subversion
 
 HOMEPAGE="http://kde-apps.org/content/show.php/KitchenSync?content=132538"

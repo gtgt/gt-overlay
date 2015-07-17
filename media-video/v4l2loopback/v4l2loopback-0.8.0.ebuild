@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/media-video/v4l2loopback/v4l2loopback-0.6.3-r1.ebuild,v 1.1 2013/05/15 22:57:45 naota Exp $
 
-EAPI=4
+EAPI=5
 
 inherit linux-mod vcs-snapshot
 

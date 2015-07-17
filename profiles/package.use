@@ -107,8 +107,7 @@ dev-qt/qt-creator bineditor bookmarks cmake designer git inspector mercurial per
 dev-qt/qtdbus exceptions
 dev-qt/qtdeclarative exceptions webkit
 dev-qt/qtdeclarative private-headers
-dev-qt/qtgui cups dbus exceptions glib gtkstyle mng nas tiff xinerama
-dev-qt/qtgui private-headers
+dev-qt/qtgui cups dbus exceptions glib gtkstyle mng nas tiff xinerama private-headers egl gles2 opengl eglfs evdev
 dev-qt/qtmultimedia exceptions iconv
 dev-qt/qtopengl exceptions
 dev-qt/qtqt3support exceptions kde phonon

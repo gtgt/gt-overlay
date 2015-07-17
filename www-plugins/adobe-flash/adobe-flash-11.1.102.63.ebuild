@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/www-plugins/adobe-flash/adobe-flash-11.2.202.235.ebuild,v 1.3 2012/05/06 17:32:11 nativemad Exp $
 
-EAPI=4
+EAPI=5
 inherit nsplugins multilib toolchain-funcs versionator
 
 MY_32B_URI="http://fpdownload.macromedia.com/get/flashplayer/pdc/${PV}/install_flash_player_$(get_major_version)_linux.i386.tar.gz -> ${P}.i386.tar.gz"

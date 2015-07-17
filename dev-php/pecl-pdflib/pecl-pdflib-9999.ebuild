@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-php/pecl-imagick/pecl-imagick-3.1.0_rc1.ebuild,v 1.1 2012/04/06 18:51:44 olemarkus Exp $
 
-EAPI="4"
+EAPI="5"
 
 PHP_EXT_NAME="pdf"
 PHP_EXT_INI="yes"
