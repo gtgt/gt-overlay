@@ -1,0 +1,2 @@
+<net-fs/samba-3.4.4
+=dev-libs/soprano-9999

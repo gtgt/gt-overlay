@@ -1,0 +1,116 @@
+CFLAGS="-march=native -O2 -fno-reorder-blocks -fno-reorder-functions -pipe -ggdb"
+
+## plymouth biosdevname btrfs caps crypt crypt-gpg dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs syslog xen
+DRACUT_MODULES="plymouth biosdevname dmraid gensplash lvm mdraid nfs syslog"
+
+#VIDEO_CARDS="fglrx nvidia"
+VIDEO_CARDS="radeon r300 r600 radeonsi nouveau"
+
+INPUT_DEVICES="evdev synaptics lirc"
+
+# leadtek_0010"
+LIRC_DEVICES="devinput"
+#LIRC_DEVICES="alsa_usb audio audio_alsa bte commandir creative creative_infracd devinput dsp hauppauge hauppauge_dvb i2cuser leadtek_0007 leadtek_0010 leadtek_pvr2000 logitech macmini mouseremote parallel pixelview_bt878 pixelview_pak pixelview_pro serial"
+CAMERAS=""
+
+CALLIGRA_FEATURES="flow karbon kexi kpresenter krita sheets words"
+LIBREOFFICE_EXTENSIONS="presenter-minimizer scripting-javascript wiki-publisher"
+
+
+CONFIG_PROTECT="${CONFIG_PROTECT} /usr/share/kde4/services/ServiceMenus"
+
+# apisupport cnd dlight enterprise ergonomics groovy gsf harness ide identity j2ee java javacard mobility nb php profiler ruby soa visualweb webcommon websvccommon xml
+NETBEANS_MODULES="apisupport php webcommon websvccommon ergonomics"
+# apache for development
+APACHE2_MODULES=""
+APACHE2_MODULES="access_compat actions alias auth_basic auth_digest authn_alias authn_anon authn_default authn_dbd authn_file authz_default authz_groupfile authz_host authz_user autoindex cache charset_lite dbd deflate dir disk_cache env expires file_cache filter headers include info lbmethod_bybusyness log_config logio mem_cache mime mime_magic proxy proxy_balancer proxy_connect proxy_http proxy_ftp proxy_scgi reqtimeout rewrite setenvif slotmem_shm speling status unique_id usertrack vhost_alias"
+APACHE2_MPMS="event"
+
+LIGHTDM_GREETER="lightdm-kde-greeter"
+LIGHTDM_SESSION="KDE-4"
+
+RUBY_TARGETS="ruby20"
+
+#BOOTSTRAP_USE="cxx unicode python_targets_python3_3 python_targets_python2_7 multilib"
+BOOTSTRAP_USE="${BOOTSTRAP_USE} python_targets_python3_3"
+PYTHON_TARGETS="python3_3 python2_7 jython2_5"
+# Legacy compat
+USE_PYTHON="2.7"
+PYTHON_SINGLE_TARGET="python2_7"
+
+USE="handbook"
+
+#System
+USE="${USE} pam lzma bzip2 zlib readline ncurses pcre openmp acl optimization threads lib32 mmap"
+USE="${USE} nsplugin policykit polkit bash-completion fbsplash fbcon inotify gstreamer -caps aio gptfdisk kmod"
+
+#Lang support (python perl mono)
+USE="${USE} python perl mono ithreads gdbm quanta subversion git cvs mercurial bazaar script"
+
+# Network protocols
+USE="${USE} ftp network -ldap rdesktop samba upnp resolvconf zeroconf avahi wifi rdp"
+
+# Sql & data support
+USE="${USE} mysql sqlite sqlite3 xml system-sqlite odbc json cdb"
+
+# Network
+USE="${USE} networkmanager modemmanager nm09 ipv6 tcpd autoipd dhclient -dhcpcd telepathy curl_ssl_gnutls -curl_ssl_openssl googledrive"
+
+# Web
+USE="${USE} bittorent webkit idn mozilla xulrunner firefox icu webgl oauth"
+
+# Window manager and speciality
+USE="${USE} X wayland gtk2 gtk3 cairo system-cairo xvfb akonadi -eds -gnome -gdu -gvfs -evolution opengl egl -openvg glx gles gles1 gles2 osmesa gbm glew d3d llvm g3dvl kde qt4 qt3support -qt3 xorg -xscreensaver attica appmenu ayatana indicator overlay libnotify windeco ayatana"
+
+# Print
+USE="${USE} foomaticdb cups"
+
+# Audio
+USE="${USE} audio alsa oss amr -arts audiofile cdda id3tag taglib flac jack mad mp3 moodbar mpeg nas ogg oggvorbis opus openal opencore-amr portaudio vorbis mikmod mms phonon sndfile musicbrainz gsm projectm libsamplerate sox"
+
+# CD and DVD
+USE="${USE} cdparanoia cddb cdio cdr css dvd dvdr dvdread vcd blueray bluray"
+
+# Devices
+USE="${USE} ipod ios fax apm bluetooth ieee1394 remote udisks udisks2 gallium"
+
+# Documentation format
+USE="${USE} chm djvu ebook marble postscript ps ofx"
+
+# Guard and security
+USE="${USE} clamav crypt ssl"
+
+# Hardware
+USE="${USE} 3dnow acpi vdpau cpudetection dbus dri drm ieee1394 joystick lirc lircd lm_sensors mmx mmxext radio scanner smp sse sse2 sse3 ssse3 sse4.1 sse4.2 sse4a sse5 usb vaapi xcomposite"
+
+#Photo
+USE="${USE} gphoto2 kipi"
+
+# Internet Messager
+USE="${USE} irc jabber jingle oscar yahoo"
+
+# Image support
+USE="${USE} exif fdftk gd gif imagemagick jpeg jpeg2k lcms mng openexr pdf png raw svg tiff wmf wxwindows xpm qwt lcms system-jpeg"
+
+# Locale and Fonts
+USE="${USE} hunspell enchant truetype fontconfig unicode utf8 nls idn iconv"
+
+# PIM
+USE="${USE} mbox maildir calendar reports"
+
+# Video
+USE="${USE} a52 aac avi cuda dv dvb encode directfb dri faac ffmpeg flash ggi gstreamer ggi libass live lzo matroska musepack pvr real sdl speex srt -svga tga quicktime theora real rtmp vaapi libv4l libv4l2 v4l v4l2 vcdx video vidix win32codecs x264 xinerama vpx xv xvid xvmc"
+
+# Web
+USE="${USE} libwww -vhosts nsplugin javascript"
+
+# Wireless
+USE="${USE} bluetooth wimax"
+
+EMERGE_DEFAULT_OPTS="--verbose --keep-going --autounmask-write y --binpkg-respect-use y"
+QUICKPKG_DEFAULT_OPTS="--include-config=y"
+#DISTCC_VERBOSE="1"
+CCACHE_SIZE="2G"
+
+#Splash support
+DRACUT_MODULES="plymouth mdraid dmraid lvm btrfs crypt syslog biosdevname nfs ssh-client"
