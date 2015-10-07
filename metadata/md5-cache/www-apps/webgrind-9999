@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RDEPEND=dev-php/xdebug dev-lang/php >=app-admin/webapp-config-1.50.15
 SLOT=9999
-_eclasses_=git-2	e28f0d8a9b321431b1e699782851b827	webapp	25b9b1696f5e698711f47d45c3d45e3e
+_eclasses_=git-2	e28f0d8a9b321431b1e699782851b827	webapp	b3bc3e4682aadd1dd3eb9f49cb3c751c
 _md5_=68f4d6667d9b1f6d3b1b99c1a466d18c
