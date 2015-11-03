@@ -1,0 +1,5 @@
+#server settings
+APACHE2_MODULES="actions alias access_compat auth_basic auth_digest authn_alias authn_anon authn_default authn_dbd authn_file authz_default authz_groupfile authz_host authz_user autoindex cache charset_lite dbd deflate dir disk_cache env expires file_cache filter headers include info lbmethod_bybusyness log_config logio mem_cache mime mime_magic proxy proxy_connect proxy_balancer proxy_http proxy_ftp proxy_scgi reqtimeout rewrite setenvif slotmem_shm speling status unique_id usertrack vhost_alias"
+APACHE2_MPMS="event"
+
+USE="-ldap"
