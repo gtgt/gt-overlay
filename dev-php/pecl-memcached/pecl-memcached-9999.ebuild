@@ -10,7 +10,7 @@ DOCS="README"
 
 USE_PHP="php7-0 php5-6 php5-5 php5-3 php5-4"
 
-inherit php-ext-pecl-r2 git-2
+inherit php-ext-pecl-r2 git-r3
 
 #KEYWORDS="~amd64 ~x86"
 KEYWORDS=""
@@ -32,6 +32,18 @@ DEPEND="|| ( >=dev-libs/libmemcached-1.0.14 >=dev-libs/libmemcached-1.0[sasl?] )
 		sys-libs/zlib
 		dev-lang/php[session?,json?]"
 RDEPEND="${DEPEND}"
+
+src_unpack() {
+  git-r3_src_unpack
+
+  # create the default modules directory to be able
+  # to use the php-ext-source-r2 eclass to configure/build
+  ln -s src "${S}/modules"
+
+  for slot in $(php_get_slots); do
+    cp -r "${S}" "${WORKDIR}/${slot}"
+  done
+}
 
 src_configure() {
 	my_conf="--enable-memcached
