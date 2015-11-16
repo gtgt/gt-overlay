@@ -10,7 +10,7 @@ DOCS="README"
 
 USE_PHP="php7-0 php5-6 php5-5 php5-3 php5-4"
 
-inherit php-ext-pecl-r2 git-r3
+inherit base php-ext-pecl-r2 git-r3
 
 #KEYWORDS="~amd64 ~x86"
 KEYWORDS=""
@@ -20,11 +20,11 @@ LICENSE="PHP-3"
 SLOT="0"
 IUSE="+session igbinary json sasl"
 
-#if use php_targets_php7-0 ; then
-#EGIT_BRANCH="php7"
-#else
+if use php_targets_php7-0 ; then
+EGIT_BRANCH="php7"
+else
 EGIT_BRANCH="master"
-#fi
+fi
 
 SRC_URI=""
 
@@ -34,15 +34,25 @@ DEPEND="|| ( >=dev-libs/libmemcached-1.0.14 >=dev-libs/libmemcached-1.0[sasl?] )
 RDEPEND="${DEPEND}"
 
 src_unpack() {
+  export S="${WORKDIR}/${P}"
   git-r3_src_unpack
-
-  # create the default modules directory to be able
-  # to use the php-ext-source-r2 eclass to configure/build
-  ln -s src "${S}/modules"
 
   for slot in $(php_get_slots); do
     cp -r "${S}" "${WORKDIR}/${slot}"
   done
+}
+
+src_prepare() {
+  local slot orig_s="${S}"
+  for slot in $(php_get_slots); do
+    export S="${WORKDIR}/${slot}"
+    echo "SLOT: ${slot}; S:${S}"
+    cd "${S}"
+    base_src_prepare
+  done
+  export S="${orig_s}"
+  cd "${S}"
+  php-ext-source-r2_src_prepare
 }
 
 src_configure() {
