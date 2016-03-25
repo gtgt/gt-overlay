@@ -23,6 +23,12 @@ IUSE="igbinary"
 
 EGIT_REPO_URI="https://github.com/phpredis/phpredis.git"
 
+if use php_targets_php7-0 ; then
+EGIT_BRANCH="php7"
+else
+EGIT_BRANCH="master"
+fi
+
 DEPEND="igbinary? (
 	php_targets_php7-0? ( dev-php/igbinary7[php_targets_php7-0] )
 	)"
