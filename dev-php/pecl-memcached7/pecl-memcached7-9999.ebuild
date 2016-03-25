@@ -8,14 +8,14 @@ PHP_EXT_INI="yes"
 PHP_EXT_ZENDEXT="no"
 DOCS="README"
 
-USE_PHP="php7-0 php5-6 php5-5 php5-3 php5-4"
+USE_PHP="php7-0"
 
-inherit base php-ext-pecl-r2 git-r3
+inherit base php-ext-source-r2 git-r3
 
 #KEYWORDS="~amd64 ~x86"
 KEYWORDS=""
 EGIT_REPO_URI="https://github.com/php-memcached-dev/php-memcached.git"
-DESCRIPTION="PHP extension for interfacing with memcached via libmemcached library"
+DESCRIPTION="PHP 7.0 compatible extension for interfacing with memcached via libmemcached library."
 LICENSE="PHP-3"
 SLOT="0"
 IUSE="+session igbinary json sasl"
