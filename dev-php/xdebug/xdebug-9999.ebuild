@@ -16,7 +16,7 @@ USE_PHP="php5-5 php5-3 php5-4 php5-6 php7-0"
 inherit php-ext-source-r2
 SRC_URI=""
 
-KEYWORDS="amd64 ~hppa ppc ppc64 x86"
+KEYWORDS=""
 
 DESCRIPTION="A PHP debugging and profiling extension"
 HOMEPAGE="http://www.xdebug.org/"
