@@ -28,9 +28,33 @@ DEPEND="igbinary? (
 	)"
 RDEPEND="${DEPEND}"
 
+src_unpack() {
+  export S="${WORKDIR}/${P}"
+  git-r3_src_unpack
+
+  for slot in $(php_get_slots); do
+    cp -r "${S}" "${WORKDIR}/${slot}"
+  done
+}
+
+src_prepare() {
+  local slot orig_s="${S}"
+  for slot in $(php_get_slots); do
+    export S="${WORKDIR}/${slot}"
+    echo "SLOT: ${slot}; S:${S}"
+    cd "${S}"
+    base_src_prepare
+  done
+  export S="${orig_s}"
+  cd "${S}"
+  php-ext-source-r2_src_prepare
+}
+
 src_configure() {
 	my_conf="--enable-redis
 		$(use_enable igbinary redis-igbinary)"
 
 	php-ext-source-r2_src_configure
 }
+
+
