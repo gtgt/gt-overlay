@@ -10,7 +10,7 @@ DOCS="README"
 
 USE_PHP="php7-0"
 
-inherit php-ext-source-r2 git-r3 autotools
+inherit base php-ext-source-r2 git-r3 autotools
 
 KEYWORDS="~amd64 ~x86"
 

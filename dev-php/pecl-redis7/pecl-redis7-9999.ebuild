@@ -12,7 +12,7 @@ USE_PHP="php7-0"
 
 DOCS="arrays.markdown README.markdown"
 
-inherit php-ext-source-r2 git-r3
+inherit base php-ext-source-r2 git-r3
 
 KEYWORDS="amd64"
 
