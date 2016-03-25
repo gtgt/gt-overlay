@@ -5,7 +5,7 @@
 EAPI="5"
 PHP_EXT_NAME="igbinary"
 PHP_EXT_INI="yes"
-PHP_EXT_ZENDEXT="yes"
+PHP_EXT_ZENDEXT="no"
 DOCS="README"
 
 USE_PHP="php7-0"
