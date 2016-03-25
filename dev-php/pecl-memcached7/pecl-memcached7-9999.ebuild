@@ -28,10 +28,15 @@ fi
 
 SRC_URI=""
 
-DEPEND="|| ( >=dev-libs/libmemcached-1.0.14 >=dev-libs/libmemcached-1.0[sasl?] )
+DEPEND="igbinary? (
+  php_targets_php7-0? ( dev-php/igbinary7[php_targets_php7-0] )
+  )"
+DEPEND="${DEPEND}
+		|| ( >=dev-libs/libmemcached-1.0.14 >=dev-libs/libmemcached-1.0[sasl?] )
 		sys-libs/zlib
 		dev-lang/php[session?,json?]"
 RDEPEND="${DEPEND}"
+
 
 src_unpack() {
   export S="${WORKDIR}/${P}"

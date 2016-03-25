@@ -8,7 +8,7 @@ PHP_EXT_INI="yes"
 PHP_EXT_ZENDEXT="yes"
 DOCS="README"
 
-USE_PHP="php7-0 php5-6 php5-5 php5-4"
+USE_PHP="php7-0"
 
 inherit php-ext-source-r2 git-r3 autotools
 
@@ -19,7 +19,8 @@ HOMEPAGE="https://github.com/igbinary/igbinary"
 SRC_URI=""
 EGIT_REPO_URI="https://github.com/igbinary/igbinary"
 if has_php="php7-0"; then
-EGIT_BRANCH="php7-dev"
+#EGIT_BRANCH="php7-dev"
+EGIT_REPO_URI="https://github.com/igbinary/igbinary7"
 fi
 
 LICENSE="BSD"
