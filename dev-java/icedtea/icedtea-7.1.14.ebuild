@@ -7,7 +7,7 @@
 # * IF YOU CHANGE THIS EBUILD, CHANGE ICEDTEA-6.* AS WELL *
 # *********************************************************
 
-EAPI="2"
+EAPI="5"
 
 inherit autotools flag-o-matic java-pkg-2 java-vm-2 pax-utils versionator
 
