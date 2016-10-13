@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-lang/php/Attic/php-5.2.16.ebuild,v 1.11 2011/03/17 10:14:58 olemarkus dead $
 
-EAPI=2
+EAPI=3
 
 PHPCONFUTILS_MISSING_DEPS="adabas birdstep db2 dbmaker empress empress-bcs esoob
 interbase msql oci8 sapdb solid"
