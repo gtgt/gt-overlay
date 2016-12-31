@@ -1,0 +1,12 @@
+diff -ur libkolabxml-0.8.4.orig/src/utils.cpp libkolabxml-0.8.4/src/utils.cpp
+--- libkolabxml-0.8.4.orig/src/utils.cpp	2013-04-11 10:35:34.000000000 +0100
++++ libkolabxml-0.8.4/src/utils.cpp	2013-06-17 11:46:07.517005708 +0100
+@@ -26,7 +26,7 @@
+ #include <boost/uuid/uuid_io.hpp>
+ #include <boost/uuid/uuid_generators.hpp>
+ #else
+-#include <uuid.h>
++#include <ossp/uuid.h>
+ #endif
+ 
+ #include <boost/lexical_cast.hpp>
