@@ -8,7 +8,7 @@ PHP_EXT_NAME="redis"
 PHP_EXT_INI="yes"
 PHP_EXT_ZENDEXT="no"
 
-USE_PHP="php7-0"
+USE_PHP="php7-0 php7-1"
 
 DOCS="arrays.markdown README.markdown"
 

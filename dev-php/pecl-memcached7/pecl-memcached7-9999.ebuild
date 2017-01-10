@@ -8,7 +8,7 @@ PHP_EXT_INI="yes"
 PHP_EXT_ZENDEXT="no"
 DOCS="README"
 
-USE_PHP="php7-0"
+USE_PHP="php7-0 php-7.1"
 
 inherit base php-ext-source-r2 git-r3
 
