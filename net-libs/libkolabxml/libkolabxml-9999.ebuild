@@ -5,7 +5,7 @@
 EAPI=5
 
 PHP_EXT_NAME="kolabformat"
-USE_PHP="php5-4 php5-5 php5-6"
+USE_PHP="php5-6 php7-0 php7-1"
 
 PYTHON_COMPAT=( python2_7 python3_{3,4} )
 
@@ -18,9 +18,9 @@ DESCRIPTION="Kolab XML format schema definitions library"
 HOMEPAGE="http://www.kolab.org"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
+SLOT="0"
+
 LICENSE="Apache-2.0 ZLIB LGPL-3+ public-domain"
-SLOT="5" # This comes from the outdated ebuild from portage.
-KEYWORDS="~amd64"
 IUSE="csharp java +python +php test"
 
 RDEPEND="
