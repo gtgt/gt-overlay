@@ -7,7 +7,7 @@ EAPI=3
 PHPCONFUTILS_MISSING_DEPS="adabas birdstep db2 dbmaker empress empress-bcs esoob
 interbase msql oci8 sapdb solid"
 
-inherit eutils autotools flag-o-matic versionator depend.apache apache-module db-use phpconfutils php-lib-r1 phpconfutils libtool
+inherit eutils autotools flag-o-matic versionator depend.apache apache-module db-use phpconfutils phpconfutils libtool
 
 #SUHOSIN_VERSION="$PV-0.9.7"
 SUHOSIN_VERSION=""
