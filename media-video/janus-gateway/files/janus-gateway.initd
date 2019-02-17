@@ -1,0 +1,22 @@
+#!/sbin/openrc-run
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+JANUS_GATEWAY_CONFFILE="${JANUS_GATEWAY_CONFFILE:-/etc/janus/janus.jcfg}"
+JANUS_GATEWAY_LOGFILE="${JANUS_GATEWAY_LOGFILE:-/var/log/janus.log}"
+pidfile="${JANUS_GATEWAY_PIDFILE:-/var/run/janus.pid}"
+
+command="/usr/bin/janus"
+command_args="--daemon --log-file=${JANUS_GATEWAY_LOGFILE} --config=${JANUS_GATEWAY_CONFFILE} --pid-file=${pidfile} ${JANUS_GATEWAY_EXTRA_OPTS}"
+extra_started_commands="reload"
+
+depend() {
+	need net
+	use logger rabbitmq mqtt nanomsg
+}
+
+reload() {
+	ebegin "Reloading ${SVCNAME}"
+	start-stop-daemon --signal HUP --pidfile "${pidfile}"
+	eend $?
+}

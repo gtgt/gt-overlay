@@ -1,0 +1,5 @@
+#JANUS_GATEWAY_CONFFILE=/etc/janus/janus.jcfg
+#JANUS_GATEWAY_PIDFILE=/run/janus.pid
+#JANUS_GATEWAY_LOGFILE=/var/log/janus.log
+#JANUS_GATEWAY_EXTRA_OPTS="--debug-level=7 --event-handlers"
+JANUS_GATEWAY_EXTRA_OPTS=""
