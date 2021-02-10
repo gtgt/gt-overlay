@@ -1,6 +1,7 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/sys-boot/grub/grub-1.99_rc1.ebuild,v 1.3 2011/04/10 14:34:42 ulm Exp $
+EAPI=5
 
 # XXX: need to implement a grub.conf migration in pkg_postinst before we ~arch
 

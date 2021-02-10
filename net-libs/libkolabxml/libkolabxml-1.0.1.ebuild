@@ -9,7 +9,7 @@ USE_PHP="php5-4 php5-5 php5-6"
 
 PYTHON_COMPAT=( python2_7 python3_{3,4} )
 
-inherit cmake-utils multilib git-2 python-r1 php-ext-source-r2 eutils
+inherit cmake-utils multilib git-r3 python-r1 php-ext-source-r2 eutils
 
 EGIT_REPO_URI="https://git.kolab.org/diffusion/LKX/libkolabxml.git"
 [[ ${PV} == "9999" ]] || EGIT_COMMIT="${P}"

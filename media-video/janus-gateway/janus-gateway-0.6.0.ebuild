@@ -20,7 +20,7 @@ RDEPEND="dev-libs/libconfig
 		>=dev-libs/openssl-1.0.1e
 		>=net-libs/libsrtp-2
 		dev-util/gengetopt
-		postproc? ( virtual/ffmpeg
+		postproc? ( media-video/ffmpeg
 					media-libs/libogg )
 		docs? ( app-doc/doxygen )
 		rabbitmq? ( net-libs/rabbitmq-c )
