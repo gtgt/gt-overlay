@@ -3,6 +3,7 @@
 # $Header: /var/cvsroot/gentoo-x86/sys-boot/grub/grub-1.99_rc1.ebuild,v 1.3 2011/04/10 14:34:42 ulm Exp $
 
 # XXX: need to implement a grub.conf migration in pkg_postinst before we ~arch
+EAPI=5
 
 inherit mount-boot eutils flag-o-matic toolchain-funcs
 
